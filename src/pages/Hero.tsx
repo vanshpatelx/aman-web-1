@@ -177,68 +177,54 @@ export default function Hero() {
       </nav>
 
       {/* Hero Section */}
-      <div className="max-w-6xl 2xl:max-w-7xl 2xl:max-w-8xl mx-auto px-4 md:px-8 lg:px-10 xl:px-0 2xl:px-8 py-24 2xl:py-32 mt-[24px] sm:mt-[40px] 2xl:mt-[60px]">
-        <div className="">
-          <div className="grid grid-cols-1 lg:grid-cols-1 gap-8 lg:gap-12 2xl:gap-16 items-center">
-            {/* Left Content */}
-            <motion.div
-              variants={containerVariants}
-              initial="hidden"
-              animate="visible"
-              className="space-y-4 2xl:space-y-6"
-            >
-              {/* Badge */}
-              <motion.div
-                variants={badgeVariants}
-                className="w-fit flex items-center gap-3 2xl:gap-4 py-2 shrink-0 rounded-lg"
-              >
-                <span className="px-2 py-1 bg-[#EBEBEB] text-[#0F3D3A] rounded text-xs sm:text-[14px] 2xl:text-base font-medium text-nowrap">
-                  Strategic Lending
-                </span>
-                <span className="text-[14px] 2xl:text-lg text-[#F7F7F7] text-nowrap">
-                  Clarity in Complexity
-                </span>
-              </motion.div>
-
-              {/* Main Heading */}
-              <motion.div
-                variants={itemVariants}
-                className="space-y-2 2xl:space-y-4"
-              >
-                <h1 className="logo text-5xl xs:text-6xl sm:text-6xl lg:text-[84px] 2xl:text-[120px] font-serif font-light leading-tighter tracking-tight text-[#F7F7F7]">
-                  Smarter Lending, <br className='hidden sm:block' />Built Strategically
-                </h1>
-              </motion.div>
-
-              {/* Description */}
-              <motion.p
-                variants={itemVariants}
-                className="text-sm sm:text-[18px] 2xl:text-xl text-[#F7F7F7] max-w-lg 2xl:max-w-2xl w-full leading-normal tracking-tight"
-              >
-                A numbers-driven lending approach built on expertise, partnership, and long-term financial clarity—not just cheaper rates.
-              </motion.p>
-
-              {/* CTA Button */}
-              <motion.button
-                type='button'
-                variants={itemVariants}
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.95 }}
-                className="group flex items-center gap-3 px-3.5 py-2.5 2xl:px-5 2xl:py-3.5 bg-[#F7F7F7] text-black rounded-[8px] text-[14px] 2xl:text-base font-medium hover:bg-[#C8F8A9] hover:text-[#0F3D3A] transition-colors cursor-pointer"
-              >
-                Get Your Strategy
-                <ArrowRight className="w-4 h-4 2xl:w-5 2xl:h-5 group-hover:translate-x-1 transition-transform" />
-              </motion.button>
-            </motion.div>
-          </div>
-
-          {/* Mobile Image */}
+      <div className="max-w-6xl 2xl:max-w-7xl mx-auto px-4 md:px-8 lg:px-10 xl:px-0 2xl:px-8 pt-32 pb-20 sm:pt-40 sm:pb-28 2xl:pt-48 2xl:pb-36">
+        <div className="flex flex-col items-start justify-center min-h-[calc(100vh-200px)] sm:min-h-[calc(100vh-240px)]">
           <motion.div
-            variants={imageVariants}
+            variants={containerVariants}
             initial="hidden"
             animate="visible"
-            className="relative h-80 sm:h-96 mt-12 lg:hidden"
+            className="space-y-6 2xl:space-y-8 max-w-5xl"
           >
+            {/* Badge */}
+            <motion.div
+              variants={badgeVariants}
+              className="inline-flex items-center gap-3 2xl:gap-4 py-2"
+            >
+              <span className="px-3 py-1.5 bg-[#EBEBEB] text-[#0F3D3A] rounded-md text-xs sm:text-sm 2xl:text-base font-semibold">
+                Strategic Lending
+              </span>
+              <span className="text-sm sm:text-base 2xl:text-lg text-[#F7F7F7] font-light">
+                Clarity in Complexity
+              </span>
+            </motion.div>
+
+            {/* Main Heading */}
+            <motion.div variants={itemVariants}>
+              <h1 className="logo text-5xl xs:text-6xl sm:text-7xl lg:text-8xl 2xl:text-[120px] font-light leading-[1.1] tracking-tight text-[#F7F7F7]">
+                Smarter Lending,<br />
+                Built Strategically
+              </h1>
+            </motion.div>
+
+            {/* Description */}
+            <motion.p
+              variants={itemVariants}
+              className="text-base sm:text-lg 2xl:text-xl text-[#F7F7F7]/90 max-w-2xl leading-relaxed font-light"
+            >
+              Experience a numbers-driven lending approach built on expertise, partnership, and long-term financial clarity—delivering more than just competitive rates.
+            </motion.p>
+
+            {/* CTA Button */}
+            <motion.button
+              type='button'
+              variants={itemVariants}
+              whileHover={{ scale: 1.03 }}
+              whileTap={{ scale: 0.98 }}
+              className="group inline-flex items-center gap-3 px-6 py-3.5 2xl:px-8 2xl:py-4 bg-[#F7F7F7] text-[#0F3D3A] rounded-lg text-sm 2xl:text-base font-semibold hover:bg-[#C8F8A9] transition-all shadow-lg hover:shadow-xl cursor-pointer mt-2"
+            >
+              Get Your Strategy
+              <ArrowRight className="w-4 h-4 2xl:w-5 2xl:h-5 group-hover:translate-x-1 transition-transform" />
+            </motion.button>
           </motion.div>
         </div>
       </div>
