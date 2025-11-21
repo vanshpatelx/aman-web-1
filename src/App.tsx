@@ -1,27 +1,23 @@
-import { Toaster } from "@/components/ui/toaster";
-import { Toaster as Sonner } from "@/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Index from "./pages/Index";
-import NotFound from "./pages/NotFound";
+import './App.css'
+import Hero from './pages/Hero.tsx'
+import About from './pages/About.tsx'
+import TeamSection from './pages/Teams.tsx'
+import Footer from './pages/Footer.tsx'
+import Services from './pages/Services.tsx'
+import ContactSection from './pages/Contact.tsx'
 
-const queryClient = new QueryClient();
+function App() {
 
-const App = () => (
-  <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Index />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </BrowserRouter>
-    </TooltipProvider>
-  </QueryClientProvider>
-);
+  return (
+    <>
+      <Hero />
+      <About />
+      <Services />
+      <TeamSection />
+      <ContactSection />
+      <Footer />
+    </>
+  )
+}
 
-export default App;
+export default App
