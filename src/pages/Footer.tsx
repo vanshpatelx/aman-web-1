@@ -1,75 +1,111 @@
-import { motion } from "framer-motion";
+import React from 'react';
+import { Facebook, Linkedin, Instagram, X } from 'lucide-react';
 
-export default function Footer() {
+const Footer: React.FC = () => {
   return (
-    <footer className="bg-[#0C3B34] text-white py-16 px-6 lg:px-12">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-12">
+    <footer className="bg-black text-white pt-16 pb-8 px-6 md:px-16 font-medium">
+      <div className="max-w-full mx-auto">
 
-        <div>
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6 }}
-            className={`relative inline-flex items-end gap-1.5 shrink-0 text-2xl font-light text-white
-                }`}
-          >
-            <span className="logo leading-none cursor-pointer" title='Sumry Finance'>Sumry Finance</span>
-            {/* dot */}
-            <span
-              className={`w-2 h-2 rounded-full mb-1 bg-[#C8F8A9] }`}
-            ></span>
-          </motion.div>
-          <p className="text-white/80 leading-tight max-w-sm mt-2">
-            Business clarity, operational excellence, and transformation support for leaders ready to grow with intention.
-          </p>
+        {/* Top Section */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 mb-16">
+          
+          {/* Column 1 */}
+          <div className="lg:col-span-4 space-y-6">
+            
+            {/* Logo */}
+            <div className="flex  gap-2">
+              <img 
+                src="/Logo.png" 
+                alt="Logo" 
+                className="w-40 h-auto object-contain"
+              />
+            </div>
+
+            <p className=" pl-4 text-gray-300 leading-relaxed max-w-sm">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.
+            </p>
+
+            {/* Social Icons */}
+            <div className="flex pl-4 items-center gap-4 pt-2">
+              <a href="#" className="p-2 hover:bg-white/10 rounded-full transition-colors" aria-label="Facebook">
+                <Facebook className="w-5 h-5 text-white" />
+              </a>
+              <a href="#" className="p-2 hover:bg-white/10 rounded-full transition-colors" aria-label="LinkedIn">
+                <Linkedin className="w-5 h-5 text-white" />
+              </a>
+              <a href="#" className="p-2 hover:bg-white/10 rounded-full transition-colors" aria-label="Instagram">
+                <Instagram className="w-5 h-5 text-white" />
+              </a>
+              <a href="#" className="p-2 hover:bg-white/10 rounded-full transition-colors" aria-label="X">
+                <X className="w-5 h-5 text-white" />
+              </a>
+            </div>
+          </div>
+
+          <div className="hidden lg:block lg:col-span-1"></div>
+
+          {/* Company Links */}
+          <div className="lg:col-span-2 space-y-6">
+            <h3 className="text-lg font-bold text-white">Company</h3>
+            <ul className="space-y-4 text-gray-300">
+              <li><a href="#" className="hover:text-white transition-colors">About Us</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Careers</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Contact</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Privacy Policy</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Terms & Condition</a></li>
+            </ul>
+          </div>
+
+          {/* Products Links */}
+          <div className="lg:col-span-2 space-y-6">
+            <h3 className="text-lg font-bold text-white">Products</h3>
+            <ul className="space-y-4 text-gray-300">
+              <li><a href="#" className="hover:text-white transition-colors">Event</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Projects</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Services</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Team</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Blog</a></li>
+            </ul>
+          </div>
+
+          {/* Contact Column */}
+          <div className="lg:col-span-3 space-y-6">
+            <h3 className="text-lg font-bold text-white">Contact</h3>
+            <ul className="space-y-4 text-gray-300">
+              <li>
+                <a href="mailto:Support@poly.com" className="hover:text-white transition-colors">
+                  Support@poly.com
+                </a>
+              </li>
+              <li>
+                <a href="tel:+986548767554" className="hover:text-white transition-colors">
+                  +98 654 876 7554
+                </a>
+              </li>
+              <li>
+                <a href="tel:+986548767554" className="hover:text-white transition-colors">
+                  +98 654 876 7554
+                </a>
+              </li>
+              <li className="leading-relaxed">
+                345 Tech Men House, 9th Floor<br />
+                Galiva Tork, TV 987 USA
+              </li>
+            </ul>
+          </div>
+
         </div>
 
-        {/* Quick Links*/}
-        <div>
-          <h3 className="text-lg font-semibold mb-4 text-[#BFBFBF]">Quick Links</h3>
-          <ul className="space-y-2 text-white/80">
-            <li><a href="#" className="hover:opacity-70 transition">Home</a></li>
-            <li><a href="#blog" className="hover:opacity-70 transition">Blog</a></li>
-            <li><a href="#about" className="hover:opacity-70 transition">About</a></li>
-            <li><a href="#team" className="hover:opacity-70 transition">Team</a></li>
-          </ul>
-        </div>
+        {/* Divider */}
+        <div className="border-t border-white/20 my-8"></div>
 
-        {/* Services */}
-        <div>
-          <h3 className="text-lg font-medium mb-4 text-[#BFBFBF]">Services</h3>
-          <ul className="space-y-2 text-white/80">
-            <li><a href="#service" className="hover:opacity-70 transition">Business Lending</a></li>
-            <li><a href="#service" className="hover:opacity-70 transition">Investment Loans
-            </a></li>
-            <li><a href="#service" className="hover:opacity-70 transition">Personal Loans
-            </a></li>
-            <li><a href="#service" className="hover:opacity-70 transition">Strategic Refinancing
-            </a></li>
-          </ul>
-        </div>
-
-        {/* Contact */}
-        <div>
-          <h3 className="text-lg font-medium mb-4 text-[#BFBFBF]">Contact us</h3>
-          <p className="text-white/80">123 Business Street, Suite 456,<br />City, State, ZIP</p>
-
-          <p className="mt-4 text-[#F7F7F7]"><span className="font-semibold text-[#C8F8A9]">Email :</span><br />info@sumryfinance.com</p>
-          <p className="mt-4 font-semibold text-[#C8F8A9]">Phone :<span className=" text-[#F7F7F7] italic font-medium"> <br /> +1 (123) 456-7890</span></p>
-        </div>
-      </div>
-
-      {/* Divider */}
-      <div className="border-t border-white/20 mt-12 pt-6 flex flex-col sm:flex-row items-center justify-between text-white/70 text-sm max-w-6xl mx-auto">
-        <p>Copyright © 2025 <a href="#" className="hover:text-[#C8F8A9] hover:underline">Sumry Finance</a>. All rights reserved.</p>
-
-        {/* Social Links */}
-        <div className="flex gap-6 mt-4 sm:mt-0">
-          <a href="#" className="hover:opacity-70 transition">Facebook</a>
-          <a href="#" className="hover:opacity-70 transition">Twitter</a>
-          <a href="#" className="hover:opacity-70 transition">Linkedin</a>
+        {/* Copyright */}
+        <div className="text-center text-gray-400 text-sm">
+          <p>Copyright 2024 Poly. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
   );
-}
+};
+
+export default Footer;

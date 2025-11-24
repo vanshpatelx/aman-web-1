@@ -13,6 +13,11 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        'namian': ['Namian', 'serif'],
+        'poppins': ['Poppins', 'sans-serif'],
+        'forum': ['Forum', 'serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
