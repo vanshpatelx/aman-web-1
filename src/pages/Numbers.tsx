@@ -3,6 +3,7 @@ import gsap from "gsap";
 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import SplitText from "gsap/SplitText";
+import { AuroraBackgroundProps } from '@/components/AuroraBackground';
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
@@ -73,7 +74,9 @@ const Numbers: React.FC = () => {
     }
   }, [])
   return (
-    <section className="min-h-screen scroll-container2 bg-white flex items-center justify-center p-4">
+   
+        
+    <div className="min-h-screen scroll-container2 relative flex items-center justify-center p-4">
 
     <div className="w-full max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
       {/* Header Section */}
@@ -121,7 +124,7 @@ const Numbers: React.FC = () => {
         ))}
       </div>
     </div>
-    </section>
+    </div>
   );
 };
 

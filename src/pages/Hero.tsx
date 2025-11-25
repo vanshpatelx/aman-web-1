@@ -56,7 +56,7 @@ export default function Hero() {
   };
 
   return (
-    <div id='home' className="relative min-h-screen 2xl:min-h-[90vh] text-[#F7F7F7] overflow-hidden">
+    <div id='home' className="relative z-10 min-h-screen 2xl:min-h-[90vh] text-[#F7F7F7] overflow-hidden">
 
      
 

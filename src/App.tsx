@@ -10,6 +10,7 @@ import { Equipment } from "./pages/Equipment.tsx";
 import { MarqueeSection } from "./pages/MarqueeSection.tsx";
 import Products from "./pages/Products.tsx";
 import Numbers from "./pages/Numbers.tsx";
+import { AuroraBackgroundProps } from "./components/AuroraBackground.tsx";
 
 function App() {
   return (

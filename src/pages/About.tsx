@@ -5,6 +5,7 @@ import gsap from "gsap";
 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import SplitText from "gsap/SplitText";
+import { AuroraBackgroundProps } from '@/components/AuroraBackground';
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
@@ -47,7 +48,10 @@ const About: React.FC = () => {
     }
   }, [])
   return (
-    <section  className="w-full max-w-7xl mx-auto scroll-container px-6 py-24 lg:py-32 bg-white overflow-hidden">
+    <section className='w-full relative'>
+    
+    <div  className="w-full relative max-w-7xl mx-auto scroll-container px-6 py-24 lg:py-32  overflow-hidden">
+      
       <div className="flex flex-col items-center">
         {/* Header Tag */}
         <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-gray-200 bg-gray-50/50 backdrop-blur-sm mb-10">
@@ -106,6 +110,7 @@ const About: React.FC = () => {
         </Link>
         
       </div>
+    </div>
     </section>
   );
 };
