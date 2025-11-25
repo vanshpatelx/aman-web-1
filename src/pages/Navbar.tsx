@@ -73,8 +73,8 @@ const Navbar: React.FC = () => {
   }, []);
 
   return (
-    <div ref={navRef} className="fixed top-6 left-0 right-0 z-50 flex justify-center px-4">
-      <nav className="w-full max-w-[95%] md:max-w-[1250px] bg-zinc-950/70 backdrop-blur-md border border-white/10 rounded-xl px-6 py-3 md:px-8 flex items-center justify-between shadow-2xl transition-all duration-300">
+    <div ref={navRef} className="fixed  top-6 left-0 right-0 z-50 flex justify-center px-4">
+      <nav className="w-full max-w-7xl mx-auto bg-zinc-950/70 backdrop-blur-md border border-white/10 rounded-[10px] px-6 py-3 md:px-8 flex items-center justify-between shadow-lg transition-all duration-300">
         {/* Logo */}
         <div className="flex flex-col justify-center items-center shrink-0">
           <img 
@@ -93,7 +93,7 @@ const Navbar: React.FC = () => {
               <Link
                 key={link.name}
                 to={link.to}
-                className="text-sm font-medium text-zinc-300 hover:text-white transition-colors"
+                className="text-sm font-medium text-white hover:text-blue-500 transition-colors"
               >
                 {link.name}
               </Link>
@@ -101,7 +101,7 @@ const Navbar: React.FC = () => {
           </div>
 
           {/* CTA Button */}
-          <button className="bg-white hover:bg-blue-900 hover:text-white text-black text-sm font-medium px-6 py-2 rounded transition-colors duration-200 shadow-md shadow-orange-900/20">
+          <button className="bg-white hover:bg-blue-700 hover:text-white text-black text-sm font-medium px-6 py-2 rounded transition-colors duration-200 shadow-md shadow-orange-900/20">
             Shop Now  
           </button>
         </div>

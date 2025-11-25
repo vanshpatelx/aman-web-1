@@ -16,7 +16,7 @@ const services: ServiceItem[] = [
   {
     title: "Podcast Episodes",
     description: "Expert discussions on semiconductor manufacturing trends and innovations",
-    pattern: "/patterns/Burst.svg" // ← replace with your image
+    pattern: "/patterns/Burst.svg" 
   },
   {
     title: "Trending White Papers",
@@ -57,7 +57,7 @@ const Services: React.FC = () => {
       y: 80,
       opacity: 0,
       delay: 0.5,
-      duration: 0.8,
+      duration: 0.8,   
       ease: "power3.out",
       stagger: 0.15,
       scrollTrigger: {
@@ -68,7 +68,7 @@ const Services: React.FC = () => {
   }, []);
 
   return (
-    <div className="border border-gray-200 bg-gray-200 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[1px]">
+    <div className="border border-gray-200 w-full max-w-7xl mx-auto bg-gray-200 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[1px]">
       {services.map((service, index) => (
         <div
           key={index}
@@ -81,21 +81,21 @@ const Services: React.FC = () => {
             alt=""
             className="
               absolute bottom-6 right-6 
-              opacity-70
+              opacity-90
               pointer-events-none
-              w-[120px] h-[120px] 
-              md:w-[150px] md:h-[150px] 
-              lg:w-[180px] lg:h-[180px] 
+              w-[110px] h-[110px] 
+              md:w-[140px] md:h-[140px] 
+              lg:w-[170px] lg:h-[170px] 
               object-contain z-0
             "
           />
 
-          <div className="overflow-hidden relative z-10">
+          <div className="overflow-hidden relative z-4">
             <div className="overflow-hidden">
-              <h3 className="service-title text-xl font-bold text-gray-900 mb-4">{service.title}</h3>
+              <h3 className="service-title text-3xl font-semibold text-[#222222] mb-4">{service.title}</h3>
             </div>
-            <div className="overflow-hidden">
-              <p className="text-[#00253f]/80 service-subtitle text-sm leading-relaxed font-normal">
+            <div className="overflow-hidden ">
+              <p className="text-gray-500 text-sm leading-relaxed font-normal  max-w-[275px] ">
                 {service.description}
               </p>
             </div>
@@ -109,8 +109,9 @@ const Services: React.FC = () => {
           <span className="text-lg font-medium text-gray-700 group-hover:text-gray-900 transition-colors">
             Access Knowledge Center
           </span>
-          <div className="w-10 h-10 rounded-full bg-[#0066B1] flex items-center justify-center transform group-hover:scale-110 transition-transform duration-200">
-            <ArrowUpRightIcon className="w-5 h-5 text-white" />
+          {/* hover rotate */}
+          <div className="w-10 h-10 rounded-full bg-blue-700  flex items-center justify-center transform group-hover:scale-110  transition-transform duration-200">
+            <ArrowUpRightIcon className="w-5 h-5 text-white" />  
           </div>
         </div>
       </div>

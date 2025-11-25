@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowDownRight } from 'lucide-react';
+import { ArrowDownRight, ArrowUpRight } from 'lucide-react';
 
 const BrandStory: React.FC = () => {
   return (
@@ -7,23 +7,23 @@ const BrandStory: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         
         <div className="mb-8 lg:mb-0">
-           <span className="text-[#202020] font-bold tracking-widest text-xs uppercase mb-2 block">Section 01 — Brand Story</span>
+           <span className="text-[#202020] font-medium tracking-widest text-xs uppercase mb-2 block">Section 01 — Brand Story</span>
         </div>
 
         <div className="flex flex-col lg:flex-row gap-12 lg:gap-24">
           
           {/* Left Column: Heading */}
           <div className="lg:w-1/3 flex flex-col items-start">
-            <h1 className="text-5xl lg:text-7xl font-bold text-[#202020] tracking-tight flex items-start gap-4">
+            <h1 className="text-5xl lg:text-6xl justify-center  font-bold text-[#202020] tracking-tight flex items-center gap-5">
               Our Story
-              <ArrowDownRight className="w-12 h-12 lg:w-16 lg:h-16 text-[#202020] mt-2" strokeWidth={1.5} />
+              <ArrowUpRight className="w-12 h-12 lg:w-12 lg:h-12  text-[#202020] mt-2" strokeWidth={1.5} />
             </h1>
           </div>
 
           {/* Right Column: Content */}
           <div className="lg:w-2/3 flex flex-col gap-8">
             <div className="space-y-6">
-              <h2 className="text-2xl lg:text-3xl font-semibold text-gray-900 leading-tight">
+              <h2 className="text-2xl lg:text-4xl font-normal text-gray-900 leading-tight">
                 Vision Semiconductor Solutions LLC was founded with a clear purpose to power the future of technology.
               </h2>
               

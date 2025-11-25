@@ -27,7 +27,7 @@ const stats: StatItem[] = [
   },
   {
     label: 'Downtime Minimized',
-    value: '1,200 hrs',
+    value: '1200 hrs',
     description: 'Teams reduce breakdowns and production delays with reliable parts, faster sourcing, and expert guidance across tool categories.'
   },
   {
@@ -78,11 +78,11 @@ const Numbers: React.FC = () => {
         
     <div className="min-h-screen scroll-container2 relative flex items-center justify-center p-4">
 
-    <div className="w-full max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+    <div className="w-full max-w-7xl mx-auto py-12 ">
       {/* Header Section */}
       <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end mb-16 gap-8">
-        <div className="max-w-4xl">
-          <h2  id="heading2" className="text-4xl animate-me2 sm:text-5xl lg:text-6xl  text-gray-500 tracking-tight leading-[1.1]">
+        <div className="max-w-3xl">
+          <h2  id="heading2" className="text-4xl animate-me2 sm:text-5xl max-w-2xl  text-gray-500 tracking-tight leading-[1.1]">
             It’s like giving every tool in   <span className="text-gray-500">your fab a second life</span>
           </h2>
           <p className="mt-6 text-lg text-gray-500 max-w-2xl leading-relaxed">
@@ -93,7 +93,7 @@ const Numbers: React.FC = () => {
         <div className="flex-shrink-0">
           <button 
             type="button"
-            className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base rounded-lg text-white bg-black hover:bg-gray-800 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+            className="inline-flex items-center justify-center rounded px-6 py-3 border border-transparent text-base  text-white bg-blue-700 hover:bg-blue-800 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
           >
             Get started
           </button>
@@ -101,19 +101,20 @@ const Numbers: React.FC = () => {
       </div>
 
       {/* Stats Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-12">
+      <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-12">
         {stats.map((stat, index) => (
-          <div key={index} className="flex box1 flex-col border-t  border-gray-100 pt-8 lg:border-t-0 lg:pt-0 relative group">
+          <div key={index} className="flex box1 s  flex-col border-t  border-gray-100 pt-8 lg:border-t-0 lg:pt-0 relative group">
            
             <div className={`
-              lg:pl-8 
-              ${index !== 0 ? 'lg:border-l lg:border-gray-200' : ''} 
-              h-full flex flex-col justify-start
+                flex flex-col pt-8 px-6 
+
+              ${index !== 0 ? 'lg:border-l lg:border-gray-200' : 'lg:border-l lg:border-gray-200 '} 
+              h-full flex flex-col justify-start space-y-5
             `}>
-              <dt className="text-xs font-bold text-[#0066B1] uppercase tracking-widest mb-2">
+              <dt className="text-xs font-medium  text-gray-500 capitalize tracking-widest mb-5">
                 {stat.label}
               </dt>
-              <dd className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6 tracking-tight">
+              <dd className="text-4xl sm:text-5xl font-medium text-blue-700 mb-6 tracking-tight">
                 {stat.value}
               </dd>
               <p className="text-sm text-gray-500 leading-relaxed">

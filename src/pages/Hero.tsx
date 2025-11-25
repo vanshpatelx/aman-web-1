@@ -56,7 +56,7 @@ export default function Hero() {
   };
 
   return (
-    <div id='home' className="relative z-10 min-h-screen 2xl:min-h-[90vh] text-[#F7F7F7] overflow-hidden">
+    <div id='home' className="relative  z-10 min-h-screen 2xl:min-h-[90vh] text-[#F7F7F7] overflow-hidden">
 
      
 
@@ -85,12 +85,12 @@ export default function Hero() {
       <Navbar/>
 
       {/* Hero Section */}
-      <div className="relative h-screen w-full overflow-hidden ">
+      <div className="relative h-screen w-screen overflow-hidden ">
       {/* Background Image with Cinematic Gradient Overlay */}
       
         
       {/* Main Content */}
-      <div className="rmax-w-6xl 2xl:max-w-7xl mx-auto px-4 md:px-8 lg:px-10 xl:px-10 2xl:px-8 pt-32 pb-20 sm:pt-40 sm:pb-28 2xl:pt-64 2xl:pb-36">
+      <div className="max-w-7xl  mx-auto px-4 md:px-8 lg:px-10 xl:px-10 2xl:px-8 pt-32 pb-20 sm:pt-40 sm:pb-28 2xl:pt-64 2xl:pb-36">
         <motion.div
           variants={containerVariants}
           initial="hidden"
@@ -98,7 +98,7 @@ export default function Hero() {
           className="max-w-3xl space-y-8">
           <motion.h1
           variants={itemVariants}
-          className="text-5xl md:text-6xl lg:text-7xl font-semibold leading-[1.1] tracking-tight text-white">
+          className="text-5xl md:text-6xl lg:text-7xl font-normal leading-normal tracking-normal text-white">
             Engineering excellence<br />
 
             for a faster, smarter <br />
@@ -107,16 +107,16 @@ export default function Hero() {
           
           <motion.p 
           variants={itemVariants}
-          className="text-lg text-white/90 max-w-xl font-light leading-relaxed">
+          className="text-base text-white/90 max-w-xl font-normal leading-relaxed tracking-wide">
               Experience a numbers-driven lending approach built on expertise, partnership, and long-term financial clarity—delivering more than just competitive rates.
           </motion.p>
 
           <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 pt-4">
-            <button className="bg-white text-black hover:bg-gray-200 px-8 py-4 text-sm font-semibold transition-colors flex items-center justify-center gap-2 group">
+            <button className="bg-blue-700 rounded text-white hover:bg-blue-900 px-8 py-4 font-medium transition-colors text-base flex items-center justify-center gap-2 group">
               Explore solutions
               <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
             </button>
-            <button className="border border-white/30 hover:bg-white/10 hover:border-white text-white px-8 py-4 text-sm font-semibold transition-all backdrop-blur-sm">
+            <button className="border hover:bg-transparent hover:text-white rounded border-white/30 bg-white hover:border-white text-blue-700 px-8 py-4  font-medium text-base transition-all backdrop-blur-sm">
               Schedule a call
             </button>
           </motion.div>

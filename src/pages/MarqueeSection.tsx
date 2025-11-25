@@ -23,8 +23,7 @@ const reviews = [
   },
 ]
 
-const firstRow = reviews.slice(0, reviews.length / 2)
-const secondRow = reviews.slice(reviews.length / 2)
+const firstRow = reviews.slice(0, reviews.length )
 
 const ReviewCard = ({
   img,
@@ -36,7 +35,7 @@ const ReviewCard = ({
   return (
    <figure
       className={cn(
-        "relative h-[20rem] w-[10rem] cursor-pointer overflow-hidden p-4",
+        "relative h-[20rem] w-[14rem] cursor-pointer overflow-hidden p-4",
         // Base styles matching the dark theme
         " "
       )}
@@ -51,7 +50,7 @@ const ReviewCard = ({
 
 export function MarqueeSection() {
   return (
-    <div className="relative flex w-full max-w-[1600px] flex-col items-center justify-center overflow-hidden py-10">
+    <div className="relative flex w-full max-w-7xl mx-auto flex-col items-center justify-center overflow-hidden py-10">
       <Marquee pauseOnHover className="[--duration:30s]">
         {firstRow.map((company) => (
           <ReviewCard  {...company} />

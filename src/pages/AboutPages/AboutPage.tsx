@@ -4,6 +4,7 @@ import MissionVision from './MissionVision';
 import TeamSection from './TeamSection';
 import CTASection from './CTASection';
 import Navbar from '../Navbar';
+import Footer from '../Footer';
 
 
 const AboutPage: React.FC = () => {
@@ -16,6 +17,7 @@ const AboutPage: React.FC = () => {
         <MissionVision />
         <TeamSection />
         <CTASection />
+        <Footer/>
       </main>
     </div>
   );

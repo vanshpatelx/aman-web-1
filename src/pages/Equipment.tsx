@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Plus, Minus, ChevronRight } from 'lucide-react';
+import { Plus, Minus, ChevronRight, ArrowRight } from 'lucide-react';
 
 export const Equipment: React.FC = () => {
   const [activeId, setActiveId] = useState<string>('energy-audits');
@@ -13,14 +13,14 @@ export const Equipment: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-white text-gray-900 pt-16 pb-24 px-6 md:px-12 lg:px-24">
+    <div className="min-h-screen w-full max-w-7xl mx-auto bg-white text-gray-900 pt-16 pb-24 ">
       
       {/* Header Section */}
-      <div className="max-w-4xl mx-auto text-center mb-24">
+      <div className="max-w-4xl mx-auto text-center mb-16">
         
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium leading-tight tracking-tight mb-8 text-gray-950">
-          Engineering pathways <br className="hidden md:block" />
-          to industrial sustainability
+        <h1 className="text-4xl md:text-5xl max-w-4xl lg:text-6xl font-medium leading-tight tracking-tight mb-8 text-[#222222]">
+          Engineering pathways    to  <br className="hidden md:block" />
+       industrial sustainability
         </h1>
         <p className="text-gray-500 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
           From energy generation to long-term system efficiency, we deliver solutions
@@ -28,23 +28,33 @@ export const Equipment: React.FC = () => {
         </p>
       </div>
 
+     
+      {/* <div className="max-w-4xl">
+          <h2  className="text-4xl  sm:text-5xl max-w-3xl text-[#222222] tracking-tight leading-[1.1]">
+            Engineering pathways  to industrial sustainability
+          </h2>
+          <p className="mt-6 text-lg text-gray-500  max-w-[42rem] leading-relaxed">
+          From energy generation to long-term system efficiency, we deliver solutions
+          that cut costs, reduce emissions, and ensure resilient operations.            </p>
+        </div> */}
+
       {/* Main Content Split */}
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24 items-center">
         
         {/* Left Side: Accordion Menu */}
         <div className="lg:col-span-5 flex flex-col">
-          <div className="border-t border-gray-200">
+          <div className="border-t border-gray-200 sm:px-0 px-4">
             {SERVICE_ITEMS.map((item) => {
               const isActive = activeId === item.id;
               return (
-                <div key={item.id} className="border-b border-gray-200">
+                <div key={item.id} className="border-b border-gray-200 ">
                   <button
                     onClick={() => toggleItem(item.id)}
                     className={`w-full py-6 flex items-center justify-between text-left group transition-colors duration-200 ${
-                      isActive ? 'text-gray-900' : 'text-gray-600 hover:text-gray-900'
+                      isActive ? 'text-[#22222] ' : 'text-gray-600 hover:text-[#22222]'
                     }`}
                   >
-                    <span className={`text-lg font-medium ${isActive ? 'font-semibold' : ''}`}>
+                    <span className={`text-lg font-medium ${isActive ? 'font-medium' : ''}`}>
                       {item.title}
                     </span>
                     <span className="text-gray-400 group-hover:text-gray-600 transition-colors ml-4">
@@ -63,7 +73,7 @@ export const Equipment: React.FC = () => {
                     </p>
                     <a 
                       href="#" 
-                      className="inline-flex items-center   text-[#0066B1] font-medium  hover:underline"
+                      className="inline-flex underline-offset-2 items-center text-gray-500  hover:text-blue-700 font-medium  hover:underline"
                     >
                       Learn more 
                       <ChevronRight size={16} className="ml-1" />
@@ -74,9 +84,10 @@ export const Equipment: React.FC = () => {
             })}
           </div>
 
-          <div className="mt-10">
-            <button className="bg-gray-900 text-white text-sm  font-semibold py-4 px-8  transition-colors duration-200 w-full sm:w-auto text-center">
+          <div className="mt-10 sm:px-0 px-4">
+            <button className="bg-blue-700 flex gap-3 justify-center items-center hover:bg-blue-800 rounded  text-white text-sm  font-medium py-4 px-8  transition-colors duration-200 w-full sm:w-auto text-center">
               Request audit
+              <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
             </button>
           </div>
         </div>
