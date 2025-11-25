@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Plus, Minus, ChevronRight, ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export const Equipment: React.FC = () => {
   const [activeId, setActiveId] = useState<string>('energy-audits');
@@ -71,13 +72,14 @@ export const Equipment: React.FC = () => {
                     <p className="text-gray-500 leading-relaxed mb-4 pr-4">
                       {item.description}
                     </p>
-                    <a 
-                      href="#" 
-                      className="inline-flex underline-offset-2 items-center text-gray-500  hover:text-blue-700 font-medium  hover:underline"
-                    >
-                      Learn more 
-                      <ChevronRight size={16} className="ml-1" />
-                    </a>
+                    <Link
+                    to={item.link}
+                    className="inline-flex underline-offset-2 items-center text-gray-500 hover:text-blue-700 font-medium hover:underline"
+                  >
+                    Learn more
+                    <ChevronRight size={16} className="ml-1" />
+                  </Link>
+
                   </div>
                 </div>
               );
@@ -113,28 +115,39 @@ export interface ServiceItem {
   id: string;
   title: string;
   description: string;
+  link: string;    // <-- ADDED
 }
 
 
 const SERVICE_ITEMS: ServiceItem[] = [
   {
-    id: 'energy-audits',
-    title: 'Energy audits & diagnostics',
-    description: 'In-depth analysis of energy use, uncovering inefficiencies and hidden costs.'
+    id: 'Brokering',
+    title: 'Equipment Brokering',
+    description: 'Expert management of asset sales, connecting you with qualified buyers for maximum return',
+    link: '/Brokering'
   },
   {
-    id: 'automation',
-    title: 'Industrial automation upgrades',
-    description: 'Modernizing control systems to enhance precision, safety, and operational throughput.'
+    id: 'Inspection',
+    title: 'Inspection',
+    description: 'Detailed equipment evaluations that verify condition, reduce risk, and support confident decisions.',
+    link: '/Inspection'
   },
   {
-    id: 'renewable',
-    title: 'Renewable power integration',
-    description: 'Seamlessly connecting solar, wind, and storage solutions into existing grid infrastructures.'
+    id: 'Disposition',
+    title: 'Disposition',
+    description: 'Strategic removal of surplus assets, optimizing value recovery while minimizing operational burden.',
+    link: '/Disposition'
   },
   {
-    id: 'hvac',
-    title: 'HVAC & Thermal optimization',
-    description: 'Advanced thermal management strategies to reduce waste heat and improve climate control efficiency.'
+    id: 'Consignment',
+    title: 'Consignment',
+    description: 'Hands-on sales support that markets your equipment effectively while you retain full ownership.',
+    link: '/Consignment'
+  },
+  {
+    id: 'Logistics-Forwarding',
+    title: 'Logistics & Forwarding',
+    description: 'End-to-end transport coordination ensuring safe, efficient delivery across any distance or border',
+    link: '/Logistics'
   }
 ];
