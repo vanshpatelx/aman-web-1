@@ -14,48 +14,40 @@ export const Equipment: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen w-full max-w-7xl mx-auto bg-white text-gray-900 pt-16 pb-24 ">
+    <div className="min-h-screen w-full  mx-auto bg-[#00020F] pt-16 pb-24 ">
       
       {/* Header Section */}
       <div className="max-w-4xl mx-auto text-center mb-16">
         
-        <h1 className="text-4xl md:text-5xl max-w-4xl lg:text-6xl font-medium leading-tight tracking-tight mb-8 text-[#222222]">
+        <h1 id='heading' className="text-4xl md:text-5xl max-w-4xl lg:text-6xl font-medium leading-relaxed tracking-tight mb-8 text-white">
           Engineering pathways    to  <br className="hidden md:block" />
        industrial sustainability
         </h1>
-        <p className="text-gray-500 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
+        <p className="text-[#A7ADBE] text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
           From energy generation to long-term system efficiency, we deliver solutions
           that cut costs, reduce emissions, and ensure resilient operations.
         </p>
       </div>
 
-     
-      {/* <div className="max-w-4xl">
-          <h2  className="text-4xl  sm:text-5xl max-w-3xl text-[#222222] tracking-tight leading-[1.1]">
-            Engineering pathways  to industrial sustainability
-          </h2>
-          <p className="mt-6 text-lg text-gray-500  max-w-[42rem] leading-relaxed">
-          From energy generation to long-term system efficiency, we deliver solutions
-          that cut costs, reduce emissions, and ensure resilient operations.            </p>
-        </div> */}
+    
 
       {/* Main Content Split */}
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24 items-center">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24 items-center justify-between">
         
         {/* Left Side: Accordion Menu */}
-        <div className="lg:col-span-5 flex flex-col">
-          <div className="border-t border-gray-200 sm:px-0 px-4">
+        <div className="lg:col-span-7 flex flex-col order-1 lg:order-0">
+          <div className="border-t border-[#242424] sm:px-0 px-4">
             {SERVICE_ITEMS.map((item) => {
               const isActive = activeId === item.id;
               return (
-                <div key={item.id} className="border-b border-gray-200 ">
+                <div key={item.id} className="border-t border-[#242424] ">
                   <button
                     onClick={() => toggleItem(item.id)}
                     className={`w-full py-6 flex items-center justify-between text-left group transition-colors duration-200 ${
-                      isActive ? 'text-[#22222] ' : 'text-gray-600 hover:text-[#22222]'
+                      isActive ? 'text-blue-700 ' : 'text-[#A7ADBE] hover:text-[#22222]'
                     }`}
                   >
-                    <span className={`text-lg font-medium ${isActive ? 'font-medium' : ''}`}>
+                    <span className={`text-lg font-normal ${isActive ? 'font-normal' : ''}`}>
                       {item.title}
                     </span>
                     <span className="text-gray-400 group-hover:text-gray-600 transition-colors ml-4">
@@ -74,7 +66,7 @@ export const Equipment: React.FC = () => {
                     </p>
                     <Link
                     to={item.link}
-                    className="inline-flex underline-offset-2 items-center text-gray-500 hover:text-blue-700 font-medium hover:underline"
+                    className="inline-flex underline-offset-2 items-center text-[#A7ADBE] hover:text-blue-700 font-medium hover:underline"
                   >
                     Learn more
                     <ChevronRight size={16} className="ml-1" />
@@ -95,15 +87,9 @@ export const Equipment: React.FC = () => {
         </div>
 
         {/* Right Side: Visual Illustration */}
-        <div className="lg:col-span-7 pt-8 lg:pt-0 hidden md:block">
-          {/* 
-            In a real app, we might switch the illustration based on the activeId.
-            For this clone, we use the wireframe solar panel as the primary visual.
-          */}
-          <div className="relative w-full bg-[url('/Equipment.png')] bg-cover bg-center aspect-[4/3] flex items-center justify-center p-8">
-             
-          </div>
-        </div>
+        <div className="lg:col-span-5 pt-8 lg:pt-0 order-0 lg:order-1 flex w-full h-full sm:justify-end">
+             <img src="semiconductor.png" className='object-contain' alt="" />
+    </div>
         
       </div>
     </div>

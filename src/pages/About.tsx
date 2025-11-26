@@ -1,116 +1,105 @@
-import React, { useEffect } from 'react';
-import { Leaf, CheckCircle2, Lightbulb, ScanEye, ArrowRight } from 'lucide-react';
-import { Link } from 'react-router-dom';
-import gsap from "gsap";
+import React, { useRef } from "react";
+import { CheckCircle2, Lightbulb, ScanEye, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
+import { motion, useScroll, useTransform } from "framer-motion";
 
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import SplitText from "gsap/SplitText";
-import { AuroraBackgroundProps } from '@/components/AuroraBackground';
+const sentence = `
+Powering the Future of Technology Through Unrivaled Innovation and a Global Vision for Femiconductor Progress.
+`;
 
-gsap.registerPlugin(ScrollTrigger, SplitText);
-
-
+const words = sentence.trim().split(" ");
 
 const About: React.FC = () => {
-   useEffect(() => {
-    // Wait for fonts to load
-    document.fonts.ready.then(() => {
-      gsap.set(".container", { opacity: 1 })
-      
-      // Create SplitText instance
-      let split = SplitText.create(".animate-me", { 
-        type: "words", 
-        aria: "hidden" 
-      })
+  const ref = useRef(null);
 
-      // Set initial color 
-      gsap.set(split.words, { color: "#E5E7EB" })
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start 90%", "end 70%"],
+  });
 
-      // Create ScrollTrigger animation for color change
-      gsap.to(split.words, {
-        color: "#000000", // Blue color
-        duration: 1,
-        ease: "sine.out",
-        stagger: 0.05,
-        scrollTrigger: {
-          trigger: ".animate-me",
-          start: "top 80%",
-          end: "bottom 30%",
-          scrub: 1,
-          toggleActions: "play none none reverse"
-        }
-      })
-    })
-
-    // Cleanup function
-    return () => {
-      ScrollTrigger.getAll().forEach(trigger => trigger.kill())
-    }
-  }, [])
   return (
-    <section className='w-full relative '>
-    
-    <div  className="w-full relative  max-w-7xl mx-auto scroll-container px-6 py-24 lg:py-32  overflow-hidden">
-      
-      <div className="flex flex-col items-center">
-        {/* Header Tag */}
-        <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-gray-200 bg-gray-50/50 backdrop-blur-sm mb-10">
-          <span className="text-[10px] font-semibold tracking-[0.15em] text-gray-500 uppercase">
-            About Vision Semiconductor
-          </span>
-        </div>
+    <section className="w-full relative bg-[#00020F]">
+      <div className="w-full relative max-w-7xl mx-auto scroll-container px-6 py-24 lg:py-32 overflow-hidden">
+        <div className="flex flex-col items-center">
 
-        {/* Main Headline */}
-        <div className="overflow-hidden" >
-          <h2  id="heading" className="text-2xl animate-me md:text-4xl lg:text-[2.75rem] leading-relaxed font-medium text-center text-[#222222] max-w-5xl mx-auto tracking-normal mb-16 lg:mb-24">
-          At Sumry Finance, we combine accounting-level rigour with strategic lending expertise to help clients make smarter, long-term decisions. We go beyond rates — we build structures that align with your financial goals, protect you, and compound over time.        
+          {/* Header Tag */}
+          <div className="inline-flex justify-center items-center gap-1.5 px-6 py-2.5 rounded-full border border-[#01083e] bg-[#000529] backdrop-blur-sm mb-10">
+            <span className="text-[14px] font-medium text-[#b2b8ca]">
+              About Vision Semiconductor
+            </span>
+          </div>
+
+          {/* Headline */}
+          <h2
+            ref={ref}
+            id="heading"
+            className="text-2xl md:text-4xl lg:text-[44px] leading-relaxed font-normal text-center max-w-5xl mx-auto tracking-normal"
+          >
+            {words.map((word, i) => {
+              const start = i / words.length;
+              const end = (i + 1) / words.length;
+
+              const color = useTransform(
+                scrollYProgress,
+                [start, end],
+                ["#A7ADBE", "#ffffff"]
+              );
+
+              return (
+                <motion.span
+                  key={i}
+                  style={{ color }}
+                  className="inline-block mr-2 leading-tight"
+                >
+                  {word}
+                </motion.span>
+              );
+            })}
           </h2>
+
+          {/* Feature Icons */}
+          <div className="grid grid-cols-3 gap-4 md:gap-8 w-full max-w-4xl mx-auto mt-14 mb-12 lg:mb-16">
+
+            <div className="flex flex-col items-center text-center gap-3">
+              <div className="p-2 md:p-3 rounded-full bg-transparent">
+                <img src="./icon.svg" alt="" className="w-8 h-8 md:w-12 md:h-12" />
+              </div>
+              <p className="text-xs md:text-base font-medium text-[#A7ADBE] max-w-[150px] leading-normal">
+                Innovation
+              </p>
+            </div>
+
+            <div className="flex flex-col items-center text-center gap-3">
+              <div className="p-2 md:p-3 rounded-full bg-transparent">
+               <img src="./icon3.svg" alt="" className="w-8 h-8 md:w-12 md:h-12 stroke-[1.5]" />
+              </div>
+              <p className="text-xs md:text-base font-medium text-[#A7ADBE] max-w-[150px] leading-normal">
+                Expertise
+              </p>
+            </div>
+
+            <div className="flex flex-col items-center text-center gap-3">
+              <div className="p-2 md:p-3 rounded-full bg-transparent">
+                <img src="./icon2.svg" alt="" className="w-8 h-8 md:w-12 md:h-12 stroke-[1.5]" />
+              </div>
+              <p className="text-xs md:text-base font-medium text-[#A7ADBE] max-w-[150px] leading-relaxed">
+                Vision
+              </p>
+            </div>
+
+          </div>
+
+          {/* Learn More Button */}
+          <Link
+            to={"/about"}
+            className="group inline-flex items-center rounded gap-2 px-6 py-3 bg-blue-700 text-white text-sm font-medium hover:bg-blue-900 transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5"
+          >
+            Learn More
+            <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+          </Link>
+
         </div>
-
-      
-
-        {/* Feature Icons */}
-        <div className="grid grid-cols-3 gap-4 md:gap-8 w-full max-w-4xl mx-auto mb-12 lg:mb-16">
-          {/* Feature 1 */}
-          <div className="flex flex-col items-center text-center gap-3">
-            <div className="p-2 md:p-3 rounded-full bg-transparent">
-              <CheckCircle2 className="w-5 h-5 md:w-12 md:h-12 text-gray-400 stroke-[1.5]" />
-            </div>
-            <p className="text-xs md:text-base font-medium text-gray-900 max-w-[150px] leading-relaxed">
-              Clarity
-            </p>
-          </div>
-
-          {/* Feature 2 */}
-          <div className="flex flex-col items-center text-center gap-3">
-            <div className="p-2 md:p-3 rounded-full bg-transparent">
-              <Lightbulb className="w-5 h-5 md:w-12 md:h-12 text-gray-400 stroke-[1.5]" />
-            </div>
-            <p className="text-xs md:text-base font-medium text-gray-900 max-w-[150px] leading-relaxed">
-              Strategy
-            </p>
-          </div>
-
-          {/* Feature 3 */}
-          <div className="flex flex-col items-center text-center gap-3">
-            <div className="p-2 md:p-3 rounded-full bg-transparent">
-              <ScanEye className="w-5 h-5 md:w-12 md:h-12 text-gray-400 stroke-[1.5]" />
-            </div>
-            <p className="text-xs md:text-base font-medium text-gray-900 max-w-[150px] leading-relaxed">
-              Precision
-
-            </p>
-          </div>
-        </div>
-
-        {/* Learn More Button */}
-        <Link to={"/about"} className="group inline-flex items-center rounded gap-2 px-6 py-3 bg-blue-700 text-white text-sm font-medium hover:bg-blue-900 transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5">
-          Learn More
-          <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-        </Link>
-        
       </div>
-    </div>
     </section>
   );
 };

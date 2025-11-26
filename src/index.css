@@ -2,103 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
-
-html {
-  /* scroll-behavior is handled by Lenis smooth scroll */
+@font-face {
+  font-family: 'Namian';
+  src: url('./Namian.ttf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
-
-/* Typography System */
-
-/* 
- * Namian Font Setup:
- * If you have Namian font files, add them using @font-face:
- * 
- * @font-face {
- *   font-family: "Namian";
- *   src: url("/fonts/Namian-Regular.woff2") format("woff2"),
- *        url("/fonts/Namian-Regular.woff") format("woff");
- *   font-weight: normal;
- *   font-style: normal;
- * }
- * 
- * Or if Namian becomes available on Google Fonts, add the link in index.html
- */
-
-/* Headings/Titles - Namian (applied first to ensure specificity) */
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Namian", serif;
-    font-weight: normal;
-}
-
-.heading,
-[class*="heading"],
-[class*="title"] {
-    font-family: "Namian", serif;
-    font-weight: normal;
-}
-
-/* Subtitles - Poppins Semi Bold */
-.subtitle,
-[class*="subtitle"] {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-}
-
-/* Paragraphs - Poppins Regular */
-p,
-.paragraph,
-[class*="paragraph"] {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-}
-
-/* Base font for body and all other elements - Poppins Regular */
 body {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
+  font-family: "Poppins", sans-serif;
 }
 
-.logo {
-    font-family: "Forum", serif;
+#heading {
+  font-family: 'Namian';
 }
 
-.scrollbar-hide::-webkit-scrollbar {
-  display: none;
-}
 
 .scrollbar-hide {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
 
-/* 
-.service-card {
-  transition: color 0.3s ease;
-}
-
-.service-card::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: black;
-  transform: translateX(-110%) ;
-  transition: transform 0.6s cubic-bezier(.76,0,.24,1);
-  z-index: 0;
-}
-
-.service-card:hover::before {
-  transform: translateX(0%) ;
-}
-
-.service-card:hover * {
-  color: white !important;
-} */
-
-/* ---break---
-*/
 
 @layer base {
   .theme {
@@ -107,67 +32,57 @@ body {
   }
 }
 
-/* ---break---
-*/
 
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-  }
-  
-  /* Headings use Namian */
-  h1, h2, h3, h4, h5, h6 {
-    font-family: "Namian", serif;
-    font-weight: normal;
-  }
-  
-  
-  /* Paragraphs use Poppins Regular */
-  p {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-  }
+/* Headings use Namian */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Namian";
+  font-weight: normal;
 }
 
-/* ---break---
-*/
 
 @theme inline {
   @keyframes marquee {
-  from {
-    transform: translateX(0);
+    from {
+      transform: translateX(0);
     }
-  to {
-    transform: translateX(calc(-100% - var(--gap)));
+
+    to {
+      transform: translateX(calc(-100% - var(--gap)));
     }
   }
+
   @keyframes marquee-vertical {
-  from {
-    transform: translateY(0);
+    from {
+      transform: translateY(0);
     }
-  to {
-    transform: translateY(calc(-100% - var(--gap)));
+
+    to {
+      transform: translateY(calc(-100% - var(--gap)));
     }
   }
+
   @keyframes marquee {
-  from {
-    transform: translateX(0);
+    from {
+      transform: translateX(0);
     }
-  to {
-    transform: translateX(calc(-100% - var(--gap)));
+
+    to {
+      transform: translateX(calc(-100% - var(--gap)));
     }
   }
+
   @keyframes marquee-vertical {
-  from {
-    transform: translateY(0);
+    from {
+      transform: translateY(0);
     }
-  to {
-    transform: translateY(calc(-100% - var(--gap)));
+
+    to {
+      transform: translateY(calc(-100% - var(--gap)));
     }
   }
 }
@@ -177,6 +92,7 @@ body {
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(-100%);
   }
@@ -186,6 +102,7 @@ body {
   0% {
     transform: translateY(0);
   }
+
   100% {
     transform: translateY(-100%);
   }

@@ -1,17 +1,70 @@
-import { ArrowUpRightIcon } from 'lucide-react';
+import { ArrowUpRight, ArrowUpRightIcon } from 'lucide-react';
 import React from 'react';
-import { Link } from "react-router-dom"; // <-- ADD THIS
+import { Link } from "react-router-dom";
 
 interface ServiceItem {
   title: string;
   description: string;
   pattern?: string;
-  link: string; // <-- ADD LINK
+  link: string;
 }
+
+const contentVariants: Variants = {
+  initial: {
+    y: 0
+  },
+  hover: {
+    y: -5,
+    transition: {
+      type: "spring",
+      stiffness: 400,
+      damping: 25
+    }
+  }
+};
+
+
+const arrowVariants: Variants = {
+  initial: {
+    x: 0,
+    y: 0,
+    rotate: 0
+  },
+  hover: {
+    x: 3,
+    y: -3,
+    rotate: 45,
+    transition: {
+      type:"tween",
+      stiffness: 500,
+      damping: 15
+    }
+  }
+};
+
+
+const patternVariants: Variants = {
+  initial: {
+    scale: 1,
+    opacity: 0.9,
+    rotate: 0
+  },
+  hover: {
+    scale: 1.1,
+    opacity: 1,
+    rotate: 5,
+    transition: {
+      type: "spring",
+      stiffness: 200,
+      damping: 20
+    }
+  }
+};
 
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { motion, Variants } from 'framer-motion';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -76,53 +129,83 @@ const Services: React.FC = () => {
   }, []);
 
   return (
-    <div className="border border-gray-200 w-full max-w-7xl mx-auto bg-gray-200 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[1px]">
-      
-      {services.map((service, index) => (
-        <Link
-          to={service.link}
-          key={index}
-          className="service-card bg-white p-8 md:p-10 flex flex-col justify-between h-full min-h-[320px] relative overflow-hidden group"
-        >
-          <img
-            src={service.pattern || "/images/placeholder.png"}
-            alt=""
-            className="
-              absolute bottom-6 right-6 
-              opacity-90
-              pointer-events-none
-              w-[110px] h-[110px]
-              md:w-[140px] md:h-[140px]
-              lg:w-[170px] lg:h-[170px]
-              object-contain z-0
-            "
-          />
+    <div className='w-full bg-[#00020F] mx-auto py-12 h-full'>
+      <div className="border border-[#242424] w-full max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
 
-          <div className="overflow-hidden relative z-4">
-            <h3 className="service-title text-3xl font-semibold text-[#222222] mb-4 group-hover:text-blue-700 transition-colors">
-              {service.title}
-            </h3>
-            <p className="text-gray-500 text-sm leading-relaxed font-normal max-w-[275px]">
-              {service.description}
-            </p>
+        {services.map((service, index) => (
+          <motion.div
+            key={index}
+            initial="initial"
+            whileHover="hover"
+            className="relative"
+          >
+            <Link
+              to={service.link}
+              className="service-card bg-[#00020F] border-[0.5px] border-[#242424]/70 p-8 md:p-8 flex flex-col justify-between h-full min-h-[320px] relative group cursor-pointer overflow-hidden"
+            >
+              {/* Pattern Image */}
+              <motion.img
+                src={service.pattern || "/images/placeholder.png"}
+                alt=""
+                variants={patternVariants}
+                className="
+          absolute bottom-6 right-6 
+          pointer-events-none
+          w-[110px] h-[110px]
+          md:w-[140px] md:h-[140px]
+          lg:w-[170px] lg:h-[170px]
+          object-contain z-0
+        "
+              />
+
+              {/* Content  */}
+              <motion.div
+                variants={contentVariants}
+                className="overflow-hidden relative z-4"
+              >
+                <div className='flex justify-between items-start'>
+                  <h3 className="service-title text-2xl font-semibold text-white mb-4 transition-colors">
+                    {service.title}
+                  </h3>
+
+                  {/*  Arrow */}
+                  <motion.div
+                    variants={arrowVariants}
+                    className="p-2 rounded-[8px]"
+                  >
+                    <ArrowUpRight
+                      className="w-6 h-6 text-blue-700"
+                      strokeWidth={1.5}
+                    />
+                  </motion.div>
+                </div>
+
+                <p className="text-[#A7ADBE]/80 text-sm leading-relaxed font-normal max-w-[275px]">
+                  {service.description}
+                </p>
+              </motion.div>
+
+              {/* Hover Gradient Overlay */}
+              <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-purple-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-1" />
+            </Link>
+          </motion.div>
+        ))}
+
+        {/* View More CTA */}
+        <Link
+          to="/Accessctapage"
+          className="bg-[#00020F] p-8 md:p-10 flex flex-col justify-end items-end h-full min-h-[320px] group"
+        >
+          <div className="w-full flex items-center justify-end gap-3">
+            <span className="text-lg font-medium text-white group-hover:text-gray-200 transition-colors">
+              Access Knowledge Center
+            </span>
+            <div className="w-10 h-10 rounded-full bg-blue-700 flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
+              <ArrowUpRightIcon className="w-5 h-5 text-white" />
+            </div>
           </div>
         </Link>
-      ))}
-
-      {/* View More CTA */}
-      <Link
-        to="/Accessctapage"
-        className="bg-white p-8 md:p-10 flex flex-col justify-end items-end h-full min-h-[320px] group"
-      >
-        <div className="w-full flex items-center justify-end gap-3">
-          <span className="text-lg font-medium text-gray-700 group-hover:text-gray-900 transition-colors">
-            Access Knowledge Center
-          </span>
-          <div className="w-10 h-10 rounded-full bg-blue-700 flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
-            <ArrowUpRightIcon className="w-5 h-5 text-white" />
-          </div>
-        </div>
-      </Link>
+      </div>
     </div>
   );
 };

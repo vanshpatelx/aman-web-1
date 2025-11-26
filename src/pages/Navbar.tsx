@@ -74,13 +74,13 @@ const Navbar: React.FC = () => {
 
   return (
     <div ref={navRef} className="fixed  top-6 left-0 right-0 z-50 flex justify-center px-4">
-      <nav className="w-full max-w-7xl mx-auto bg-zinc-950/70 backdrop-blur-md border border-white/10 rounded-[10px] px-6 py-3 md:px-8 flex items-center justify-between shadow-lg transition-all duration-300">
+      <nav className="w-full max-w-7xl mx-auto bg-[#00020F] backdrop-blur-md border border-blue-700/30 rounded-[15px] px-6 py-3 md:px-8 flex items-center justify-between shadow-lg transition-all duration-300">
         {/* Logo */}
         <div className="flex flex-col justify-center items-center shrink-0">
           <img 
             src="/Logo.png" 
             alt="Logo" 
-            className="w-20 h-auto object-contain"
+            className="w-auto h-14 object-cover"
           />
         </div>
 
@@ -93,7 +93,7 @@ const Navbar: React.FC = () => {
               <Link
                 key={link.name}
                 to={link.to}
-                className="text-sm font-medium text-white hover:text-blue-500 transition-colors"
+                className="text-sm font-medium text-[#A7ADBE] hover:text-blue-700 transition-colors"
               >
                 {link.name}
               </Link>

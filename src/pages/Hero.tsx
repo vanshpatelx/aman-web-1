@@ -56,11 +56,11 @@ export default function Hero() {
   };
 
   return (
-    <div id='home' className="relative  z-10 min-h-screen 2xl:min-h-[90vh] text-[#F7F7F7] overflow-hidden">
+    <div id='home' className="relative h-full  z-10 min-h-screen 2xl:min-h-[100vh] text-[#F7F7F7] overflow-hidden">
 
      
 
-      <div className="absolute inset-0 -z-10 bg-black">
+      <div className="absolute inset-0 -z-10 ">
         <motion.div
           variants={imageScaleVariants}
           initial="hidden"
@@ -69,14 +69,10 @@ export default function Hero() {
         >
           {/* Using a tech-focused placeholder image */}
           <img
-          src="/hero.jpg"
+          src="/bg.png"
           alt="Hero background"
-          className="w-full h-full object-cover object-center lg:object-center"
+          className="w-full h-full object-cover object-center"
         />
-          {/* Gradient Overlay for text readability */}
-
-          <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/50 to-transparent" />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/30" />
         </motion.div>
       </div>
 
@@ -85,24 +81,22 @@ export default function Hero() {
       <Navbar/>
 
       {/* Hero Section */}
-      <div className="relative h-screen w-screen overflow-hidden ">
+      <div className="relative h-screen  w-screen overflow-hidden ">
       {/* Background Image with Cinematic Gradient Overlay */}
       
         
       {/* Main Content */}
-      <div className="max-w-7xl  mx-auto px-4 md:px-8 lg:px-10 xl:px-10 2xl:px-8 pt-32 pb-20 sm:pt-40 sm:pb-28 2xl:pt-64 2xl:pb-36">
+      <div className="max-w-7xl mx-auto pt-38 pb-28 sm:pt-56 sm:pb-28 2xl:pt-64 2xl:pb-36">
         <motion.div
           variants={containerVariants}
           initial="hidden"
           animate="visible"
-          className="max-w-3xl space-y-8">
+          className="max-w-3xl space-y-6">
           <motion.h1
           variants={itemVariants}
-          className="text-5xl md:text-6xl lg:text-7xl font-normal leading-normal tracking-normal text-white">
-            Engineering excellence<br />
-
-            for a faster, smarter <br />
-            <span className="text-white">semiconductor world</span>
+          id='heading'
+          className="text-4xl md:text-6xl font-normal leading-normal tracking-normal text-white">
+            Engineering a faster, smarter semiconductor future.
           </motion.h1>
           
           <motion.p 
@@ -111,12 +105,12 @@ export default function Hero() {
               Experience a numbers-driven lending approach built on expertise, partnership, and long-term financial clarity—delivering more than just competitive rates.
           </motion.p>
 
-          <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 pt-4">
-            <button className="bg-blue-700 rounded text-white hover:bg-blue-900 px-8 py-4 font-medium transition-colors text-base flex items-center justify-center gap-2 group">
+          <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-6 pt-4">
+            <button type='button' className="bg-blue-700 rounded text-white hover:bg-blue-800 px-6 py-3 font-medium transition-colors text-base flex items-center justify-center gap-2 group">
               Explore solutions
               <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
             </button>
-            <button className="border hover:bg-transparent hover:text-white rounded border-white/30 bg-white hover:border-white text-blue-700 px-8 py-4  font-medium text-base transition-all backdrop-blur-sm">
+            <button type='button' className="border hover:bg-white hover:text-black rounded border-white/30 bg-whitbe hover:border-white text-white px-6 py-3  font-medium text-base transition-all backdrop-blur-sm">
               Schedule a call
             </button>
           </motion.div>

@@ -1,12 +1,5 @@
-import React, { useEffect } from 'react';
-import gsap from "gsap";
-
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import SplitText from "gsap/SplitText";
-import { AuroraBackgroundProps } from '@/components/AuroraBackground';
-
-gsap.registerPlugin(ScrollTrigger, SplitText);
-
+import React, { useRef } from 'react';
+import { motion, useScroll, useTransform } from "framer-motion";
 
 interface StatItem {
   label: string;
@@ -38,93 +31,78 @@ const stats: StatItem[] = [
 ];
 
 const Numbers: React.FC = () => {
-    useEffect(() => {
-    // Wait for fonts to load
-    document.fonts.ready.then(() => {
-      gsap.set(".container2", { opacity: 1 })
-      
-      // Create SplitText instance
-      let split = SplitText.create(".animate-me2", { 
-        type: "words", 
-        aria: "hidden" 
-      })
+  const ref = useRef<HTMLHeadingElement>(null);
 
-      // Set initial color 
-      gsap.set(split.words, { color: "#E5E7EB" })
 
-      // Create ScrollTrigger animation for color change
-      gsap.to(split.words, {
-        color: "#000000", // Blue color
-        duration: 1,
-        ease: "sine.out",
-        stagger: 0.05,
-        scrollTrigger: {
-          trigger: ".animate-me2",
-          start: "top 80%",
-          end: "bottom 30%",
-          scrub: 1,
-          toggleActions: "play none none reverse"
-        }
-      })
-    })
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start 55%", "end 40%"], // adjust start/end as needed
+  });
 
-    // Cleanup function
-    return () => {
-      ScrollTrigger.getAll().forEach(trigger => trigger.kill())
-    }
-  }, [])
+  const sentence = `It’s like giving every tool in your fab a second life`;
+  const words = sentence.split(" ");
+
   return (
-   
-        
-    <div className="min-h-screen scroll-container2 relative flex items-center justify-center p-4">
+    <div className="min-h-screen scroll-container2 relative flex items-center justify-center p-4 bg-[#00020F]">
+      <div className="w-full max-w-7xl mx-auto py-12 ">
+        {/* Header Section */}
+        <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end mb-16 gap-8">
+          <div className="max-w-3xl">
+            <h2
+              ref={ref}
+              className="text-4xl sm:text-5xl max-w-2xl text-gray-400 tracking-tight leading-[1.1]"
+            >
+              {words.map((word, i) => {
+                const start = i / words.length;
+                const end = (i + 1) / words.length;
+                const color = useTransform(scrollYProgress, [start, end], ["#A7ADBE", "#ffffff"]);
 
-    <div className="w-full max-w-7xl mx-auto py-12 ">
-      {/* Header Section */}
-      <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end mb-16 gap-8">
-        <div className="max-w-3xl">
-          <h2  id="heading2" className="text-4xl animate-me2 sm:text-5xl max-w-2xl  text-gray-500 tracking-tight leading-[1.1]">
-            It’s like giving every tool in   <span className="text-gray-500">your fab a second life</span>
-          </h2>
-          <p className="mt-6 text-lg text-gray-500 max-w-2xl leading-relaxed">
-            Our mission-driven approach reduces cost of ownership, improves reliability, and keeps legacy equipment productive for years longer.          
+                return (
+                  <motion.span
+                    key={i}
+                    style={{ color }}
+                    className="inline-block mr-2"
+                  >
+                    {word}
+                  </motion.span>
+                );
+              })}
+            </h2>
+
+            <p className="mt-6 text-lg text-[#A7ADBE] max-w-2xl leading-relaxed">
+              Our mission-driven approach reduces cost of ownership, improves reliability, and keeps legacy equipment productive for years longer.          
             </p>
-        </div>
-        
-        <div className="flex-shrink-0">
-          <button 
-            type="button"
-            className="inline-flex items-center justify-center rounded px-6 py-3 border border-transparent text-base  text-white bg-blue-700 hover:bg-blue-800 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
-          >
-            Get started
-          </button>
-        </div>
-      </div>
-
-      {/* Stats Grid */}
-      <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-12">
-        {stats.map((stat, index) => (
-          <div key={index} className="flex box1 s  flex-col border-t  border-gray-100 pt-8 lg:border-t-0 lg:pt-0 relative group">
-           
-            <div className={`
-                flex flex-col pt-8 px-6 
-
-              ${index !== 0 ? 'lg:border-l lg:border-gray-200' : 'lg:border-l lg:border-gray-200 '} 
-              h-full flex flex-col justify-start space-y-5
-            `}>
-              <dt className="text-xs font-medium  text-gray-500 capitalize tracking-widest mb-5">
-                {stat.label}
-              </dt>
-              <dd className="text-4xl sm:text-5xl font-medium text-blue-700 mb-6 tracking-tight">
-                {stat.value}
-              </dd>
-              <p className="text-sm text-gray-500 leading-relaxed">
-                {stat.description}
-              </p>
-            </div>
           </div>
-        ))}
+
+          <div className="flex-shrink-0">
+            <button 
+              type="button"
+              className="inline-flex items-center justify-center rounded px-6 py-3 border border-transparent text-base text-white bg-blue-700 hover:bg-blue-800 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+            >
+              Get started
+            </button>
+          </div>
+        </div>
+
+        {/* Stats Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-12">
+          {stats.map((stat, index) => (
+            <div key={index} className="flex flex-col border-t border-[#242424] pt-8 lg:border-t-0 lg:pt-0 relative group">
+              <div className={`flex flex-col pt-8 px-6 ${index !== 0 ? 'lg:border-l lg:border-[#242424]' : ''} h-full justify-start space-y-5`}>
+                <dt className="text-sm font-normal text-[#A7ADBE]/80 capitalize  mb-5">
+                  {stat.label}
+                </dt>
+                <dd className="text-4xl sm:text-5xl font-medium text-blue-700 mb-6 tracking-tight">
+                  {stat.value}
+                </dd>
+                <p className="text-sm text-[#A7ADBE] leading-normal">
+                  {stat.description}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
     </div>
   );
 };

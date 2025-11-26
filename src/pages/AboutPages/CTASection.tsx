@@ -3,12 +3,9 @@ import { ChevronRight } from 'lucide-react';
 
 const CTASection: React.FC = () => {
   return (
-    <section className="px-6 lg:px-8 py-12 lg:py-20 bg-white">
-      <div className="max-w-7xl mx-auto bg-[#202020] rounded-3xl p-8 md:p-16 lg:p-20 relative overflow-hidden shadow-2xl">
+    <section className="px-6 lg:px-8 py-12 lg:py-20 bg-[#00020F]">
+      <div className="max-w-7xl mx-auto bg-[#00041F] rounded-3xl p-8 md:p-16 lg:p-20 relative overflow-hidden shadow-2xl">
         
-        {/* Background Decorative Elements */}
-        {/* <div className="absolute top-0 right-0 w-96 h-96 bg-white opacity-5 rounded-full blur-3xl transform translate-x-1/3 -translate-y-1/3 pointer-events-none"></div>
-        <div className="absolute bottom-0 left-0 w-72 h-72 bg-white opacity-10 rounded-full blur-3xl transform -translate-x-1/3 translate-y-1/3 pointer-events-none"></div> */}
 
         <div className="relative z-10 flex flex-col lg:flex-row justify-between items-start lg:items-center gap-10">
           
@@ -21,7 +18,7 @@ const CTASection: React.FC = () => {
             </p>
           </div>
 
-          <button className="bg-blue-700 text-white rounded-[5px] font-medium text-lg py-4 px-8 hover:bg-blue-900 transition-colors duration-300 flex items-center gap-2 shadow-lg whitespace-nowrap">
+          <button type='button' className="bg-blue-700 text-white rounded-[5px] font-medium text-lg py-3 px-6 hover:bg-blue-800 transition-colors duration-300 flex items-center gap-2 shadow-lg whitespace-nowrap">
             Contact Us Today
             <ChevronRight size={20} strokeWidth={3} />
           </button>
