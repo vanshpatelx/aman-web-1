@@ -1,174 +1,215 @@
 import React from 'react';
-import { Play, Clock, Calendar, Share2, MoreHorizontal } from 'lucide-react';
+import { Play, Clock, Calendar, Search, ArrowRight, Mic2, BarChart3, Globe } from 'lucide-react';
 import Navbar from '../Navbar';
+import Footer from '../Footer';
+
+interface Episode {
+  id: number;
+  title: string;
+  description: string;
+  date: string;
+  duration: string;
+  image: string;
+  category: string;
+}
 
 const PodcastsPage: React.FC = () => {
-  const episodes = [
+  const episodes: Episode[] = [
     {
       id: 1,
       title: "The Future of Fintech",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      description: "Exploring the intersection of finance and technology. We dive deep into blockchain, decentralized finance, and the algorithms shaping modern banking.",
       date: "Oct 12, 2023",
       duration: "45 min",
-      image: "https://via.placeholder.com/150"
+      image: "/SampleImage.png",
+      category: "Technology"
     },
     {
       id: 2,
       title: "Sustainable Architecture",
-      description: "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.",
+      description: "How modern engineering is meeting environmental challenges. A look at smart materials and energy-efficient designs.",
       date: "Oct 05, 2023",
       duration: "32 min",
-      image: "https://via.placeholder.com/150"
-    },
-    {
-      id: 3,
-      title: "AI in Healthcare",
-      description: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      date: "Sep 28, 2023",
-      duration: "58 min",
-      image: "https://via.placeholder.com/150"
-    },
-    {
-      id: 4,
-      title: "Remote Work Culture",
-      description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
-      date: "Sep 20, 2023",
-      duration: "41 min",
-      image: "https://via.placeholder.com/150"
+      image: "/SampleImage.png",
+      category: "Design"
     }
   ];
 
   const categories = ["Technology", "Business", "Health", "Design", "Marketing", "Science"];
 
   return (
-    <div className="bg-white">
-                <Navbar/>
+    <div className="min-h-screen bg-slate-950 text-slate-200 font-sans">
+      <Navbar />
+      
+      {/* Hero Section - Matching Screenshot Aesthetic */}
+      <div className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
+        {/* Glow Effects */}
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[140%] h-[500px] bg-blue-900/20 blur-[120px] rounded-[100%] pointer-events-none -z-10 mix-blend-screen" />
+        <div className="absolute -top-[100px] left-1/2 -translate-x-1/2 w-[80%] h-[300px] bg-blue-600/20 blur-[100px] rounded-[100%] pointer-events-none -z-10" />
 
-      {/* Header Section */}
-      <div className="relative w-full h-96 bg-gray-900">
-        <img 
-          src="https://via.placeholder.com/1200x400" 
-          alt="Podcast Banner" 
-          className="w-full h-full object-cover opacity-60"
-        />
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 tracking-tight">
-            The Knowledge Cast
-          </h1>
-          <p className="text-xl text-gray-200 max-w-2xl">
-            Deep dives into the trends shaping our world. Listen to industry experts discuss the future.
-          </p>
-          <button className="mt-8 px-8 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-full shadow-lg transition-transform transform hover:-translate-y-1">
-            Subscribe Now
-          </button>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+          <div className="max-w-3xl mx-auto">
+            <h1 id="heading" className="text-5xl md:text-6xl lg:text-7xl font-medium text-white tracking-tight leading-[1.1] mb-6">
+              Engineering a faster, <br />
+              smarter podcast <br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-200">
+                future.
+              </span>
+            </h1>
+            <p className="text-lg md:text-xl text-slate-400 mb-10 max-w-2xl mx-auto leading-relaxed">
+              Experience a numbers-driven approach built on expertise, partnership, and long-term clarity—delivering more than just audio.
+            </p>
+            
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <button className="px-8 py-3.5 bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded-[4px] transition-all shadow-[0_0_20px_rgba(37,99,235,0.3)] hover:shadow-[0_0_30px_rgba(37,99,235,0.5)] flex items-center justify-center gap-2">
+                Explore episodes <ArrowRight size={18} />
+              </button>
+              <button className="px-8 py-3.5 bg-transparent border border-slate-700 hover:border-slate-500 text-white font-semibold rounded-[4px] transition-all flex items-center justify-center">
+                Schedule a call
+              </button>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+      {/* Main Content Area */}
+      <div className="max-w-7xl mx-auto pb-20">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
           
-          {/* Main Content Area */}
-          <div className="lg:col-span-2 space-y-10">
+          {/* Left Column: Episodes */}
+          <div className="lg:col-span-8 space-y-10">
             
-            {/* Featured Podcast Block */}
-            <div className="bg-indigo-50 rounded-2xl p-6 md:p-8 flex flex-col md:flex-row gap-6 shadow-sm border border-indigo-100">
-              <div className="w-full md:w-1/3 flex-shrink-0">
-                <img 
-                  src="https://via.placeholder.com/300x300" 
-                  alt="Featured Episode" 
-                  className="w-full h-auto rounded-xl shadow-md"
-                />
+            {/* Featured Section Header */}
+            <div className="flex items-end justify-between border-b border-white/10 pb-4">
+              <h2 className="text-3xl font-bold text-white">Latest Episodes</h2>
+              <div className="hidden sm:flex gap-2">
+                 <button className="p-2 text-slate-400 hover:text-white hover:bg-white/5 rounded-full transition-colors"><Mic2 size={20}/></button>
+                 <button className="p-2 text-slate-400 hover:text-white hover:bg-white/5 rounded-full transition-colors"><BarChart3 size={20}/></button>
               </div>
-              <div className="flex flex-col justify-center">
-                <span className="text-indigo-600 font-semibold text-sm tracking-wide uppercase mb-2">Featured Episode</span>
-                <h2 className="text-2xl font-bold text-gray-900 mb-3">Ep 100: A Century of Innovation</h2>
-                <p className="text-gray-600 mb-6">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus.
-                </p>
-                <div className="flex items-center gap-4">
-                  <button className="flex items-center justify-center w-12 h-12 bg-indigo-600 rounded-full text-white hover:bg-indigo-700 transition-colors">
-                    <Play className="w-5 h-5 ml-1" />
-                  </button>
-                  <div className="text-sm text-gray-500">
-                    <div className="font-medium text-gray-900">Listen Now</div>
-                    <div>1 hr 15 min</div>
-                  </div>
+            </div>
+
+            {/* Featured High-Emphasis Card */}
+            <div className="relative group rounded-2xl overflow-hidden border border-white/10 bg-slate-900/50 hover:border-blue-500/30 transition-all duration-500">
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
+              
+              <div className="flex flex-col md:flex-row">
+                <div className="md:w-2/5 h-64 md:h-auto relative overflow-hidden">
+                   <img 
+                    src="/SampleImage.png" 
+                    alt="Featured" 
+                    className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-60 md:hidden"></div>
+                </div>
+                <div className="p-8 md:w-3/5 flex flex-col justify-center relative">
+                    <div className="flex items-center gap-3 mb-4">
+                        <span className="px-3 py-1 text-xs font-semibold bg-blue-500/20 text-blue-300 rounded-full border border-blue-500/20">
+                            FEATURED
+                        </span>
+                        <span className="text-slate-400 text-sm flex items-center gap-1">
+                            <Clock size={14} /> 1 hr 15 min
+                        </span>
+                    </div>
+                    <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors">
+                        Ep 100: A Century of Silicon
+                    </h3>
+                    <p className="text-slate-400 mb-6 leading-relaxed">
+                        We look back at the history of semiconductors and look forward to the quantum leap awaiting us in the next decade.
+                    </p>
+                    <button className="flex items-center gap-3 text-white font-medium group/btn">
+                        <div className="w-10 h-10 rounded-full bg-white text-slate-950 flex items-center justify-center group-hover/btn:bg-blue-500 group-hover/btn:text-white transition-colors">
+                            <Play size={16} fill="currentColor" />
+                        </div>
+                        <span className="group-hover/btn:translate-x-1 transition-transform">Listen Now</span>
+                    </button>
                 </div>
               </div>
             </div>
 
-            {/* List of Episodes */}
+            {/* Episode List */}
             <div className="space-y-6">
-              <div className="flex items-center justify-between mb-6">
-                <h3 className="text-2xl font-bold text-gray-900">Latest Episodes</h3>
-                <span className="text-indigo-600 text-sm font-medium cursor-pointer hover:underline">View All</span>
-              </div>
-
               {episodes.map((ep) => (
-                <div key={ep.id} className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow duration-300">
-                  <div className="flex flex-col md:flex-row gap-6">
-                    <div className="w-full md:w-32 h-32 flex-shrink-0 bg-gray-200 rounded-lg overflow-hidden relative group cursor-pointer">
-                      <img src={ep.image} alt={ep.title} className="w-full h-full object-cover" />
-                      <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                        <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
-                          <Play className="w-4 h-4 text-indigo-600 ml-0.5" />
-                        </div>
-                      </div>
+                <div key={ep.id} className="group bg-slate-900/50 border border-white/5 rounded-xl p-5 hover:bg-slate-900 hover:border-white/20 transition-all duration-300 flex flex-col sm:flex-row gap-6">
+                  {/* Image */}
+                  <div className="w-full sm:w-40 sm:h-40 flex-shrink-0 rounded-[4px] overflow-hidden relative">
+                    <img 
+                        src={ep.image} 
+                        alt={ep.title} 
+                        className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" 
+                    />
+                    <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 backdrop-blur-[2px]">
+                         <Play className="text-white drop-shadow-lg" size={32} fill="white" />
+                    </div>
+                  </div>
+                  
+                  {/* Content */}
+                  <div className="flex-grow flex flex-col justify-center">
+                    <div className="flex items-center justify-between mb-2">
+                        <span className="text-xs font-medium text-blue-400 uppercase tracking-wider">{ep.category}</span>
+                        <span className="text-xs text-slate-500 flex items-center gap-1"><Calendar size={12}/> {ep.date}</span>
                     </div>
                     
-                    <div className="flex-grow">
-                      <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
-                        <h4 className="text-xl font-bold text-gray-900 hover:text-indigo-600 cursor-pointer">{ep.title}</h4>
-                        <div className="flex items-center text-sm text-gray-500 mt-2 md:mt-0 space-x-4">
-                          <span className="flex items-center"><Calendar className="w-3 h-3 mr-1" /> {ep.date}</span>
-                          <span className="flex items-center"><Clock className="w-3 h-3 mr-1" /> {ep.duration}</span>
+                    <h4 className="text-xl font-bold text-white mb-2 group-hover:text-blue-400 transition-colors cursor-pointer line-clamp-1">
+                        {ep.title}
+                    </h4>
+                    
+                    <p className="text-slate-400 text-sm mb-4 line-clamp-2 leading-relaxed">
+                      {ep.description}
+                    </p>
+                    
+                    <div className="flex items-center gap-4 mt-auto">
+                        <div className="flex items-center text-xs text-slate-500 gap-1 bg-white/5 px-2 py-1 rounded">
+                            <Clock size={12} /> {ep.duration}
                         </div>
-                      </div>
-                      <p className="text-gray-600 text-sm mb-4 leading-relaxed">
-                        {ep.description}
-                      </p>
-                      
-                      {/* Audio Player Mockup */}
-                      <div className="bg-gray-50 rounded-full p-2 flex items-center gap-3">
-                        <button className="w-8 h-8 flex items-center justify-center bg-gray-200 rounded-full text-gray-600 hover:bg-indigo-600 hover:text-white transition-colors">
-                          <Play className="w-3 h-3 ml-0.5" />
+                        <button className="text-xs font-medium text-slate-300 hover:text-white transition-colors">
+                            Show Notes
                         </button>
-                        <div className="flex-grow h-1 bg-gray-300 rounded-full overflow-hidden">
-                          <div className="w-1/3 h-full bg-indigo-500 rounded-full"></div>
-                        </div>
-                        <span className="text-xs text-gray-500 font-mono">12:30 / {ep.duration}</span>
-                      </div>
                     </div>
                   </div>
                 </div>
               ))}
             </div>
+
+           
           </div>
 
           {/* Sidebar */}
-          <div className="lg:col-span-1 space-y-8">
-            <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
-              <h3 className="text-lg font-bold text-gray-900 mb-4">Categories</h3>
-              <div className="space-y-2">
-                {categories.map((cat, idx) => (
-                  <div key={idx} className="flex items-center justify-between p-2 hover:bg-white hover:shadow-sm rounded-lg cursor-pointer transition-colors text-gray-600 hover:text-indigo-600">
-                    <span>{cat}</span>
-                    <span className="text-xs bg-gray-200 px-2 py-0.5 rounded-full text-gray-600">{(idx + 1) * 4}</span>
-                  </div>
-                ))}
+          <div className="lg:col-span-4 space-y-8">
+            
+        
+            <div className="relative overflow-hidden bg-gradient-to-br from-blue-900 to-slate-900 p-8 rounded-2xl border border-blue-500/20 text-center">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/20 blur-3xl rounded-full -translate-y-1/2 translate-x-1/2" />
+              
+              <h3 className="text-xl font-bold text-white mb-2 relative z-10">Stay in the loop</h3>
+              <p className="text-blue-200 text-sm mb-6 relative z-10">
+                Join 10,000+ engineers receiving our weekly industry breakdowns.
+              </p>
+              
+              <div className="space-y-3 relative z-10">
+                <input 
+                    type="email" 
+                    placeholder="Enter your email" 
+                    className="w-full px-4 py-2.5 bg-slate-950/50 border border-blue-500/30 rounded-[4px] text-white placeholder-slate-400 focus:outline-none focus:border-blue-400 transition-colors text-sm" 
+                />
+                <button className="w-full bg-blue-500 hover:bg-blue-400 text-white font-semibold py-2.5 rounded-[4px] text-sm transition-colors shadow-lg shadow-blue-900/20">
+                    Subscribe Free
+                </button>
               </div>
             </div>
-
-            <div className="bg-indigo-600 p-6 rounded-xl text-white text-center">
-              <h3 className="text-xl font-bold mb-3">Never Miss an Episode</h3>
-              <p className="text-indigo-100 text-sm mb-6">Join 10,000+ subscribers and get the latest insights delivered to your inbox.</p>
-              <input type="email" placeholder="Enter your email" className="w-full px-4 py-2 rounded-lg text-gray-900 mb-3 focus:outline-none focus:ring-2 focus:ring-indigo-300" />
-              <button className="w-full bg-indigo-800 hover:bg-indigo-900 py-2 rounded-lg font-medium transition-colors">Subscribe</button>
+            
+            {/* Mini About */}
+            <div className="p-6">
+                <h4 className="text-white font-bold mb-2">About Vision</h4>
+                <p className="text-slate-500 text-sm leading-relaxed">
+                    Vision Semiconductor Solutions LLC provides cutting-edge insights into the hardware that powers our world. From silicon to systems.
+                </p>
+                <a href="#" className="text-blue-400 text-sm mt-2 inline-block hover:underline">Learn more &rarr;</a>
             </div>
-          </div>
 
+          </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

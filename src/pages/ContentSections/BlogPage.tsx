@@ -1,147 +1,250 @@
-import React from 'react';
-import { User, MessageCircle, Clock, Search, ChevronRight } from 'lucide-react';
+import React, { useState } from 'react';
+import { ArrowRight } from 'lucide-react';
 import Navbar from '../Navbar';
+import Footer from '../Footer';
+
+// --- Mock Data ---
+const FEATURED_ARTICLE: Article = {
+  id: 'featured-1',
+  category: 'SEMICONDUCTOR INSIGHTS',
+  title: "Global fabs struggle to scale advanced packaging as AI chip demand accelerates",
+  author: { name: 'Dr. Ethan Park' },
+  date: '25 Jan 2025',
+  imageUrl: '/SampleImage.png',
+  summary:
+    "Chip manufacturers worldwide are racing to expand advanced packaging capacity, but supply constraints in lithography tools and materials hinder production scale."
+};
+
+
+const LATEST_NEWS_SMALL: Article[] = [
+  {
+    id: 'small-1',
+    category: 'FAB TECHNOLOGY',
+    title: "New breakthroughs in EUV lithography promise higher yield at 2nm nodes...",
+    author: { name: 'Dr. Ethan Park' },
+    date: '25 Jan 2025',
+    imageUrl:
+      '/SampleImage.png',
+  },
+  {
+    id: 'small-2',
+    category: 'SUPPLY CHAIN',
+    title: "Global silicon wafer shortage expected to continue through 2026...",
+    author: { name: 'Dr. Ethan Park' },
+    date: '25 Jan 2025',
+    imageUrl:
+      '/SampleImage.png',
+  },
+  {
+    id: 'small-3',
+    category: 'EQUIPMENT INNOVATION',
+    title: "Etching equipment vendors push new plasma technologies for sub-3nm geometries...",
+    author: { name: 'Dr. Ethan Park' },
+    date: '25 Jan 2025',
+    imageUrl:
+      '/SampleImage.png',
+  },
+];
+
+
+const GRID_ARTICLES: Article[] = [
+  {
+    id: 'grid-1',
+    category: 'MANUFACTURING',
+    title: "Chipmakers invest billions to expand global fabrication capacity",
+    summary:
+      "Leading semiconductor companies are accelerating fab expansion to meet demand for AI, EVs, and next-gen consumer electronics.",
+    author: { name: 'Dr. Ethan Park' },
+    date: '25 Jan 2025',
+    imageUrl:
+      '/SampleImage.png',
+  },
+  {
+    id: 'grid-2',
+    category: 'EQUIPMENT',
+    title: "New wafer metrology systems enhance precision at atomic scales",
+    summary:
+      "Advanced inspection tools continue to evolve as semiconductor features shrink into the angstrom era.",
+    author: { name: 'Dr. Ethan Park' },
+    date: '25 Jan 2025',
+    imageUrl:
+      '/SampleImage.png',
+  },
+  {
+    id: 'grid-3',
+    category: 'R&D INNOVATION',
+    title: "Researchers explore 3D silicon stacking to boost computational density",
+    summary:
+      "Innovations in thermal dissipation and interconnect technologies are key to scaling 3D stacked semiconductor architectures.",
+    author: { name: 'Dr. Ethan Park' },
+    date: '25 Jan 2025',
+    imageUrl:
+      '/SampleImage.png',
+  },
+];
+
+
+// --- Sub-Components ---
+
+const ArticleCategory = ({ text }: { text: string }) => (
+  <p className="text-xs font-medium tracking-wide text-blue-400 capitalize mb-2">
+    {text}
+  </p>
+);
+
+
+const MetaInfo = ({ author, date }: { author: string; date: string }) => (
+  <div className="flex items-center text-sm text-[#8e96a9] mt-2">
+    <span className="font-medium text-[#e3e7f1]">{author}</span>
+    <span className="mx-2 text-blue-900/40">•</span>
+    <span>{date}</span>
+</div>
+
+);
+
+// --- Main Component ---
 
 const BlogPage: React.FC = () => {
-  const posts = Array(5).fill(null).map((_, i) => ({
-    id: i,
-    title: "10 Strategies for Effective Leadership in 2024",
-    excerpt: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.",
-    author: "Michael Scott",
-    date: "Nov 15, 2023",
-    readTime: "5 min read",
-    tags: ["Leadership", "Management"],
-    image: "https://via.placeholder.com/300x200"
-  }));
 
   return (
-    <div className="bg-gray-50 min-h-screen py-12">
+    <div className="min-h-screen bg-[#00020F]  text-[#b2b8ca]">
+
         <Navbar/>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* Container */}
+      <div className="max-w-7xl mx-auto  py-20 pt-36">
         
-        {/* Featured Post */}
-        <div className="mb-12 bg-white rounded-2xl shadow-sm overflow-hidden border border-gray-100 flex flex-col md:flex-row">
-            <div className="w-full md:w-1/2 h-64 md:h-auto relative">
+        {/* --- Section 1: Latest News --- */}
+        <section className="mb-24">
+          <h2 className="text-3xl font-bold text-[#e3e7f1] mb-8">Latest News</h2>
+          
+          <div className="flex flex-col gap-10">
+            {/* Featured Large Card */}
+            <div className="bg-[#0a0f1f] rounded-3xl p-4 sm:p-6 border border-blue-900/40 shadow-[0_0_15px_rgba(0,0,0,0.4)] flex flex-col lg:flex-row gap-8 items-start hover:shadow-lg transition-shadow duration-300">
+              <div className="w-full lg:w-1/2 h-64 sm:h-80 lg:h-96 overflow-hidden rounded-2xl bg-gray-100">
                 <img 
-                    src="https://via.placeholder.com/600x400" 
-                    alt="Featured Blog" 
-                    className="absolute inset-0 w-full h-full object-cover"
+                  src={FEATURED_ARTICLE.imageUrl} 
+                  alt={FEATURED_ARTICLE.title}
+                  className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
                 />
-            </div>
-            <div className="w-full md:w-1/2 p-8 md:p-12 flex flex-col justify-center">
-                <div className="flex items-center gap-2 mb-4">
-                    <span className="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded-full font-semibold">Featured</span>
-                    <span className="text-gray-500 text-sm">Nov 18, 2023</span>
-                </div>
-                <h2 className="text-3xl font-bold text-gray-900 mb-4 hover:text-indigo-600 cursor-pointer">
-                    Why Digital Privacy Matters More Than Ever
-                </h2>
-                <p className="text-gray-600 mb-6 text-lg leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+              </div>
+              <div className="w-full lg:w-1/2 flex flex-col justify-center py-4 lg:pr-8">
+                <ArticleCategory text={FEATURED_ARTICLE.category} />
+                <h3 className="text-2xl sm:text-3xl lg:text-4xl font-medium text-[#e3e7f1] leading-tight mb-4">
+                  {FEATURED_ARTICLE.title}
+                </h3>
+                <p className="text-[#b2b8ca] mb-8 text-md leading-relaxed">
+                  {FEATURED_ARTICLE.summary}
                 </p>
-                <div className="flex items-center justify-between">
-                    <div className="flex items-center">
-                        <div className="h-10 w-10 rounded-full bg-gray-200 flex items-center justify-center text-gray-500">
-                            <User className="w-6 h-6" />
-                        </div>
-                        <div className="ml-3">
-                            <p className="text-sm font-medium text-gray-900">Sarah Jenkins</p>
-                            <p className="text-xs text-gray-500">Editor in Chief</p>
-                        </div>
-                    </div>
-                    <button className="text-indigo-600 font-medium hover:underline flex items-center">
-                        Read Article <ChevronRight className="w-4 h-4 ml-1" />
-                    </button>
-                </div>
+                <MetaInfo author={FEATURED_ARTICLE.author.name} date={FEATURED_ARTICLE.date} />
+              </div>
             </div>
-        </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+            {/* Row of 3 Smaller Cards */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {LATEST_NEWS_SMALL.map((article) => (
+                <div key={article.id} className="flex gap-4 group">
+                  <div className="w-24 h-24 sm:w-32 sm:h-32 flex-shrink-0 overflow-hidden rounded-xl bg-gray-100">
+                    <img 
+                      src={article.imageUrl} 
+                      alt={article.title}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    />
+                  </div>
+                  <div className="flex flex-col justify-between py-1">
+                    <div>
+                      <ArticleCategory text={article.category} />
+                        <h4 className="text-sm sm:text-base font-medium text-[#e3e7f1] leading-snug group-hover:text-blue-300 transition-colors">
+                        {article.title}
+                      </h4>
+                    </div>
+                    <MetaInfo author={article.author.name} date={article.date} />
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* --- Section 2: Operating, Reserve, and Vault accounts --- */}
+        <section>
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl font-medium text-[#e3e7f1] mb-8">
+              Operating, Reserve, and<br className="hidden sm:block"/> Vault accounts
+            </h2>
             
-            {/* Blog Feed */}
-            <div className="lg:col-span-2 space-y-10">
-                <h3 className="text-2xl font-bold text-gray-900 mb-6 border-b pb-4">Latest Stories</h3>
-                {posts.map(post => (
-                    <article key={post.id} className="flex flex-col md:flex-row gap-6 bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
-                        <div className="w-full md:w-1/3 h-48 bg-gray-100 rounded-lg overflow-hidden flex-shrink-0">
-                            <img src={post.image} alt={post.title} className="w-full h-full object-cover" />
-                        </div>
-                        <div className="flex-1 flex flex-col">
-                            <div className="flex flex-wrap gap-2 mb-2">
-                                {post.tags.map(tag => (
-                                    <span key={tag} className="text-xs font-medium text-indigo-600 bg-indigo-50 px-2 py-1 rounded">
-                                        {tag}
-                                    </span>
-                                ))}
-                            </div>
-                            <h2 className="text-xl font-bold text-gray-900 mb-2 hover:text-indigo-600 cursor-pointer">
-                                {post.title}
-                            </h2>
-                            <p className="text-gray-600 text-sm mb-4 line-clamp-2 flex-grow">
-                                {post.excerpt}
-                            </p>
-                            <div className="flex items-center justify-between text-sm text-gray-500 pt-4 border-t border-gray-50 mt-auto">
-                                <div className="flex items-center gap-4">
-                                    <span className="flex items-center"><User className="w-3 h-3 mr-1" /> {post.author}</span>
-                                    <span className="flex items-center"><Clock className="w-3 h-3 mr-1" /> {post.readTime}</span>
-                                </div>
-                                <span className="flex items-center"><MessageCircle className="w-3 h-3 mr-1" /> 12</span>
-                            </div>
-                        </div>
-                    </article>
-                ))}
-            </div>
+            
+          </div>
 
-            {/* Sidebar */}
-            <div className="lg:col-span-1 space-y-8">
-                
-                {/* Search */}
-                <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                    <div className="relative">
-                        <input 
-                            type="text" 
-                            placeholder="Search articles..." 
-                            className="w-full pl-10 pr-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 text-sm"
-                        />
-                        <Search className="absolute left-3 top-3.5 w-4 h-4 text-gray-400" />
-                    </div>
-                </div>
+          {/* Articles Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+           {GRID_ARTICLES.map((article) => (
+  <div
+    key={article.id}
+    className="group flex flex-col h-full bg-[#0a0f1f] border border-blue-900/40 rounded-2xl p-4 shadow-[0_0_15px_rgba(0,0,0,0.4)]"
+  >
+    {/* Image */}
+    <div className="h-60 overflow-hidden rounded-2xl bg-[#11162a] mb-6 relative">
+      <img
+        src={article.imageUrl}
+        alt={article.title}
+        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+      />
+    </div>
 
-                {/* Categories */}
-                <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                    <h4 className="font-bold text-gray-900 mb-4">Explore Topics</h4>
-                    <ul className="space-y-2">
-                        {['Technology', 'Leadership', 'Marketing', 'Productivity', 'Design', 'Development'].map((cat, i) => (
-                            <li key={i}>
-                                <a href="#" className="flex justify-between items-center text-gray-600 hover:text-indigo-600 transition-colors group">
-                                    <span>{cat}</span>
-                                    <span className="bg-gray-100 text-gray-500 text-xs px-2 py-0.5 rounded-full group-hover:bg-indigo-100 group-hover:text-indigo-700">{10 + i * 3}</span>
-                                </a>
-                            </li>
-                        ))}
-                    </ul>
-                </div>
+    <div className="flex-1 flex flex-col">
+      
+      {/* Category */}
+      <ArticleCategory text={article.category} />
 
-                {/* Recent Posts - Text Only */}
-                <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                    <h4 className="font-bold text-gray-900 mb-4">Most Popular</h4>
-                    <div className="space-y-4">
-                        {[1, 2, 3].map(i => (
-                            <div key={i} className="group cursor-pointer">
-                                <h5 className="text-sm font-semibold text-gray-800 group-hover:text-indigo-600 transition-colors leading-snug">
-                                    How to scale your application for millions of users
-                                </h5>
-                                <span className="text-xs text-gray-400 mt-1 block">Oct 2{i}, 2023</span>
-                            </div>
-                        ))}
-                    </div>
-                </div>
+      {/* Title + Summary */}
+      <div className="flex-1">
+        <h3 className="text-xl font-medium text-[#e3e7f1] mb-3 group-hover:text-blue-300 transition-colors leading-tight">
+          {article.title}
+        </h3>
 
-            </div>
-        </div>
+        <p className="text-[#b2b8ca] line-clamp-3 mb-6 text-sm sm:text-[14px]">
+          {article.summary}
+        </p>
       </div>
+
+      {/* Meta Info */}
+      <div className="flex items-center justify-between mt-auto">
+        <MetaInfo author={article.author.name} date={article.date} />
+      </div>
+
+      {/* Button */}
+      <button className="flex items-center text-sm font-medium text-blue-400 hover:text-blue-300 mt-6 transition-colors">
+        View All Article
+        <ArrowRight className="ml-2 w-4 h-4" />
+      </button>
+    </div>
+  </div>
+        ))}
+
+          </div>
+        </section>
+
+      </div>
+      <Footer/>
     </div>
   );
 };
 
 export default BlogPage;
+
+
+
+export interface Author {
+  name: string;
+  avatar?: string;
+}
+
+export interface Article {
+  id: string;
+  category: string;
+  title: string;
+  summary?: string;
+  author: Author;
+  date: string;
+  imageUrl: string;
+}

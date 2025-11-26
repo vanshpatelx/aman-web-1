@@ -129,7 +129,7 @@ const Services: React.FC = () => {
   }, []);
 
   return (
-    <div className='w-full bg-[#00020F] mx-auto py-12 h-full'>
+    <div id='services' className='w-full bg-[#00020F] mx-auto py-12 h-full'>
       <div className="border border-[#242424] w-full max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
 
         {services.map((service, index) => (
