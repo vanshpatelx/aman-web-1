@@ -36,7 +36,7 @@ const Logistics: React.FC = () => {
             <img src="https://picsum.photos/1200/600?random=11" alt="World Map Placeholder" className="w-full h-full object-cover opacity-50" />
             <div className="absolute inset-0 flex items-center justify-center">
                 <div className="text-center">
-                    <Globe2 className="w-16 h-16 text-blue-400 mx-auto mb-4 animate-pulse" />
+                    <Globe2 className="w-16 h-16 text-blue-700 mx-auto mb-4 animate-pulse" />
                     <h3 className="text-2xl font-bold text-white">Connecting 150+ Ports Worldwide</h3>
                     <p className="text-slate-300 mt-2">Live tracking available for all ocean and air freight.</p>
                 </div>
@@ -44,26 +44,26 @@ const Logistics: React.FC = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-xl border border-slate-100 shadow-sm">
+            <div className="bg-[#00041F] p-6 rounded-xl border border-[#000730] shadow-sm">
                 <div className="flex items-center mb-4">
                     <Truck className="w-8 h-8 text-blue-600 mr-3" />
-                    <h4 className="font-bold text-lg">Inland Heavy Haul</h4>
+                    <h4 className="font-semibold text-lg text-white">Inland Heavy Haul</h4>
                 </div>
-                <p className="text-slate-600 text-sm"> Specialized low-boys and RGN trailers for oversized loads. We handle all permitting and escort vehicle requirements.</p>
+                <p className="text-[#A7ADBE] text-sm"> Specialized low-boys and RGN trailers for oversized loads. We handle all permitting and escort vehicle requirements.</p>
             </div>
-            <div className="bg-white p-6 rounded-xl border border-slate-100 shadow-sm">
+            <div className="bg-[#00041F] p-6 rounded-xl border border-[#000730] shadow-sm">
                  <div className="flex items-center mb-4">
                     <Ship className="w-8 h-8 text-blue-600 mr-3" />
-                    <h4 className="font-bold text-lg">RoRo & Container</h4>
+                    <h4 className="font-semibold text-lg text-white">RoRo & Container</h4>
                 </div>
-                <p className="text-slate-600 text-sm">Flexible ocean freight options. Roll-on/Roll-off for drivable units or containerization for dismantled parts.</p>
+                <p className="text-[#A7ADBE] text-sm">Flexible ocean freight options. Roll-on/Roll-off for drivable units or containerization for dismantled parts.</p>
             </div>
-            <div className="bg-white p-6 rounded-xl border border-slate-100 shadow-sm">
+            <div className="bg-[#00041F] p-6 rounded-xl border border-[#000730] shadow-sm">
                  <div className="flex items-center mb-4">
                     <Package className="w-8 h-8 text-blue-600 mr-3" />
-                    <h4 className="font-bold text-lg">Dismantling & Packing</h4>
+                    <h4 className="font-semibold text-lg text-white">Dismantling & Packing</h4>
                 </div>
-                <p className="text-slate-600 text-sm">Professional dismantling services to fit large machinery into standard containers, reducing shipping costs significantly.</p>
+                <p className="text-[#A7ADBE] text-sm">Professional dismantling services to fit large machinery into standard containers, reducing shipping costs significantly.</p>
             </div>
         </div>
       </Section>
@@ -78,30 +78,30 @@ const Logistics: React.FC = () => {
                   { title: "Import & Delivery", text: "Customs clearance at destination and final mile delivery.", icon: <MapPin /> }
               ].map((step, i) => (
                   <div key={i} className="flex group">
-                      <div className="flex flex-col items-center mr-6">
-                          <div className="w-10 h-10 rounded-full bg-white border-2 border-blue-600 flex items-center justify-center text-blue-600 font-bold group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                      <div className="flex flex-col items-center mr-6 h-full">
+                          <div className="w-10 h-10 rounded-full  border-2 border-blue-600 flex items-center justify-center text-blue-600 font-bold group-hover:bg-blue-600 group-hover:text-white transition-colors">
                               {i + 1}
                           </div>
-                          {i < 4 && <div className="h-full w-0.5 bg-slate-300 my-2"></div>}
+                          {i < 4 && <div className="h-12 w-[1.5px] bg-gray-500 my-0.5"></div>}
                       </div>
                       <div className="pb-8">
-                          <h4 className="text-lg font-bold text-slate-900 mb-1">{step.title}</h4>
-                          <p className="text-slate-600">{step.text}</p>
+                          <h4 className="text-lg font-bold text-white mb-1">{step.title}</h4>
+                          <p className="text-[#A7ADBE]">{step.text}</p>
                       </div>
                   </div>
               ))}
           </div>
       </Section>
 
-       <div className="bg-blue-900 py-16">
+       <div className="bg-[#00041F] py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0 text-white">
             <h2 className="text-3xl font-bold mb-2">Need to move big iron?</h2>
-            <p className="text-blue-200">Our logistics experts are ready to plan your route.</p>
+            <p className="text-[#A7ADBE]">Our logistics experts are ready to plan your route.</p>
           </div>
           <div className="flex gap-4">
-            <Button size="lg" className="bg-white text-blue-900 hover:bg-blue-50" onClick={handleOpenQuote}>Request Quote</Button>
-            <Button size="lg" variant="outline" className="border-blue-400 text-blue-100 hover:bg-blue-800">Track Shipment</Button>
+             <button type='button' onClick={handleOpenQuote} className="bg-blue-700 text-white rounded-[5px] font-medium text-lg py-3 px-6 hover:bg-blue-800 transition-colors duration-300 flex items-center justify-center gap-2 shadow-lg whitespace-nowrap text-center w-full sm:w-auto">Request Quote</button>
+            <button type='button' className="border border-white text-white rounded-[5px] font-medium text-lg py-3 px-6 hover:bg-white hover:text-black transition-colors duration-300 flex items-center gap-2 shadow-lg whitespace-nowrap w-full sm:w-auto justify-center">Track Shipment</button>
           </div>
         </div>
       </div>

@@ -76,17 +76,19 @@ export const Hero: React.FC<HeroProps> = ({ title, subtitle, imageSrc, ctaText =
       </div>
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
         <div className="max-w-2xl">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 mt-12 sm:mt-6 leading-tight">
             {title}
           </h1>
           <p className="text-lg md:text-xl text-slate-300 mb-8 leading-relaxed">
             {subtitle}
           </p>
-          <div className="flex gap-4">
-            <Button size="lg" onClick={onCtaClick}>{ctaText}</Button>
-            <Button size="lg" variant="outline" className="!border-white !text-white hover:!bg-white hover:!text-slate-900">
-              Learn More
-            </Button>
+          <div className="flex flex-col sm:flex-row gap-4">
+            <button type='button' onClick={onCtaClick} className="bg-blue-700 text-white rounded-[5px] font-medium text-lg py-3 px-6 hover:bg-blue-800 transition-colors duration-300 flex items-center justify-center gap-2 shadow-lg whitespace-nowrap">
+            {ctaText}
+          </button>
+            <button type='button' className="border border-white text-white rounded-[5px] font-medium text-lg py-3 px-6 hover:bg-white hover:text-black transition-colors duration-300 flex items-center justify-center gap-2 shadow-lg whitespace-nowrap">
+            Learn more
+          </button>
           </div>
         </div>
       </div>
@@ -96,11 +98,11 @@ export const Hero: React.FC<HeroProps> = ({ title, subtitle, imageSrc, ctaText =
 
 export const Section: React.FC<SectionProps> = ({ title, description, children, className = '', bg = 'white' }) => {
   return (
-    <section className={`py-16 md:py-24 ${bg === 'gray' ? 'bg-slate-50' : 'bg-white'} ${className}`}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className={`py-16 md:py-24 ${bg === 'gray' ? 'bg-[#00020F]' : 'bg-[#00020F]'} ${className}`}>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-0">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">{title}</h2>
-          {description && <p className="text-lg text-slate-600">{description}</p>}
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">{title}</h2>
+          {description && <p className="text-lg text-[#A7ADBE]">{description}</p>}
         </div>
         {children}
       </div>
@@ -109,12 +111,12 @@ export const Section: React.FC<SectionProps> = ({ title, description, children, 
 };
 
 export const FeatureCard: React.FC<{ icon: React.ReactNode; title: string; description: string }> = ({ icon, title, description }) => (
-  <div className="bg-white p-8 rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
-    <div className="inline-flex items-center justify-center w-12 h-12 rounded-lg bg-blue-50 text-blue-600 mb-6">
+  <div className="bg-[#00041F] p-8 py-10 rounded-xl shadow-sm border border-[#000730] hover:shadow-md transition-shadow">
+    <div className="inline-flex items-center justify-center w-12 h-12 rounded-lg text-blue-600 mb-6">
       {icon}
     </div>
-    <h3 className="text-xl font-bold text-slate-900 mb-3">{title}</h3>
-    <p className="text-slate-600 leading-relaxed">{description}</p>
+    <h3 className="text-xl font-semibold tracking-wider text-white mb-3">{title}</h3>
+    <p className="text-[#A7ADBE] leading-relaxed">{description}</p>
   </div>
 );
 
@@ -130,7 +132,7 @@ export const Modal: React.FC<ModalProps> = ({ isOpen, onClose, title, children }
       <div className="relative bg-white rounded-2xl shadow-2xl w-full max-w-lg p-6 md:p-8 transform transition-all scale-100 opacity-100 max-h-[90vh] overflow-y-auto">
         <div className="flex justify-between items-center mb-6">
           <h3 className="text-2xl font-bold text-slate-900">{title}</h3>
-          <button 
+          <button type='button' title='close'
             onClick={onClose} 
             className="p-1 rounded-full text-slate-400 hover:bg-slate-100 hover:text-slate-600 transition-colors"
           >

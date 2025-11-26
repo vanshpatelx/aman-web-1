@@ -33,28 +33,28 @@ const Consignment: React.FC = () => {
 
       <Section title="Hassle-Free Selling" description="We store, maintain, and sell your assets from our secure yards.">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-slate-100">
+            <div className="bg-[#00041F] rounded-2xl overflow-hidden shadow-lg border border-[#000730]">
                 <div className="p-8">
-                    <h3 className="text-2xl font-bold mb-4">Revenue Sharing Model</h3>
-                    <p className="text-slate-600 mb-6">
+                    <h3 className="text-2xl font-bold mb-4 text-white">Revenue Sharing Model</h3>
+                    <p className="text-[#A7ADBE] mb-6">
                         Unlike auctions where you lose control of the price, our consignment model puts you in the driver's seat. We agree on a net price or a commission percentage.
                     </p>
                     <div className="space-y-4">
-                        <div className="flex justify-between items-center p-3 bg-slate-50 rounded-lg">
-                            <span className="font-semibold text-slate-700">Marketing & Listing</span>
-                            <span className="text-green-600 font-bold">Included</span>
+                        <div className="flex justify-between items-center p-3 border border-[#000730] rounded-[8px]">
+                            <span className="font-medium text-white">Marketing & Listing</span>
+                            <span className="text-green-600 font-normal">Included</span>
                         </div>
-                        <div className="flex justify-between items-center p-3 bg-slate-50 rounded-lg">
-                            <span className="font-semibold text-slate-700">Storage (90 Days)</span>
-                            <span className="text-green-600 font-bold">Free</span>
+                        <div className="flex justify-between items-center p-3 border border-[#000730] rounded-[8px]">
+                            <span className="font-medium text-white">Storage (90 Days)</span>
+                            <span className="text-green-600 font-normal">Free</span>
                         </div>
-                        <div className="flex justify-between items-center p-3 bg-slate-50 rounded-lg">
-                            <span className="font-semibold text-slate-700">Maintenance Wash</span>
-                            <span className="text-green-600 font-bold">Included</span>
+                        <div className="flex justify-between items-center p-3 border border-[#000730] rounded-[8px]">
+                            <span className="font-medium text-white">Maintenance Wash</span>
+                            <span className="text-green-600 font-normal">Included</span>
                         </div>
-                         <div className="flex justify-between items-center p-3 bg-slate-50 rounded-lg">
-                            <span className="font-semibold text-slate-700">Commission</span>
-                            <span className="text-blue-600 font-bold">8-12%</span>
+                         <div className="flex justify-between items-center p-3 border border-[#000730] rounded-[8px]">
+                            <span className="font-medium text-white">Commission</span>
+                            <span className="text-blue-600 font-normal">8-12%</span>
                         </div>
                     </div>
                 </div>
@@ -62,30 +62,30 @@ const Consignment: React.FC = () => {
             
             <div className="grid grid-cols-1 gap-6">
                  <div className="flex items-start">
-                     <div className="bg-blue-100 p-3 rounded-lg mr-4 text-blue-600">
+                     <div className="bg-white p-3 rounded-[8px] mr-4 text-blue-600">
                          <Warehouse className="w-6 h-6" />
                      </div>
                      <div>
-                         <h4 className="text-lg font-bold">Prime Locations</h4>
-                         <p className="text-slate-600 text-sm">Our consignment yards are located near major ports and highways for easy buyer access and logistics.</p>
+                         <h4 className="text-lg font-semibold text-white">Prime Locations</h4>
+                         <p className="text-[#A7ADBE] text-sm">Our consignment yards are located near major ports and highways for easy buyer access and logistics.</p>
                      </div>
                  </div>
                  <div className="flex items-start">
-                     <div className="bg-blue-100 p-3 rounded-lg mr-4 text-blue-600">
+                     <div className="bg-white p-3 rounded-[8px] mr-4 text-blue-600">
                          <Eye className="w-6 h-6" />
                      </div>
                      <div>
-                         <h4 className="text-lg font-bold">Maximum Visibility</h4>
-                         <p className="text-slate-600 text-sm">Walk-in traffic combined with premium digital placement ensures your asset gets seen by serious buyers.</p>
+                         <h4 className="text-lg font-semibold text-white">Maximum Visibility</h4>
+                         <p className="text-[#A7ADBE] text-sm">Walk-in traffic combined with premium digital placement ensures your asset gets seen by serious buyers.</p>
                      </div>
                  </div>
                  <div className="flex items-start">
-                     <div className="bg-blue-100 p-3 rounded-lg mr-4 text-blue-600">
+                     <div className="bg-white p-3 rounded-[8px] mr-4 text-blue-600">
                          <Shield className="w-6 h-6" />
                      </div>
                      <div>
-                         <h4 className="text-lg font-bold">Secure Facilities</h4>
-                         <p className="text-slate-600 text-sm">24/7 security monitoring, fenced yards, and regular battery/fluid maintenance checks while in storage.</p>
+                         <h4 className="text-lg font-semibold text-white">Secure Facilities</h4>
+                         <p className="text-[#A7ADBE] text-sm">24/7 security monitoring, fenced yards, and regular battery/fluid maintenance checks while in storage.</p>
                      </div>
                  </div>
             </div>
@@ -95,17 +95,17 @@ const Consignment: React.FC = () => {
       <Section title="Tracking & Transparency" bg="gray">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <FeatureCard 
-                icon={<MapPin className="w-6 h-6" />}
+                icon={<MapPin className="w-8 h-8" />}
                 title="Real-time Inventory"
                 description="View your consigned assets in our portal. Check status, view listing hits, and manage offers."
               />
               <FeatureCard 
-                icon={<Tag className="w-6 h-6" />}
+                icon={<Tag className="w-8 h-8" />}
                 title="Dynamic Pricing"
                 description="We provide data-driven price adjustments based on market interest to ensure a timely sale."
               />
               <FeatureCard 
-                icon={<PieChart className="w-6 h-6" />}
+                icon={<PieChart className="w-8 h-8" />}
                 title="Performance Reports"
                 description="Weekly updates on leads, inquiries, and physical inspections conducted on your equipment."
               />
@@ -117,7 +117,7 @@ const Consignment: React.FC = () => {
           <div className="relative max-w-4xl mx-auto px-4 text-center text-white">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Space is limited in our prime yards.</h2>
               <p className="text-xl text-slate-300 mb-8">Reserve your spot today and get your equipment in front of verified buyers.</p>
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white border-none" onClick={handleOpenQuote}>Reserve Space</Button>
+              <button type='button' className="bg-blue-700 text-white rounded-[5px] font-medium text-lg py-3 px-6 hover:bg-blue-800 transition-colors duration-300" onClick={handleOpenQuote}>Reserve Space</button>
           </div>
       </div>
 

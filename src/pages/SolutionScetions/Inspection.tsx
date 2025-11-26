@@ -37,30 +37,30 @@ const Inspection: React.FC = () => {
                  <img src="https://picsum.photos/400/300?random=5" alt="Undercarriage measurement" className="rounded-lg shadow-md w-full h-48 object-cover mt-8" />
             </div>
             <div>
-                <h3 className="text-2xl font-bold text-slate-900 mb-4">A Deep Dive into Machine Health</h3>
-                <p className="text-slate-600 mb-6 leading-relaxed">
+                <h3 className="text-2xl font-medium text-white mb-4">A Deep Dive into Machine Health</h3>
+                <p className="text-[#A7ADBE] mb-6 leading-relaxed">
                     Our inspectors don't just kick the tires. We perform rigorous operational tests, fluid analysis, and undercarriage measurements. A typical report includes over 100 data points and 50+ high-resolution photos.
                 </p>
                 <div className="space-y-4">
                     <div className="flex items-start">
                         <ClipboardCheck className="w-6 h-6 text-blue-600 mt-1 mr-3 flex-shrink-0" />
                         <div>
-                            <h4 className="font-semibold text-slate-900">Standardized Checklists</h4>
-                            <p className="text-sm text-slate-500">Consistent evaluation criteria across all equipment categories.</p>
+                            <h4 className="font-normal text-white">Standardized Checklists</h4>
+                            <p className="text-sm text-[#A7ADBE]">Consistent evaluation criteria across all equipment categories.</p>
                         </div>
                     </div>
                     <div className="flex items-start">
                         <Camera className="w-6 h-6 text-blue-600 mt-1 mr-3 flex-shrink-0" />
                         <div>
-                            <h4 className="font-semibold text-slate-900">Visual Evidence</h4>
-                            <p className="text-sm text-slate-500">Detailed photo and video documentation of wear and tear.</p>
+                            <h4 className="font-normal text-white">Visual Evidence</h4>
+                            <p className="text-sm text-[#A7ADBE]">Detailed photo and video documentation of wear and tear.</p>
                         </div>
                     </div>
                     <div className="flex items-start">
                         <FileText className="w-6 h-6 text-blue-600 mt-1 mr-3 flex-shrink-0" />
                         <div>
-                            <h4 className="font-semibold text-slate-900">Digital Reports</h4>
-                            <p className="text-sm text-slate-500">Instant access to reports via our secure cloud portal.</p>
+                            <h4 className="font-normal text-white">Digital Reports</h4>
+                            <p className="text-sm text-[#A7ADBE]">Instant access to reports via our secure cloud portal.</p>
                         </div>
                     </div>
                 </div>
@@ -68,7 +68,7 @@ const Inspection: React.FC = () => {
         </div>
       </Section>
 
-      <Section title="Quality Assurance Process" bg="gray">
+      <Section title="Quality Assurance Process">
         <div className="relative">
              {/* Timeline Line */}
              <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-0.5 h-full bg-slate-200"></div>
@@ -82,12 +82,12 @@ const Inspection: React.FC = () => {
                  ].map((step, idx) => (
                      <div key={idx} className={`flex items-center justify-between ${step.side === 'right' ? 'flex-row-reverse' : ''}`}>
                          <div className="w-full md:w-5/12"></div>
-                         <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-10 h-10 rounded-full bg-blue-600 text-white shadow-lg border-4 border-white z-10">
+                         <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-10 h-10 rounded-full bg-blue-700  text-white shadow-lg z-10">
                              {step.icon}
                          </div>
-                         <div className="w-full md:w-5/12 bg-white p-6 rounded-lg shadow-sm border border-slate-100">
-                             <h4 className="font-bold text-lg mb-2">{step.title}</h4>
-                             <p className="text-slate-600 text-sm">{step.desc}</p>
+                         <div className="w-full md:w-5/12 bg-[#00041F] border border-[#000730] rounded-lg p-6  shadow-sm">
+                             <h4 className="font-medium text-lg text-white mb-2">{step.title}</h4>
+                             <p className="text-[#A7ADBE] text-sm">{step.desc}</p>
                          </div>
                      </div>
                  ))}
@@ -97,38 +97,38 @@ const Inspection: React.FC = () => {
 
       <Section title="Evaluator Highlights">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="text-center p-6 border rounded-xl bg-slate-50">
+              <div className="text-center p-6 rounded-xl bg-[#00041F] border border-[#000730]">
                   <div className="w-20 h-20 bg-slate-200 rounded-full mx-auto mb-4 overflow-hidden">
                       <img src="https://picsum.photos/200/200?random=20" alt="Inspector" />
                   </div>
-                  <h4 className="font-bold text-lg">Mike T.</h4>
-                  <p className="text-blue-600 text-sm mb-4">Senior Heavy Machinery Specialist</p>
-                  <p className="text-slate-500 italic">"I've inspected over 2,000 excavators. I know exactly where stress fractures hide."</p>
+                  <h4 className="text-xl font-semibold tracking-wider text-white mb-3">Mike T.</h4>
+                  <p className="text-[#A7ADBE] text-sm mb-4">Senior Heavy Machinery Specialist</p>
+                  <p className="text-slate-400 italic">"I've inspected over 2,000 excavators. I know exactly where stress fractures hide."</p>
               </div>
-              <div className="text-center p-6 border rounded-xl bg-slate-50">
+              <div className="text-center p-6 rounded-xl bg-[#00041F] border border-[#000730]">
                   <div className="w-20 h-20 bg-slate-200 rounded-full mx-auto mb-4 overflow-hidden">
                       <img src="https://picsum.photos/200/200?random=21" alt="Inspector" />
                   </div>
-                  <h4 className="font-bold text-lg">Sarah L.</h4>
-                  <p className="text-blue-600 text-sm mb-4">Cranes & Lifting Equipment</p>
-                  <p className="text-slate-500 italic">"Safety is the priority. My reports ensure compliance with OSHA and ISO standards."</p>
+                  <h4 className="text-xl font-semibold tracking-wider text-white mb-3">Sarah L.</h4>
+                  <p className="text-[#A7ADBE] text-sm mb-4">Cranes & Lifting Equipment</p>
+                  <p className="text-slate-400 italic">"Safety is the priority. My reports ensure compliance with OSHA and ISO standards."</p>
               </div>
-              <div className="text-center p-6 border rounded-xl bg-slate-50">
+              <div className="text-center p-6 rounded-xl bg-[#00041F] border border-[#000730]">
                   <div className="w-20 h-20 bg-slate-200 rounded-full mx-auto mb-4 overflow-hidden">
                       <img src="https://picsum.photos/200/200?random=22" alt="Inspector" />
                   </div>
-                  <h4 className="font-bold text-lg">David R.</h4>
-                  <p className="text-blue-600 text-sm mb-4">Trucks & Fleet</p>
-                  <p className="text-slate-500 italic">"Engine diagnostics tell the real story. We don't guess, we measure."</p>
+                  <h4 className="text-xl font-semibold tracking-wider text-white mb-3">David R.</h4>
+                  <p className="text-[#A7ADBE] text-sm mb-4">Trucks & Fleet</p>
+                  <p className="text-slate-400 italic">"Engine diagnostics tell the real story. We don't guess, we measure."</p>
               </div>
           </div>
       </Section>
 
-      <div className="bg-slate-900 py-16 text-center text-white">
+      <div className="bg-[#00041F] py-16 text-center text-white">
         <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-4">Don't risk a bad deal.</h2>
-          <p className="text-slate-400 mb-8">Get the facts before you sign the check.</p>
-          <Button size="lg" className="w-full sm:w-auto" onClick={handleOpenQuote}>Request a Sample Report</Button>
+          <h2 className="text-3xl font-bold mb-2">Don't risk a bad deal.</h2>
+          <p className="text-xl text-[#A7ADBE] mb-8">Get the facts before you sign the check.</p>
+          <button type='button' className="bg-blue-700 text-white rounded-[5px] font-medium text-lg py-3 px-6 hover:bg-blue-800 transition-colors duration-300" onClick={handleOpenQuote}>Request a Sample Report</button>
         </div>
       </div>
 
