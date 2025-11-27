@@ -65,43 +65,17 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { motion, Variants } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const services: ServiceItem[] = [
-  {
-    title: "Podcast Episodes",
-    description: "Expert discussions on semiconductor manufacturing trends and innovations",
-    pattern: "/patterns/Burst.svg",
-    link: "/PodcastsPage"
-  },
-  {
-    title: "Trending White Papers",
-    description: "In-depth technical analysis and research from industry leaders",
-    pattern: "/patterns/Looper-3.svg",
-    link: "/WhitePapersPage"
-  },
-  {
-    title: "Market Analysis",
-    description: "Real-time insights on market trends and equipment valuations",
-    pattern: "/patterns/LooperGroup.svg",
-    link: "/BlogPage"
-  },
-  {
-    title: "Educational Resources",
-    description: "Comprehensive guides and tutorials for semiconductor processes",
-    pattern: "/patterns/Topology-1.svg",
-    link: "/EbooksPage"
-  },
-  {
-    title: "Industry news",
-    description: "Latest developments and emerging technologies in semiconductor manufacturing",
-    pattern: "/patterns/Topology-2.svg",
-    link: "/IndustryNewsPage"
-  }
-];
 
 const Services: React.FC = () => {
+
+   const { t } = useTranslation();
+  
+  const services = t('services.services', { returnObjects: true }) as ServiceItem[];
+
   useGSAP(() => {
     gsap.from(".service-title", {
       y: 80,

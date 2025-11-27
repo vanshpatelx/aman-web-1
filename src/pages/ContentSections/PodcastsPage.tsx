@@ -2,6 +2,7 @@ import React from 'react';
 import { Play, Clock, Calendar, Search, ArrowRight, Mic2, BarChart3, Globe } from 'lucide-react';
 import Navbar from '../Navbar';
 import Footer from '../Footer';
+import { Trans, useTranslation } from 'react-i18next';
 
 interface Episode {
   id: number;
@@ -14,6 +15,7 @@ interface Episode {
 }
 
 const PodcastsPage: React.FC = () => {
+   const { t } = useTranslation();
   const episodes: Episode[] = [
     {
       id: 1,
@@ -35,7 +37,7 @@ const PodcastsPage: React.FC = () => {
     }
   ];
 
-  const categories = ["Technology", "Business", "Health", "Design", "Marketing", "Science"];
+    const categories = t('podcasts.episodes.categories', { returnObjects: true });
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-200 font-sans">
@@ -50,22 +52,22 @@ const PodcastsPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
           <div className="max-w-3xl mx-auto">
             <h1 id="heading" className="text-5xl md:text-6xl lg:text-7xl font-medium text-white tracking-tight leading-[1.1] mb-6">
-              Engineering a faster, <br />
-              smarter podcast <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-200">
-                future.
-              </span>
+               <Trans 
+                i18nKey="podcasts.hero.title"
+                components={{
+                  1: <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-200" />
+                }} />
             </h1>
             <p className="text-lg md:text-xl text-slate-400 mb-10 max-w-2xl mx-auto leading-relaxed">
-              Experience a numbers-driven approach built on expertise, partnership, and long-term clarity—delivering more than just audio.
+               {t('podcasts.hero.subtitle')}
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="px-8 py-3.5 bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded-[4px] transition-all shadow-[0_0_20px_rgba(37,99,235,0.3)] hover:shadow-[0_0_30px_rgba(37,99,235,0.5)] flex items-center justify-center gap-2">
-                Explore episodes <ArrowRight size={18} />
+                {t('podcasts.hero.buttons.explore')} <ArrowRight size={18} />
               </button>
               <button className="px-8 py-3.5 bg-transparent border border-slate-700 hover:border-slate-500 text-white font-semibold rounded-[4px] transition-all flex items-center justify-center">
-                Schedule a call
+                {t('podcasts.hero.buttons.schedule')}
               </button>
             </div>
           </div>
@@ -81,10 +83,10 @@ const PodcastsPage: React.FC = () => {
             
             {/* Featured Section Header */}
             <div className="flex items-end justify-between border-b border-white/10 pb-4">
-              <h2 className="text-3xl font-bold text-white">Latest Episodes</h2>
+              <h2 className="text-3xl font-bold text-white">{t('podcasts.featured.title')}</h2>
               <div className="hidden sm:flex gap-2">
-                 <button className="p-2 text-slate-400 hover:text-white hover:bg-white/5 rounded-full transition-colors"><Mic2 size={20}/></button>
-                 <button className="p-2 text-slate-400 hover:text-white hover:bg-white/5 rounded-full transition-colors"><BarChart3 size={20}/></button>
+                 <button type='button' title='mic-icon' className="p-2 text-slate-400 hover:text-white hover:bg-white/5 rounded-full transition-colors"><Mic2 size={20}/></button>
+                 <button type='button' title='bar-chart' className="p-2 text-slate-400 hover:text-white hover:bg-white/5 rounded-full transition-colors"><BarChart3 size={20}/></button>
               </div>
             </div>
 
@@ -104,23 +106,23 @@ const PodcastsPage: React.FC = () => {
                 <div className="p-8 md:w-3/5 flex flex-col justify-center relative">
                     <div className="flex items-center gap-3 mb-4">
                         <span className="px-3 py-1 text-xs font-semibold bg-blue-500/20 text-blue-300 rounded-full border border-blue-500/20">
-                            FEATURED
+                              {t('podcasts.featured.featuredBadge')}
                         </span>
                         <span className="text-slate-400 text-sm flex items-center gap-1">
                             <Clock size={14} /> 1 hr 15 min
                         </span>
                     </div>
                     <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors">
-                        Ep 100: A Century of Silicon
+                         {t('podcasts.featured.featuredEpisode.title')}
                     </h3>
                     <p className="text-slate-400 mb-6 leading-relaxed">
-                        We look back at the history of semiconductors and look forward to the quantum leap awaiting us in the next decade.
+                         {t('podcasts.featured.featuredEpisode.description')}
                     </p>
                     <button className="flex items-center gap-3 text-white font-medium group/btn">
                         <div className="w-10 h-10 rounded-full bg-white text-slate-950 flex items-center justify-center group-hover/btn:bg-blue-500 group-hover/btn:text-white transition-colors">
                             <Play size={16} fill="currentColor" />
                         </div>
-                        <span className="group-hover/btn:translate-x-1 transition-transform">Listen Now</span>
+                        <span className="group-hover/btn:translate-x-1 transition-transform">{t('podcasts.featured.featuredEpisode.button')}</span>
                     </button>
                 </div>
               </div>
@@ -162,7 +164,7 @@ const PodcastsPage: React.FC = () => {
                             <Clock size={12} /> {ep.duration}
                         </div>
                         <button className="text-xs font-medium text-slate-300 hover:text-white transition-colors">
-                            Show Notes
+                             {t('podcasts.episodes.episode.showNotes')}
                         </button>
                     </div>
                   </div>
@@ -180,30 +182,31 @@ const PodcastsPage: React.FC = () => {
             <div className="relative overflow-hidden bg-gradient-to-br from-blue-900 to-slate-900 p-8 rounded-2xl border border-blue-500/20 text-center">
               <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/20 blur-3xl rounded-full -translate-y-1/2 translate-x-1/2" />
               
-              <h3 className="text-xl font-bold text-white mb-2 relative z-10">Stay in the loop</h3>
+              <h3 className="text-xl font-bold text-white mb-2 relative z-10"> {t('podcasts.sidebar.newsletter.title')}</h3>
               <p className="text-blue-200 text-sm mb-6 relative z-10">
-                Join 10,000+ engineers receiving our weekly industry breakdowns.
+                {t('podcasts.sidebar.newsletter.subtitle')}
               </p>
               
               <div className="space-y-3 relative z-10">
                 <input 
                     type="email" 
-                    placeholder="Enter your email" 
+                    placeholder={t('podcasts.sidebar.newsletter.placeholder')}
                     className="w-full px-4 py-2.5 bg-slate-950/50 border border-blue-500/30 rounded-[4px] text-white placeholder-slate-400 focus:outline-none focus:border-blue-400 transition-colors text-sm" 
                 />
-                <button className="w-full bg-blue-500 hover:bg-blue-400 text-white font-semibold py-2.5 rounded-[4px] text-sm transition-colors shadow-lg shadow-blue-900/20">
-                    Subscribe Free
+                <button type='button' className="w-full bg-blue-500 hover:bg-blue-400 text-white font-semibold py-2.5 rounded-[4px] text-sm transition-colors shadow-lg shadow-blue-900/20">
+                      {t('podcasts.sidebar.newsletter.button')}
                 </button>
               </div>
             </div>
             
             {/* Mini About */}
             <div className="p-6">
-                <h4 className="text-white font-bold mb-2">About Vision</h4>
+                <h4 className="text-white font-bold mb-2">{t('podcasts.sidebar.about.title')}
+</h4>
                 <p className="text-slate-500 text-sm leading-relaxed">
-                    Vision Semiconductor Solutions LLC provides cutting-edge insights into the hardware that powers our world. From silicon to systems.
+                     {t('podcasts.sidebar.about.content')}
                 </p>
-                <a href="#" className="text-blue-400 text-sm mt-2 inline-block hover:underline">Learn more &rarr;</a>
+                <a href="#" className="text-blue-400 text-sm mt-2 inline-block hover:underline"> {t('podcasts.sidebar.about.link')}</a>
             </div>
 
           </div>

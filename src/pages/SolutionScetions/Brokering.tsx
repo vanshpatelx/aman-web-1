@@ -3,8 +3,10 @@ import { Hero, Section, FeatureCard, Button, Modal } from './UI';
 import { Users, TrendingUp, Handshake, Search, ChevronRight, Check } from 'lucide-react';
 import Navbar from '../Navbar';
 import { MarqueeSection } from '../MarqueeSection';
+import { useTranslation } from 'react-i18next';
 
 const Brokering: React.FC = () => {
+  const { t } = useTranslation();
   const [isQuoteOpen, setIsQuoteOpen] = useState(false);
 
   const handleOpenQuote = () => setIsQuoteOpen(true);
@@ -18,38 +20,36 @@ const Brokering: React.FC = () => {
     }, 500);
   };
 
+    // Get translated data
+  const workflowSteps = t('brokering.workflow.steps', { returnObjects: true });
+  const featureItems = t('brokering.features.items', { returnObjects: true });
+  const marketplaceStats = t('brokering.marketplace.stats', { returnObjects: true });
+  const modalOptions = t('brokering.modal.options', { returnObjects: true });
+
   return (
     <div className="animate-fade-in">
       <Navbar />
 
       <Hero
-        title="Global Equipment Brokering"
-        subtitle="Connect with a worldwide network of buyers and sellers. We simplify the complexities of industrial equipment trading with verified listings and secure transactions."
+         title={t('brokering.hero.title')}
+        subtitle={t('brokering.hero.subtitle')}
         imageSrc="https://picsum.photos/1600/600?random=1"
-        ctaText="Request Access"
+        ctaText={t('brokering.hero.ctaText')}
         onCtaClick={handleOpenQuote}
       />
 
-      <Section title="Marketplace Overview" description="Access thousands of verified industrial assets across construction, mining, and manufacturing sectors.">
+      <Section title={t('brokering.marketplace.title')} description={t('brokering.marketplace.description')}>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 text-[#A7ADBE] text-lg">
             <p>
-              Our brokering platform bridges the gap between surplus equipment owners and businesses in need of reliable machinery. We handle the heavy lifting of negotiations, verification, and documentation.
+              {t('brokering.marketplace.content')}
             </p>
-            <ul className="space-y-4">
-              <li className="flex items-center gap-4">
-                <img src="check.svg" alt="" />
-                <span><strong className='font-semibold'>30,000+</strong> Active buyers in our database.</span>
-              </li>
-              <li className="flex items-center gap-4">
-                <img src="check.svg" alt="" />
-                <span><strong className='font-semibold'>$500M+</strong> In completed equipment transactions.</span>
-              </li>
-              <li className="flex items-center gap-4">
-                <img src="check.svg" alt="" />
-                <span>Transparent fee structures with no hidden costs.</span>
-              </li>
-            </ul>
+            {marketplaceStats.map((stat, index) => (
+                <li key={index} className="flex items-center gap-4">
+                  <img src="check.svg" alt="" />
+                  <span>{stat}</span>
+                </li>
+              ))}
           </div>
           <div className="relative h-96 rounded-2xl overflow-hidden shadow-xl">
             <img src="https://picsum.photos/800/600?random=2" alt="Equipment Marketplace" className="absolute inset-0 w-full h-full object-cover" />
@@ -57,19 +57,16 @@ const Brokering: React.FC = () => {
         </div>
       </Section>
 
-      <Section title="Sourcing Workflow" description="How we connect you with the right machinery.">
+     <Section title={t('brokering.workflow.title')} description={t('brokering.workflow.description')}>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 px-4 sm:px-0">
-          {[
-            { step: '01', title: 'Request', icon: <Search className="w-6 h-6" />, desc: 'Submit your equipment requirements or list your asset for sale.' },
-            { step: '02', title: 'Match', icon: <Users className="w-6 h-6" />, desc: 'Our AI-driven engine matches assets with qualified buyers instantly.' },
-            { step: '03', title: 'Verify', icon: <Check className="w-6 h-6" />, desc: 'Inspectors verify condition and documentation before proceeding.' },
-            { step: '04', title: 'Close', icon: <Handshake className="w-6 h-6" />, desc: 'Secure payment processing and logistics coordination finalize the deal.' },
-          ].map((item, idx) => (
+          {workflowSteps.map((item, idx) => (
             <div key={idx} className="relative p-6 bg-[#00041F] rounded-xl shadow-sm border border-[#000730]">
               <span className="absolute -top-4 -left-4 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-semibold text-lg shadow-lg">
                 {item.step}
               </span>
-              <div className="mt-4 mb-4 text-white bg-blue-600 w-fit p-2 rounded-full">{item.icon}</div>
+              <div className="mt-4 mb-4 text-white bg-blue-600 w-fit p-2 rounded-full">
+                {[<Search className="w-6 h-6" />, <Users className="w-6 h-6" />, <Check className="w-6 h-6" />, <Handshake className="w-6 h-6" />][idx]}
+              </div>
               <h3 className="text-xl text-white font-semibold mb-2">{item.title}</h3>
               <p className="text-[#A7ADBE] text-sm">{item.desc}</p>
             </div>
@@ -77,43 +74,36 @@ const Brokering: React.FC = () => {
         </div>
       </Section>
 
-      <Section title="Why Choose Our Brokerage">
+       <Section title={t('brokering.features.title')}>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 ">
-          <FeatureCard
-            icon={<img alt='people-icon' src='./people.svg' className='w-10 h-10' />}
-            title="Global Reach"
-            description="Access markets in over 50 countries. We handle cross-border trade complexities, including customs and compliance."
-          />
-          <FeatureCard
-            icon={<img alt='fire-icon' src='./fire.svg' className='w-10 h-10' />}
-            title="Fraud Protection"
-            description="Every transaction is secured via escrow services. We verify every buyer and seller to prevent fraud."
-          />
-          <FeatureCard
-            icon={<img alt='connection-icon' src='./connection.svg' className='w-10 h-10' />}
-            title="Market Intelligence"
-            description="Leverage our proprietary data to price your equipment competitively or ensure you aren't overpaying."
-          />
+          {featureItems.map((feature, index) => (
+            <FeatureCard
+              key={index}
+              icon={<img alt={`${feature.title}-icon`} src={`./${['people', 'fire', 'connection'][index]}.svg`} className='w-10 h-10' />}
+              title={feature.title}
+              description={feature.description}
+            />
+          ))}
         </div>
       </Section>
 
       <div className="py-16 bg-[#00020F]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h3 id="heading" className="text-lg font-semibold text-[#A7ADBE] uppercase tracking-wider ">Trusted by Industry Leaders</h3>
+          <h3 id="heading" className="text-lg font-semibold text-[#A7ADBE] uppercase tracking-wider ">{t('brokering.trusted.title')}</h3>
           <MarqueeSection />
         </div>
       </div>
 
       <div className="bg-[#00041F] py-20 text-center text-white">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-2">Ready to Buy or Sell?</h2>
-          <p className="text-xl text-[#A7ADBE] mb-8">Join thousands of businesses optimizing their asset management today.</p>
+          <h2 className="text-3xl font-bold mb-2">{t('brokering.cta.title')}</h2>
+          <p className="text-xl text-[#A7ADBE] mb-8">{t('brokering.cta.subtitle')}</p>
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
             <button type='button' onClick={handleOpenQuote} className="bg-blue-700 text-white rounded-[5px] font-medium text-lg py-3 px-6 hover:bg-blue-800 transition-colors duration-300 flex items-center justify-center gap-2 shadow-lg whitespace-nowrap text-center w-full sm:w-auto">
-              Browse Inventory
+             {t('brokering.cta.buttons.browse')}
             </button>
             <button type='button' onClick={handleOpenQuote} className="border border-white text-white rounded-[5px] font-medium text-lg py-3 px-6 hover:bg-white hover:text-black transition-colors duration-300 flex items-center gap-2 shadow-lg whitespace-nowrap w-full sm:w-auto justify-center">
-              Contact a Broker
+             {t('brokering.cta.buttons.browse')}
             </button>
 
           </div>

@@ -2,109 +2,63 @@ import React, { useState } from 'react';
 import { ArrowRight } from 'lucide-react';
 import Navbar from '../Navbar';
 import Footer from '../Footer';
+import { Trans, useTranslation } from 'react-i18next';
 
-// --- Mock Data ---
-const FEATURED_ARTICLE: Article = {
-  id: 'featured-1',
-  category: 'SEMICONDUCTOR INSIGHTS',
-  title: "Global fabs struggle to scale advanced packaging as AI chip demand accelerates",
-  author: { name: 'Dr. Ethan Park' },
-  date: '25 Jan 2025',
-  imageUrl: '/SampleImage.png',
-  summary:
-    "Chip manufacturers worldwide are racing to expand advanced packaging capacity, but supply constraints in lithography tools and materials hinder production scale."
-};
-
-
-const LATEST_NEWS_SMALL: Article[] = [
-  {
-    id: 'small-1',
-    category: 'FAB TECHNOLOGY',
-    title: "New breakthroughs in EUV lithography promise higher yield at 2nm nodes...",
-    author: { name: 'Dr. Ethan Park' },
-    date: '25 Jan 2025',
-    imageUrl:
-      '/SampleImage.png',
-  },
-  {
-    id: 'small-2',
-    category: 'SUPPLY CHAIN',
-    title: "Global silicon wafer shortage expected to continue through 2026...",
-    author: { name: 'Dr. Ethan Park' },
-    date: '25 Jan 2025',
-    imageUrl:
-      '/SampleImage.png',
-  },
-  {
-    id: 'small-3',
-    category: 'EQUIPMENT INNOVATION',
-    title: "Etching equipment vendors push new plasma technologies for sub-3nm geometries...",
-    author: { name: 'Dr. Ethan Park' },
-    date: '25 Jan 2025',
-    imageUrl:
-      '/SampleImage.png',
-  },
-];
-
-
-const GRID_ARTICLES: Article[] = [
-  {
-    id: 'grid-1',
-    category: 'MANUFACTURING',
-    title: "Chipmakers invest billions to expand global fabrication capacity",
-    summary:
-      "Leading semiconductor companies are accelerating fab expansion to meet demand for AI, EVs, and next-gen consumer electronics.",
-    author: { name: 'Dr. Ethan Park' },
-    date: '25 Jan 2025',
-    imageUrl:
-      '/SampleImage.png',
-  },
-  {
-    id: 'grid-2',
-    category: 'EQUIPMENT',
-    title: "New wafer metrology systems enhance precision at atomic scales",
-    summary:
-      "Advanced inspection tools continue to evolve as semiconductor features shrink into the angstrom era.",
-    author: { name: 'Dr. Ethan Park' },
-    date: '25 Jan 2025',
-    imageUrl:
-      '/SampleImage.png',
-  },
-  {
-    id: 'grid-3',
-    category: 'R&D INNOVATION',
-    title: "Researchers explore 3D silicon stacking to boost computational density",
-    summary:
-      "Innovations in thermal dissipation and interconnect technologies are key to scaling 3D stacked semiconductor architectures.",
-    author: { name: 'Dr. Ethan Park' },
-    date: '25 Jan 2025',
-    imageUrl:
-      '/SampleImage.png',
-  },
-];
-
-
-// --- Sub-Components ---
-
-const ArticleCategory = ({ text }: { text: string }) => (
-  <p className="text-xs font-medium tracking-wide text-blue-400 capitalize mb-2">
-    {text}
-  </p>
-);
-
-
-const MetaInfo = ({ author, date }: { author: string; date: string }) => (
-  <div className="flex items-center text-sm text-[#8e96a9] mt-2">
-    <span className="font-medium text-[#e3e7f1]">{author}</span>
-    <span className="mx-2 text-blue-900/40">•</span>
-    <span>{date}</span>
-</div>
-
-);
 
 // --- Main Component ---
 
 const BlogPage: React.FC = () => {
+  const { t } = useTranslation();
+
+   const featuredArticle = t('blog.latestNews.featured', { returnObjects: true });
+  const smallArticles = t('blog.latestNews.smallArticles', { returnObjects: true });
+  const gridArticles = t('blog.gridSection.articles', { returnObjects: true });
+
+    // Map data to include IDs and image URLs
+  const FEATURED_ARTICLE = {
+    id: 'featured-1',
+    category: featuredArticle.category,
+    title: featuredArticle.title,
+    author: { name: t('blog.common.author') },
+    date: t('blog.common.date'),
+    imageUrl: '/SampleImage.png',
+    summary: featuredArticle.summary
+  };
+
+  const LATEST_NEWS_SMALL = smallArticles.map((article, index) => ({
+    id: `small-${index + 1}`,
+    category: article.category,
+    title: article.title,
+    author: { name: t('blog.common.author') },
+    date: t('blog.common.date'),
+    imageUrl: '/SampleImage.png'
+  }));
+
+  const GRID_ARTICLES = gridArticles.map((article, index) => ({
+    id: `grid-${index + 1}`,
+    category: article.category,
+    title: article.title,
+    summary: article.summary,
+    author: { name: t('blog.common.author') },
+    date: t('blog.common.date'),
+    imageUrl: '/SampleImage.png'
+  }));
+
+  // --- Sub-Components ---
+
+  const ArticleCategory = ({ text }: { text: string }) => (
+    <p className="text-xs font-medium tracking-wide text-blue-400 capitalize mb-2">
+      {text}
+    </p>
+  );
+
+  const MetaInfo = ({ author, date }: { author: string; date: string }) => (
+    <div className="flex items-center text-sm text-[#8e96a9] mt-2">
+      <span className="font-medium text-[#e3e7f1]">{author}</span>
+      <span className="mx-2 text-blue-900/40">•</span>
+      <span>{date}</span>
+    </div>
+  );
 
   return (
     <div className="min-h-screen bg-[#00020F]  text-[#b2b8ca]">
@@ -115,7 +69,7 @@ const BlogPage: React.FC = () => {
         
         {/* --- Section 1: Latest News --- */}
         <section className="mb-24">
-          <h2 className="text-3xl font-bold text-[#e3e7f1] mb-8">Latest News</h2>
+          <h2 className="text-3xl font-bold text-[#e3e7f1] mb-8">  {t('blog.latestNews.title')}</h2>
           
           <div className="flex flex-col gap-10">
             {/* Featured Large Card */}
@@ -169,7 +123,12 @@ const BlogPage: React.FC = () => {
         <section>
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-medium text-[#e3e7f1] mb-8">
-              Operating, Reserve, and<br className="hidden sm:block"/> Vault accounts
+               <Trans 
+                i18nKey="blog.gridSection.title"
+                components={{
+                  br: <br />
+                }}
+              />
             </h2>
             
             
@@ -214,7 +173,7 @@ const BlogPage: React.FC = () => {
 
       {/* Button */}
       <button className="flex items-center text-sm font-medium text-blue-400 hover:text-blue-300 mt-6 transition-colors">
-        View All Article
+        {t('blog.gridSection.button')}
         <ArrowRight className="ml-2 w-4 h-4" />
       </button>
     </div>

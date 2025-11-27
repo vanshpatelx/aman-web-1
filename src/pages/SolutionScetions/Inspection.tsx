@@ -2,10 +2,11 @@ import React, { useState } from 'react';
 import { Hero, Section, FeatureCard, Button, Modal } from './UI';
 import { ClipboardCheck, Camera, FileText, CheckCircle, AlertTriangle, UserCheck } from 'lucide-react';
 import Navbar from '../Navbar';
+import { useTranslation } from 'react-i18next';
 
 const Inspection: React.FC = () => {
   const [isQuoteOpen, setIsQuoteOpen] = useState(false);
-
+  const { t } = useTranslation();
   const handleOpenQuote = () => setIsQuoteOpen(true);
   const handleCloseQuote = () => setIsQuoteOpen(false);
   
@@ -17,75 +18,67 @@ const Inspection: React.FC = () => {
     }, 500);
   };
 
+  const features = t('inspection.whyMatter.features', { returnObjects: true });
+  const qualitySteps = t('inspection.qualityProcess.steps', { returnObjects: true });
+  const inspectors = t('inspection.evaluators.inspectors', { returnObjects: true });
+
   return (
     <div className="animate-fade-in">
       {/* === Inspection Page === */}
               <Navbar/>
 
       <Hero
-        title="Certified Equipment Inspections"
-        subtitle="Unbiased, detailed, and rapid inspection reports. Know exactly what you are buying or selling with our standardized assessment protocols."
+        title={t('inspection.hero.title')}
+        subtitle={t('inspection.hero.subtitle')}
         imageSrc="https://picsum.photos/1600/600?random=3"
-        ctaText="Schedule Inspection"
+        ctaText={t('inspection.hero.ctaText')}
         onCtaClick={handleOpenQuote}
       />
 
-      <Section title="Why Inspections Matter" description="Mitigate risk and ensure fair value with our comprehensive reporting.">
+      <Section title={t('inspection.whyMatter.title')} description={t('inspection.whyMatter.description')}>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="grid grid-cols-2 gap-4">
                  <img src="https://picsum.photos/400/300?random=4" alt="Inspector checking engine" className="rounded-lg shadow-md w-full h-48 object-cover" />
                  <img src="https://picsum.photos/400/300?random=5" alt="Undercarriage measurement" className="rounded-lg shadow-md w-full h-48 object-cover mt-8" />
             </div>
             <div>
-                <h3 className="text-2xl font-medium text-white mb-4">A Deep Dive into Machine Health</h3>
+                <h3 className="text-2xl font-medium text-white mb-4">{t('inspection.whyMatter.heading')}</h3>
                 <p className="text-[#A7ADBE] mb-6 leading-relaxed">
-                    Our inspectors don't just kick the tires. We perform rigorous operational tests, fluid analysis, and undercarriage measurements. A typical report includes over 100 data points and 50+ high-resolution photos.
+                    {t('inspection.whyMatter.content')}
                 </p>
                 <div className="space-y-4">
-                    <div className="flex items-start">
-                        <ClipboardCheck className="w-6 h-6 text-blue-600 mt-1 mr-3 flex-shrink-0" />
+                   {features.map((feature, index) => (
+                      <div key={index} className="flex items-start">
+                        {[<ClipboardCheck className="w-6 h-6 text-blue-600 mt-1 mr-3 flex-shrink-0" />, 
+                          <Camera className="w-6 h-6 text-blue-600 mt-1 mr-3 flex-shrink-0" />, 
+                          <FileText className="w-6 h-6 text-blue-600 mt-1 mr-3 flex-shrink-0" />][index]}
                         <div>
-                            <h4 className="font-normal text-white">Standardized Checklists</h4>
-                            <p className="text-sm text-[#A7ADBE]">Consistent evaluation criteria across all equipment categories.</p>
+                            <h4 className="font-normal text-white">{feature.title}</h4>
+                            <p className="text-sm text-[#A7ADBE]">{feature.description}</p>
                         </div>
-                    </div>
-                    <div className="flex items-start">
-                        <Camera className="w-6 h-6 text-blue-600 mt-1 mr-3 flex-shrink-0" />
-                        <div>
-                            <h4 className="font-normal text-white">Visual Evidence</h4>
-                            <p className="text-sm text-[#A7ADBE]">Detailed photo and video documentation of wear and tear.</p>
-                        </div>
-                    </div>
-                    <div className="flex items-start">
-                        <FileText className="w-6 h-6 text-blue-600 mt-1 mr-3 flex-shrink-0" />
-                        <div>
-                            <h4 className="font-normal text-white">Digital Reports</h4>
-                            <p className="text-sm text-[#A7ADBE]">Instant access to reports via our secure cloud portal.</p>
-                        </div>
-                    </div>
+                      </div>
+                    ))}
                 </div>
             </div>
         </div>
       </Section>
 
-      <Section title="Quality Assurance Process">
+      <Section title={t('inspection.qualityProcess.title')}>
         <div className="relative">
              {/* Timeline Line */}
              <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-0.5 h-full bg-slate-200"></div>
              
              <div className="space-y-12">
-                 {[
-                     { title: "Booking & Dispatch", desc: "Inspector assigned based on equipment type and location expertise.", icon: <UserCheck className="w-5 h-5" />, side: "left" },
-                     { title: "On-Site Evaluation", desc: "Visual check, operational testing, and fluid sampling performed.", icon: <CheckCircle className="w-5 h-5" />, side: "right" },
-                     { title: "Data Review", desc: "Senior technical leads review raw data for anomalies.", icon: <AlertTriangle className="w-5 h-5" />, side: "left" },
-                     { title: "Report Publication", desc: "Final report generated with valuation estimates (optional).", icon: <FileText className="w-5 h-5" />, side: "right" },
-                 ].map((step, idx) => (
+                {qualitySteps.map((step, idx) => (
                      <div key={idx} className={`flex items-center justify-between ${step.side === 'right' ? 'flex-row-reverse' : ''}`}>
                          <div className="w-full md:w-5/12"></div>
-                         <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-10 h-10 rounded-full bg-blue-700  text-white shadow-lg z-10">
-                             {step.icon}
+                         <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-10 h-10 rounded-full bg-blue-700 text-white shadow-lg z-10">
+                             {[<UserCheck className="w-5 h-5" />, 
+                               <CheckCircle className="w-5 h-5" />, 
+                               <AlertTriangle className="w-5 h-5" />, 
+                               <FileText className="w-5 h-5" />][idx]}
                          </div>
-                         <div className="w-full md:w-5/12 bg-[#00041F] border border-[#000730] rounded-lg p-6  shadow-sm">
+                         <div className="w-full md:w-5/12 bg-[#00041F] border border-[#000730] rounded-lg p-6 shadow-sm">
                              <h4 className="font-medium text-lg text-white mb-2">{step.title}</h4>
                              <p className="text-[#A7ADBE] text-sm">{step.desc}</p>
                          </div>
@@ -95,40 +88,26 @@ const Inspection: React.FC = () => {
         </div>
       </Section>
 
-      <Section title="Evaluator Highlights">
+       <Section title={t('inspection.evaluators.title')}>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="text-center p-6 rounded-xl bg-[#00041F] border border-[#000730]">
+              {inspectors.map((inspector, index) => (
+                <div key={index} className="text-center p-6 rounded-xl bg-[#00041F] border border-[#000730]">
                   <div className="w-20 h-20 bg-slate-200 rounded-full mx-auto mb-4 overflow-hidden">
-                      <img src="https://picsum.photos/200/200?random=20" alt="Inspector" />
+                      <img src={`https://picsum.photos/200/200?random=${20 + index}`} alt="Inspector" />
                   </div>
-                  <h4 className="text-xl font-semibold tracking-wider text-white mb-3">Mike T.</h4>
-                  <p className="text-[#A7ADBE] text-sm mb-4">Senior Heavy Machinery Specialist</p>
-                  <p className="text-slate-400 italic">"I've inspected over 2,000 excavators. I know exactly where stress fractures hide."</p>
-              </div>
-              <div className="text-center p-6 rounded-xl bg-[#00041F] border border-[#000730]">
-                  <div className="w-20 h-20 bg-slate-200 rounded-full mx-auto mb-4 overflow-hidden">
-                      <img src="https://picsum.photos/200/200?random=21" alt="Inspector" />
-                  </div>
-                  <h4 className="text-xl font-semibold tracking-wider text-white mb-3">Sarah L.</h4>
-                  <p className="text-[#A7ADBE] text-sm mb-4">Cranes & Lifting Equipment</p>
-                  <p className="text-slate-400 italic">"Safety is the priority. My reports ensure compliance with OSHA and ISO standards."</p>
-              </div>
-              <div className="text-center p-6 rounded-xl bg-[#00041F] border border-[#000730]">
-                  <div className="w-20 h-20 bg-slate-200 rounded-full mx-auto mb-4 overflow-hidden">
-                      <img src="https://picsum.photos/200/200?random=22" alt="Inspector" />
-                  </div>
-                  <h4 className="text-xl font-semibold tracking-wider text-white mb-3">David R.</h4>
-                  <p className="text-[#A7ADBE] text-sm mb-4">Trucks & Fleet</p>
-                  <p className="text-slate-400 italic">"Engine diagnostics tell the real story. We don't guess, we measure."</p>
-              </div>
+                  <h4 className="text-xl font-semibold tracking-wider text-white mb-3">{inspector.name}</h4>
+                  <p className="text-[#A7ADBE] text-sm mb-4">{inspector.role}</p>
+                  <p className="text-slate-400 italic">{inspector.quote}</p>
+                </div>
+              ))}
           </div>
       </Section>
 
       <div className="bg-[#00041F] py-16 text-center text-white">
         <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-2">Don't risk a bad deal.</h2>
-          <p className="text-xl text-[#A7ADBE] mb-8">Get the facts before you sign the check.</p>
-          <button type='button' className="bg-blue-700 text-white rounded-[5px] font-medium text-lg py-3 px-6 hover:bg-blue-800 transition-colors duration-300" onClick={handleOpenQuote}>Request a Sample Report</button>
+          <h2 className="text-3xl font-bold mb-2">{t('inspection.cta.title')}</h2>
+          <p className="text-xl text-[#A7ADBE] mb-8">{t('inspection.cta.subtitle')}</p>
+          <button type='button' className="bg-blue-700 text-white rounded-[5px] font-medium text-lg py-3 px-6 hover:bg-blue-800 transition-colors duration-300" onClick={handleOpenQuote}>{t('inspection.cta.button')}</button>
         </div>
       </div>
 

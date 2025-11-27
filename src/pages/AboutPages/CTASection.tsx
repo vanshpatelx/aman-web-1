@@ -1,7 +1,9 @@
 import React from 'react';
 import { ChevronRight } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const CTASection: React.FC = () => {
+   const { t } = useTranslation();
   return (
     <section className="px-6 lg:px-8 py-12 lg:py-20 bg-[#00020F]">
       <div className="max-w-7xl mx-auto bg-[#00041F] rounded-3xl p-8 md:p-16 lg:p-20 relative overflow-hidden shadow-2xl">
@@ -11,15 +13,15 @@ const CTASection: React.FC = () => {
           
           <div className="max-w-2xl">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 leading-tight">
-              Partner with Vision Semiconductor Solutions
+                {t('cta.title')}
             </h2>
             <p className="text-indigo-100 text-lg opacity-90">
-              Discover how our precision and innovation can power your next technological breakthrough.
+                {t('cta.subtitle')}
             </p>
           </div>
 
           <button type='button' className="bg-blue-700 text-white rounded-[5px] font-medium text-lg py-3 px-6 hover:bg-blue-800 transition-colors duration-300 flex items-center gap-2 shadow-lg whitespace-nowrap">
-            Contact Us Today
+           {t('cta.button')}
             <ChevronRight size={20} strokeWidth={3} />
           </button>
 

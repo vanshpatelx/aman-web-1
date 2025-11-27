@@ -5,10 +5,11 @@ import { ArrowRight, Menu, X } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { Variants } from "framer-motion";
 import Navbar from './Navbar';
+import {useTranslation} from 'react-i18next'
 
 export default function Hero() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-
+  const {t } = useTranslation()
   const navItems = ['Home', 'About', 'Service', 'Team', 'Contact']
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -96,22 +97,23 @@ export default function Hero() {
           variants={itemVariants}
           id='heading'
           className="text-4xl md:text-6xl font-normal leading-normal tracking-normal text-white">
-            Engineering a faster, smarter semiconductor future.
+            {/* Engineering a faster, smarter semiconductor future. */}
+            {t("heading")}
           </motion.h1>
           
           <motion.p 
           variants={itemVariants}
           className="text-base text-white/90 max-w-xl font-normal leading-relaxed tracking-wide">
-              Experience a numbers-driven lending approach built on expertise, partnership, and long-term financial clarity—delivering more than just competitive rates.
+            {t("subheading")}
           </motion.p>
 
           <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-6 pt-4">
             <button type='button' className="bg-blue-700 rounded text-white hover:bg-blue-800 px-6 py-3 font-medium transition-colors text-base flex items-center justify-center gap-2 group">
-              Explore solutions
+              {t("cta1")}
               <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
             </button>
             <button type='button' className="border hover:bg-white hover:text-black rounded border-white/30 bg-whitbe hover:border-white text-white px-6 py-3  font-medium text-base transition-all backdrop-blur-sm">
-              Schedule a call
+              {t("cta2")}
             </button>
           </motion.div>
         </motion.div>

@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
 import { Plus, Minus, ChevronRight, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 export const Equipment: React.FC = () => {
   const [activeId, setActiveId] = useState<string>('energy-audits');
+   const { t } = useTranslation();
+
+  const SERVICE_ITEMS = t('equipment.services', { returnObjects: true }) as ServiceItem[];
 
   const toggleItem = (id: string) => {
     if (activeId === id) {
@@ -20,12 +24,10 @@ export const Equipment: React.FC = () => {
       <div className="max-w-4xl mx-auto text-center mb-16">
         
         <h1 id='heading' className="text-4xl md:text-5xl max-w-4xl lg:text-6xl font-medium leading-relaxed tracking-tight mb-8 text-white">
-          Engineering pathways    to  <br className="hidden md:block" />
-       industrial sustainability
+          {t('equipment.heading')}
         </h1>
         <p className="text-[#A7ADBE] text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
-          From energy generation to long-term system efficiency, we deliver solutions
-          that cut costs, reduce emissions, and ensure resilient operations.
+          {t('equipment.subheading')}
         </p>
       </div>
 
@@ -103,37 +105,3 @@ export interface ServiceItem {
   description: string;
   link: string;    // <-- ADDED
 }
-
-
-const SERVICE_ITEMS: ServiceItem[] = [
-  {
-    id: 'Brokering',
-    title: 'Equipment Brokering',
-    description: 'Expert management of asset sales, connecting you with qualified buyers for maximum return',
-    link: '/Brokering'
-  },
-  {
-    id: 'Inspection',
-    title: 'Inspection',
-    description: 'Detailed equipment evaluations that verify condition, reduce risk, and support confident decisions.',
-    link: '/Inspection'
-  },
-  {
-    id: 'Disposition',
-    title: 'Disposition',
-    description: 'Strategic removal of surplus assets, optimizing value recovery while minimizing operational burden.',
-    link: '/Disposition'
-  },
-  {
-    id: 'Consignment',
-    title: 'Consignment',
-    description: 'Hands-on sales support that markets your equipment effectively while you retain full ownership.',
-    link: '/Consignment'
-  },
-  {
-    id: 'Logistics-Forwarding',
-    title: 'Logistics & Forwarding',
-    description: 'End-to-end transport coordination ensuring safe, efficient delivery across any distance or border',
-    link: '/Logistics'
-  }
-];
