@@ -6,8 +6,8 @@ const BrandStory: React.FC = () => {
   const { t } = useTranslation();
   const content = t('brandStory.content', { returnObjects: true });
   return (
-    <section className="relative py-20 lg:py-32 bg-[#00020F]">
-      <div className="max-w-7xl mx-auto px-6 lg:px-0">
+    <section className="relative py-20 sm:py-28 lg:py-32 bg-[#00020F]">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-6 xl:px-0">
         
         <div className="my-12 sm:my-6 ">
            <span className="text-[#6B7280] font-medium tracking-widest text-xs uppercase mb-2 block">  {t('brandStory.sectionTitle')}</span>

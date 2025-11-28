@@ -82,12 +82,11 @@ export default function Hero() {
       <Navbar/>
 
       {/* Hero Section */}
-      <div className="relative h-screen  w-screen overflow-hidden ">
-      {/* Background Image with Cinematic Gradient Overlay */}
+      <div className="relative min-h-screen h-full w-screen overflow-hidden ">
       
         
       {/* Main Content */}
-      <div className="max-w-7xl mx-auto pt-38 pb-28 sm:pt-56 sm:pb-28 2xl:pt-64 2xl:pb-36">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-6 xl:px-0 pt-56 pb-28 sm:pt-56 sm:pb-28 2xl:pt-64 2xl:pb-36">
         <motion.div
           variants={containerVariants}
           initial="hidden"
@@ -97,7 +96,6 @@ export default function Hero() {
           variants={itemVariants}
           id='heading'
           className="text-4xl md:text-6xl font-normal leading-normal tracking-normal text-white">
-            {/* Engineering a faster, smarter semiconductor future. */}
             {t("heading")}
           </motion.h1>
           
@@ -107,7 +105,7 @@ export default function Hero() {
             {t("subheading")}
           </motion.p>
 
-          <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-6 pt-4">
+          <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-6 pt-4 px-4 sm:px-0">
             <button type='button' className="bg-blue-700 rounded text-white hover:bg-blue-800 px-6 py-3 font-medium transition-colors text-base flex items-center justify-center gap-2 group">
               {t("cta1")}
               <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />

@@ -28,7 +28,7 @@ const TeamSection: React.FC = () => {
         </div>
 
         {/* Team Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 shrink-0">
           {teamMembers.map((member, idx) => (
             <div key={idx} className="p-8 border-r-[1px] flex flex-col items-center text-center border-[#242424]/80 group">
               {/* Image Container */}

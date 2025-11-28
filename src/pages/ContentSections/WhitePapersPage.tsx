@@ -23,8 +23,8 @@ const WhitePapersPage: React.FC = () => {
 
       {/* Hero Banner */}
       <div className="bg-blue-700 py-16 pt-36 ">
-        <div className="max-w-7xl mx-auto text-center">
-          <h1 id='heading' className="text-[14px] font-medium text-white sm:text-5xl md:text-6xl">
+        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-6 xl:px-0 text-center">
+          <h1 id='heading' className="text-4xl font-medium text-white sm:text-5xl md:text-6xl">
              {t('whitePapers.hero.title')}
           </h1>
           <p className="mt-4 max-w-2xl mx-auto  text-lg text-blue-200">
@@ -33,7 +33,7 @@ const WhitePapersPage: React.FC = () => {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto -mt-10 mb-16">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-6 xl:px-0 -mt-10 mb-16">
 
         {/* Featured White Paper */}
         <div className="bg-[#0a0d1f] rounded-xl shadow-xl overflow-hidden mb-16 border border-gray-700">

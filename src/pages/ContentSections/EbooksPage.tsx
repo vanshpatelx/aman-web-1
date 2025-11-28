@@ -24,7 +24,7 @@ const EbooksPage: React.FC = () => {
       <Navbar />
 
       {/* Hero */}
-      <div className="relative py-20 px-6 border-b border-white/5 overflow-hidden">
+      <div className="relative py-20 px-6 overflow-hidden">
         <div className="absolute inset-0 opacity-10 bg-[url('https://via.placeholder.com/1200x400')] bg-cover bg-center"></div>
 
         <div className="relative max-w-5xl mx-auto text-center">
@@ -38,8 +38,8 @@ const EbooksPage: React.FC = () => {
       </div>
 
       {/* Grid */}
-      <div className="max-w-7xl mx-auto mb-16 ">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-6 xl:px-0 mb-16 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-10">
 
           {ebooks.map(book => (
             <div

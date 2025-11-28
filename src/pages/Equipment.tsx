@@ -18,10 +18,10 @@ export const Equipment: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen w-full  mx-auto bg-[#00020F] pt-16 pb-24 ">
+    <div className="h-full w-full mx-auto bg-[#00020F] pt-16 pb-24">
       
       {/* Header Section */}
-      <div className="max-w-4xl mx-auto text-center mb-16">
+      <div className="max-w-4xl mx-auto text-center mb-16 ">
         
         <h1 id='heading' className="text-4xl md:text-5xl max-w-4xl lg:text-6xl font-medium leading-relaxed tracking-tight mb-8 text-white">
           {t('equipment.heading')}
@@ -34,15 +34,15 @@ export const Equipment: React.FC = () => {
     
 
       {/* Main Content Split */}
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24 items-center justify-between">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 px-4 md:px-6 lg:px-6 xl:px-0 gap-16 lg:gap-24 items-center justify-between">
         
         {/* Left Side: Accordion Menu */}
-        <div className="lg:col-span-7 flex flex-col order-1 lg:order-0">
-          <div className="border-t border-[#242424] sm:px-0 px-4">
+        <div className="lg:col-span-6 flex flex-col order-1 lg:order-0">
+          <div className=" sm:px-0 px-4">
             {SERVICE_ITEMS.map((item) => {
               const isActive = activeId === item.id;
               return (
-                <div key={item.id} className="border-t border-[#242424] ">
+                <div key={item.id} className=" ">
                   <button
                     onClick={() => toggleItem(item.id)}
                     className={`w-full py-6 flex items-center justify-between text-left group transition-colors duration-200 ${
@@ -89,8 +89,8 @@ export const Equipment: React.FC = () => {
         </div>
 
         {/* Right Side: Visual Illustration */}
-        <div className="lg:col-span-5 pt-8 lg:pt-0 order-0 lg:order-1 flex w-full h-full sm:justify-end">
-             <img src="semiconductor.png" className='object-contain' alt="" />
+        <div className="lg:col-span-5  order-0 lg:order-1 flex w-full h-full sm:justify-center">
+             <img src="semiconductor.png" className='object-contain object-center' alt="" />
     </div>
         
       </div>

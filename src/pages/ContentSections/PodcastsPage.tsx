@@ -49,7 +49,7 @@ const PodcastsPage: React.FC = () => {
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[140%] h-[500px] bg-blue-900/20 blur-[120px] rounded-[100%] pointer-events-none -z-10 mix-blend-screen" />
         <div className="absolute -top-[100px] left-1/2 -translate-x-1/2 w-[80%] h-[300px] bg-blue-600/20 blur-[100px] rounded-[100%] pointer-events-none -z-10" />
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-6 xl:px-0 relative z-10 text-center">
           <div className="max-w-3xl mx-auto">
             <h1 id="heading" className="text-5xl md:text-6xl lg:text-7xl font-medium text-white tracking-tight leading-[1.1] mb-6">
                <Trans 
@@ -75,7 +75,7 @@ const PodcastsPage: React.FC = () => {
       </div>
 
       {/* Main Content Area */}
-      <div className="max-w-7xl mx-auto pb-20">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-6 xl:px-0 pb-20">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
           
           {/* Left Column: Episodes */}

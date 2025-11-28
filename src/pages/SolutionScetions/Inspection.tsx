@@ -89,7 +89,7 @@ const Inspection: React.FC = () => {
       </Section>
 
        <Section title={t('inspection.evaluators.title')}>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {inspectors.map((inspector, index) => (
                 <div key={index} className="text-center p-6 rounded-xl bg-[#00041F] border border-[#000730]">
                   <div className="w-20 h-20 bg-slate-200 rounded-full mx-auto mb-4 overflow-hidden">

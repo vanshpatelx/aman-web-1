@@ -35,6 +35,7 @@ const Logistics: React.FC = () => {
         onCtaClick={handleOpenQuote}
       />
 
+      <div className='max-w-7xl mx-auto px-4 md:px-6 lg:px-6 xl:px-0'>
       <Section title={t('logistics.forwarding.title')} description={t('logistics.forwarding.description')}>
         <div className="relative rounded-2xl overflow-hidden bg-slate-900 shadow-2xl mb-12 h-96">
             <img src="https://picsum.photos/1200/600?random=11" alt="World Map Placeholder" className="w-full h-full object-cover opacity-50" />
@@ -47,7 +48,7 @@ const Logistics: React.FC = () => {
             </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
            {services.map((service, index) => (
               <div key={index} className="bg-[#00041F] p-6 rounded-xl border border-[#000730] shadow-sm">
                 <div className="flex items-center mb-4">
@@ -59,11 +60,6 @@ const Logistics: React.FC = () => {
                 <p className="text-[#A7ADBE] text-sm">{service.description}</p>
               </div>
             ))}
-        </div>
-      </Section>
-
-      <Section title={t('logistics.workflow.title')} bg="gray">
-          <div className="space-y-8">
         </div>
       </Section>
 
@@ -86,18 +82,21 @@ const Logistics: React.FC = () => {
           </div>
       </Section>
 
+
+      </div>
        <div className="bg-[#00041F] py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-6 md:mb-0 text-white">
+        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-6 xl:px-0 w-full flex flex-col lg:flex-row justify-between items-center">
+          <div className="mb-6 lg:mb-0 text-white">
             <h2 className="text-3xl font-bold mb-2">{t('logistics.cta.title')}</h2>
             <p className="text-[#A7ADBE]">{t('logistics.cta.subtitle')}</p>
           </div>
-          <div className="flex gap-4">
+          <div className="flex flex-col md:flex-row gap-4">
              <button type='button' onClick={handleOpenQuote} className="bg-blue-700 text-white rounded-[5px] font-medium text-lg py-3 px-6 hover:bg-blue-800 transition-colors duration-300 flex items-center justify-center gap-2 shadow-lg whitespace-nowrap text-center w-full sm:w-auto">{t('logistics.cta.buttons.quote')}</button>
             <button type='button' className="border border-white text-white rounded-[5px] font-medium text-lg py-3 px-6 hover:bg-white hover:text-black transition-colors duration-300 flex items-center gap-2 shadow-lg whitespace-nowrap w-full sm:w-auto justify-center"> {t('logistics.cta.buttons.track')}</button>
           </div>
         </div>
       </div>
+
 
       <Modal isOpen={isQuoteOpen} onClose={handleCloseQuote} title="Request Shipping Quote">
         <form onSubmit={handleSubmit} className="space-y-4">

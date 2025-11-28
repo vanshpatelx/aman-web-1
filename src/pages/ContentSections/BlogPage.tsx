@@ -65,7 +65,7 @@ const BlogPage: React.FC = () => {
 
         <Navbar/>
       {/* Container */}
-      <div className="max-w-7xl mx-auto  py-20 pt-36">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-6 xl:px-0  py-20 pt-36">
         
         {/* --- Section 1: Latest News --- */}
         <section className="mb-24">
@@ -94,7 +94,7 @@ const BlogPage: React.FC = () => {
             </div>
 
             {/* Row of 3 Smaller Cards */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               {LATEST_NEWS_SMALL.map((article) => (
                 <div key={article.id} className="flex gap-4 group">
                   <div className="w-24 h-24 sm:w-32 sm:h-32 flex-shrink-0 overflow-hidden rounded-xl bg-gray-100">

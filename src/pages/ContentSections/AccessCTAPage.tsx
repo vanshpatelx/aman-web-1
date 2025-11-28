@@ -16,15 +16,15 @@ const AccessCTAPage: React.FC = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="relative h-screen py-16 flex flex-col justify-center items-center text-center px-6 overflow-hidden border-b border-white/5">
+      <section className="relative h-full py-16 flex flex-col justify-center items-center text-center px-6 overflow-hidden border-b border-white/5">
         
         {/* Background */}
         <div className="absolute inset-0 opacity-20 bg-[url('https://via.placeholder.com/1200x400')] bg-cover bg-center"></div>
         <div className="absolute inset-0 bg-gradient-to-b from-[#00020F]/40 to-[#00020F]"></div>
 
-        <div className="relative z-10 max-w-4xl mx-auto space-y-8">
+        <div className="relative z-10 max-w-4xl mx-auto space-y-8 h-full">
           
-          <span className="inline-block py-1 px-4 rounded-full bg-blue-600/20 text-blue-300 border border-blue-500/30 text-sm font-semibold tracking-wide uppercase">
+          <span className="inline-block py-1 px-4 mt-20 rounded-full bg-blue-600/20 text-blue-300 border border-blue-500/30 text-sm font-semibold tracking-wide uppercase">
              {t('accessCTA.hero.badge')}
           </span>
 
@@ -62,7 +62,7 @@ const AccessCTAPage: React.FC = () => {
 
       {/* Value Proposition Cards */}
       <section className="py-24 bg-[#00020F]">
-        <div className="max-w-7xl mx-auto flex flex-col justify-start ">
+        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-6 xl:px-0 flex flex-col justify-start ">
           
           <div className="text-center mb-16">
             <h2 id='heading' className="text-4xl font-medium tracking-normal text-white"> {t('accessCTA.valueProposition.title')}</h2>
@@ -71,7 +71,7 @@ const AccessCTAPage: React.FC = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
 
             {valueCards.map((card, index) => (
               <div key={index} className="group p-8 bg-[#0A1120]/70 border border-white/10 backdrop-blur-sm rounded-2xl hover:shadow-blue-700/20 transition-all hover:-translate-y-2">

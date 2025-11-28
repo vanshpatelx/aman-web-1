@@ -29,16 +29,16 @@ const IndustryNewsPage: React.FC = () => {
     <div className="bg-[#00020F] min-h-screen text-[#b2b8ca]">
       <Navbar/>
 
-      <div className="max-w-7xl mx-auto pt-36 py-12">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-6 xl:px-0 pt-36 py-12">
 
         {/* PAGE TITLE */}
-        <h1 className="text-4xl font-bold text-white mb-8 border-l-4 border-blue-700 pl-4">
+        <h1 className="text-2xl sm:text-4xl font-bold text-white mb-8 border-l-4 border-blue-700 pl-4">
            {t('industryNews.pageTitle')}
         </h1>
 
         {/* FEATURED STORY */}
         <div className="mb-12">
-          <div className="group relative rounded-2xl overflow-hidden shadow-lg bg-black aspect-[21/9] md:aspect-[3/1]">
+          <div className="group relative rounded-2xl overflow-hidden shadow-lg bg-black aspect-[3/2] md:aspect-[2/1] lg:aspect-[3/1]">
             <img 
               src="/public/SampleImage.png" 
               alt="Featured News" 

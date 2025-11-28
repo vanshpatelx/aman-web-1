@@ -58,7 +58,7 @@ const Brokering: React.FC = () => {
       </Section>
 
      <Section title={t('brokering.workflow.title')} description={t('brokering.workflow.description')}>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 px-4 sm:px-0">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-4 sm:px-0">
           {workflowSteps.map((item, idx) => (
             <div key={idx} className="relative p-6 bg-[#00041F] rounded-xl shadow-sm border border-[#000730]">
               <span className="absolute -top-4 -left-4 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-semibold text-lg shadow-lg">
@@ -75,7 +75,7 @@ const Brokering: React.FC = () => {
       </Section>
 
        <Section title={t('brokering.features.title')}>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
           {featureItems.map((feature, index) => (
             <FeatureCard
               key={index}

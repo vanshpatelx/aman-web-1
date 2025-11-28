@@ -30,7 +30,7 @@ const Numbers: React.FC = () => {
 const stats = t("section2.stats", { returnObjects: true }) as StatItem[];
 
   return (
-    <div className="min-h-screen scroll-container2 relative flex items-center justify-center p-4 bg-[#00020F]">
+    <div className="min-h-[70vh] scroll-container2 relative flex items-center justify-center p-4 bg-[#00020F]">
       <div className="w-full max-w-7xl mx-auto py-12 ">
         {/* Header Section */}
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end mb-16 gap-8">

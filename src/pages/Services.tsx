@@ -104,7 +104,7 @@ const Services: React.FC = () => {
 
   return (
     <div id='services' className='w-full bg-[#00020F] mx-auto py-12 h-full'>
-      <div className="border border-[#242424] w-full max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
+      <div className="w-full max-w-7xl px-4 md:px-6 lg:px-6 xl:px-0 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
 
         {services.map((service, index) => (
           <motion.div
@@ -168,7 +168,7 @@ const Services: React.FC = () => {
         {/* View More CTA */}
         <Link
           to="/Accessctapage"
-          className="bg-[#00020F] p-8 md:p-10 flex flex-col justify-end items-end h-full min-h-[320px] group"
+          className="bg-[#00020F] border-[0.5px] border-[#242424]/70 p-8 md:p-10 flex flex-col justify-end items-end h-full min-h-[320px] group"
         >
           <div className="w-full flex items-center justify-end gap-3">
             <span className="text-lg font-medium text-white group-hover:text-gray-200 transition-colors">

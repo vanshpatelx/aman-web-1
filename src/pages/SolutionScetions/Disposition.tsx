@@ -38,7 +38,7 @@ const Disposition: React.FC = () => {
       />
 
       <Section title={t('disposition.recoveryProcess.title')} description={t('disposition.recoveryProcess.description')}>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 text-white">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16 text-white">
           {recoverySteps.map((step, index) => (
             <div key={index} className={`bg-[#00041F] p-6 rounded-xl shadow-lg border-t-4 ${index === 0 ? 'border-blue-600' :
                 index === 1 ? 'border-green-600' :
