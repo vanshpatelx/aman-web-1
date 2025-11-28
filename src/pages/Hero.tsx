@@ -1,25 +1,14 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { ArrowRight, Menu, X } from 'lucide-react'
-import { useEffect, useState } from 'react'
+import { ArrowRight} from 'lucide-react'
 import { Variants } from "framer-motion";
 import Navbar from './Navbar';
 import {useTranslation} from 'react-i18next'
+import GlobeBackground from '@/components/GlobeBackground';
 
 export default function Hero() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
   const {t } = useTranslation()
-  const navItems = ['Home', 'About', 'Service', 'Team', 'Contact']
-  const [isScrolled, setIsScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 0);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
   const containerVariants: Variants = {
     hidden: { opacity: 0 },
@@ -61,20 +50,8 @@ export default function Hero() {
 
      
 
-      <div className="absolute inset-0 -z-10 ">
-        <motion.div
-          variants={imageScaleVariants}
-          initial="hidden"
-          animate="visible"
-          className="absolute inset-0"
-        >
-          {/* Using a tech-focused placeholder image */}
-          <img
-          src="/bg.png"
-          alt="Hero background"
-          className="w-full h-full object-cover object-center"
-        />
-        </motion.div>
+      <div className="absolute flex justify-center items-end inset-0 z-20 ">
+       <GlobeBackground />
       </div>
 
 
@@ -82,7 +59,7 @@ export default function Hero() {
       <Navbar/>
 
       {/* Hero Section */}
-      <div className="relative min-h-screen h-full w-screen overflow-hidden ">
+      <div className="relative min-h-[115vh] h-full w-screen overflow-hidden z-30">
       
         
       {/* Main Content */}
