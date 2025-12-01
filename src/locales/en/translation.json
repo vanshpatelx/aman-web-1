@@ -1,0 +1,967 @@
+{
+  "heading": "Engineering a faster, smarter semiconductor future.",
+  "subheading": "Experience a numbers-driven lending approach built on expertise, partnership, and long-term financial clarity—delivering more than just competitive rates.",
+  "cta1": "Explore solutions",
+  "cta2": "Schedule a call",
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "content": "Content",
+    "solutions": "Solutions",
+    "shop": "Shop Now"
+  },
+  "about": {
+    "sectionTitle": "About Vision Semiconductor",
+    "headline": "Powering the Future of Technology Through Unrivaled Innovation and a Global Vision for Semiconductor Progress.",
+    "features": {
+      "innovation": "Innovation",
+      "expertise": "Expertise",
+      "vision": "Vision"
+    },
+    "cta": "Learn More"
+  },
+  "section2": {
+    "title": "It's like giving every tool in your fab a second life",
+    "description": "Our mission-driven approach reduces cost of ownership, improves reliability, and keeps legacy equipment productive for years longer.",
+    "cta": "Get started",
+    "stats": [
+      {
+        "label": "Years of Expertise",
+        "value": "20+",
+        "description": "Decades of experience in semiconductor engineering."
+      },
+      {
+        "label": "Global Clients",
+        "value": "150+",
+        "description": "Trusted by companies across industries and continents."
+      },
+      {
+        "label": "Cost Saved",
+        "value": "$50M+",
+        "description": "Helping partners reduce operational and upgrade costs."
+      },
+      {
+        "label": "Projects Delivered",
+        "value": "500+",
+        "description": "Successful projects driven by precision and innovation."
+      }
+    ]
+  },
+  "services": {
+    "accessCta": "Access Knowledge Center",
+    "services": [
+      {
+        "title": "Podcast Episodes",
+        "description": "Expert discussions on semiconductor manufacturing trends and innovations",
+        "pattern": "/patterns/Burst.svg",
+        "link": "/PodcastsPage"
+      },
+      {
+        "title": "Trending White Papers",
+        "description": "In-depth technical analysis and research from industry leaders",
+        "pattern": "/patterns/Looper-3.svg",
+        "link": "/WhitePapersPage"
+      },
+      {
+        "title": "Market Analysis",
+        "description": "Real-time insights on market trends and equipment valuations",
+        "pattern": "/patterns/LooperGroup.svg",
+        "link": "/BlogPage"
+      },
+      {
+        "title": "Educational Resources",
+        "description": "Comprehensive guides and tutorials for semiconductor processes",
+        "pattern": "/patterns/Topology-1.svg",
+        "link": "/EbooksPage"
+      },
+      {
+        "title": "Industry News",
+        "description": "Latest developments and emerging technologies in semiconductor manufacturing",
+        "pattern": "/patterns/Topology-2.svg",
+        "link": "/IndustryNewsPage"
+      }
+    ]
+  },
+  "equipment": {
+    "heading": "Engineering pathways to industrial sustainability",
+    "subheading": "From energy generation to long-term system efficiency, we deliver solutions that cut costs, reduce emissions, and ensure resilient operations.",
+    "requestAudit": "Request audit",
+    "learnMore": "Learn more",
+    "services": [
+      {
+        "id": "Brokering",
+        "title": "Equipment Brokering",
+        "description": "Expert management of asset sales, connecting you with qualified buyers for maximum return",
+        "link": "/Brokering"
+      },
+      {
+        "id": "Inspection",
+        "title": "Inspection",
+        "description": "Detailed equipment evaluations that verify condition, reduce risk, and support confident decisions.",
+        "link": "/Inspection"
+      },
+      {
+        "id": "Disposition",
+        "title": "Disposition",
+        "description": "Strategic removal of surplus assets, optimizing value recovery while minimizing operational burden.",
+        "link": "/Disposition"
+      },
+      {
+        "id": "Consignment",
+        "title": "Consignment",
+        "description": "Hands-on sales support that markets your equipment effectively while you retain full ownership.",
+        "link": "/Consignment"
+      },
+      {
+        "id": "Logistics-Forwarding",
+        "title": "Logistics & Forwarding",
+        "description": "End-to-end transport coordination ensuring safe, efficient delivery across any distance or border",
+        "link": "/Logistics"
+      }
+    ]
+  },
+  "footer": {
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.",
+    "company": "Company",
+    "products": "Products",
+    "contact": "Contact",
+    "companyLinks": {
+      "about": "About Us",
+      "careers": "Careers",
+      "privacy": "Privacy Policy",
+      "terms": "Terms & Condition"
+    },
+    "productLinks": {
+      "event": "Event",
+      "projects": "Projects",
+      "services": "Services",
+      "team": "Team"
+    },
+    "contactInfo": {
+      "email": "Support@vision.com",
+      "phone": "+1 234 567 8900",
+      "address": "345 Tech Park Avenue, 9th Floor Silicon Valley, CA 98765 USA"
+    },
+    "copyright": "Copyright 2024 Vision Semiconductor Solutions LLC. All Rights Reserved."
+  },
+  "tabs": {
+    "learnMore": "Learn More",
+    "tabsData": [
+      {
+        "id": "mission",
+        "label": "Our Mission",
+        "number": "01",
+        "title": "Driving Semiconductor Innovation Forward",
+        "description": "We are committed to advancing semiconductor technology through cutting-edge research, strategic partnerships, and sustainable engineering solutions that power the future of global technology.",
+        "imageUrl": "/images/mission.jpg"
+      },
+      {
+        "id": "vision",
+        "label": "Our Vision",
+        "number": "02",
+        "title": "Shaping the Future of Technology",
+        "description": "To be the global leader in semiconductor solutions, creating a smarter, more connected world through innovative technology that transforms industries and enhances human experiences.",
+        "imageUrl": "/images/vision.jpg"
+      },
+      {
+        "id": "values",
+        "label": "Our Values",
+        "number": "03",
+        "title": "Excellence Through Integrity",
+        "description": "We operate with unwavering integrity, foster collaborative innovation, and maintain the highest standards of quality in every aspect of our semiconductor solutions and services.",
+        "imageUrl": "/images/values.jpg"
+      }
+    ]
+  },
+  "brokering": {
+    "hero": {
+      "title": "Global Equipment Brokering",
+      "subtitle": "Connect with a worldwide network of buyers and sellers. We simplify the complexities of industrial equipment trading with verified listings and secure transactions.",
+      "ctaText": "Request Access"
+    },
+    "marketplace": {
+      "title": "Marketplace Overview",
+      "description": "Access thousands of verified industrial assets across construction, mining, and manufacturing sectors.",
+      "content": "Our brokering platform bridges the gap between surplus equipment owners and businesses in need of reliable machinery. We handle the heavy lifting of negotiations, verification, and documentation.",
+      "stats": [
+        "30,000+ Active buyers in our database.",
+        "$500M+ In completed equipment transactions.",
+        "Transparent fee structures with no hidden costs."
+      ]
+    },
+    "workflow": {
+      "title": "Sourcing Workflow",
+      "description": "How we connect you with the right machinery.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Request",
+          "desc": "Submit your equipment requirements or list your asset for sale."
+        },
+        {
+          "step": "02",
+          "title": "Match",
+          "desc": "Our AI-driven engine matches assets with qualified buyers instantly."
+        },
+        {
+          "step": "03",
+          "title": "Verify",
+          "desc": "Inspectors verify condition and documentation before proceeding."
+        },
+        {
+          "step": "04",
+          "title": "Close",
+          "desc": "Secure payment processing and logistics coordination finalize the deal."
+        }
+      ]
+    },
+    "features": {
+      "title": "Why Choose Our Brokerage",
+      "items": [
+        {
+          "title": "Global Reach",
+          "description": "Access markets in over 50 countries. We handle cross-border trade complexities, including customs and compliance."
+        },
+        {
+          "title": "Fraud Protection",
+          "description": "Every transaction is secured via escrow services. We verify every buyer and seller to prevent fraud."
+        },
+        {
+          "title": "Market Intelligence",
+          "description": "Leverage our proprietary data to price your equipment competitively or ensure you aren't overpaying."
+        }
+      ]
+    },
+    "trusted": {
+      "title": "Trusted by Industry Leaders"
+    },
+    "cta": {
+      "title": "Ready to Buy or Sell?",
+      "subtitle": "Join thousands of businesses optimizing their asset management today.",
+      "buttons": {
+        "browse": "Browse Inventory",
+        "contact": "Contact a Broker"
+      }
+    },
+    "modal": {
+      "title": "Brokerage Inquiry",
+      "form": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email Address",
+        "inquiryType": "Inquiry Type",
+        "company": "Company",
+        "phone": "Phone",
+        "equipment": "Equipment / Requirements",
+        "submit": "Submit Inquiry",
+        "agreement": "By submitting, you agree to share your contact details with our brokerage team."
+      },
+      "options": {
+        "buy": "I want to Buy Equipment",
+        "sell": "I want to Sell Equipment",
+        "general": "General Inquiry"
+      }
+    },
+    "successMessage": "Inquiry submitted successfully! A broker will contact you shortly."
+  },
+  "inspection": {
+    "hero": {
+      "title": "Certified Equipment Inspections",
+      "subtitle": "Unbiased, detailed, and rapid inspection reports. Know exactly what you are buying or selling with our standardized assessment protocols.",
+      "ctaText": "Schedule Inspection"
+    },
+    "whyMatter": {
+      "title": "Why Inspections Matter",
+      "description": "Mitigate risk and ensure fair value with our comprehensive reporting.",
+      "heading": "A Deep Dive into Machine Health",
+      "content": "Our inspectors don't just kick the tires. We perform rigorous operational tests, fluid analysis, and undercarriage measurements. A typical report includes over 100 data points and 50+ high-resolution photos.",
+      "features": [
+        {
+          "title": "Standardized Checklists",
+          "description": "Consistent evaluation criteria across all equipment categories."
+        },
+        {
+          "title": "Visual Evidence",
+          "description": "Detailed photo and video documentation of wear and tear."
+        },
+        {
+          "title": "Digital Reports",
+          "description": "Instant access to reports via our secure cloud portal."
+        }
+      ]
+    },
+    "qualityProcess": {
+      "title": "Quality Assurance Process",
+      "steps": [
+        {
+          "title": "Booking & Dispatch",
+          "desc": "Inspector assigned based on equipment type and location expertise.",
+          "side": "left"
+        },
+        {
+          "title": "On-Site Evaluation",
+          "desc": "Visual check, operational testing, and fluid sampling performed.",
+          "side": "right"
+        },
+        {
+          "title": "Data Review",
+          "desc": "Senior technical leads review raw data for anomalies.",
+          "side": "left"
+        },
+        {
+          "title": "Report Publication",
+          "desc": "Final report generated with valuation estimates (optional).",
+          "side": "right"
+        }
+      ]
+    },
+    "evaluators": {
+      "title": "Evaluator Highlights",
+      "inspectors": [
+        {
+          "name": "Mike T.",
+          "role": "Senior Heavy Machinery Specialist",
+          "quote": "\"I've inspected over 2,000 excavators. I know exactly where stress fractures hide.\""
+        },
+        {
+          "name": "Sarah L.",
+          "role": "Cranes & Lifting Equipment",
+          "quote": "\"Safety is the priority. My reports ensure compliance with OSHA and ISO standards.\""
+        },
+        {
+          "name": "David R.",
+          "role": "Trucks & Fleet",
+          "quote": "\"Engine diagnostics tell the real story. We don't guess, we measure.\""
+        }
+      ]
+    },
+    "cta": {
+      "title": "Don't risk a bad deal.",
+      "subtitle": "Get the facts before you sign the check.",
+      "button": "Request a Sample Report"
+    },
+    "modal": {
+      "title": "Request Inspection",
+      "form": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email Address",
+        "equipment": "Equipment Details",
+        "location": "Asset Location",
+        "phone": "Phone",
+        "submit": "Submit Request",
+        "responseTime": "Standard response time is under 4 hours during business days."
+      },
+      "placeholders": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john@company.com",
+        "equipment": "Year, Make, Model, Serial # (if available)",
+        "location": "City, State",
+        "phone": "+1 (555) 000-0000"
+      }
+    },
+    "successMessage": "Inspection request received! We will contact you to schedule."
+  },
+  "disposition": {
+    "hero": {
+      "title": "Strategic Asset Disposition",
+      "subtitle": "Maximize recovery value from surplus assets. We offer environmentally compliant, profitable solutions for end-of-life or surplus equipment.",
+      "ctaText": "Start Recovery"
+    },
+    "recoveryProcess": {
+      "title": "The Asset Recovery Process",
+      "description": "Turn idle machinery into working capital securely and efficiently.",
+      "steps": [
+        {
+          "title": "Assessment",
+          "description": "We catalog your surplus inventory and determine the best disposition channel: resale, refurbishment, or recycling."
+        },
+        {
+          "title": "Compliance",
+          "description": "Hazardous fluids removal, data destruction, and e-waste compliance are handled according to EPA regulations."
+        },
+        {
+          "title": "Liquidation",
+          "description": "Assets are sold via private treaty, auction, or scrap markets to maximize return on investment."
+        }
+      ],
+      "caseStudy": {
+        "title": "Case Study: Construction Fleet Liquidation",
+        "content": "A major infrastructure firm needed to offload 50+ units of aging earthmoving equipment. Our team managed the logistics, refurbishment, and auctioning process.",
+        "metrics": [
+          {
+            "value": "120%",
+            "label": "Recovery vs Book Value"
+          },
+          {
+            "value": "30 Days",
+            "label": "Project Timeline"
+          }
+        ]
+      }
+    },
+    "workflow": {
+      "title": "Resale & Recycling Workflow",
+      "features": [
+        {
+          "title": "Logistics & Removal",
+          "description": "We arrange heavy haul transport and site clearance."
+        },
+        {
+          "title": "Title Transfer",
+          "description": "Handling all lien releases and ownership documentation."
+        },
+        {
+          "title": "Multi-Channel Sales",
+          "description": "Listing on global marketplaces and exclusive networks."
+        },
+        {
+          "title": "Green Disposal",
+          "description": "Certified recycling for non-salvageable components."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Turn Liability into Liquidity",
+      "button": "Get a Free Valuation"
+    },
+    "modal": {
+      "title": "Asset Disposition Inquiry",
+      "form": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email Address",
+        "assets": "List of Assets / Inventory",
+        "location": "Location of Assets",
+        "company": "Company",
+        "submit": "Submit for Valuation",
+        "responseTime": "Our team typically provides preliminary valuations within 2 business days."
+      },
+      "placeholders": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john@company.com",
+        "assets": "Please list major items or provide a summary of the lot...",
+        "location": "City, State",
+        "company": "Company Name"
+      }
+    },
+    "successMessage": "Disposition request submitted. A recovery specialist will review your assets."
+  },
+  "consignment": {
+    "hero": {
+      "title": "Equipment Consignment Services",
+      "subtitle": "Secure storage and professional sales management for your heavy equipment. You maintain ownership while we handle the sale.",
+      "ctaText": "Consign Your Equipment"
+    },
+    "hassleFree": {
+      "title": "Hassle-Free Selling",
+      "description": "We store, maintain, and sell your assets from our secure yards.",
+      "revenueModel": {
+        "title": "Revenue Sharing Model",
+        "content": "Unlike auctions where you lose control of the price, our consignment model puts you in the driver's seat. We agree on a net price or a commission percentage.",
+        "features": [
+          {
+            "label": "Marketing & Listing",
+            "value": "Included"
+          },
+          {
+            "label": "Storage (90 Days)",
+            "value": "Free"
+          },
+          {
+            "label": "Maintenance Wash",
+            "value": "Included"
+          },
+          {
+            "label": "Commission",
+            "value": "8-12%"
+          }
+        ]
+      },
+      "benefits": [
+        {
+          "title": "Prime Locations",
+          "description": "Our consignment yards are located near major ports and highways for easy buyer access and logistics."
+        },
+        {
+          "title": "Maximum Visibility",
+          "description": "Walk-in traffic combined with premium digital placement ensures your asset gets seen by serious buyers."
+        },
+        {
+          "title": "Secure Facilities",
+          "description": "24/7 security monitoring, fenced yards, and regular battery/fluid maintenance checks while in storage."
+        }
+      ]
+    },
+    "tracking": {
+      "title": "Tracking & Transparency",
+      "features": [
+        {
+          "title": "Real-time Inventory",
+          "description": "View your consigned assets in our portal. Check status, view listing hits, and manage offers."
+        },
+        {
+          "title": "Dynamic Pricing",
+          "description": "We provide data-driven price adjustments based on market interest to ensure a timely sale."
+        },
+        {
+          "title": "Performance Reports",
+          "description": "Weekly updates on leads, inquiries, and physical inspections conducted on your equipment."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Space is limited in our prime yards.",
+      "subtitle": "Reserve your spot today and get your equipment in front of verified buyers.",
+      "button": "Reserve Space"
+    },
+    "modal": {
+      "title": "Consignment Request",
+      "form": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email Address",
+        "equipment": "Equipment Description",
+        "location": "Current Location",
+        "phone": "Phone",
+        "submit": "Submit Request",
+        "agreement": "By submitting, you agree to our consignment terms and privacy policy."
+      },
+      "placeholders": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john@company.com",
+        "equipment": "E.g., 2018 CAT 320 Excavator...",
+        "location": "City, State",
+        "phone": "+1 (555) 000-0000"
+      }
+    },
+    "successMessage": "Consignment space reserved! We will contact you to finalize details."
+  },
+  "logistics": {
+    "hero": {
+      "title": "Heavy Equipment Logistics",
+      "subtitle": "Door-to-door transport solutions for oversized cargo. We handle dismantling, packing, freight forwarding, and customs clearance.",
+      "ctaText": "Get a Shipping Quote"
+    },
+    "forwarding": {
+      "title": "Global Forwarding Network",
+      "description": "Seamlessly moving heavy machinery across borders and oceans.",
+      "globe": {
+        "title": "Connecting 150+ Ports Worldwide",
+        "subtitle": "Live tracking available for all ocean and air freight."
+      },
+      "services": [
+        {
+          "title": "Inland Heavy Haul",
+          "description": "Specialized low-boys and RGN trailers for oversized loads. We handle all permitting and escort vehicle requirements."
+        },
+        {
+          "title": "RoRo & Container",
+          "description": "Flexible ocean freight options. Roll-on/Roll-off for drivable units or containerization for dismantled parts."
+        },
+        {
+          "title": "Dismantling & Packing",
+          "description": "Professional dismantling services to fit large machinery into standard containers, reducing shipping costs significantly."
+        }
+      ]
+    },
+    "workflow": {
+      "title": "Shipping Workflow",
+      "steps": [
+        {
+          "title": "Quote & Planning",
+          "text": "Route analysis and cost estimation based on dimensions and weight."
+        },
+        {
+          "title": "Prep & Pickup",
+          "text": "Washing (for quarantine compliance) and loading onto transport."
+        },
+        {
+          "title": "Export Customs",
+          "text": "Documentation filing (AES, Commercial Invoice, Packing List)."
+        },
+        {
+          "title": "Ocean Freight",
+          "text": "Vessel departure and transit monitoring."
+        },
+        {
+          "title": "Import & Delivery",
+          "text": "Customs clearance at destination and final mile delivery."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Need to move big iron?",
+      "subtitle": "Our logistics experts are ready to plan your route.",
+      "buttons": {
+        "quote": "Request Quote",
+        "track": "Track Shipment"
+      }
+    },
+    "modal": {
+      "title": "Request Shipping Quote",
+      "form": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email Address",
+        "equipment": "Equipment Details",
+        "origin": "Origin City",
+        "destination": "Destination City",
+        "submit": "Submit Request",
+        "agreement": "By submitting, you agree to our privacy policy. Estimates are valid for 7 days."
+      },
+      "placeholders": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john@company.com",
+        "equipment": "E.g., 2018 CAT 320 Excavator, approx 45,000 lbs",
+        "origin": "City, Country",
+        "destination": "City, Country"
+      }
+    },
+    "successMessage": "Quote request submitted successfully! A logistics coordinator will contact you shortly."
+  },
+  "brandStory": {
+    "sectionTitle": "Section 01 — Brand Story",
+    "heading": "Our Story",
+    "title": "Vision Semiconductor Solutions LLC was founded with a clear purpose to power the future of technology.",
+    "content": [
+      "Vision Semiconductor Solutions (VSS) supports the global semiconductor manufacturing industry with precision, innovation, and transparency. What began as a source for surplus and spare equipment has evolved into a platform for knowledge, engineering excellence, and global collaboration.",
+      "Rooted in technical expertise, VSS aims to become a trusted hub for solutions, education, and industry influence within the semiconductor ecosystem."
+    ],
+    "founder": {
+      "name": "Vision Semiconductor Solutions",
+      "role": "Global Leadership Team",
+      "quote": "\"We hold ourselves responsible first, then our team, our customers, and our community.\""
+    }
+  },
+  "missionVision": {
+    "intro": "Driving the Industry Forward",
+    "mission": {
+      "section": "Section 02",
+      "title": "Mission",
+      "heading": "Empowering the Future of Semiconductor Solutions",
+      "content": "Our mission is to deliver reliable semiconductor equipment and knowledge to engineers, manufacturers, and innovators worldwide. We make high-performance solutions accessible, efficient, and scalable—empowering the next generation of technology and manufacturing excellence."
+    },
+    "vision": {
+      "section": "Section 03",
+      "title": "Vision",
+      "heading": "Shaping Tomorrow, Today",
+      "content": "We envision becoming a global center for semiconductor solutions, education, and industry leadership. Through clarity, innovation, and long-term commitment, we aim to influence the future of the semiconductor ecosystem and elevate technological progress around the world."
+    }
+  },
+  "team": {
+    "title": "Our team has over 100 years of combined experience!",
+    "subtitle": "Our team brings experience, innovation, and creativity to the semiconductor industry to ensure your plans are in good hands.",
+    "members": [
+      {
+        "name": "Mike Simorangkir",
+        "role": "Founder & CEO",
+        "bio": "Mike, MBA, has 15+ years of experience in semiconductor commercial strategies and mixed-use equipment development."
+      },
+      {
+        "name": "Stanley George",
+        "role": "Retired EVP & CCO",
+        "bio": "Stanley was a partner at Heenan Blaikie LLP until September 2005, specializing in global tech compliance."
+      },
+      {
+        "name": "Eliza Baker",
+        "role": "VP, Operations",
+        "bio": "Eliza, MBA, has 12+ years of experience in commercial logistics and semiconductor supply chain management."
+      },
+      {
+        "name": "Sally Cruz",
+        "role": "Chief Marketing Officer",
+        "bio": "Sally has 10+ years of experience in both the Canadian and Asia Pacific tech markets."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Partner with Vision Semiconductor Solutions",
+    "subtitle": "Discover how our precision and innovation can power your next technological breakthrough.",
+    "button": "Contact Us Today"
+  },
+  "accessCTA": {
+    "hero": {
+      "badge": "Exclusive Access",
+      "title": "Unlock the Ultimate <1>Knowledge Base</1>",
+      "subtitle": "Full access to semiconductor reports, white papers, deep-tech insights, and expert-curated resources.",
+      "buttons": {
+        "trial": "Start Free Trial",
+        "explore": "Explore Library"
+      }
+    },
+    "valueProposition": {
+      "title": "Why Professionals Choose Us",
+      "subtitle": "Trusted semiconductor intelligence built for engineers, analysts, and decision-makers.",
+      "cards": [
+        {
+          "title": "Real-time Insights",
+          "description": "Stay ahead with continuously updated semiconductor market and technology intelligence."
+        },
+        {
+          "title": "Verified Sources",
+          "description": "Every resource is validated by industry experts for technical accuracy and relevance."
+        },
+        {
+          "title": "Global Community",
+          "description": "Join a network of engineers, researchers, and leaders shaping the future of technology."
+        }
+      ]
+    }
+  },
+  "podcasts": {
+    "hero": {
+      "title": "Engineering a faster, smarter podcast <1>future.</1>",
+      "subtitle": "Experience a numbers-driven approach built on expertise, partnership, and long-term clarity—delivering more than just audio.",
+      "buttons": {
+        "explore": "Explore episodes",
+        "schedule": "Schedule a call"
+      }
+    },
+    "featured": {
+      "title": "Latest Episodes",
+      "featuredBadge": "FEATURED",
+      "featuredEpisode": {
+        "title": "Ep 100: A Century of Silicon",
+        "description": "We look back at the history of semiconductors and look forward to the quantum leap awaiting us in the next decade.",
+        "button": "Listen Now"
+      }
+    },
+    "episodes": {
+      "categories": [
+        "Technology",
+        "Business",
+        "Health",
+        "Design",
+        "Marketing",
+        "Science"
+      ],
+      "episode": {
+        "showNotes": "Show Notes",
+        "duration": "{{duration}}"
+      }
+    },
+    "sidebar": {
+      "newsletter": {
+        "title": "Stay in the loop",
+        "subtitle": "Join 10,000+ engineers receiving our weekly industry breakdowns.",
+        "placeholder": "Enter your email",
+        "button": "Subscribe Free"
+      },
+      "about": {
+        "title": "About Vision",
+        "content": "Vision Semiconductor Solutions LLC provides cutting-edge insights into the hardware that powers our world. From silicon to systems.",
+        "link": "Learn more →"
+      }
+    }
+  },
+  "whitePapers": {
+    "hero": {
+      "title": "Research & White Papers",
+      "subtitle": "Semiconductor market insights, fabrication trends, and advanced technology briefs."
+    },
+    "featured": {
+      "editorsPick": "Editor's Pick",
+      "title": "The State of Global Chip Innovation 2024",
+      "description": "Analysis of fab expansions, supply chain resilience, lithography breakthroughs, and competitive dynamics shaping next-gen semiconductor ecosystems.",
+      "buttons": {
+        "download": "Download PDF",
+        "summary": "Read Summary"
+      }
+    },
+    "recent": {
+      "title": "Recent Publications",
+      "papers": [
+        {
+          "title": "Strategic Insights Vol. 1",
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+        },
+        {
+          "title": "Strategic Insights Vol. 2",
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+        },
+        {
+          "title": "Strategic Insights Vol. 3",
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+        }
+      ],
+      "button": "View"
+    }
+  },
+  "blog": {
+    "latestNews": {
+      "title": "Latest News",
+      "featured": {
+        "category": "SEMICONDUCTOR INSIGHTS",
+        "title": "Global fabs struggle to scale advanced packaging as AI chip demand accelerates",
+        "summary": "Chip manufacturers worldwide are racing to expand advanced packaging capacity, but supply constraints in lithography tools and materials hinder production scale."
+      },
+      "smallArticles": [
+        {
+          "category": "FAB TECHNOLOGY",
+          "title": "New breakthroughs in EUV lithography promise higher yield at 2nm nodes..."
+        },
+        {
+          "category": "SUPPLY CHAIN",
+          "title": "Global silicon wafer shortage expected to continue through 2026..."
+        },
+        {
+          "category": "EQUIPMENT INNOVATION",
+          "title": "Etching equipment vendors push new plasma technologies for sub-3nm geometries..."
+        }
+      ]
+    },
+    "gridSection": {
+      "title": "Operating, Reserve, and<br/>Vault accounts",
+      "articles": [
+        {
+          "category": "MANUFACTURING",
+          "title": "Chipmakers invest billions to expand global fabrication capacity",
+          "summary": "Leading semiconductor companies are accelerating fab expansion to meet demand for AI, EVs, and next-gen consumer electronics."
+        },
+        {
+          "category": "EQUIPMENT",
+          "title": "New wafer metrology systems enhance precision at atomic scales",
+          "summary": "Advanced inspection tools continue to evolve as semiconductor features shrink into the angstrom era."
+        },
+        {
+          "category": "R&D INNOVATION",
+          "title": "Researchers explore 3D silicon stacking to boost computational density",
+          "summary": "Innovations in thermal dissipation and interconnect technologies are key to scaling 3D stacked semiconductor architectures."
+        }
+      ],
+      "button": "View All Article"
+    },
+    "common": {
+      "author": "Dr. Ethan Park",
+      "date": "25 Jan 2025"
+    }
+  },
+  "ebooks": {
+    "hero": {
+      "title": "Knowledge Library",
+      "subtitle": "Technical eBooks, semiconductor insights, and premium engineering guides — free for all professionals."
+    },
+    "books": [
+      {
+        "title": "Mastering Digital Transformation",
+        "author": "Dr. Sarah Connor",
+        "description": "A curated guide offering technical insights, best practices, and industry-ready knowledge."
+      },
+      {
+        "title": "The Agile Leadership Guide",
+        "author": "James Cameron",
+        "description": "A curated guide offering technical insights, best practices, and industry-ready knowledge."
+      },
+      {
+        "title": "Data Science for Executives",
+        "author": "Ellen Ripley",
+        "description": "A curated guide offering technical insights, best practices, and industry-ready knowledge."
+      },
+      {
+        "title": "Cybersecurity Essentials",
+        "author": "Neo Anderson",
+        "description": "A curated guide offering technical insights, best practices, and industry-ready knowledge."
+      }
+    ],
+    "buttons": {
+      "readOnline": "Read Online",
+      "download": "Download"
+    },
+    "common": {
+      "by": "by",
+      "pages": "{{count}} pages"
+    }
+  },
+  "industryNews": {
+    "pageTitle": "Semiconductor Industry News",
+    "featured": {
+      "badge": "Breaking",
+      "title": "Major Breakthrough in Quantum Chip Efficiency Announced Today"
+    },
+    "categories": [
+      "All",
+      "Chip Manufacturing",
+      "Regulations",
+      "Startups",
+      "Corporate",
+      "R&D"
+    ],
+    "newsItems": [
+      {
+        "title": "Global Chip Markets Rally as AI Demand Hits Record High",
+        "excerpt": "Cutting-edge fabs, new lithography breakthroughs, and geopolitical regulations continue shaping the semiconductor ecosystem.",
+        "category": "Chip Manufacturing"
+      },
+      {
+        "title": "New Semiconductor Export Rules Create Industry Uncertainty",
+        "excerpt": "Cutting-edge fabs, new lithography breakthroughs, and geopolitical regulations continue shaping the semiconductor ecosystem.",
+        "category": "Regulations"
+      }
+    ],
+    "sidebar": {
+      "trending": {
+        "title": "Trending Topics",
+        "tags": [
+          "#EUVLithography",
+          "#ChipFabrication",
+          "#AIChips",
+          "#3DNAND",
+          "#QuantumComputing"
+        ]
+      },
+      "subscribe": {
+        "title": "Daily Semiconductor Digest",
+        "description": "Get top chip-industry headlines delivered every morning.",
+        "placeholder": "Email Address",
+        "button": "Sign Up"
+      }
+    },
+    "common": {
+      "readFullStory": "Read Full Story",
+      "author": "Dr. Jane Doe",
+      "featuredAuthor": "Dr. John Smith",
+      "date": "Jan {{day}}, 2025"
+    }
+  },
+  "products": {
+    "tabsData": [
+      {
+        "id": "Modular architecture",
+        "label": "Modular architecture",
+        "number": "01",
+        "title": "Modular architecture",
+        "description": "Explore equipment from leading OEMs including ASML, Applied Materials, Lam Research, TEL, and KLA.",
+        "cta": "Learn More"
+      },
+      {
+        "id": "Opportunities",
+        "label": "Opportunities",
+        "number": "02",
+        "title": "Featured Opportunities",
+        "description": "Access exclusive high-value listings, rare systems, and competitively priced, in-demand semiconductor tools.",
+        "cta": "Learn More"
+      },
+      {
+        "id": "New Inventory",
+        "label": "New Inventory",
+        "number": "03",
+        "title": "New Arrivals",
+        "description": "Discover the latest additions, from cutting-edge wafer tools to refurbished production-ready systems.",
+        "cta": "Learn More"
+      },
+      {
+        "id": "Portal",
+        "label": "Portal",
+        "number": "04",
+        "title": "Customer Portal",
+        "description": "Request quotes, manage POs, and streamline procurement with a unified customer workspace.",
+        "cta": "Learn More"
+      }
+    ]
+  }
+}

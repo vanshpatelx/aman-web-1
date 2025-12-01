@@ -1,0 +1,967 @@
+{
+  "heading": "더 빠르고, 더 스마트한 반도체 미래를 설계합니다.",
+  "subheading": "전문성, 파트너십, 그리고 장기적인 재무적 명확성에 기반한 데이터 중심의 대출 접근 방식을 경험해보세요. 단순한 경쟁력 있는 금리 이상을 제공합니다.",
+  "cta1": "솔루션 탐색",
+  "cta2": "전화 상담 예약",
+  "nav": {
+    "home": "홈",
+    "about": "회사 소개",
+    "content": "콘텐츠",
+    "solutions": "솔루션",
+    "shop": "지금 쇼핑하기"
+  },
+  "about": {
+    "sectionTitle": "Vision Semiconductor 소개",
+    "headline": "비교할 수 없는 혁신과 반도체 발전에 대한 글로벌 비전을 통해 기술의 미래에 동력을 공급합니다.",
+    "features": {
+      "innovation": "혁신",
+      "expertise": "전문성",
+      "vision": "비전"
+    },
+    "cta": "더 알아보기"
+  },
+  "section2": {
+    "title": "팹 내 모든 도구에 두 번째 생명을 부여하는 것과 같습니다",
+    "description": "우리의 미션 중심 접근 방식은 소유 비용을 절감하고, 신뢰성을 향상시키며, 레거시 장비를 수년 더 생산적으로 유지합니다.",
+    "cta": "시작하기",
+    "stats": [
+      {
+        "label": "전문성 보유 기간",
+        "value": "20년 이상",
+        "description": "수십 년간의 반도체 엔지니어링 경험."
+      },
+      {
+        "label": "글로벌 고객사",
+        "value": "150개사 이상",
+        "description": "다양한 산업과 대륙의 기업들로부터 신뢰를 받고 있습니다."
+      },
+      {
+        "label": "절감된 비용",
+        "value": "$5,000만 이상",
+        "description": "파트너사의 운영 및 업그레이드 비용 절감을 지원합니다."
+      },
+      {
+        "label": "완료된 프로젝트",
+        "value": "500개 이상",
+        "description": "정밀성과 혁신으로 완수한 성공적인 프로젝트."
+      }
+    ]
+  },
+  "services": {
+    "accessCta": "지식 센터 이용하기",
+    "services": [
+      {
+        "title": "팟캐스트 에피소드",
+        "description": "반도체 제조 트렌드 및 혁신에 관한 전문가 토론",
+        "pattern": "/patterns/Burst.svg",
+        "link": "/PodcastsPage"
+      },
+      {
+        "title": "인기 화이트 페이퍼",
+        "description": "업계 리더들의 심층 기술 분석 및 연구",
+        "pattern": "/patterns/Looper-3.svg",
+        "link": "/WhitePapersPage"
+      },
+      {
+        "title": "시장 분석",
+        "description": "시장 동향 및 장비 가치 평가에 대한 실시간 인사이트",
+        "pattern": "/patterns/LooperGroup.svg",
+        "link": "/BlogPage"
+      },
+      {
+        "title": "교육 자료",
+        "description": "반도체 공정에 대한 포괄적인 가이드 및 튜토리얼",
+        "pattern": "/patterns/Topology-1.svg",
+        "link": "/EbooksPage"
+      },
+      {
+        "title": "업계 뉴스",
+        "description": "반도체 제조 분야의 최신 동향 및 신흥 기술",
+        "pattern": "/patterns/Topology-2.svg",
+        "link": "/IndustryNewsPage"
+      }
+    ]
+  },
+  "equipment": {
+    "heading": "산업 지속 가능성을 위한 엔지니어링 경로",
+    "subheading": "에너지 생성부터 장기적인 시스템 효율성까지, 비용을 절감하고 배출을 줄이며 견고한 운영을 보장하는 솔루션을 제공합니다.",
+    "requestAudit": "감사 요청",
+    "learnMore": "더 알아보기",
+    "services": [
+      {
+        "id": "Brokering",
+        "title": "장비 중개",
+        "description": "자산 판매의 전문적인 관리로 최대 수익을 위한 적격 구매자와의 연결을 제공합니다",
+        "link": "/Brokering"
+      },
+      {
+        "id": "Inspection",
+        "title": "검수",
+        "description": "상태를 확인하고 위험을 줄이며 확신에 찬 결정을 지원하는 상세한 장비 평가.",
+        "link": "/Inspection"
+      },
+      {
+        "id": "Disposition",
+        "title": "처분",
+        "description": "운영 부담을 최소화하면서 가치 회복을 극대화하는 잉여 자산의 전략적 제거.",
+        "link": "/Disposition"
+      },
+      {
+        "id": "Consignment",
+        "title": "위탁 판매",
+        "description": "귀하가 완전한 소유권을 유지하는 동안 귀하의 장비를 효과적으로 마케팅하는 실질적인 판매 지원.",
+        "link": "/Consignment"
+      },
+      {
+        "id": "Logistics-Forwarding",
+        "title": "물류 및 운송",
+        "description": "어떤 거리나 국경을 넘어서도 안전하고 효율적인 배송을 보장하는 종단 간 운송 조정",
+        "link": "/Logistics"
+      }
+    ]
+  },
+  "footer": {
+    "description": "Lorem Ipsum은 인쇄 및 조판 업계의 더미 텍스트입니다. Lorem Ipsum.",
+    "company": "회사",
+    "products": "제품",
+    "contact": "연락처",
+    "companyLinks": {
+      "about": "회사 소개",
+      "careers": "채용",
+      "privacy": "개인정보 처리방침",
+      "terms": "이용약관"
+    },
+    "productLinks": {
+      "event": "이벤트",
+      "projects": "프로젝트",
+      "services": "서비스",
+      "team": "팀"
+    },
+    "contactInfo": {
+      "email": "Support@vision.com",
+      "phone": "+1 234 567 8900",
+      "address": "345 Tech Park Avenue, 9th Floor Silicon Valley, CA 98765 USA"
+    },
+    "copyright": "Copyright 2024 Vision Semiconductor Solutions LLC. All Rights Reserved."
+  },
+  "tabs": {
+    "learnMore": "더 알아보기",
+    "tabsData": [
+      {
+        "id": "mission",
+        "label": "미션",
+        "number": "01",
+        "title": "반도체 혁신을 앞당기다",
+        "description": "우리는 첨단 연구, 전략적 파트너십 및 글로벌 기술의 미래에 동력을 공급하는 지속 가능한 엔지니어링 솔루션을 통해 반도체 기술을 발전시키기 위해 최선을 다하고 있습니다.",
+        "imageUrl": "/images/mission.jpg"
+      },
+      {
+        "id": "vision",
+        "label": "비전",
+        "number": "02",
+        "title": "기술의 미래를 형성하다",
+        "description": "산업을 변화시키고 인간의 경험을 향상시키는 혁신적인 기술을 통해 더 스마트하고 더 연결된 세계를 창조하는 반도체 솔루션 분야의 글로벌 리더가 되는 것입니다.",
+        "imageUrl": "/images/vision.jpg"
+      },
+      {
+        "id": "values",
+        "label": "가치",
+        "number": "03",
+        "title": "진정성을 통한 우수성",
+        "description": "우리는 흔들림 없는 진정성으로 운영하고, 협력적인 혁신을 장려하며, 반도체 솔루션 및 서비스의 모든 측면에서 최고 수준의 품질을 유지합니다.",
+        "imageUrl": "/images/values.jpg"
+      }
+    ]
+  },
+  "brokering": {
+    "hero": {
+      "title": "글로벌 장비 중개",
+      "subtitle": "전 세계의 구매자와 판매자 네트워크와 연결하세요. 검증된 목록과 안전한 거래로 산업 장비 거래의 복잡성을 단순화합니다.",
+      "ctaText": "접근 권한 요청"
+    },
+    "marketplace": {
+      "title": "마켓플레이스 개요",
+      "description": "건설, 광업 및 제조 분야의 수천 개의 검증된 산업 자산에 접근하세요.",
+      "content": "우리의 중개 플랫폼은 잉여 장비 소유자와 신뢰할 수 있는 기계가 필요한 기업 간의 간극을 메워줍니다. 우리는 협상, 검증 및 문서화의 어려운 작업을 처리합니다.",
+      "stats": [
+        "데이터베이스 내 30,000명 이상의 활성 구매자.",
+        "완료된 장비 거래 규모 $5억 이상.",
+        "숨겨진 비용 없는 투명한 수수료 구조."
+      ]
+    },
+    "workflow": {
+      "title": "조달 워크플로우",
+      "description": "올바른 기계와 연결해 드리는 방법.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "요청",
+          "desc": "장비 요구 사항을 제출하거나 판매할 자산을 등록하세요."
+        },
+        {
+          "step": "02",
+          "title": "매칭",
+          "desc": "우리의 AI 기반 엔진이 자산과 적격 구매자를 즉시 매칭합니다."
+        },
+        {
+          "step": "03",
+          "title": "검증",
+          "desc": "검수관이 진행하기 전에 상태와 서류를 확인합니다."
+        },
+        {
+          "step": "04",
+          "title": "체결",
+          "desc": "안전한 결제 처리 및 물류 조정으로 거래를 완료합니다."
+        }
+      ]
+    },
+    "features": {
+      "title": "우리 중개 서비스를 선택하는 이유",
+      "items": [
+        {
+          "title": "글로벌 영향력",
+          "description": "50개국 이상의 시장에 접근하세요. 관세 및 규정 준수를 포함한 국경 간 무역의 복잡성을 처리합니다."
+        },
+        {
+          "title": "사기 방지",
+          "description": "모든 거래는 에스크로 서비스를 통해 안전하게 보호됩니다. 사기를 방지하기 위해 모든 구매자와 판매자를 확인합니다."
+        },
+        {
+          "title": "시장 인텔리전스",
+          "description": "당사의 독점 데이터를 활용하여 장비를 경쟁력 있게 가격 책정하거나 과다 지불하지 않도록 보장합니다."
+        }
+      ]
+    },
+    "trusted": {
+      "title": "업계 리더들의 신뢰를 받고 있습니다"
+    },
+    "cta": {
+      "title": "구매 또는 판매 준비가 되셨나요?",
+      "subtitle": "오늘날 자산 관리 최적화를 진행하는 수천 개의 비즈니스에 합류하세요.",
+      "buttons": {
+        "browse": "재고 살펴보기",
+        "contact": "중개인 연결"
+      }
+    },
+    "modal": {
+      "title": "중개 문의",
+      "form": {
+        "firstName": "이름",
+        "lastName": "성",
+        "email": "이메일 주소",
+        "inquiryType": "문의 유형",
+        "company": "회사",
+        "phone": "전화번호",
+        "equipment": "장비 / 요구 사항",
+        "submit": "문의 제출",
+        "agreement": "제출 시, 귀하의 연락처 정보가 당사 중개 팀과 공유되는 것에 동의하는 것입니다."
+      },
+      "options": {
+        "buy": "장비 구매 희망",
+        "sell": "장비 판매 희망",
+        "general": "일반 문의"
+      }
+    },
+    "successMessage": "문의가 성공적으로 제출되었습니다! 곧 중개인이 연락을 드릴 것입니다."
+  },
+  "inspection": {
+    "hero": {
+      "title": "공인 장비 검수",
+      "subtitle": "공정하고 상세하며 신속한 검수 보고서. 표준화된 평가 프로토콜을 통해 정확히 무엇을 사고 파는지 알 수 있습니다.",
+      "ctaText": "검수 일정 예약"
+    },
+    "whyMatter": {
+      "title": "검수가 중요한 이유",
+      "description": "포괄적인 보고를 통해 위험을 완화하고 공정한 가치를 보장하세요.",
+      "heading": "기계 상태에 대한 심층 분석",
+      "content": "우리 검수관은 단순히 외관만 확인하지 않습니다. 우리는 엄격한 운영 테스트, 유체 분석 및 언더캐리지 측정을 수행합니다. 일반적인 보고서에는 100개 이상의 데이터 포인트와 50개 이상의 고해상도 사진이 포함됩니다.",
+      "features": [
+        {
+          "title": "표준화된 체크리스트",
+          "description": "모든 장비 범주에 걸쳐 일관된 평가 기준."
+        },
+        {
+          "title": "시각적 증거",
+          "description": "마모 및 손상에 대한 상세한 사진 및 영상 문서."
+        },
+        {
+          "title": "디지털 보고서",
+          "description": "안전한 클라우드 포털을 통해 보고서에 즉시 접근."
+        }
+      ]
+    },
+    "qualityProcess": {
+      "title": "품질 보증 프로세스",
+      "steps": [
+        {
+          "title": "예약 및 배정",
+          "desc": "장비 유형 및 위치 전문성에 따라 검수관이 배정됩니다.",
+          "side": "left"
+        },
+        {
+          "title": "현장 평가",
+          "desc": "외관 점검, 운영 테스트 및 유체 샘플링 수행.",
+          "side": "right"
+        },
+        {
+          "title": "데이터 검토",
+          "desc": "수석 기술 책임자가 이상 유무를 위해 원시 데이터를 검토합니다.",
+          "side": "left"
+        },
+        {
+          "title": "보고서 발행",
+          "desc": "가치 평가 예측(선택 사항)과 함께 최종 보고서가 생성됩니다.",
+          "side": "right"
+        }
+      ]
+    },
+    "evaluators": {
+      "title": "평가관 하이라이트",
+      "inspectors": [
+        {
+          "name": "Mike T.",
+          "role": "수석 중장비 전문가",
+          "quote": "\"저는 2,000대 이상의 굴삭기를 검수했습니다. 응력 균열이 숨어있는 정확한 위치를 알고 있습니다.\""
+        },
+        {
+          "name": "Sarah L.",
+          "role": "크레인 및 리프팅 장비",
+          "quote": "\"안전이 최우선입니다. 제 보고서는 OSHA 및 ISO 표준 준수를 보장합니다.\""
+        },
+        {
+          "name": "David R.",
+          "role": "트럭 및 차량",
+          "quote": "\"엔진 진단이 실제 이야기를 알려줍니다. 우리는 추측하지 않고 측정합니다.\""
+        }
+      ]
+    },
+    "cta": {
+      "title": "불량 거래의 위험을 감수하지 마세요.",
+      "subtitle": "수표에 서명하기 전에 사실을 확인하세요.",
+      "button": "샘플 보고서 요청"
+    },
+    "modal": {
+      "title": "검수 요청",
+      "form": {
+        "firstName": "이름",
+        "lastName": "성",
+        "email": "이메일 주소",
+        "equipment": "장비 상세 정보",
+        "location": "자산 위치",
+        "phone": "전화번호",
+        "submit": "요청 제출",
+        "responseTime": "영업일 기준 4시간 이내에 표준 응답이 제공됩니다."
+      },
+      "placeholders": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john@company.com",
+        "equipment": "연식, 제조사, 모델, 일련번호(있는 경우)",
+        "location": "도시, 주",
+        "phone": "+1 (555) 000-0000"
+      }
+    },
+    "successMessage": "검수 요청이 접수되었습니다! 일정 조정을 위해 연락드리겠습니다."
+  },
+  "disposition": {
+    "hero": {
+      "title": "전략적 자산 처분",
+      "subtitle": "잉여 자산으로부터 회수 가치를 극대화하세요. 우리는 수명이 다했거나 잉여 장비에 대해 환경 규정을 준수하며 수익성 있는 솔루션을 제공합니다.",
+      "ctaText": "회수 시작"
+    },
+    "recoveryProcess": {
+      "title": "자산 회수 프로세스",
+      "description": "유휴 기계를 운전 자본으로 안전하고 효율적으로 전환하세요.",
+      "steps": [
+        {
+          "title": "평가",
+          "description": "잉여 재고를 분류하고 재판매, 재생산 또는 재활용 중 최적의 처분 경로를 결정합니다."
+        },
+        {
+          "title": "규정 준수",
+          "description": "EPA 규정에 따라 유해 유체 제거, 데이터 파기 및 전자 폐기물 규정 준수를 처리합니다."
+        },
+        {
+          "title": "유동화",
+          "description": "투자 수익률(ROI)을 극대화하기 위해 자산을 사적 계약, 경매 또는 스크랩 시장을 통해 판매합니다."
+        }
+      ],
+      "caseStudy": {
+        "title": "사례 연구: 건설 장비 유동화",
+        "content": "한 주요 인프라 기업이 50대 이상의 노후화된 토목 장비를 처분해야 했습니다. 우리 팀은 물류, 재생산 및 경매 프로세스를 관리했습니다.",
+        "metrics": [
+          {
+            "value": "120%",
+            "label": "장부 가치 대비 회수율"
+          },
+          {
+            "value": "30일",
+            "label": "프로젝트 기간"
+          }
+        ]
+      }
+    },
+    "workflow": {
+      "title": "재판매 및 재활용 워크플로우",
+      "features": [
+        {
+          "title": "물류 및 철수",
+          "description": "중량 운송 및 현장 정리를 준비합니다."
+        },
+        {
+          "title": "소유권 이전",
+          "description": "모든 채권 해제 및 소유권 서류 작업을 처리합니다."
+        },
+        {
+          "title": "다중 채널 판매",
+          "description": "글로벌 마켓플레이스 및 독점 네트워크에 등록합니다."
+        },
+        {
+          "title": "친환경 처분",
+          "description": "재판매 불가능한 구성 요소에 대해 인증된 재활용."
+        }
+      ]
+    },
+    "cta": {
+      "title": "부채를 유동성으로 전환하세요",
+      "button": "무료 평가 받기"
+    },
+    "modal": {
+      "title": "자산 처분 문의",
+      "form": {
+        "firstName": "이름",
+        "lastName": "성",
+        "email": "이메일 주소",
+        "assets": "자산 / 재고 목록",
+        "location": "자산 위치",
+        "company": "회사",
+        "submit": "평가를 위해 제출",
+        "responseTime": "당사 팀은 일반적으로 2영업일 이내에 예비 평가를 제공합니다."
+      },
+      "placeholders": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john@company.com",
+        "assets": "주요 품목을 나열하거나 전체 로트에 대한 요약을 제공해 주세요...",
+        "location": "도시, 주",
+        "company": "회사명"
+      }
+    },
+    "successMessage": "처분 요청이 제출되었습니다. 회수 전문가가 귀하의 자산을 검토할 것입니다."
+  },
+  "consignment": {
+    "hero": {
+      "title": "장비 위탁 판매 서비스",
+      "subtitle": "중장비를 위한 안전한 보관 및 전문적인 판매 관리. 귀하는 소유권을 유지하는 동안 우리가 판매를 처리합니다.",
+      "ctaText": "장비 위탁 판매"
+    },
+    "hassleFree": {
+      "title": "번거로움 없는 판매",
+      "description": "당사의 안전한 야적장에서 자산을 보관, 유지 및 판매합니다.",
+      "revenueModel": {
+        "title": "수익 공유 모델",
+        "content": "가격 통제권을 상실하는 경매와 달리, 당사의 위탁 판매 모델은 귀하에게 주도권을 부여합니다. 순 가격 또는 수수료 비율에 합의합니다.",
+        "features": [
+          {
+            "label": "마케팅 및 등록",
+            "value": "포함"
+          },
+          {
+            "label": "보관 (90일)",
+            "value": "무료"
+          },
+          {
+            "label": "유지 관리 및 세척",
+            "value": "포함"
+          },
+          {
+            "label": "수수료",
+            "value": "8-12%"
+          }
+        ]
+      },
+      "benefits": [
+        {
+          "title": "우수한 입지",
+          "description": "당사의 위탁 판매 야적장은 주요 항구 및 고속도로 근처에 위치하여 구매자 접근성 및 물류가 용이합니다."
+        },
+        {
+          "title": "최대 가시성",
+          "description": "방문 고객과 프리미엄 디지털 배치를 결합하여 진지한 구매자가 귀하의 자산을 확인할 수 있도록 합니다."
+        },
+        {
+          "title": "안전한 시설",
+          "description": "24/7 보안 감시, 울타리 설치 야적장, 보관 중 정기적인 배터리/유체 점검."
+        }
+      ]
+    },
+    "tracking": {
+      "title": "추적 및 투명성",
+      "features": [
+        {
+          "title": "실시간 재고",
+          "description": "당사 포털에서 위탁 판매 중인 자산을 확인하세요. 상태 확인, 조회수 확인 및 제안 관리."
+        },
+        {
+          "title": "동적 가격 책정",
+          "description": "시장 관심도를 기반으로 데이터 중심의 가격 조정을 제공하여 적시에 판매를 완료합니다."
+        },
+        {
+          "title": "성과 보고서",
+          "description": "귀하의 장비에 대한 리드, 문의 및 실제 검수에 대한 주간 업데이트."
+        }
+      ]
+    },
+    "cta": {
+      "title": "우수한 입지의 야적장 공간이 제한되어 있습니다.",
+      "subtitle": "오늘 자리를 예약하고 검증된 구매자 앞에 귀하의 장비를 선보이세요.",
+      "button": "공간 예약"
+    },
+    "modal": {
+      "title": "위탁 판매 요청",
+      "form": {
+        "firstName": "이름",
+        "lastName": "성",
+        "email": "이메일 주소",
+        "equipment": "장비 설명",
+        "location": "현재 위치",
+        "phone": "전화번호",
+        "submit": "요청 제출",
+        "agreement": "제출 시, 당사의 위탁 판매 약관 및 개인정보 처리방침에 동의하는 것입니다."
+      },
+      "placeholders": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john@company.com",
+        "equipment": "예: 2018년식 CAT 320 굴삭기...",
+        "location": "도시, 주",
+        "phone": "+1 (555) 000-0000"
+      }
+    },
+    "successMessage": "위탁 판매 공간이 예약되었습니다! 세부 사항을 finalize하기 위해 연락드리겠습니다."
+  },
+  "logistics": {
+    "hero": {
+      "title": "중장비 물류",
+      "subtitle": "초대형 화물을 위한 문到文 수송 솔루션. 분해, 포장, 해상/항공 운송 및 통관을 처리합니다.",
+      "ctaText": "운송 견적 받기"
+    },
+    "forwarding": {
+      "title": "글로벌 운송 네트워크",
+      "description": "국경과 대양을 가로지르는 중장비의 원활한 이동.",
+      "globe": {
+        "title": "전 세계 150개 이상의 항구 연결",
+        "subtitle": "모든 해상 및 항공 화물에 대해 실시간 추적 가능."
+      },
+      "services": [
+        {
+          "title": "내륙 중량 운송",
+          "description": "초대형 화물을 위한 특수 로우보이 및 RGN 트레일러. 모든 허가 및 호송 차량 요구 사항을 처리합니다."
+        },
+        {
+          "title": "RoRo 및 컨테이너",
+          "description": "유연한 해상 운송 옵션. 운전 가능한 장비의 경우 Roll-on/Roll-off 또는 분해된 부품의 경우 컨테이너 선적."
+        },
+        {
+          "title": "분해 및 포장",
+          "description": "대형 기계를 표준 컨테이너에 맞추기 위한 전문 분해 서비스로 운송 비용을 크게 절감합니다."
+        }
+      ]
+    },
+    "workflow": {
+      "title": "운송 워크플로우",
+      "steps": [
+        {
+          "title": "견적 및 계획",
+          "text": "치수 및 중량에 기반한 경로 분석 및 비용 추정."
+        },
+        {
+          "title": "준비 및 픽업",
+          "text": "검역 준수를 위한 세척 및 운송 수단에 적재."
+        },
+        {
+          "title": "수출 통관",
+          "text": "서류 제출 (AES, 상업 송장, 포장 목록)."
+        },
+        {
+          "title": "해상 운송",
+          "text": "선박 출발 및 운송 모니터링."
+        },
+        {
+          "title": "수입 및 배송",
+          "text": "목적지에서의 통관 및 최종 배송."
+        }
+      ]
+    },
+    "cta": {
+      "title": "대형 장비를 이동해야 하나요?",
+      "subtitle": "당사 물류 전문가가 귀하의 경로를 계획할 준비가 되어 있습니다.",
+      "buttons": {
+        "quote": "견적 요청",
+        "track": "화물 추적"
+      }
+    },
+    "modal": {
+      "title": "운송 견적 요청",
+      "form": {
+        "firstName": "이름",
+        "lastName": "성",
+        "email": "이메일 주소",
+        "equipment": "장비 상세 정보",
+        "origin": "출발지 도시",
+        "destination": "도착지 도시",
+        "submit": "요청 제출",
+        "agreement": "제출 시, 당사의 개인정보 처리방침에 동의하는 것입니다. 견적은 7일 동안 유효합니다."
+      },
+      "placeholders": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john@company.com",
+        "equipment": "예: 2018년식 CAT 320 굴삭기, 약 45,000 lbs",
+        "origin": "도시, 국가",
+        "destination": "도시, 국가"
+      }
+    },
+    "successMessage": "견적 요청이 성공적으로 제출되었습니다! 곧 물류 코디네이터가 연락을 드릴 것입니다."
+  },
+  "brandStory": {
+    "sectionTitle": "섹션 01 — 브랜드 스토리",
+    "heading": "우리의 이야기",
+    "title": "Vision Semiconductor Solutions LLC는 기술의 미래에 동력을 공급한다는 명확한 목적을 가지고 설립되었습니다.",
+    "content": [
+      "Vision Semiconductor Solutions(VSS)는 정밀성, 혁신 및 투명성으로 글로벌 반도체 제조 산업을 지원합니다. 잉여 및 예비 부품 장비 공급원으로 시작한 것이 지식, 엔지니어링 우수성 및 글로벌 협력을 위한 플랫폼으로 발전했습니다.",
+      "기술적 전문성에 뿌리를 둔 VSS는 반도체 생태계 내에서 솔루션, 교육 및 업계 영향력을 위한 신뢰할 수 있는 허브가 되는 것을 목표로 합니다."
+    ],
+    "founder": {
+      "name": "Vision Semiconductor Solutions",
+      "role": "글로벌 리더십 팀",
+      "quote": "\"우리는 먼저 우리 자신에게, 그 다음 우리 팀, 고객 및 커뮤니티에 책임을 다합니다.\""
+    }
+  },
+  "missionVision": {
+    "intro": "산업을 앞당기다",
+    "mission": {
+      "section": "섹션 02",
+      "title": "미션",
+      "heading": "반도체 솔루션의 미래에 역량을 부여하다",
+      "content": "우리의 미션은 전 세계의 엔지니어, 제조업체 및 혁신가에게 신뢰할 수 있는 반도체 장비와 지식을 제공하는 것입니다. 우리는 고성능 솔루션을 접근 가능하고, 효율적이며, 확장 가능하게 만들어 차세대 기술 및 제조 우수성에 역량을 부여합니다."
+    },
+    "vision": {
+      "section": "섹션 03",
+      "title": "비전",
+      "heading": "오늘, 내일을 형성하다",
+      "content": "우리는 반도체 솔루션, 교육 및 업계 리더십을 위한 글로벌 센터가 되는 것을 꿈꿉니다. 명확성, 혁신 및 장기적인 약속을 통해 우리는 반도체 생태계의 미래에 영향을 미치고 전 세계적인 기술 발전을 높이는 것을 목표로 합니다."
+    }
+  },
+  "team": {
+    "title": "저희 팀은 총 100년 이상의 경험을 보유하고 있습니다!",
+    "subtitle": "저희 팀은 반도체 산업에 경험, 혁신 및 창의성을 가져와 귀하의 계획이 안전하게 진행되도록 보장합니다.",
+    "members": [
+      {
+        "name": "Mike Simorangkir",
+        "role": "설립자 & CEO",
+        "bio": "Mike(MBA)은 반도체 상업 전략 및 복합 장비 개발 분야에서 15년 이상의 경험을 가지고 있습니다."
+      },
+      {
+        "name": "Stanley George",
+        "role": "은퇴 전무이사 & CCO",
+        "bio": "Stanley는 2005년 9월까지 Heenan Blaikie LLP의 파트너로 있으며 글로벌 기술 규정 준수를 전문으로 했습니다."
+      },
+      {
+        "name": "Eliza Baker",
+        "role": "부사장, 운영",
+        "bio": "Eliza(MBA)는 상업 물류 및 반도체 공급망 관리 분야에서 12년 이상의 경험을 가지고 있습니다."
+      },
+      {
+        "name": "Sally Cruz",
+        "role": "최고 마케팅 책임자",
+        "bio": "Sally는 캐나다 및 아시아 태평양 기술 시장에서 10년 이상의 경험을 가지고 있습니다."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Vision Semiconductor Solutions와 협력하세요",
+    "subtitle": "저희의 정밀성과 혁신이 귀하의 다음 기술적 돌파구에 어떻게 동력을 공급할 수 있는지 발견하세요.",
+    "button": "지금 문의하기"
+  },
+  "accessCTA": {
+    "hero": {
+      "badge": "독점 접근",
+      "title": "궁극의 <1>지식 베이스</1> 잠금 해제",
+      "subtitle": "반도체 보고서, 화이트 페이퍼, 딥테크 인사이트 및 전문가 큐레이팅 자료에 대한 전체 접근 권한.",
+      "buttons": {
+        "trial": "무료 체험 시작",
+        "explore": "라이브러리 탐색"
+      }
+    },
+    "valueProposition": {
+      "title": "전문가들이 우리를 선택하는 이유",
+      "subtitle": "엔지니어, 분석가 및 의사 결정자를 위해 구축된 신뢰할 수 있는 반도체 인텔리전스.",
+      "cards": [
+        {
+          "title": "실시간 인사이트",
+          "description": "지속적으로 업데이트되는 반도체 시장 및 기술 인텔리전스로 앞서 나가세요."
+        },
+        {
+          "title": "검증된 출처",
+          "description": "모든 자료는 기술적 정확성 및 관련성을 위해 업계 전문가들이 검증합니다."
+        },
+        {
+          "title": "글로벌 커뮤니티",
+          "description": "기술의 미래를 형성하는 엔지니어, 연구원 및 리더들의 네트워크에 참여하세요."
+        }
+      ]
+    }
+  },
+  "podcasts": {
+    "hero": {
+      "title": "더 빠르고, 더 스마트한 팟캐스트 <1>미래를 설계합니다.</1>",
+      "subtitle": "전문성, 파트너십 및 장기적인 명확성에 기반한 데이터 중심의 접근 방식을 경험해보세요. 단순한 오디오 이상을 제공합니다.",
+      "buttons": {
+        "explore": "에피소드 탐색",
+        "schedule": "전화 상담 예약"
+      }
+    },
+    "featured": {
+      "title": "최신 에피소드",
+      "featuredBadge": "추천",
+      "featuredEpisode": {
+        "title": "에피소드 100: 실리콘의 세기",
+        "description": "우리는 반도체의 역사를 돌아보고 다음 10년 안에 우리를 기다리고 있는 양자 도약을 내다봅니다.",
+        "button": "지금 듣기"
+      }
+    },
+    "episodes": {
+      "categories": [
+        "기술",
+        "비즈니스",
+        "건강",
+        "디자인",
+        "마케팅",
+        "과학"
+      ],
+      "episode": {
+        "showNotes": "쇼 노트",
+        "duration": "{{duration}}"
+      }
+    },
+    "sidebar": {
+      "newsletter": {
+        "title": "최신 소식 받아보기",
+        "subtitle": "주간 업계 분석을 받아보는 10,000명 이상의 엔지니어에 합류하세요.",
+        "placeholder": "이메일을 입력하세요",
+        "button": "무료 구독"
+      },
+      "about": {
+        "title": "Vision 소개",
+        "content": "Vision Semiconductor Solutions LLC는 세상을 움직이는 하드웨어에 대한 최첨단 인사이트를 제공합니다. 실리콘부터 시스템까지.",
+        "link": "더 알아보기 →"
+      }
+    }
+  },
+  "whitePapers": {
+    "hero": {
+      "title": "연구 및 화이트 페이퍼",
+      "subtitle": "반도체 시장 인사이트, 제조 동향 및 고급 기술 브리핑."
+    },
+    "featured": {
+      "editorsPick": "편집자 선택",
+      "title": "2024 글로벌 칩 혁신 현황",
+      "description": "파브 확장, 공급망 회복력, 리소그래피 돌파구 및 차세대 반도체 생태계를 형성하는 경쟁 역학 분석.",
+      "buttons": {
+        "download": "PDF 다운로드",
+        "summary": "요약 읽기"
+      }
+    },
+    "recent": {
+      "title": "최근 간행물",
+      "papers": [
+        {
+          "title": "전략적 인사이트 Vol. 1",
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+        },
+        {
+          "title": "전략적 인사이트 Vol. 2",
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+        },
+        {
+          "title": "전략적 인사이트 Vol. 3",
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+        }
+      ],
+      "button": "보기"
+    }
+  },
+  "blog": {
+    "latestNews": {
+      "title": "최신 뉴스",
+      "featured": {
+        "category": "반도체 인사이트",
+        "title": "AI 칩 수요 가속화에 글로벌 파브의 고급 패키징 확장이 어려움을 겪고 있음",
+        "summary": "전 세계의 칩 제조업체들이 고급 패키징 용량을 확장하기 위해 경주하고 있지만, 리소그래피 도구 및 재료의 공급 제약으로 생산 확장이 저해되고 있습니다."
+      },
+      "smallArticles": [
+        {
+          "category": "파브 기술",
+          "title": "EUV 리소그래피의 새로운 돌파구로 2nm 공정에서 더 높은 수율 약속..."
+        },
+        {
+          "category": "공급망",
+          "title": "글로벌 실리콘 웨이퍼 부족 현상이 2026년까지 지속될 것으로 예상..."
+        },
+        {
+          "category": "장비 혁신",
+          "title": "에칭 장비 공급업체들이 서브 3nm 공정을 위한 새로운 플라즈마 기술을 추진..."
+        }
+      ]
+    },
+    "gridSection": {
+      "title": "운영, 준비금 및<br/>금고 계정",
+      "articles": [
+        {
+          "category": "제조",
+          "title": "칩 제조사, 글로벌 제조 능력 확장을 위해 수십억 달러 투자",
+          "summary": "주요 반도체 기업들이 AI, 전기차 및 차세대 소비자 가전 제품에 대한 수요를 충족시키기 위해 파브 확장을 가속화하고 있습니다."
+        },
+        {
+          "category": "장비",
+          "title": "새로운 웨이퍼 계측 시스템이 원자 수준에서 정밀도 향상",
+          "summary": "반도체 소자 크기가 앙스트롬 시대로 축소됨에 따라 고급 검사 도구가 계속 발전하고 있습니다."
+        },
+        {
+          "category": "R&D 혁신",
+          "title": "연구원들이 컴퓨팅 밀도 향상을 위한 3D 실리콘 적층 기술 탐구",
+          "summary": "3D 적층 반도체 아키텍처 확장을 위한 열 방산 및 인터커넥트 기술의 혁신이 핵심입니다."
+        }
+      ],
+      "button": "모든 기사 보기"
+    },
+    "common": {
+      "author": "Dr. Ethan Park",
+      "date": "2025년 1월 25일"
+    }
+  },
+  "ebooks": {
+    "hero": {
+      "title": "지식 라이브러리",
+      "subtitle": "기술 eBook, 반도체 인사이트 및 프리미엄 엔지니어링 가이드 — 모든 전문가를 위해 무료로 제공됩니다."
+    },
+    "books": [
+      {
+        "title": "디지털 트랜스포메이션 마스터하기",
+        "author": "Dr. Sarah Connor",
+        "description": "기술적 인사이트, 모범 사례 및 업계 준비 지식을 제공하는 큐레이팅된 가이드."
+      },
+      {
+        "title": "애자일 리더십 가이드",
+        "author": "James Cameron",
+        "description": "기술적 인사이트, 모범 사례 및 업계 준비 지식을 제공하는 큐레이팅된 가이드."
+      },
+      {
+        "title": "경영진을 위한 데이터 과학",
+        "author": "Ellen Ripley",
+        "description": "기술적 인사이트, 모범 사례 및 업계 준비 지식을 제공하는 큐레이팅된 가이드."
+      },
+      {
+        "title": "사이버 보안 핵심",
+        "author": "Neo Anderson",
+        "description": "기술적 인사이트, 모범 사례 및 업계 준비 지식을 제공하는 큐레이팅된 가이드."
+      }
+    ],
+    "buttons": {
+      "readOnline": "온라인에서 읽기",
+      "download": "다운로드"
+    },
+    "common": {
+      "by": "저자:",
+      "pages": "{{count}}페이지"
+    }
+  },
+  "industryNews": {
+    "pageTitle": "반도체 업계 뉴스",
+    "featured": {
+      "badge": "속보",
+      "title": "오늘 양자 칩 효율성에서 주요 돌파구 발표"
+    },
+    "categories": [
+      "전체",
+      "칩 제조",
+      "규제",
+      "스타트업",
+      "기업",
+      "R&D"
+    ],
+    "newsItems": [
+      {
+        "title": "AI 수요 사상 최고치 기록하며 글로벌 칩 시장 반등",
+        "excerpt": "최첨단 파브, 새로운 리소그래피 돌파구 및 지정학적 규제가 반도체 생태계를 계속 형성하고 있습니다.",
+        "category": "칩 제조"
+      },
+      {
+        "title": "새로운 반도체 수출 규정으로 업계 불확실성 생성",
+        "excerpt": "최첨단 파브, 새로운 리소그래피 돌파구 및 지정학적 규제가 반도체 생태계를 계속 형성하고 있습니다.",
+        "category": "규제"
+      }
+    ],
+    "sidebar": {
+      "trending": {
+        "title": "인기 주제",
+        "tags": [
+          "#EUV리소그래피",
+          "#칩제조",
+          "#AI칩",
+          "#3D낸드",
+          "#양자컴퓨팅"
+        ]
+      },
+      "subscribe": {
+        "title": "일일 반도체 디제스트",
+        "description": "매일 아침 주요 칩 업계 헤드라인을 받아보세요.",
+        "placeholder": "이메일 주소",
+        "button": "가입하기"
+      }
+    },
+    "common": {
+      "readFullStory": "전체 기사 읽기",
+      "author": "Dr. Jane Doe",
+      "featuredAuthor": "Dr. John Smith",
+      "date": "2025년 {{day}}월 {{day}}일"
+    }
+  },
+  "products": {
+    "tabsData": [
+      {
+        "id": "Modular architecture",
+        "label": "모듈식 아키텍처",
+        "number": "01",
+        "title": "모듈식 아키텍처",
+        "description": "ASML, Applied Materials, Lam Research, TEL, KLA를 포함한 주요 OEM의 장비를 탐색하세요.",
+        "cta": "더 알아보기"
+      },
+      {
+        "id": "Opportunities",
+        "label": "기회",
+        "number": "02",
+        "title": "주요 기회",
+        "description": "독점적인 고가의 목록, 희귀 시스템 및 경쟁력 있는 가격의 수요가 많은 반도체 도구에 접근하세요.",
+        "cta": "더 알아보기"
+      },
+      {
+        "id": "New Inventory",
+        "label": "신규 재고",
+        "number": "03",
+        "title": "새로 입고된 제품",
+        "description": "최첨단 웨이퍼 도구부터 재생산된 생산 준비 시스템에 이르기까지 최신 추가 항목을 발견하세요.",
+        "cta": "더 알아보기"
+      },
+      {
+        "id": "Portal",
+        "label": "포털",
+        "number": "04",
+        "title": "고객 포털",
+        "description": "견적 요청, 구매 주문서 관리 및 통합된 고객 작업 공간으로 조달을 간소화하세요.",
+        "cta": "더 알아보기"
+      }
+    ]
+  }
+}

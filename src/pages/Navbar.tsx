@@ -8,6 +8,24 @@ const Navbar: React.FC = () => {
   const { t, i18n } = useTranslation();
   const [openLang, setOpenLang] = useState(false);
   const [mobileMenu, setMobileMenu] = useState(false);
+  const languageLabels = {
+    "en": "English",
+    "hi": "Hindi",
+    "fr": "French",
+    "ko": "Korean",
+    "de": "German",
+    "es": "Spanish",
+    "it": "Italian",
+    "pt": "Portuguese",
+    "ms": "Malay",
+    "id": "Indonesian",
+    "th": "Thai",
+    "nl": "Dutch",
+    "pl": "Polish",
+    "vi": "Vietnamese",
+    "ar": "Arabic",
+    "cs": "Czech",
+  };
 
   const changeLang = (lang: string) => {
     i18n.changeLanguage(lang);
@@ -60,16 +78,16 @@ const Navbar: React.FC = () => {
 
   return (
     <div ref={navRef} className="fixed top-6 left-0 right-0 z-50 flex justify-center px-4">
-    <nav
-      className={`w-full max-w-7xl mx-auto bg-[#00020F] backdrop-blur-md 
+      <nav
+        className={`w-full max-w-7xl mx-auto bg-[#00020F] backdrop-blur-md 
       border border-blue-700/30 rounded-[15px] px-6 py-3 md:px-8 
       flex items-center justify-between shadow-lg 
       ${mobileMenu ? "rounded-b-none border-b-0" : ""}`}
-    >
+      >
 
         {/* Logo */}
         <img alt="logo" src="/Logo.png" className="w-auto h-14" />
-        
+
         {/* Desktop Nav */}
         <div className="hidden md:flex  items-center gap-8">
 
@@ -101,15 +119,15 @@ const Navbar: React.FC = () => {
             </button>
 
             {openLang && (
-              <div className="absolute right-0 mt-2 bg-black border border-white/20 rounded-md py-2 w-32 z-50">
-                {["en", "hi", "fr"].map((lang) => (
+              <div className="absolute right-0 mt-2 bg-black border border-white/20 rounded-md py-2 w-40 z-50">
+                {Object.keys(languageLabels).map((lang) => (
                   <button
                     type="button"
                     key={lang}
                     onClick={() => changeLang(lang)}
                     className="block w-full px-4 py-2 text-left hover:bg-white/10 text-white"
                   >
-                    {lang === "en" ? "English" : lang === "hi" ? "Hindi" : "French"}
+                    {languageLabels[lang]}
                   </button>
                 ))}
               </div>
@@ -121,7 +139,7 @@ const Navbar: React.FC = () => {
         <div className="flex md:hidden items-center gap-4">
 
           {/* Language Icon */}
-          <button onClick={() => setOpenLang(!openLang)} className="text-blue-700 hidden md:block">
+          <button title="globe" onClick={() => setOpenLang(!openLang)} className="text-blue-700 hidden md:block">
             <Globe size={20} />
           </button>
 
@@ -132,59 +150,79 @@ const Navbar: React.FC = () => {
         </div>
       </nav>
 
-{/* --- Mobile Menu Dropdown --- */}
-{mobileMenu && (
-  <div
-    ref={mobileMenuRef}
-    className="md:hidden absolute top-full left-0 right-0 
+      {/* --- Mobile Menu Dropdown --- */}
+      {mobileMenu && (
+        <div
+          ref={mobileMenuRef}
+          className="md:hidden absolute top-full left-0 right-0 
       bg-[#00020F] border border-blue-700/30 border-t-0 rounded-b-xl 
        shadow-xl p-6 mx-auto w-[calc(100%-2rem)] max-w-7xl "
-  >
-    <div className="flex flex-col gap-6 ">
+        >
+          <div className="flex flex-col gap-6 ">
 
-      {/* Nav Links */}
-      <div className="flex flex-col gap-4">
-        {navLinks.map((link) => (
-          <Link
-            key={link.name}
-            to={link.to}
-            onClick={() => setMobileMenu(false)}
-            className="text-lg font-medium text-[#A7ADBE] hover:text-blue-600 transition"
-          >
-            {link.name}
-          </Link>
-        ))}
-      </div>
+            {/* Nav Links */}
+            <div className="flex flex-col gap-4">
+              {navLinks.map((link) => (
+                <Link
+                  key={link.name}
+                  to={link.to}
+                  onClick={() => setMobileMenu(false)}
+                  className="text-lg font-medium text-[#A7ADBE] hover:text-blue-600 transition"
+                >
+                  {link.name}
+                </Link>
+              ))}
+            </div>
 
-      {/* CTA Button */}
-      <button
-        type="button"
-        onClick={() => setMobileMenu(false)}
-        className="bg-white hover:bg-blue-700 hover:text-white 
-        text-black text-sm font-medium px-6 py-2 rounded transition"
-      >
-        {t("nav.shop")}
-      </button>
-
-      {/* Language */}
-      <div className="mt-2">
-        <p className="text-xs text-gray-400 mb-3">Language</p>
-        <div className="flex gap-3">
-          {["en", "hi", "fr"].map((lang) => (
+            {/* CTA Button */}
             <button
-              key={lang}
-              onClick={() => changeLang(lang)}
-              className="px-3 py-1 border border-white/20 rounded text-white hover:bg-white/10"
+              type="button"
+              onClick={() => setMobileMenu(false)}
+              className="bg-white hover:bg-blue-700 hover:text-white 
+        text-black text-sm font-medium px-6 py-2 rounded transition"
             >
-              {lang.toUpperCase()}
+              {t("nav.shop")}
             </button>
-          ))}
-        </div>
-      </div>
 
-    </div>
-  </div>
-)}
+            {/* Language */}
+            <div className="mt-2">
+              <p className="text-xs text-gray-400 mb-3">Language</p>
+              <div className="flex gap-3 flex-wrap">
+                {
+                  [
+                    "en",      // English
+                    "hi",      // Hindi
+                    "fr",      // French
+                    "ko",      // Korean
+                    "de",      // German
+                    "es",      // Spanish
+                    "it",      // Italian
+                    "pt",      // Portuguese
+                    "ms",      // Malay
+                    "id",      // Indonesian
+                    "th",      // Thai
+                    "nl",      // Dutch
+                    "pl",      // Polish
+                    "vi",      // Vietnamese
+                    "ar",      // Arabic
+                    "cs",      // Czech
+                  ].map((lang) => (
+                    <button
+                      type="button"
+                       title={languageLabels[lang]}
+                      key={lang}
+                      onClick={() => changeLang(lang)}
+                      className="px-3 py-1 border border-white/20 rounded text-white hover:bg-white/10"
+                    >
+                      {lang.toUpperCase()}
+                    </button>
+                  ))}
+              </div>
+            </div>
+
+          </div>
+        </div>
+      )}
 
 
     </div>

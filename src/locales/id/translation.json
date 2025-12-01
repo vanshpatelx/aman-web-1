@@ -1,0 +1,967 @@
+{
+  "heading": "Merekayasa masa depan semikonduktor yang lebih cepat dan cerdas.",
+  "subheading": "Rasakan pendekatan pinjaman berbasis angka yang dibangun di atas keahlian, kemitraan, dan kejelasan finansial jangka panjang—memberikan lebih dari sekadar harga yang kompetitif.",
+  "cta1": "Jelajahi solusi",
+  "cta2": "Jadwalkan panggilan",
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang Kami",
+    "content": "Konten",
+    "solutions": "Solusi",
+    "shop": "Belanja Sekarang"
+  },
+  "about": {
+    "sectionTitle": "Tentang Vision Semiconductor",
+    "headline": "Menagai Masa Depan Teknologi Melalui Inovasi Tak Tertandingi dan Visi Global untuk Kemajuan Semikonduktor.",
+    "features": {
+      "innovation": "Inovasi",
+      "expertise": "Keahlian",
+      "vision": "Visi"
+    },
+    "cta": "Pelajari Lebih Lanjut"
+  },
+  "section2": {
+    "title": "Ini seperti memberikan kehidupan kedua bagi setiap alat di pabrik Anda",
+    "description": "Pendekatan berbasis misi kami mengurangi biaya kepemilikan, meningkatkan keandalan, dan menjaga peralatan lama tetap produktif selama bertahun-tahun lagi.",
+    "cta": "Mulai sekarang",
+    "stats": [
+      {
+        "label": "Tahun Keahlian",
+        "value": "20+",
+        "description": "Puluhan tahun pengalaman dalam teknik semikonduktor."
+      },
+      {
+        "label": "Klien Global",
+        "value": "150+",
+        "description": "Dipercaya oleh perusahaan di berbagai industri dan benua."
+      },
+      {
+        "label": "Biaya Dihemat",
+        "value": "$50M+",
+        "description": "Membantu mitra mengurangi biaya operasional dan peningkatan."
+      },
+      {
+        "label": "Proyek Terkirim",
+        "value": "500+",
+        "description": "Proyek sukses yang didorong oleh presisi dan inovasi."
+      }
+    ]
+  },
+  "services": {
+    "accessCta": "Akses Pusat Pengetahuan",
+    "services": [
+      {
+        "title": "Episode Podcast",
+        "description": "Diskusi ahli tentang tren dan inovasi manufaktur semikonduktor",
+        "pattern": "/patterns/Burst.svg",
+        "link": "/PodcastsPage"
+      },
+      {
+        "title": "White Papers Populer",
+        "description": "Analisis teknis mendalam dan penelitian dari para pemimpin industri",
+        "pattern": "/patterns/Looper-3.svg",
+        "link": "/WhitePapersPage"
+      },
+      {
+        "title": "Analisis Pasar",
+        "description": "Wawasan waktu nyata tentang tren pasar dan penilaian peralatan",
+        "pattern": "/patterns/LooperGroup.svg",
+        "link": "/BlogPage"
+      },
+      {
+        "title": "Sumber Daya Pendidikan",
+        "description": "Panduan komprehensif dan tutorial untuk proses semikonduktor",
+        "pattern": "/patterns/Topology-1.svg",
+        "link": "/EbooksPage"
+      },
+      {
+        "title": "Berita Industri",
+        "description": "Perkembangan terbaru dan teknologi yang muncul dalam manufaktur semikonduktor",
+        "pattern": "/patterns/Topology-2.svg",
+        "link": "/IndustryNewsPage"
+      }
+    ]
+  },
+  "equipment": {
+    "heading": "Merekayasa jalur menuju keberlanjutan industri",
+    "subheading": "Dari pembangkit energi hingga efisiensi sistem jangka panjang, kami memberikan solusi yang memangkas biaya, mengurangi emisi, dan memastikan operasi yang tangguh.",
+    "requestAudit": "Minta audit",
+    "learnMore": "Pelajari lebih lanjut",
+    "services": [
+      {
+        "id": "Brokering",
+        "title": "Perantara Peralatan",
+        "description": "Manajemen ahli penjualan aset, menghubungkan Anda dengan pembeli yang memenuhi syarat untuk pengembalian maksimal",
+        "link": "/Brokering"
+      },
+      {
+        "id": "Inspection",
+        "title": "Inspeksi",
+        "description": "Evaluasi peralatan terperinci yang memverifikasi kondisi, mengurangi risiko, dan mendukung keputusan yang meyakinkan.",
+        "link": "/Inspection"
+      },
+      {
+        "id": "Disposition",
+        "title": "Disposisi",
+        "description": "Penghapusan aset surplus secara strategis, mengoptimalkan pemulihan nilai sambil meminimalkan beban operasional.",
+        "link": "/Disposition"
+      },
+      {
+        "id": "Consignment",
+        "title": "Konsinyasi",
+        "description": "Dukungan penjualan langsung yang memasarkan peralatan Anda secara efektif sementara Anda tetap memegang kepemilikan penuh.",
+        "link": "/Consignment"
+      },
+      {
+        "id": "Logistics-Forwarding",
+        "title": "Logistik & Ekspedisi",
+        "description": "Koordinasi transportasi ujung-ke-ujung memastikan pengiriman yang aman dan efisien melintasi jarak atau perbatasan apa pun",
+        "link": "/Logistics"
+      }
+    ]
+  },
+  "footer": {
+    "description": "Lorem Ipsum hanyalah teks tiruan dari industri percetakan dan pengetikan. Lorem Ipsum.",
+    "company": "Perusahaan",
+    "products": "Produk",
+    "contact": "Kontak",
+    "companyLinks": {
+      "about": "Tentang Kami",
+      "careers": "Karir",
+      "privacy": "Kebijakan Privasi",
+      "terms": "Syarat & Ketentuan"
+    },
+    "productLinks": {
+      "event": "Acara",
+      "projects": "Proyek",
+      "services": "Layanan",
+      "team": "Tim"
+    },
+    "contactInfo": {
+      "email": "Support@vision.com",
+      "phone": "+1 234 567 8900",
+      "address": "345 Tech Park Avenue, 9th Floor Silicon Valley, CA 98765 USA"
+    },
+    "copyright": "Hak Cipta 2024 Vision Semiconductor Solutions LLC. Dilindungi Undang-Undang."
+  },
+  "tabs": {
+    "learnMore": "Pelajari Lebih Lanjut",
+    "tabsData": [
+      {
+        "id": "mission",
+        "label": "Misi Kami",
+        "number": "01",
+        "title": "Mendorong Inovasi Semikonduktor ke Depan",
+        "description": "Kami berkomitmen untuk memajukan teknologi semikonduktor melalui penelitian mutakhir, kemitraan strategis, dan solusi rekayasa berkelanjutan yang mendayakan masa depan teknologi global.",
+        "imageUrl": "/images/mission.jpg"
+      },
+      {
+        "id": "vision",
+        "label": "Visi Kami",
+        "number": "02",
+        "title": "Membentuk Masa Depan Teknologi",
+        "description": "Menjadi pemimpin global dalam solusi semikonduktor, menciptakan dunia yang lebih cerdas dan terhubung melalui teknologi inovatif yang mengubah industri dan meningkatkan pengalaman manusia.",
+        "imageUrl": "/images/vision.jpg"
+      },
+      {
+        "id": "values",
+        "label": "Nilai Kami",
+        "number": "03",
+        "title": "Keunggulan Melalui Integritas",
+        "description": "Kami beroperasi dengan integritas yang tak tergoyahkan, mendorong inovasi kolaboratif, dan mempertahankan standar kualitas tertinggi dalam setiap aspek solusi dan layanan semikonduktor kami.",
+        "imageUrl": "/images/values.jpg"
+      }
+    ]
+  },
+  "brokering": {
+    "hero": {
+      "title": "Perantara Peralatan Global",
+      "subtitle": "Terhubung dengan jaringan pembeli dan penjual di seluruh dunia. Kami menyederhanakan kompleksitas perdagangan peralatan industri dengan daftar terverifikasi dan transaksi aman.",
+      "ctaText": "Minta Akses"
+    },
+    "marketplace": {
+      "title": "Ikhtisar Pasar",
+      "description": "Akses ribuan aset industri terverifikasi di sektor konstruksi, pertambangan, dan manufaktur.",
+      "content": "Platform perantara kami menjembatani kesenjangan antara pemilik peralatan surplus dan bisnis yang membutuhkan mesin andal. Kami menangani pekerjaan berat mulai dari negosiasi, verifikasi, hingga dokumentasi.",
+      "stats": [
+        "30.000+ Pembeli aktif dalam basis data kami.",
+        "$500M+ Dalam transaksi peralatan yang telah selesai.",
+        "Struktur biaya transparan tanpa biaya tersembunyi."
+      ]
+    },
+    "workflow": {
+      "title": "Alur Kerja Pengadaan",
+      "description": "Bagaimana kami menghubungkan Anda dengan mesin yang tepat.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Permintaan",
+          "desc": "Kirimkan kebutuhan peralatan Anda atau daftarkan aset Anda untuk dijual."
+        },
+        {
+          "step": "02",
+          "title": "Pencocokan",
+          "desc": "Mesin berbasis AI kami mencocokkan aset dengan pembeli yang memenuhi syarat secara instan."
+        },
+        {
+          "step": "03",
+          "title": "Verifikasi",
+          "desc": "Inspektur memverifikasi kondisi dan dokumentasi sebelum melanjutkan."
+        },
+        {
+          "step": "04",
+          "title": "Penutupan",
+          "desc": "Pemrosesan pembayaran yang aman dan koordinasi logistik menyelesaikan kesepakatan."
+        }
+      ]
+    },
+    "features": {
+      "title": "Mengapa Memilih Jasa Perantara Kami",
+      "items": [
+        {
+          "title": "Jangkauan Global",
+          "description": "Akses pasar di lebih dari 50 negara. Kami menangani kompleksitas perdagangan lintas batas, termasuk bea cukai dan kepatuhan."
+        },
+        {
+          "title": "Perlindungan Penipuan",
+          "description": "Setiap transaksi diamankan melalui layanan rekening bersama (escrow). Kami memverifikasi setiap pembeli dan penjual untuk mencegah penipuan."
+        },
+        {
+          "title": "Intelijen Pasar",
+          "description": "Manfaatkan data eksklusif kami untuk menetapkan harga peralatan Anda secara kompetitif atau memastikan Anda tidak membayar lebih."
+        }
+      ]
+    },
+    "trusted": {
+      "title": "Dipercaya oleh Pemimpin Industri"
+    },
+    "cta": {
+      "title": "Siap Membeli atau Menjual?",
+      "subtitle": "Bergabunglah dengan ribuan bisnis yang mengoptimalkan manajemen aset mereka hari ini.",
+      "buttons": {
+        "browse": "Jelajahi Inventaris",
+        "contact": "Hubungi Pialang"
+      }
+    },
+    "modal": {
+      "title": "Pertanyaan Perantara",
+      "form": {
+        "firstName": "Nama Depan",
+        "lastName": "Nama Belakang",
+        "email": "Alamat Email",
+        "inquiryType": "Jenis Pertanyaan",
+        "company": "Perusahaan",
+        "phone": "Telepon",
+        "equipment": "Peralatan / Persyaratan",
+        "submit": "Kirim Pertanyaan",
+        "agreement": "Dengan mengirimkan, Anda setuju untuk membagikan detail kontak Anda dengan tim perantara kami."
+      },
+      "options": {
+        "buy": "Saya ingin Membeli Peralatan",
+        "sell": "Saya ingin Menjual Peralatan",
+        "general": "Pertanyaan Umum"
+      }
+    },
+    "successMessage": "Pertanyaan berhasil dikirim! Seorang pialang akan segera menghubungi Anda."
+  },
+  "inspection": {
+    "hero": {
+      "title": "Inspeksi Peralatan Tersertifikasi",
+      "subtitle": "Laporan inspeksi yang tidak memihak, terperinci, dan cepat. Ketahui persis apa yang Anda beli atau jual dengan protokol penilaian standar kami.",
+      "ctaText": "Jadwalkan Inspeksi"
+    },
+    "whyMatter": {
+      "title": "Mengapa Inspeksi Itu Penting",
+      "description": "Mitigasi risiko dan pastikan nilai yang wajar dengan pelaporan komprehensif kami.",
+      "heading": "Penyelaman Mendalam ke Kesehatan Mesin",
+      "content": "Inspektur kami tidak hanya memeriksa luarnya saja. Kami melakukan uji operasional yang ketat, analisis cairan, dan pengukuran rangka bawah (undercarriage). Laporan umum mencakup lebih dari 100 poin data dan 50+ foto resolusi tinggi.",
+      "features": [
+        {
+          "title": "Daftar Periksa Standar",
+          "description": "Kriteria evaluasi yang konsisten di semua kategori peralatan."
+        },
+        {
+          "title": "Bukti Visual",
+          "description": "Dokumentasi foto dan video terperinci tentang keausan dan kerusakan."
+        },
+        {
+          "title": "Laporan Digital",
+          "description": "Akses instan ke laporan melalui portal cloud aman kami."
+        }
+      ]
+    },
+    "qualityProcess": {
+      "title": "Proses Jaminan Kualitas",
+      "steps": [
+        {
+          "title": "Pemesanan & Pengiriman",
+          "desc": "Inspektur ditugaskan berdasarkan jenis peralatan dan keahlian lokasi.",
+          "side": "left"
+        },
+        {
+          "title": "Evaluasi di Tempat",
+          "desc": "Pemeriksaan visual, pengujian operasional, dan pengambilan sampel cairan dilakukan.",
+          "side": "right"
+        },
+        {
+          "title": "Tinjauan Data",
+          "desc": "Pimpinan teknis senior meninjau data mentah untuk mencari anomali.",
+          "side": "left"
+        },
+        {
+          "title": "Publikasi Laporan",
+          "desc": "Laporan akhir dibuat dengan perkiraan penilaian (opsional).",
+          "side": "right"
+        }
+      ]
+    },
+    "evaluators": {
+      "title": "Sorotan Evaluator",
+      "inspectors": [
+        {
+          "name": "Mike T.",
+          "role": "Spesialis Alat Berat Senior",
+          "quote": "\"Saya telah memeriksa lebih dari 2.000 ekskavator. Saya tahu persis di mana retakan akibat tekanan bersembunyi.\""
+        },
+        {
+          "name": "Sarah L.",
+          "role": "Derek & Peralatan Pengangkat",
+          "quote": "\"Keselamatan adalah prioritas. Laporan saya memastikan kepatuhan terhadap standar OSHA dan ISO.\""
+        },
+        {
+          "name": "David R.",
+          "role": "Truk & Armada",
+          "quote": "\"Diagnostik mesin menceritakan kisah yang sebenarnya. Kami tidak menebak, kami mengukur.\""
+        }
+      ]
+    },
+    "cta": {
+      "title": "Jangan ambil risiko kesepakatan yang buruk.",
+      "subtitle": "Dapatkan faktanya sebelum Anda menandatangani cek.",
+      "button": "Minta Contoh Laporan"
+    },
+    "modal": {
+      "title": "Minta Inspeksi",
+      "form": {
+        "firstName": "Nama Depan",
+        "lastName": "Nama Belakang",
+        "email": "Alamat Email",
+        "equipment": "Detail Peralatan",
+        "location": "Lokasi Aset",
+        "phone": "Telepon",
+        "submit": "Kirim Permintaan",
+        "responseTime": "Waktu respons standar adalah di bawah 4 jam selama hari kerja."
+      },
+      "placeholders": {
+        "firstName": "Budi",
+        "lastName": "Santoso",
+        "email": "budi@perusahaan.com",
+        "equipment": "Tahun, Merek, Model, No. Seri (jika ada)",
+        "location": "Kota, Provinsi",
+        "phone": "+62 (812) 000-0000"
+      }
+    },
+    "successMessage": "Permintaan inspeksi diterima! Kami akan menghubungi Anda untuk menjadwalkan."
+  },
+  "disposition": {
+    "hero": {
+      "title": "Disposisi Aset Strategis",
+      "subtitle": "Maksimalkan nilai pemulihan dari aset surplus. Kami menawarkan solusi yang menguntungkan dan patuh lingkungan untuk peralatan akhir masa pakai atau surplus.",
+      "ctaText": "Mulai Pemulihan"
+    },
+    "recoveryProcess": {
+      "title": "Proses Pemulihan Aset",
+      "description": "Ubah mesin yang menganggur menjadi modal kerja dengan aman dan efisien.",
+      "steps": [
+        {
+          "title": "Penilaian",
+          "description": "Kami mendata inventaris surplus Anda dan menentukan saluran disposisi terbaik: penjualan kembali, perbaikan, atau daur ulang."
+        },
+        {
+          "title": "Kepatuhan",
+          "description": "Penghapusan cairan berbahaya, pemusnahan data, dan kepatuhan limbah elektronik ditangani sesuai dengan peraturan lingkungan."
+        },
+        {
+          "title": "Likuidasi",
+          "description": "Aset dijual melalui perjanjian pribadi, lelang, atau pasar barang bekas untuk memaksimalkan laba atas investasi."
+        }
+      ],
+      "caseStudy": {
+        "title": "Studi Kasus: Likuidasi Armada Konstruksi",
+        "content": "Sebuah perusahaan infrastruktur besar perlu melepas 50+ unit peralatan pemindah tanah yang sudah tua. Tim kami mengelola logistik, perbaikan, dan proses pelelangan.",
+        "metrics": [
+          {
+            "value": "120%",
+            "label": "Pemulihan vs Nilai Buku"
+          },
+          {
+            "value": "30 Hari",
+            "label": "Jangka Waktu Proyek"
+          }
+        ]
+      }
+    },
+    "workflow": {
+      "title": "Alur Kerja Penjualan Kembali & Daur Ulang",
+      "features": [
+        {
+          "title": "Logistik & Pemindahan",
+          "description": "Kami mengatur transportasi angkutan berat dan pembersihan lokasi."
+        },
+        {
+          "title": "Transfer Kepemilikan",
+          "description": "Menangani semua pelepasan gadai dan dokumentasi kepemilikan."
+        },
+        {
+          "title": "Penjualan Multi-Saluran",
+          "description": "Pencatatan di pasar global dan jaringan eksklusif."
+        },
+        {
+          "title": "Pembuangan Ramah Lingkungan",
+          "description": "Daur ulang bersertifikat untuk komponen yang tidak dapat diselamatkan."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ubah Liabilitas menjadi Likuiditas",
+      "button": "Dapatkan Penilaian Gratis"
+    },
+    "modal": {
+      "title": "Pertanyaan Disposisi Aset",
+      "form": {
+        "firstName": "Nama Depan",
+        "lastName": "Nama Belakang",
+        "email": "Alamat Email",
+        "assets": "Daftar Aset / Inventaris",
+        "location": "Lokasi Aset",
+        "company": "Perusahaan",
+        "submit": "Kirim untuk Penilaian",
+        "responseTime": "Tim kami biasanya memberikan penilaian awal dalam waktu 2 hari kerja."
+      },
+      "placeholders": {
+        "firstName": "Budi",
+        "lastName": "Santoso",
+        "email": "budi@perusahaan.com",
+        "assets": "Harap cantumkan item utama atau berikan ringkasan lot...",
+        "location": "Kota, Provinsi",
+        "company": "Nama Perusahaan"
+      }
+    },
+    "successMessage": "Permintaan disposisi dikirim. Spesialis pemulihan akan meninjau aset Anda."
+  },
+  "consignment": {
+    "hero": {
+      "title": "Layanan Konsinyasi Peralatan",
+      "subtitle": "Penyimpanan aman dan manajemen penjualan profesional untuk alat berat Anda. Anda mempertahankan kepemilikan sementara kami menangani penjualannya.",
+      "ctaText": "Konsinyasikan Peralatan Anda"
+    },
+    "hassleFree": {
+      "title": "Penjualan Tanpa Ribet",
+      "description": "Kami menyimpan, merawat, dan menjual aset Anda dari lapangan aman kami.",
+      "revenueModel": {
+        "title": "Model Bagi Hasil",
+        "content": "Tidak seperti lelang di mana Anda kehilangan kendali atas harga, model konsinyasi kami menempatkan Anda sebagai pemegang kendali. Kami menyepakati harga bersih atau persentase komisi.",
+        "features": [
+          {
+            "label": "Pemasaran & Pencatatan",
+            "value": "Termasuk"
+          },
+          {
+            "label": "Penyimpanan (90 Hari)",
+            "value": "Gratis"
+          },
+          {
+            "label": "Pencucian Perawatan",
+            "value": "Termasuk"
+          },
+          {
+            "label": "Komisi",
+            "value": "8-12%"
+          }
+        ]
+      },
+      "benefits": [
+        {
+          "title": "Lokasi Strategis",
+          "description": "Lapangan konsinyasi kami terletak di dekat pelabuhan utama dan jalan raya untuk akses pembeli dan logistik yang mudah."
+        },
+        {
+          "title": "Visibilitas Maksimal",
+          "description": "Lalu lintas pengunjung dikombinasikan dengan penempatan digital premium memastikan aset Anda dilihat oleh pembeli yang serius."
+        },
+        {
+          "title": "Fasilitas Aman",
+          "description": "Pemantauan keamanan 24/7, lapangan berpagar, dan pemeriksaan perawatan baterai/cairan rutin selama dalam penyimpanan."
+        }
+      ]
+    },
+    "tracking": {
+      "title": "Pelacakan & Transparansi",
+      "features": [
+        {
+          "title": "Inventaris Real-time",
+          "description": "Lihat aset konsinyasi Anda di portal kami. Periksa status, lihat jumlah kunjungan daftar, dan kelola penawaran."
+        },
+        {
+          "title": "Penetapan Harga Dinamis",
+          "description": "Kami memberikan penyesuaian harga berdasarkan data sesuai minat pasar untuk memastikan penjualan tepat waktu."
+        },
+        {
+          "title": "Laporan Kinerja",
+          "description": "Pembaruan mingguan tentang prospek, pertanyaan, dan inspeksi fisik yang dilakukan pada peralatan Anda."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ruang terbatas di lapangan utama kami.",
+      "subtitle": "Pesan tempat Anda hari ini dan tempatkan peralatan Anda di depan pembeli terverifikasi.",
+      "button": "Pesan Ruang"
+    },
+    "modal": {
+      "title": "Permintaan Konsinyasi",
+      "form": {
+        "firstName": "Nama Depan",
+        "lastName": "Nama Belakang",
+        "email": "Alamat Email",
+        "equipment": "Deskripsi Peralatan",
+        "location": "Lokasi Saat Ini",
+        "phone": "Telepon",
+        "submit": "Kirim Permintaan",
+        "agreement": "Dengan mengirimkan, Anda menyetujui persyaratan konsinyasi dan kebijakan privasi kami."
+      },
+      "placeholders": {
+        "firstName": "Budi",
+        "lastName": "Santoso",
+        "email": "budi@perusahaan.com",
+        "equipment": "Misalnya, Ekskavator CAT 320 2018...",
+        "location": "Kota, Provinsi",
+        "phone": "+62 (812) 000-0000"
+      }
+    },
+    "successMessage": "Ruang konsinyasi dipesan! Kami akan menghubungi Anda untuk menyelesaikan detailnya."
+  },
+  "logistics": {
+    "hero": {
+      "title": "Logistik Alat Berat",
+      "subtitle": "Solusi transportasi pintu ke pintu untuk kargo berukuran besar. Kami menangani pembongkaran, pengepakan, pengiriman barang, dan bea cukai.",
+      "ctaText": "Dapatkan Penawaran Pengiriman"
+    },
+    "forwarding": {
+      "title": "Jaringan Ekspedisi Global",
+      "description": "Memindahkan mesin berat melintasi perbatasan dan lautan dengan mulus.",
+      "globe": {
+        "title": "Menghubungkan 150+ Pelabuhan di Seluruh Dunia",
+        "subtitle": "Pelacakan langsung tersedia untuk semua angkutan laut dan udara."
+      },
+      "services": [
+        {
+          "title": "Angkutan Berat Darat",
+          "description": "Trailer low-boy dan RGN khusus untuk muatan berukuran besar. Kami menangani semua persyaratan perizinan dan kendaraan pengawal."
+        },
+        {
+          "title": "RoRo & Kontainer",
+          "description": "Opsi angkutan laut yang fleksibel. Roll-on/Roll-off untuk unit yang dapat dikendarai atau kontainerisasi untuk suku cadang yang dibongkar."
+        },
+        {
+          "title": "Pembongkaran & Pengepakan",
+          "description": "Layanan pembongkaran profesional agar mesin besar muat ke dalam kontainer standar, mengurangi biaya pengiriman secara signifikan."
+        }
+      ]
+    },
+    "workflow": {
+      "title": "Alur Kerja Pengiriman",
+      "steps": [
+        {
+          "title": "Penawaran & Perencanaan",
+          "text": "Analisis rute dan estimasi biaya berdasarkan dimensi dan berat."
+        },
+        {
+          "title": "Persiapan & Penjemputan",
+          "text": "Pencucian (untuk kepatuhan karantina) dan pemuatan ke transportasi."
+        },
+        {
+          "title": "Bea Cukai Ekspor",
+          "text": "Pengajuan dokumentasi (AES, Faktur Komersial, Daftar Pengepakan)."
+        },
+        {
+          "title": "Angkutan Laut",
+          "text": "Keberangkatan kapal dan pemantauan transit."
+        },
+        {
+          "title": "Impor & Pengiriman",
+          "text": "Penyelesaian bea cukai di tujuan dan pengiriman jarak akhir."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Perlu memindahkan mesin besar?",
+      "subtitle": "Pakar logistik kami siap merencanakan rute Anda.",
+      "buttons": {
+        "quote": "Minta Penawaran",
+        "track": "Lacak Pengiriman"
+      }
+    },
+    "modal": {
+      "title": "Minta Penawaran Pengiriman",
+      "form": {
+        "firstName": "Nama Depan",
+        "lastName": "Nama Belakang",
+        "email": "Alamat Email",
+        "equipment": "Detail Peralatan",
+        "origin": "Kota Asal",
+        "destination": "Kota Tujuan",
+        "submit": "Kirim Permintaan",
+        "agreement": "Dengan mengirimkan, Anda menyetujui kebijakan privasi kami. Estimasi berlaku selama 7 hari."
+      },
+      "placeholders": {
+        "firstName": "Budi",
+        "lastName": "Santoso",
+        "email": "budi@perusahaan.com",
+        "equipment": "Misalnya, Ekskavator CAT 320 2018, sekitar 20 ton",
+        "origin": "Kota, Negara",
+        "destination": "Kota, Negara"
+      }
+    },
+    "successMessage": "Permintaan penawaran berhasil dikirim! Koordinator logistik akan segera menghubungi Anda."
+  },
+  "brandStory": {
+    "sectionTitle": "Bagian 01 — Kisah Merek",
+    "heading": "Kisah Kami",
+    "title": "Vision Semiconductor Solutions LLC didirikan dengan tujuan yang jelas untuk mendayakan masa depan teknologi.",
+    "content": [
+      "Vision Semiconductor Solutions (VSS) mendukung industri manufaktur semikonduktor global dengan presisi, inovasi, dan transparansi. Apa yang dimulai sebagai sumber untuk peralatan surplus dan suku cadang telah berkembang menjadi platform untuk pengetahuan, keunggulan teknik, dan kolaborasi global.",
+      "Berakar pada keahlian teknis, VSS bertujuan untuk menjadi pusat terpercaya untuk solusi, pendidikan, dan pengaruh industri dalam ekosistem semikonduktor."
+    ],
+    "founder": {
+      "name": "Vision Semiconductor Solutions",
+      "role": "Tim Kepemimpinan Global",
+      "quote": "\"Kami memegang tanggung jawab pada diri kami sendiri terlebih dahulu, kemudian tim kami, pelanggan kami, dan komunitas kami.\""
+    }
+  },
+  "missionVision": {
+    "intro": "Mendorong Industri ke Depan",
+    "mission": {
+      "section": "Bagian 02",
+      "title": "Misi",
+      "heading": "Memberdayakan Masa Depan Solusi Semikonduktor",
+      "content": "Misi kami adalah memberikan peralatan semikonduktor dan pengetahuan yang andal kepada para insinyur, produsen, dan inovator di seluruh dunia. Kami membuat solusi berkinerja tinggi dapat diakses, efisien, dan berskala—memberdayakan generasi teknologi dan keunggulan manufaktur berikutnya."
+    },
+    "vision": {
+      "section": "Bagian 03",
+      "title": "Visi",
+      "heading": "Membentuk Hari Esok, Hari Ini",
+      "content": "Kami membayangkan menjadi pusat global untuk solusi semikonduktor, pendidikan, dan kepemimpinan industri. Melalui kejelasan, inovasi, dan komitmen jangka panjang, kami bertujuan untuk memengaruhi masa depan ekosistem semikonduktor dan meningkatkan kemajuan teknologi di seluruh dunia."
+    }
+  },
+  "team": {
+    "title": "Tim kami memiliki pengalaman gabungan lebih dari 100 tahun!",
+    "subtitle": "Tim kami membawa pengalaman, inovasi, dan kreativitas ke industri semikonduktor untuk memastikan rencana Anda berada di tangan yang tepat.",
+    "members": [
+      {
+        "name": "Mike Simorangkir",
+        "role": "Pendiri & CEO",
+        "bio": "Mike, MBA, memiliki 15+ tahun pengalaman dalam strategi komersial semikonduktor dan pengembangan peralatan penggunaan campuran."
+      },
+      {
+        "name": "Stanley George",
+        "role": "Pensiunan EVP & CCO",
+        "bio": "Stanley adalah mitra di Heenan Blaikie LLP hingga September 2005, yang berspesialisasi dalam kepatuhan teknologi global."
+      },
+      {
+        "name": "Eliza Baker",
+        "role": "VP, Operasi",
+        "bio": "Eliza, MBA, memiliki 12+ tahun pengalaman dalam logistik komersial dan manajemen rantai pasokan semikonduktor."
+      },
+      {
+        "name": "Sally Cruz",
+        "role": "Chief Marketing Officer (CMO)",
+        "bio": "Sally memiliki 10+ tahun pengalaman di pasar teknologi Kanada dan Asia Pasifik."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bermitra dengan Vision Semiconductor Solutions",
+    "subtitle": "Temukan bagaimana presisi dan inovasi kami dapat mendayakan terobosan teknologi Anda berikutnya.",
+    "button": "Hubungi Kami Hari Ini"
+  },
+  "accessCTA": {
+    "hero": {
+      "badge": "Akses Eksklusif",
+      "title": "Buka Kunci <1>Basis Pengetahuan</1> Utama",
+      "subtitle": "Akses penuh ke laporan semikonduktor, white papers, wawasan teknologi mendalam, dan sumber daya yang dikurasi oleh ahli.",
+      "buttons": {
+        "trial": "Mulai Uji Coba Gratis",
+        "explore": "Jelajahi Perpustakaan"
+      }
+    },
+    "valueProposition": {
+      "title": "Mengapa Para Profesional Memilih Kami",
+      "subtitle": "Intelijen semikonduktor tepercaya yang dibangun untuk insinyur, analis, dan pengambil keputusan.",
+      "cards": [
+        {
+          "title": "Wawasan Real-time",
+          "description": "Tetap terdepan dengan pasar semikonduktor dan intelijen teknologi yang terus diperbarui."
+        },
+        {
+          "title": "Sumber Terverifikasi",
+          "description": "Setiap sumber daya divalidasi oleh pakar industri untuk akurasi teknis dan relevansi."
+        },
+        {
+          "title": "Komunitas Global",
+          "description": "Bergabunglah dengan jaringan insinyur, peneliti, dan pemimpin yang membentuk masa depan teknologi."
+        }
+      ]
+    }
+  },
+  "podcasts": {
+    "hero": {
+      "title": "Merekayasa <1>masa depan</1> podcast yang lebih cepat dan cerdas.",
+      "subtitle": "Rasakan pendekatan berbasis angka yang dibangun di atas keahlian, kemitraan, dan kejelasan jangka panjang—memberikan lebih dari sekadar audio.",
+      "buttons": {
+        "explore": "Jelajahi episode",
+        "schedule": "Jadwalkan panggilan"
+      }
+    },
+    "featured": {
+      "title": "Episode Terbaru",
+      "featuredBadge": "UNGGULAN",
+      "featuredEpisode": {
+        "title": "Ep 100: Satu Abad Silikon",
+        "description": "Kami melihat kembali sejarah semikonduktor dan menantikan lompatan kuantum yang menunggu kami dalam dekade berikutnya.",
+        "button": "Dengarkan Sekarang"
+      }
+    },
+    "episodes": {
+      "categories": [
+        "Teknologi",
+        "Bisnis",
+        "Kesehatan",
+        "Desain",
+        "Pemasaran",
+        "Sains"
+      ],
+      "episode": {
+        "showNotes": "Catatan Acara",
+        "duration": "{{duration}}"
+      }
+    },
+    "sidebar": {
+      "newsletter": {
+        "title": "Tetap terinformasi",
+        "subtitle": "Bergabunglah dengan 10.000+ insinyur yang menerima rincian industri mingguan kami.",
+        "placeholder": "Masukkan email Anda",
+        "button": "Berlangganan Gratis"
+      },
+      "about": {
+        "title": "Tentang Vision",
+        "content": "Vision Semiconductor Solutions LLC memberikan wawasan mutakhir tentang perangkat keras yang menggerakkan dunia kita. Dari silikon hingga sistem.",
+        "link": "Pelajari lebih lanjut →"
+      }
+    }
+  },
+  "whitePapers": {
+    "hero": {
+      "title": "Penelitian & White Papers",
+      "subtitle": "Wawasan pasar semikonduktor, tren fabrikasi, dan ringkasan teknologi canggih."
+    },
+    "featured": {
+      "editorsPick": "Pilihan Editor",
+      "title": "Keadaan Inovasi Chip Global 2024",
+      "description": "Analisis ekspansi pabrik, ketahanan rantai pasokan, terobosan litografi, dan dinamika kompetitif yang membentuk ekosistem semikonduktor generasi berikutnya.",
+      "buttons": {
+        "download": "Unduh PDF",
+        "summary": "Baca Ringkasan"
+      }
+    },
+    "recent": {
+      "title": "Publikasi Terbaru",
+      "papers": [
+        {
+          "title": "Wawasan Strategis Vol. 1",
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+        },
+        {
+          "title": "Wawasan Strategis Vol. 2",
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+        },
+        {
+          "title": "Wawasan Strategis Vol. 3",
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+        }
+      ],
+      "button": "Lihat"
+    }
+  },
+  "blog": {
+    "latestNews": {
+      "title": "Berita Terbaru",
+      "featured": {
+        "category": "WAWASAN SEMIKONDUKTOR",
+        "title": "Pabrik global berjuang untuk meningkatkan pengemasan canggih seiring percepatan permintaan chip AI",
+        "summary": "Produsen chip di seluruh dunia berlomba untuk memperluas kapasitas pengemasan canggih, tetapi kendala pasokan pada alat litografi dan material menghambat skala produksi."
+      },
+      "smallArticles": [
+        {
+          "category": "TEKNOLOGI PABRIK",
+          "title": "Terobosan baru dalam litografi EUV menjanjikan hasil yang lebih tinggi pada node 2nm..."
+        },
+        {
+          "category": "RANTAI PASOKAN",
+          "title": "Kekurangan wafer silikon global diperkirakan akan berlanjut hingga 2026..."
+        },
+        {
+          "category": "INOVASI PERALATAN",
+          "title": "Vendor peralatan etsa mendorong teknologi plasma baru untuk geometri sub-3nm..."
+        }
+      ]
+    },
+    "gridSection": {
+      "title": "Rekening Operasional, Cadangan, dan<br/>Brankas",
+      "articles": [
+        {
+          "category": "MANUFAKTUR",
+          "title": "Pembuat chip menginvestasikan miliaran untuk memperluas kapasitas fabrikasi global",
+          "summary": "Perusahaan semikonduktor terkemuka mempercepat ekspansi pabrik untuk memenuhi permintaan AI, EV, dan elektronik konsumen generasi berikutnya."
+        },
+        {
+          "category": "PERALATAN",
+          "title": "Sistem metrologi wafer baru meningkatkan presisi pada skala atom",
+          "summary": "Alat inspeksi canggih terus berkembang seiring menyusutnya fitur semikonduktor ke era angstrom."
+        },
+        {
+          "category": "INOVASI R&D",
+          "title": "Peneliti mengeksplorasi penumpukan silikon 3D untuk meningkatkan kepadatan komputasi",
+          "summary": "Inovasi dalam disipasi termal dan teknologi interkoneksi adalah kunci untuk menskalakan arsitektur semikonduktor tumpuk 3D."
+        }
+      ],
+      "button": "Lihat Semua Artikel"
+    },
+    "common": {
+      "author": "Dr. Ethan Park",
+      "date": "25 Jan 2025"
+    }
+  },
+  "ebooks": {
+    "hero": {
+      "title": "Perpustakaan Pengetahuan",
+      "subtitle": "eBook teknis, wawasan semikonduktor, dan panduan teknik premium — gratis untuk semua profesional."
+    },
+    "books": [
+      {
+        "title": "Menguasai Transformasi Digital",
+        "author": "Dr. Sarah Connor",
+        "description": "Panduan terkurasi yang menawarkan wawasan teknis, praktik terbaik, dan pengetahuan siap industri."
+      },
+      {
+        "title": "Panduan Kepemimpinan Agile",
+        "author": "James Cameron",
+        "description": "Panduan terkurasi yang menawarkan wawasan teknis, praktik terbaik, dan pengetahuan siap industri."
+      },
+      {
+        "title": "Ilmu Data untuk Eksekutif",
+        "author": "Ellen Ripley",
+        "description": "Panduan terkurasi yang menawarkan wawasan teknis, praktik terbaik, dan pengetahuan siap industri."
+      },
+      {
+        "title": "Esensi Keamanan Siber",
+        "author": "Neo Anderson",
+        "description": "Panduan terkurasi yang menawarkan wawasan teknis, praktik terbaik, dan pengetahuan siap industri."
+      }
+    ],
+    "buttons": {
+      "readOnline": "Baca Online",
+      "download": "Unduh"
+    },
+    "common": {
+      "by": "oleh",
+      "pages": "{{count}} halaman"
+    }
+  },
+  "industryNews": {
+    "pageTitle": "Berita Industri Semikonduktor",
+    "featured": {
+      "badge": "Berita Sela",
+      "title": "Terobosan Besar dalam Efisiensi Chip Kuantum Diumumkan Hari Ini"
+    },
+    "categories": [
+      "Semua",
+      "Manufaktur Chip",
+      "Regulasi",
+      "Startup",
+      "Korporat",
+      "R&D"
+    ],
+    "newsItems": [
+      {
+        "title": "Pasar Chip Global Bangkit Kembali Saat Permintaan AI Mencapai Rekor Tertinggi",
+        "excerpt": "Pabrik mutakhir, terobosan litografi baru, dan peraturan geopolitik terus membentuk ekosistem semikonduktor.",
+        "category": "Manufaktur Chip"
+      },
+      {
+        "title": "Aturan Ekspor Semikonduktor Baru Menciptakan Ketidakpastian Industri",
+        "excerpt": "Pabrik mutakhir, terobosan litografi baru, dan peraturan geopolitik terus membentuk ekosistem semikonduktor.",
+        "category": "Regulasi"
+      }
+    ],
+    "sidebar": {
+      "trending": {
+        "title": "Topik Populer",
+        "tags": [
+          "#LitografiEUV",
+          "#FabrikasiChip",
+          "#ChipAI",
+          "#3DNAND",
+          "#KomputasiKuantum"
+        ]
+      },
+      "subscribe": {
+        "title": "Rangkuman Harian Semikonduktor",
+        "description": "Dapatkan berita utama industri chip setiap pagi.",
+        "placeholder": "Alamat Email",
+        "button": "Daftar"
+      }
+    },
+    "common": {
+      "readFullStory": "Baca Cerita Lengkap",
+      "author": "Dr. Jane Doe",
+      "featuredAuthor": "Dr. John Smith",
+      "date": "Jan {{day}}, 2025"
+    }
+  },
+  "products": {
+    "tabsData": [
+      {
+        "id": "Modular architecture",
+        "label": "Arsitektur modular",
+        "number": "01",
+        "title": "Arsitektur modular",
+        "description": "Jelajahi peralatan dari OEM terkemuka termasuk ASML, Applied Materials, Lam Research, TEL, dan KLA.",
+        "cta": "Pelajari Lebih Lanjut"
+      },
+      {
+        "id": "Opportunities",
+        "label": "Peluang",
+        "number": "02",
+        "title": "Peluang Unggulan",
+        "description": "Akses daftar eksklusif bernilai tinggi, sistem langka, dan alat semikonduktor yang banyak diminati dengan harga kompetitif.",
+        "cta": "Pelajari Lebih Lanjut"
+      },
+      {
+        "id": "New Inventory",
+        "label": "Inventaris Baru",
+        "number": "03",
+        "title": "Kedatangan Baru",
+        "description": "Temukan tambahan terbaru, mulai dari alat wafer mutakhir hingga sistem rekondisi yang siap produksi.",
+        "cta": "Pelajari Lebih Lanjut"
+      },
+      {
+        "id": "Portal",
+        "label": "Portal",
+        "number": "04",
+        "title": "Portal Pelanggan",
+        "description": "Minta penawaran, kelola pesanan pembelian (PO), dan sederhanakan pengadaan dengan ruang kerja pelanggan terpadu.",
+        "cta": "Pelajari Lebih Lanjut"
+      }
+    ]
+  }
+}

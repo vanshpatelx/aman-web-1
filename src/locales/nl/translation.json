@@ -1,0 +1,967 @@
+{
+  "heading": "Engineeren van een snellere, slimmere toekomst voor halfgeleiders.",
+  "subheading": "Ervaar een cijfermatige benadering, gebouwd op expertise, partnerschap en financiële duidelijkheid op de lange termijn — wij leveren meer dan alleen concurrerende tarieven.",
+  "cta1": "Bekijk oplossingen",
+  "cta2": "Plan een gesprek",
+  "nav": {
+    "home": "Home",
+    "about": "Over Ons",
+    "content": "Content",
+    "solutions": "Oplossingen",
+    "shop": "Nu Winkelen"
+  },
+  "about": {
+    "sectionTitle": "Over Vision Semiconductor",
+    "headline": "De toekomst van technologie aandrijven door ongeëvenaarde innovatie en een wereldwijde visie voor vooruitgang in halfgeleiders.",
+    "features": {
+      "innovation": "Innovatie",
+      "expertise": "Expertise",
+      "vision": "Visie"
+    },
+    "cta": "Meer weten"
+  },
+  "section2": {
+    "title": "Het is alsof u elke machine in uw fab een tweede leven geeft",
+    "description": "Onze missiegedreven aanpak verlaagt de eigendomskosten, verbetert de betrouwbaarheid en houdt oudere apparatuur jarenlang productief.",
+    "cta": "Aan de slag",
+    "stats": [
+      {
+        "label": "Jaren expertise",
+        "value": "20+",
+        "description": "Decennia ervaring in halfgeleider-engineering."
+      },
+      {
+        "label": "Wereldwijde klanten",
+        "value": "150+",
+        "description": "Vertrouwd door bedrijven in diverse sectoren en continenten."
+      },
+      {
+        "label": "Kosten bespaard",
+        "value": "$50M+",
+        "description": "Helpt partners operationele en upgradekosten te verlagen."
+      },
+      {
+        "label": "Projecten opgeleverd",
+        "value": "500+",
+        "description": "Succesvolle projecten gedreven door precisie en innovatie."
+      }
+    ]
+  },
+  "services": {
+    "accessCta": "Toegang tot Kenniscentrum",
+    "services": [
+      {
+        "title": "Podcast-afleveringen",
+        "description": "Expertgesprekken over trends en innovaties in de productie van halfgeleiders",
+        "pattern": "/patterns/Burst.svg",
+        "link": "/PodcastsPage"
+      },
+      {
+        "title": "Trending Whitepapers",
+        "description": "Diepgaande technische analyses en onderzoek van marktleiders",
+        "pattern": "/patterns/Looper-3.svg",
+        "link": "/WhitePapersPage"
+      },
+      {
+        "title": "Marktanalyse",
+        "description": "Realtime inzichten in markttrends en waarderingen van apparatuur",
+        "pattern": "/patterns/LooperGroup.svg",
+        "link": "/BlogPage"
+      },
+      {
+        "title": "Educatieve bronnen",
+        "description": "Uitgebreide gidsen en tutorials voor halfgeleiderprocessen",
+        "pattern": "/patterns/Topology-1.svg",
+        "link": "/EbooksPage"
+      },
+      {
+        "title": "Industrienieuws",
+        "description": "Laatste ontwikkelingen en opkomende technologieën in de productie van halfgeleiders",
+        "pattern": "/patterns/Topology-2.svg",
+        "link": "/IndustryNewsPage"
+      }
+    ]
+  },
+  "equipment": {
+    "heading": "Wegen engineeren naar industriële duurzaamheid",
+    "subheading": "Van energieopwekking tot systeemefficiëntie op lange termijn, wij leveren oplossingen die kosten verlagen, uitstoot verminderen en veerkrachtige operaties garanderen.",
+    "requestAudit": "Audit aanvragen",
+    "learnMore": "Meer weten",
+    "services": [
+      {
+        "id": "Brokering",
+        "title": "Bemiddeling in apparatuur",
+        "description": "Deskundig beheer van activaverkoop, waarbij u wordt verbonden met gekwalificeerde kopers voor maximaal rendement",
+        "link": "/Brokering"
+      },
+      {
+        "id": "Inspection",
+        "title": "Inspectie",
+        "description": "Gedetailleerde evaluaties van apparatuur die de staat verifiëren, risico's verminderen en zelfverzekerde beslissingen ondersteunen.",
+        "link": "/Inspection"
+      },
+      {
+        "id": "Disposition",
+        "title": "Afstoting",
+        "description": "Strategische verwijdering van overtollige activa, waarbij waardeherstel wordt geoptimaliseerd en operationele lasten worden geminimaliseerd.",
+        "link": "/Disposition"
+      },
+      {
+        "id": "Consignment",
+        "title": "Consignatie",
+        "description": "Hands-on verkoopondersteuning die uw apparatuur effectief op de markt brengt terwijl u volledig eigenaar blijft.",
+        "link": "/Consignment"
+      },
+      {
+        "id": "Logistics-Forwarding",
+        "title": "Logistiek & Expeditie",
+        "description": "End-to-end transportcoördinatie die zorgt voor een veilige, efficiënte levering over elke afstand of grens",
+        "link": "/Logistics"
+      }
+    ]
+  },
+  "footer": {
+    "description": "Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum.",
+    "company": "Bedrijf",
+    "products": "Producten",
+    "contact": "Contact",
+    "companyLinks": {
+      "about": "Over Ons",
+      "careers": "Carrière",
+      "privacy": "Privacybeleid",
+      "terms": "Algemene Voorwaarden"
+    },
+    "productLinks": {
+      "event": "Evenementen",
+      "projects": "Projecten",
+      "services": "Diensten",
+      "team": "Team"
+    },
+    "contactInfo": {
+      "email": "Support@vision.com",
+      "phone": "+1 234 567 8900",
+      "address": "345 Tech Park Avenue, 9th Floor Silicon Valley, CA 98765 USA"
+    },
+    "copyright": "Copyright 2024 Vision Semiconductor Solutions LLC. Alle rechten voorbehouden."
+  },
+  "tabs": {
+    "learnMore": "Meer weten",
+    "tabsData": [
+      {
+        "id": "mission",
+        "label": "Onze Missie",
+        "number": "01",
+        "title": "Innovatie van halfgeleiders vooruit helpen",
+        "description": "Wij zetten ons in voor de vooruitgang van halfgeleidertechnologie door middel van baanbrekend onderzoek, strategische partnerschappen en duurzame technische oplossingen die de toekomst van wereldwijde technologie aandrijven.",
+        "imageUrl": "/images/mission.jpg"
+      },
+      {
+        "id": "vision",
+        "label": "Onze Visie",
+        "number": "02",
+        "title": "De toekomst van technologie vormgeven",
+        "description": "De wereldleider zijn in halfgeleideroplossingen en een slimmere, meer verbonden wereld creëren door innovatieve technologie die industrieën transformeert en menselijke ervaringen verbetert.",
+        "imageUrl": "/images/vision.jpg"
+      },
+      {
+        "id": "values",
+        "label": "Onze Waarden",
+        "number": "03",
+        "title": "Uitmuntendheid door Integriteit",
+        "description": "Wij werken met onwankelbare integriteit, stimuleren collaboratieve innovatie en handhaven de hoogste kwaliteitsnormen in elk aspect van onze halfgeleideroplossingen en -diensten.",
+        "imageUrl": "/images/values.jpg"
+      }
+    ]
+  },
+  "brokering": {
+    "hero": {
+      "title": "Wereldwijde bemiddeling in apparatuur",
+      "subtitle": "Maak verbinding met een wereldwijd netwerk van kopers en verkopers. Wij vereenvoudigen de complexiteit van de handel in industriële apparatuur met geverifieerde lijsten en veilige transacties.",
+      "ctaText": "Toegang aanvragen"
+    },
+    "marketplace": {
+      "title": "Marktplaats Overzicht",
+      "description": "Toegang tot duizenden geverifieerde industriële activa in de bouw-, mijnbouw- en productiesectoren.",
+      "content": "Ons bemiddelingsplatform overbrugt de kloof tussen eigenaren van overtollige apparatuur en bedrijven die betrouwbare machines nodig hebben. Wij nemen het zware werk van onderhandelingen, verificatie en documentatie uit handen.",
+      "stats": [
+        "30.000+ Actieve kopers in onze database.",
+        "$500M+ In voltooide apparatuurtransacties.",
+        "Transparante tariefstructuren zonder verborgen kosten."
+      ]
+    },
+    "workflow": {
+      "title": "Inkoopworkflow",
+      "description": "Hoe wij u verbinden met de juiste machines.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Aanvraag",
+          "desc": "Dien uw apparatuurvereisten in of bied uw activa te koop aan."
+        },
+        {
+          "step": "02",
+          "title": "Match",
+          "desc": "Onze AI-gedreven engine koppelt activa direct aan gekwalificeerde kopers."
+        },
+        {
+          "step": "03",
+          "title": "Verificatie",
+          "desc": "Inspecteurs verifiëren de staat en documentatie voordat we verdergaan."
+        },
+        {
+          "step": "04",
+          "title": "Sluiting",
+          "desc": "Veilige betalingsverwerking en logistieke coördinatie ronden de deal af."
+        }
+      ]
+    },
+    "features": {
+      "title": "Waarom kiezen voor onze bemiddeling",
+      "items": [
+        {
+          "title": "Wereldwijd bereik",
+          "description": "Toegang tot markten in meer dan 50 landen. Wij handelen de complexiteiten van grensoverschrijdende handel af, inclusief douane en naleving."
+        },
+        {
+          "title": "Bescherming tegen fraude",
+          "description": "Elke transactie is beveiligd via escrow-diensten. Wij verifiëren elke koper en verkoper om fraude te voorkomen."
+        },
+        {
+          "title": "Marktinformatie",
+          "description": "Gebruik onze eigen data om uw apparatuur concurrerend te prijzen of om ervoor te zorgen dat u niet te veel betaalt."
+        }
+      ]
+    },
+    "trusted": {
+      "title": "Vertrouwd door marktleiders"
+    },
+    "cta": {
+      "title": "Klaar om te kopen of verkopen?",
+      "subtitle": "Sluit u vandaag nog aan bij duizenden bedrijven die hun activabeheer optimaliseren.",
+      "buttons": {
+        "browse": "Bekijk voorraad",
+        "contact": "Neem contact op met een makelaar"
+      }
+    },
+    "modal": {
+      "title": "Bemiddelingsaanvraag",
+      "form": {
+        "firstName": "Voornaam",
+        "lastName": "Achternaam",
+        "email": "E-mailadres",
+        "inquiryType": "Type aanvraag",
+        "company": "Bedrijf",
+        "phone": "Telefoon",
+        "equipment": "Apparatuur / Vereisten",
+        "submit": "Aanvraag indienen",
+        "agreement": "Door in te dienen, gaat u ermee akkoord uw contactgegevens te delen met ons bemiddelingsteam."
+      },
+      "options": {
+        "buy": "Ik wil apparatuur kopen",
+        "sell": "Ik wil apparatuur verkopen",
+        "general": "Algemene vraag"
+      }
+    },
+    "successMessage": "Aanvraag succesvol ingediend! Een makelaar neemt binnenkort contact met u op."
+  },
+  "inspection": {
+    "hero": {
+      "title": "Gecertificeerde apparatuurinspecties",
+      "subtitle": "Onpartijdige, gedetailleerde en snelle inspectierapporten. Weet precies wat u koopt of verkoopt met onze gestandaardiseerde beoordelingsprotocollen.",
+      "ctaText": "Inspectie plannen"
+    },
+    "whyMatter": {
+      "title": "Waarom inspecties belangrijk zijn",
+      "description": "Beperk risico's en zorg voor een eerlijke waarde met onze uitgebreide rapportage.",
+      "heading": "Een diepe duik in de gezondheid van de machine",
+      "content": "Onze inspecteurs doen meer dan een oppervlakkige check. We voeren rigoureuze operationele tests, vloeistofanalyses en metingen van het onderstel uit. Een typisch rapport bevat meer dan 100 gegevenspunten en 50+ foto's in hoge resolutie.",
+      "features": [
+        {
+          "title": "Gestandaardiseerde checklists",
+          "description": "Consistente evaluatiecriteria voor alle apparatuurcategorieën."
+        },
+        {
+          "title": "Visueel bewijs",
+          "description": "Gedetailleerde foto- en videodocumentatie van slijtage."
+        },
+        {
+          "title": "Digitale rapporten",
+          "description": "Directe toegang tot rapporten via ons beveiligde cloudportaal."
+        }
+      ]
+    },
+    "qualityProcess": {
+      "title": "Kwaliteitsborgingsproces",
+      "steps": [
+        {
+          "title": "Boeking & Toewijzing",
+          "desc": "Inspecteur toegewezen op basis van apparatuurtype en locatie-expertise.",
+          "side": "left"
+        },
+        {
+          "title": "Evaluatie op locatie",
+          "desc": "Visuele controle, operationele tests en vloeistofbemonstering uitgevoerd.",
+          "side": "right"
+        },
+        {
+          "title": "Gegevensbeoordeling",
+          "desc": "Senior technische leiders beoordelen ruwe gegevens op afwijkingen.",
+          "side": "left"
+        },
+        {
+          "title": "Rapportpublicatie",
+          "desc": "Definitief rapport gegenereerd met waarderingsschattingen (optioneel).",
+          "side": "right"
+        }
+      ]
+    },
+    "evaluators": {
+      "title": "Uitgelichte beoordelaars",
+      "inspectors": [
+        {
+          "name": "Mike T.",
+          "role": "Senior Specialist Zware Machines",
+          "quote": "\"Ik heb meer dan 2.000 graafmachines geïnspecteerd. Ik weet precies waar stressfracturen zich verbergen.\""
+        },
+        {
+          "name": "Sarah L.",
+          "role": "Kranen & Hijsapparatuur",
+          "quote": "\"Veiligheid is de prioriteit. Mijn rapporten zorgen voor naleving van OSHA- en ISO-normen.\""
+        },
+        {
+          "name": "David R.",
+          "role": "Vrachtwagens & Vloot",
+          "quote": "\"Motordiagnostiek vertelt het echte verhaal. Wij gissen niet, wij meten.\""
+        }
+      ]
+    },
+    "cta": {
+      "title": "Riskeer geen slechte deal.",
+      "subtitle": "Krijg de feiten voordat u tekent.",
+      "button": "Voorbeeldrapport aanvragen"
+    },
+    "modal": {
+      "title": "Inspectie aanvragen",
+      "form": {
+        "firstName": "Voornaam",
+        "lastName": "Achternaam",
+        "email": "E-mailadres",
+        "equipment": "Apparatuurdetails",
+        "location": "Locatie van activa",
+        "phone": "Telefoon",
+        "submit": "Aanvraag indienen",
+        "responseTime": "De standaard reactietijd is minder dan 4 uur op werkdagen."
+      },
+      "placeholders": {
+        "firstName": "Jan",
+        "lastName": "Jansen",
+        "email": "jan@bedrijf.nl",
+        "equipment": "Jaar, Merk, Model, Serienummer (indien beschikbaar)",
+        "location": "Stad, Provincie",
+        "phone": "+31 (6) 0000 0000"
+      }
+    },
+    "successMessage": "Inspectieaanvraag ontvangen! Wij nemen contact met u op om te plannen."
+  },
+  "disposition": {
+    "hero": {
+      "title": "Strategische afstoting van activa",
+      "subtitle": "Maximaliseer de herstelwaarde van overtollige activa. Wij bieden milieuvriendelijke, winstgevende oplossingen voor apparatuur aan het einde van de levensduur of bij surplus.",
+      "ctaText": "Start herstel"
+    },
+    "recoveryProcess": {
+      "title": "Het activas-herstelproces",
+      "description": "Zet stilstaande machines veilig en efficiënt om in werkkapitaal.",
+      "steps": [
+        {
+          "title": "Beoordeling",
+          "description": "Wij catalogiseren uw overtollige voorraad en bepalen het beste afstotingskanaal: wederverkoop, revisie of recycling."
+        },
+        {
+          "title": "Naleving",
+          "description": "Verwijdering van gevaarlijke vloeistoffen, gegevensvernietiging en e-waste-naleving worden afgehandeld volgens milieuregelgeving."
+        },
+        {
+          "title": "Liquidatie",
+          "description": "Activa worden verkocht via onderhandse verkoop, veiling of schrootmarkten om het rendement op de investering te maximaliseren."
+        }
+      ],
+      "caseStudy": {
+        "title": "Casestudy: Liquidatie bouwflota",
+        "content": "Een groot infrastructuurbedrijf moest 50+ eenheden verouderde grondverzetmachines afstoten. Ons team beheerde de logistiek, revisie en het veilingproces.",
+        "metrics": [
+          {
+            "value": "120%",
+            "label": "Herstel vs Boekwaarde"
+          },
+          {
+            "value": "30 Dagen",
+            "label": "Projecttijdlijn"
+          }
+        ]
+      }
+    },
+    "workflow": {
+      "title": "Wederverkoop & Recycling Workflow",
+      "features": [
+        {
+          "title": "Logistiek & Verwijdering",
+          "description": "Wij regelen zwaar transport en ontruiming van de locatie."
+        },
+        {
+          "title": "Eigendomsoverdracht",
+          "description": "Afhandeling van alle vrijwaringen en eigendomsdocumentatie."
+        },
+        {
+          "title": "Multi-Channel Verkoop",
+          "description": "Notering op wereldwijde marktplaatsen en exclusieve netwerken."
+        },
+        {
+          "title": "Groene Verwerking",
+          "description": "Gecertificeerde recycling voor niet-herbruikbare componenten."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Zet passiva om in liquiditeit",
+      "button": "Ontvang een gratis waardebepaling"
+    },
+    "modal": {
+      "title": "Aanvraag afstoting activa",
+      "form": {
+        "firstName": "Voornaam",
+        "lastName": "Achternaam",
+        "email": "E-mailadres",
+        "assets": "Lijst van activa / Voorraad",
+        "location": "Locatie van activa",
+        "company": "Bedrijf",
+        "submit": "Indienen voor waardebepaling",
+        "responseTime": "Ons team geeft doorgaans binnen 2 werkdagen voorlopige waarderingen."
+      },
+      "placeholders": {
+        "firstName": "Jan",
+        "lastName": "Jansen",
+        "email": "jan@bedrijf.nl",
+        "assets": "Vermeld de belangrijkste items of geef een samenvatting van de partij...",
+        "location": "Stad, Provincie",
+        "company": "Bedrijfsnaam"
+      }
+    },
+    "successMessage": "Afstotingsaanvraag ingediend. Een herstelspecialist zal uw activa beoordelen."
+  },
+  "consignment": {
+    "hero": {
+      "title": "Diensten voor consignatie van apparatuur",
+      "subtitle": "Veilige opslag en professioneel verkoopbeheer voor uw zware materieel. U behoudt het eigendom terwijl wij de verkoop afhandelen.",
+      "ctaText": "Uw apparatuur in consignatie geven"
+    },
+    "hassleFree": {
+      "title": "Verkopen zonder gedoe",
+      "description": "Wij slaan uw activa op, onderhouden en verkopen ze vanaf onze beveiligde terreinen.",
+      "revenueModel": {
+        "title": "Model voor inkomstendeling",
+        "content": "In tegenstelling tot veilingen waar u de controle over de prijs verliest, zet ons consignatiemodel u aan het roer. We komen een nettoprijs of een commissiepercentage overeen.",
+        "features": [
+          {
+            "label": "Marketing & Notering",
+            "value": "Inbegrepen"
+          },
+          {
+            "label": "Opslag (90 Dagen)",
+            "value": "Gratis"
+          },
+          {
+            "label": "Onderhoudswasbeurt",
+            "value": "Inbegrepen"
+          },
+          {
+            "label": "Commissie",
+            "value": "8-12%"
+          }
+        ]
+      },
+      "benefits": [
+        {
+          "title": "Toplocaties",
+          "description": "Onze consignatieterreinen bevinden zich nabij grote havens en snelwegen voor gemakkelijke toegang voor kopers en logistiek."
+        },
+        {
+          "title": "Maximale zichtbaarheid",
+          "description": "Fysiek bezoek gecombineerd met premium digitale plaatsing zorgt ervoor dat uw activa worden gezien door serieuze kopers."
+        },
+        {
+          "title": "Beveiligde faciliteiten",
+          "description": "24/7 beveiligingsbewaking, omheinde terreinen en regelmatige controles van accu's/vloeistoffen tijdens opslag."
+        }
+      ]
+    },
+    "tracking": {
+      "title": "Tracking & Transparantie",
+      "features": [
+        {
+          "title": "Realtime voorraad",
+          "description": "Bekijk uw in consignatie gegeven activa in ons portaal. Controleer de status, bekijk het aantal hits op de notering en beheer biedingen."
+        },
+        {
+          "title": "Dynamische prijzen",
+          "description": "Wij bieden datagestuurde prijsaanpassingen op basis van marktinteresse om een tijdige verkoop te garanderen."
+        },
+        {
+          "title": "Prestatierapporten",
+          "description": "Wekelijkse updates over leads, aanvragen en fysieke inspecties uitgevoerd op uw apparatuur."
+        }
+      ]
+    },
+    "cta": {
+      "title": "De ruimte is beperkt op onze hoofdterreinen.",
+      "subtitle": "Reserveer vandaag nog uw plek en breng uw apparatuur onder de aandacht van geverifieerde kopers.",
+      "button": "Ruimte reserveren"
+    },
+    "modal": {
+      "title": "Consignatieaanvraag",
+      "form": {
+        "firstName": "Voornaam",
+        "lastName": "Achternaam",
+        "email": "E-mailadres",
+        "equipment": "Beschrijving apparatuur",
+        "location": "Huidige locatie",
+        "phone": "Telefoon",
+        "submit": "Aanvraag indienen",
+        "agreement": "Door in te dienen, gaat u akkoord met onze consignatievoorwaarden en privacybeleid."
+      },
+      "placeholders": {
+        "firstName": "Jan",
+        "lastName": "Jansen",
+        "email": "jan@bedrijf.nl",
+        "equipment": "Bijv., 2018 CAT 320 Graafmachine...",
+        "location": "Stad, Provincie",
+        "phone": "+31 (6) 0000 0000"
+      }
+    },
+    "successMessage": "Consignatieruimte gereserveerd! Wij nemen contact met u op om de details af te ronden."
+  },
+  "logistics": {
+    "hero": {
+      "title": "Logistiek voor zwaar materieel",
+      "subtitle": "Deur-tot-deur transportoplossingen voor buitenmaatse lading. Wij regelen demontage, verpakking, expeditie en douane-inklaring.",
+      "ctaText": "Vrachtofferte aanvragen"
+    },
+    "forwarding": {
+      "title": "Wereldwijd expeditienetwerk",
+      "description": "Naadloos verplaatsen van zware machines over grenzen en oceanen.",
+      "globe": {
+        "title": "Verbindt 150+ havens wereldwijd",
+        "subtitle": "Live tracking beschikbaar voor alle zee- en luchtvracht."
+      },
+      "services": [
+        {
+          "title": "Binnenlands zwaar transport",
+          "description": "Gespecialiseerde diepladers en RGN-trailers voor buitenmaatse ladingen. Wij regelen alle vergunningen en begeleidingsvoertuigen."
+        },
+        {
+          "title": "RoRo & Container",
+          "description": "Flexibele zeevrachtopties. Roll-on/Roll-off voor rijdbare eenheden of containervervoer voor gedemonteerde onderdelen."
+        },
+        {
+          "title": "Demontage & Verpakking",
+          "description": "Professionele demontagediensten om grote machines in standaardcontainers te passen, wat de verzendkosten aanzienlijk verlaagt."
+        }
+      ]
+    },
+    "workflow": {
+      "title": "Verzendworkflow",
+      "steps": [
+        {
+          "title": "Offerte & Planning",
+          "text": "Routeanalyse en kostenraming op basis van afmetingen en gewicht."
+        },
+        {
+          "title": "Prep & Ophalen",
+          "text": "Wassen (voor naleving quarantaine) en laden op transport."
+        },
+        {
+          "title": "Export Douane",
+          "text": "Indienen documentatie (AES, Handelsfactuur, Paklijst)."
+        },
+        {
+          "title": "Zeevracht",
+          "text": "Vertrek schip en monitoring van de transit."
+        },
+        {
+          "title": "Import & Levering",
+          "text": "Douane-inklaring op bestemming en levering aan huis."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Moet u groot materieel verplaatsen?",
+      "subtitle": "Onze logistieke experts staan klaar om uw route te plannen.",
+      "buttons": {
+        "quote": "Offerte aanvragen",
+        "track": "Zending volgen"
+      }
+    },
+    "modal": {
+      "title": "Vrachtofferte aanvragen",
+      "form": {
+        "firstName": "Voornaam",
+        "lastName": "Achternaam",
+        "email": "E-mailadres",
+        "equipment": "Apparatuurdetails",
+        "origin": "Stad van herkomst",
+        "destination": "Stad van bestemming",
+        "submit": "Aanvraag indienen",
+        "agreement": "Door in te dienen, gaat u akkoord met ons privacybeleid. Schattingen zijn 7 dagen geldig."
+      },
+      "placeholders": {
+        "firstName": "Jan",
+        "lastName": "Jansen",
+        "email": "jan@bedrijf.nl",
+        "equipment": "Bijv., 2018 CAT 320 Graafmachine, ca. 20 ton",
+        "origin": "Stad, Land",
+        "destination": "Stad, Land"
+      }
+    },
+    "successMessage": "Offerteaanvraag succesvol ingediend! Een logistiek coördinator neemt binnenkort contact met u op."
+  },
+  "brandStory": {
+    "sectionTitle": "Sectie 01 — Merkverhaal",
+    "heading": "Ons Verhaal",
+    "title": "Vision Semiconductor Solutions LLC is opgericht met een duidelijk doel: de toekomst van technologie aandrijven.",
+    "content": [
+      "Vision Semiconductor Solutions (VSS) ondersteunt de wereldwijde productie-industrie van halfgeleiders met precisie, innovatie en transparantie. Wat begon als een bron voor overtollige en reserveapparatuur, is uitgegroeid tot een platform voor kennis, technische uitmuntendheid en wereldwijde samenwerking.",
+      "Geworteld in technische expertise, streeft VSS ernaar een vertrouwd knooppunt te worden voor oplossingen, educatie en invloed binnen het ecosysteem van halfgeleiders."
+    ],
+    "founder": {
+      "name": "Vision Semiconductor Solutions",
+      "role": "Wereldwijd Leiderschapsteam",
+      "quote": "\"Wij houden onszelf als eerste verantwoordelijk, daarna ons team, onze klanten en onze gemeenschap.\""
+    }
+  },
+  "missionVision": {
+    "intro": "De industrie vooruit helpen",
+    "mission": {
+      "section": "Sectie 02",
+      "title": "Missie",
+      "heading": "De toekomst van halfgeleideroplossingen versterken",
+      "content": "Onze missie is om betrouwbare halfgeleiderapparatuur en kennis te leveren aan ingenieurs, fabrikanten en innovators wereldwijd. We maken hoogwaardige oplossingen toegankelijk, efficiënt en schaalbaar — en versterken zo de volgende generatie van technologie en uitmuntendheid in productie."
+    },
+    "vision": {
+      "section": "Sectie 03",
+      "title": "Visie",
+      "heading": "Vandaag vormgeven aan morgen",
+      "content": "We zien onszelf als een wereldwijd centrum voor halfgeleideroplossingen, onderwijs en leiderschap in de industrie. Door duidelijkheid, innovatie en toewijding op lange termijn streven we ernaar de toekomst van het ecosysteem van halfgeleiders te beïnvloeden en technologische vooruitgang over de hele wereld te stimuleren."
+    }
+  },
+  "team": {
+    "title": "Ons team heeft meer dan 100 jaar gecombineerde ervaring!",
+    "subtitle": "Ons team brengt ervaring, innovatie en creativiteit naar de halfgeleiderindustrie om ervoor te zorgen dat uw plannen in goede handen zijn.",
+    "members": [
+      {
+        "name": "Mike Simorangkir",
+        "role": "Oprichter & CEO",
+        "bio": "Mike, MBA, heeft 15+ jaar ervaring in commerciële strategieën voor halfgeleiders en de ontwikkeling van apparatuur voor gemengd gebruik."
+      },
+      {
+        "name": "Stanley George",
+        "role": "Gepensioneerd EVP & CCO",
+        "bio": "Stanley was partner bij Heenan Blaikie LLP tot september 2005, gespecialiseerd in wereldwijde tech-compliance."
+      },
+      {
+        "name": "Eliza Baker",
+        "role": "VP, Operaties",
+        "bio": "Eliza, MBA, heeft 12+ jaar ervaring in commerciële logistiek en supply chain management voor halfgeleiders."
+      },
+      {
+        "name": "Sally Cruz",
+        "role": "Chief Marketing Officer (CMO)",
+        "bio": "Sally heeft 10+ jaar ervaring in zowel de Canadese als Aziatisch-Pacifische technologiemarkten."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Partner met Vision Semiconductor Solutions",
+    "subtitle": "Ontdek hoe onze precisie en innovatie uw volgende technologische doorbraak kunnen aandrijven.",
+    "button": "Neem vandaag nog contact op"
+  },
+  "accessCTA": {
+    "hero": {
+      "badge": "Exclusieve Toegang",
+      "title": "Ontgrendel de ultieme <1>Kennisbank</1>",
+      "subtitle": "Volledige toegang tot halfgeleiderrapporten, whitepapers, deep-tech inzichten en door experts samengestelde bronnen.",
+      "buttons": {
+        "trial": "Start gratis proefperiode",
+        "explore": "Bibliotheek verkennen"
+      }
+    },
+    "valueProposition": {
+      "title": "Waarom professionals voor ons kiezen",
+      "subtitle": "Vertrouwde halfgeleiderinformatie gebouwd voor ingenieurs, analisten en besluitvormers.",
+      "cards": [
+        {
+          "title": "Realtime inzichten",
+          "description": "Blijf voorop lopen met continu bijgewerkte marktinformatie en technologie-inzichten over halfgeleiders."
+        },
+        {
+          "title": "Geverifieerde bronnen",
+          "description": "Elke bron wordt gevalideerd door industrie-experts op technische nauwkeurigheid en relevantie."
+        },
+        {
+          "title": "Wereldwijde gemeenschap",
+          "description": "Sluit u aan bij een netwerk van ingenieurs, onderzoekers en leiders die de toekomst van technologie vormgeven."
+        }
+      ]
+    }
+  },
+  "podcasts": {
+    "hero": {
+      "title": "Engineeren van een snellere, slimmere podcast <1>toekomst.</1>",
+      "subtitle": "Ervaar een cijfermatige benadering, gebouwd op expertise, partnerschap en duidelijkheid op de lange termijn — wij leveren meer dan alleen audio.",
+      "buttons": {
+        "explore": "Afleveringen verkennen",
+        "schedule": "Plan een gesprek"
+      }
+    },
+    "featured": {
+      "title": "Laatste afleveringen",
+      "featuredBadge": "UITGELICHT",
+      "featuredEpisode": {
+        "title": "Afl 100: Een eeuw silicium",
+        "description": "We kijken terug op de geschiedenis van halfgeleiders en kijken vooruit naar de kwantumsprong die ons het komende decennium te wachten staat.",
+        "button": "Nu luisteren"
+      }
+    },
+    "episodes": {
+      "categories": [
+        "Technologie",
+        "Zakelijk",
+        "Gezondheid",
+        "Ontwerp",
+        "Marketing",
+        "Wetenschap"
+      ],
+      "episode": {
+        "showNotes": "Show Notes",
+        "duration": "{{duration}}"
+      }
+    },
+    "sidebar": {
+      "newsletter": {
+        "title": "Blijf op de hoogte",
+        "subtitle": "Sluit u aan bij 10.000+ ingenieurs die onze wekelijkse industrie-analyses ontvangen.",
+        "placeholder": "Vul uw e-mailadres in",
+        "button": "Gratis abonneren"
+      },
+      "about": {
+        "title": "Over Vision",
+        "content": "Vision Semiconductor Solutions LLC biedt baanbrekende inzichten in de hardware die onze wereld aandrijft. Van silicium tot systemen.",
+        "link": "Meer weten →"
+      }
+    }
+  },
+  "whitePapers": {
+    "hero": {
+      "title": "Onderzoek & Whitepapers",
+      "subtitle": "Inzichten in de halfgeleidermarkt, fabricagetrends en geavanceerde technologiebriefings."
+    },
+    "featured": {
+      "editorsPick": "Keuze van de redacteur",
+      "title": "De staat van wereldwijde chipinnovatie 2024",
+      "description": "Analyse van fab-uitbreidingen, veerkracht van de toeleveringsketen, doorbraken in lithografie en concurrentiedynamiek die de volgende generatie halfgeleiderecosystemen vormgeven.",
+      "buttons": {
+        "download": "Download PDF",
+        "summary": "Lees samenvatting"
+      }
+    },
+    "recent": {
+      "title": "Recente publicaties",
+      "papers": [
+        {
+          "title": "Strategische Inzichten Vol. 1",
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+        },
+        {
+          "title": "Strategische Inzichten Vol. 2",
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+        },
+        {
+          "title": "Strategische Inzichten Vol. 3",
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+        }
+      ],
+      "button": "Bekijken"
+    }
+  },
+  "blog": {
+    "latestNews": {
+      "title": "Laatste Nieuws",
+      "featured": {
+        "category": "HALFGELEIDER INZICHTEN",
+        "title": "Wereldwijde fabs worstelen met het opschalen van geavanceerde packaging nu de vraag naar AI-chips versnelt",
+        "summary": "Chipfabrikanten wereldwijd racen om de capaciteit voor geavanceerde packaging uit te breiden, maar leveringsbeperkingen in lithografietools en materialen belemmeren de productieschaal."
+      },
+      "smallArticles": [
+        {
+          "category": "FAB-TECHNOLOGIE",
+          "title": "Nieuwe doorbraken in EUV-lithografie beloven hogere opbrengst bij 2nm-nodes..."
+        },
+        {
+          "category": "TOELEVERINGSKETEN",
+          "title": "Wereldwijd tekort aan siliciumwafers houdt naar verwachting aan tot 2026..."
+        },
+        {
+          "category": "APPARATUURINNOVATIE",
+          "title": "Leveranciers van etsapparatuur stimuleren nieuwe plasmatechnologieën voor sub-3nm geometrieën..."
+        }
+      ]
+    },
+    "gridSection": {
+      "title": "Operationele, Reserve- en<br/>Kluisrekeningen",
+      "articles": [
+        {
+          "category": "PRODUCTIE",
+          "title": "Chipmakers investeren miljarden om wereldwijde fabricagecapaciteit uit te breiden",
+          "summary": "Toonaangevende halfgeleiderbedrijven versnellen fab-uitbreidingen om te voldoen aan de vraag naar AI, EV's en volgende generatie consumentenelektronica."
+        },
+        {
+          "category": "APPARATUUR",
+          "title": "Nieuwe wafer-metrologiesystemen verbeteren de precisie op atomaire schaal",
+          "summary": "Geavanceerde inspectietools blijven evolueren naarmate halfgeleiderkenmerken krimpen naar het angstrom-tijdperk."
+        },
+        {
+          "category": "R&D INNOVATIE",
+          "title": "Onderzoekers verkennen 3D-siliciumstapeling om de rekenkrachtdichtheid te verhogen",
+          "summary": "Innovaties in thermische dissipatie en interconnect-technologieën zijn essentieel voor het opschalen van 3D-gestapelde halfgeleiderarchitecturen."
+        }
+      ],
+      "button": "Bekijk alle artikelen"
+    },
+    "common": {
+      "author": "Dr. Ethan Park",
+      "date": "25 Jan 2025"
+    }
+  },
+  "ebooks": {
+    "hero": {
+      "title": "Kennisbibliotheek",
+      "subtitle": "Technische eBooks, halfgeleiderinzichten en premium technische gidsen — gratis voor alle professionals."
+    },
+    "books": [
+      {
+        "title": "Digitale Transformatie Beheersen",
+        "author": "Dr. Sarah Connor",
+        "description": "Een samengestelde gids met technische inzichten, best practices en branchegerichte kennis."
+      },
+      {
+        "title": "De Agile Leiderschapsgids",
+        "author": "James Cameron",
+        "description": "Een samengestelde gids met technische inzichten, best practices en branchegerichte kennis."
+      },
+      {
+        "title": "Data Science voor Leidinggevenden",
+        "author": "Ellen Ripley",
+        "description": "Een samengestelde gids met technische inzichten, best practices en branchegerichte kennis."
+      },
+      {
+        "title": "Essentiële Cybersecurity",
+        "author": "Neo Anderson",
+        "description": "Een samengestelde gids met technische inzichten, best practices en branchegerichte kennis."
+      }
+    ],
+    "buttons": {
+      "readOnline": "Online Lezen",
+      "download": "Downloaden"
+    },
+    "common": {
+      "by": "door",
+      "pages": "{{count}} pagina's"
+    }
+  },
+  "industryNews": {
+    "pageTitle": "Nieuws uit de Halfgeleiderindustrie",
+    "featured": {
+      "badge": "Laatste Nieuws",
+      "title": "Grote doorbraak in efficiëntie kwantumchips vandaag aangekondigd"
+    },
+    "categories": [
+      "Alles",
+      "Chipproductie",
+      "Regelgeving",
+      "Startups",
+      "Zakelijk",
+      "R&D"
+    ],
+    "newsItems": [
+      {
+        "title": "Wereldwijde chipmarkten veren op nu vraag naar AI recordhoogte bereikt",
+        "excerpt": "Geavanceerde fabs, nieuwe doorbraken in lithografie en geopolitieke regelgeving blijven het halfgeleiderecosysteem vormgeven.",
+        "category": "Chipproductie"
+      },
+      {
+        "title": "Nieuwe exportregels voor halfgeleiders creëren onzekerheid in de industrie",
+        "excerpt": "Geavanceerde fabs, nieuwe doorbraken in lithografie en geopolitieke regelgeving blijven het halfgeleiderecosysteem vormgeven.",
+        "category": "Regelgeving"
+      }
+    ],
+    "sidebar": {
+      "trending": {
+        "title": "Trending Onderwerpen",
+        "tags": [
+          "#EUVLithografie",
+          "#ChipFabricage",
+          "#AIChips",
+          "#3DNAND",
+          "#Kwantumcomputing"
+        ]
+      },
+      "subscribe": {
+        "title": "Dagelijks Halfgeleideroverzicht",
+        "description": "Ontvang elke ochtend de belangrijkste koppen uit de chipindustrie.",
+        "placeholder": "E-mailadres",
+        "button": "Inschrijven"
+      }
+    },
+    "common": {
+      "readFullStory": "Lees volledig verhaal",
+      "author": "Dr. Jane Doe",
+      "featuredAuthor": "Dr. John Smith",
+      "date": "Jan {{day}}, 2025"
+    }
+  },
+  "products": {
+    "tabsData": [
+      {
+        "id": "Modular architecture",
+        "label": "Modulaire architectuur",
+        "number": "01",
+        "title": "Modulaire architectuur",
+        "description": "Ontdek apparatuur van toonaangevende OEM's waaronder ASML, Applied Materials, Lam Research, TEL en KLA.",
+        "cta": "Meer weten"
+      },
+      {
+        "id": "Opportunities",
+        "label": "Mogelijkheden",
+        "number": "02",
+        "title": "Uitgelichte Mogelijkheden",
+        "description": "Toegang tot exclusieve hoogwaardige noteringen, zeldzame systemen en veelgevraagde halfgeleidertools tegen concurrerende prijzen.",
+        "cta": "Meer weten"
+      },
+      {
+        "id": "New Inventory",
+        "label": "Nieuwe voorraad",
+        "number": "03",
+        "title": "Nieuwe Aanwinsten",
+        "description": "Ontdek de nieuwste toevoegingen, van geavanceerde wafer-tools tot gereviseerde, productierijpe systemen.",
+        "cta": "Meer weten"
+      },
+      {
+        "id": "Portal",
+        "label": "Portaal",
+        "number": "04",
+        "title": "Klantenportaal",
+        "description": "Vraag offertes aan, beheer inkooporders (PO's) en stroomlijn inkoop met een uniforme klantenwerkplek.",
+        "cta": "Meer weten"
+      }
+    ]
+  }
+}

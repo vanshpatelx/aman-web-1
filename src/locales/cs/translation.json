@@ -1,0 +1,967 @@
+{
+  "heading": "Inženýrství pro rychlejší a chytřejší budoucnost polovodičů.",
+  "subheading": "Zažijte přístup k úvěrování založený na číslech, postavený na odbornosti, partnerství a dlouhodobé finanční srozumitelnosti – přinášející více než jen konkurenceschopné sazby.",
+  "cta1": "Prozkoumat řešení",
+  "cta2": "Naplánovat hovor",
+  "nav": {
+    "home": "Domů",
+    "about": "O nás",
+    "content": "Obsah",
+    "solutions": "Řešení",
+    "shop": "Nakupovat"
+  },
+  "about": {
+    "sectionTitle": "O Vision Semiconductor",
+    "headline": "Pohánění budoucnosti technologií skrze bezkonkurenční inovace a globální vizi pro pokrok v oblasti polovodičů.",
+    "features": {
+      "innovation": "Inovace",
+      "expertise": "Odbornost",
+      "vision": "Vize"
+    },
+    "cta": "Zjistit více"
+  },
+  "section2": {
+    "title": "Je to jako vdechnout každému nástroji ve vašem závodě druhý život",
+    "description": "Náš přístup založený na misi snižuje náklady na vlastnictví, zvyšuje spolehlivost a udržuje starší vybavení produktivní po mnoho dalších let.",
+    "cta": "Začít",
+    "stats": [
+      {
+        "label": "Let zkušeností",
+        "value": "20+",
+        "description": "Desetiletí zkušeností v polovodičovém inženýrství."
+      },
+      {
+        "label": "Globální klienti",
+        "value": "150+",
+        "description": "Důvěra společností napříč průmyslovými odvětvími a kontinenty."
+      },
+      {
+        "label": "Ušetřené náklady",
+        "value": "$50M+",
+        "description": "Pomáháme partnerům snižovat provozní náklady a náklady na modernizaci."
+      },
+      {
+        "label": "Dodaných projektů",
+        "value": "500+",
+        "description": "Úspěšné projekty řízené přesností a inovacemi."
+      }
+    ]
+  },
+  "services": {
+    "accessCta": "Vstoupit do Centra znalostí",
+    "services": [
+      {
+        "title": "Epizody podcastu",
+        "description": "Odborné diskuse o trendech a inovacích ve výrobě polovodičů",
+        "pattern": "/patterns/Burst.svg",
+        "link": "/PodcastsPage"
+      },
+      {
+        "title": "Populární odborné studie",
+        "description": "Hloubkové technické analýzy a výzkumy od lídrů v oboru",
+        "pattern": "/patterns/Looper-3.svg",
+        "link": "/WhitePapersPage"
+      },
+      {
+        "title": "Tržní analýza",
+        "description": "Přehledy tržních trendů a oceňování vybavení v reálném čase",
+        "pattern": "/patterns/LooperGroup.svg",
+        "link": "/BlogPage"
+      },
+      {
+        "title": "Vzdělávací zdroje",
+        "description": "Komplexní průvodci a návody pro polovodičové procesy",
+        "pattern": "/patterns/Topology-1.svg",
+        "link": "/EbooksPage"
+      },
+      {
+        "title": "Průmyslové novinky",
+        "description": "Nejnovější vývoj a vznikající technologie ve výrobě polovodičů",
+        "pattern": "/patterns/Topology-2.svg",
+        "link": "/IndustryNewsPage"
+      }
+    ]
+  },
+  "equipment": {
+    "heading": "Navrhování cest k průmyslové udržitelnosti",
+    "subheading": "Od výroby energie po dlouhodobou efektivitu systémů dodáváme řešení, která snižují náklady, redukují emise a zajišťují odolný provoz.",
+    "requestAudit": "Požádat o audit",
+    "learnMore": "Zjistit více",
+    "services": [
+      {
+        "id": "Brokering",
+        "title": "Zprostředkování vybavení",
+        "description": "Odborné řízení prodeje aktiv, které vás spojí s kvalifikovanými kupci pro maximální návratnost",
+        "link": "/Brokering"
+      },
+      {
+        "id": "Inspection",
+        "title": "Inspekce",
+        "description": "Detailní hodnocení vybavení, která ověřují stav, snižují riziko a podporují jistá rozhodnutí.",
+        "link": "/Inspection"
+      },
+      {
+        "id": "Disposition",
+        "title": "Dispozice",
+        "description": "Strategické odstranění nadbytečných aktiv, optimalizace návratnosti hodnoty při minimalizaci provozní zátěže.",
+        "link": "/Disposition"
+      },
+      {
+        "id": "Consignment",
+        "title": "Komisní prodej",
+        "description": "Praktická podpora prodeje, která efektivně propaguje vaše vybavení, zatímco vy si ponecháváte plné vlastnictví.",
+        "link": "/Consignment"
+      },
+      {
+        "id": "Logistics-Forwarding",
+        "title": "Logistika a spedice",
+        "description": "Komplexní koordinace dopravy zajišťující bezpečné a efektivní doručení na jakoukoli vzdálenost či přes hranice",
+        "link": "/Logistics"
+      }
+    ]
+  },
+  "footer": {
+    "description": "Lorem Ipsum je pouze fiktivní text tiskařského a sázecího průmyslu. Lorem Ipsum.",
+    "company": "Společnost",
+    "products": "Produkty",
+    "contact": "Kontakt",
+    "companyLinks": {
+      "about": "O nás",
+      "careers": "Kariéra",
+      "privacy": "Zásady ochrany osobních údajů",
+      "terms": "Obchodní podmínky"
+    },
+    "productLinks": {
+      "event": "Události",
+      "projects": "Projekty",
+      "services": "Služby",
+      "team": "Tým"
+    },
+    "contactInfo": {
+      "email": "Support@vision.com",
+      "phone": "+1 234 567 8900",
+      "address": "345 Tech Park Avenue, 9th Floor Silicon Valley, CA 98765 USA"
+    },
+    "copyright": "Copyright 2024 Vision Semiconductor Solutions LLC. Všechna práva vyhrazena."
+  },
+  "tabs": {
+    "learnMore": "Zjistit více",
+    "tabsData": [
+      {
+        "id": "mission",
+        "label": "Naše mise",
+        "number": "01",
+        "title": "Posouvání inovací v polovodičích vpřed",
+        "description": "Jsme odhodláni posouvat polovodičové technologie prostřednictvím špičkového výzkumu, strategických partnerství a udržitelných inženýrských řešení, která pohánějí budoucnost globálních technologií.",
+        "imageUrl": "/images/mission.jpg"
+      },
+      {
+        "id": "vision",
+        "label": "Naše vize",
+        "number": "02",
+        "title": "Utváření budoucnosti technologií",
+        "description": "Být globálním lídrem v polovodičových řešeních a vytvářet chytřejší, propojenější svět prostřednictvím inovativních technologií, které transformují průmyslová odvětví a zlepšují lidské zkušenosti.",
+        "imageUrl": "/images/vision.jpg"
+      },
+      {
+        "id": "values",
+        "label": "Naše hodnoty",
+        "number": "03",
+        "title": "Excelence skrze integritu",
+        "description": "Fungujeme s neochvějnou integritou, podporujeme společné inovace a udržujeme nejvyšší standardy kvality v každém aspektu našich polovodičových řešení a služeb.",
+        "imageUrl": "/images/values.jpg"
+      }
+    ]
+  },
+  "brokering": {
+    "hero": {
+      "title": "Globální zprostředkování vybavení",
+      "subtitle": "Spojte se s celosvětovou sítí kupujících a prodávajících. Zjednodušujeme složitost obchodování s průmyslovým vybavením pomocí ověřených nabídek a bezpečných transakcí.",
+      "ctaText": "Požádat o přístup"
+    },
+    "marketplace": {
+      "title": "Přehled tržiště",
+      "description": "Získejte přístup k tisícům ověřených průmyslových aktiv v odvětvích stavebnictví, těžby a výroby.",
+      "content": "Naše zprostředkovatelská platforma překlenuje mezeru mezi vlastníky nadbytečného vybavení a podniky, které potřebují spolehlivé stroje. Postaráme se o těžkou práci spojenou s vyjednáváním, ověřováním a dokumentací.",
+      "stats": [
+        "30 000+ Aktivních kupujících v naší databázi.",
+        "$500M+ V dokončených transakcích s vybavením.",
+        "Transparentní struktury poplatků bez skrytých nákladů."
+      ]
+    },
+    "workflow": {
+      "title": "Pracovní postup získávání",
+      "description": "Jak vás spojíme se správnými stroji.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Poptávka",
+          "desc": "Zadejte své požadavky na vybavení nebo nabídněte svá aktiva k prodeji."
+        },
+        {
+          "step": "02",
+          "title": "Párování",
+          "desc": "Náš engine poháněný AI okamžitě spáruje aktiva s kvalifikovanými kupci."
+        },
+        {
+          "step": "03",
+          "title": "Ověření",
+          "desc": "Inspektoři ověří stav a dokumentaci před pokračováním."
+        },
+        {
+          "step": "04",
+          "title": "Uzavření",
+          "desc": "Bezpečné zpracování plateb a logistická koordinace dokončí obchod."
+        }
+      ]
+    },
+    "features": {
+      "title": "Proč zvolit naše zprostředkování",
+      "items": [
+        {
+          "title": "Globální dosah",
+          "description": "Přístup na trhy ve více než 50 zemích. Řešíme složitosti přeshraničního obchodu, včetně cel a souladu s předpisy."
+        },
+        {
+          "title": "Ochrana proti podvodům",
+          "description": "Každá transakce je zajištěna prostřednictvím služeb úschovy (escrow). Ověřujeme každého kupujícího i prodávajícího, abychom předešli podvodům."
+        },
+        {
+          "title": "Tržní zpravodajství",
+          "description": "Využijte naše proprietární data k nastavení konkurenceschopné ceny vašeho vybavení nebo k zajištění, že nepřeplatíte."
+        }
+      ]
+    },
+    "trusted": {
+      "title": "Důvěra lídrů v oboru"
+    },
+    "cta": {
+      "title": "Jste připraveni koupit nebo prodat?",
+      "subtitle": "Připojte se k tisícům podniků, které optimalizují správu svých aktiv ještě dnes.",
+      "buttons": {
+        "browse": "Procházet inventář",
+        "contact": "Kontaktovat makléře"
+      }
+    },
+    "modal": {
+      "title": "Zprostředkovatelská poptávka",
+      "form": {
+        "firstName": "Jméno",
+        "lastName": "Příjmení",
+        "email": "E-mailová adresa",
+        "inquiryType": "Typ poptávky",
+        "company": "Společnost",
+        "phone": "Telefon",
+        "equipment": "Vybavení / Požadavky",
+        "submit": "Odeslat poptávku",
+        "agreement": "Odesláním souhlasíte se sdílením vašich kontaktních údajů s naším zprostředkovatelským týmem."
+      },
+      "options": {
+        "buy": "Chci koupit vybavení",
+        "sell": "Chci prodat vybavení",
+        "general": "Obecný dotaz"
+      }
+    },
+    "successMessage": "Poptávka úspěšně odeslána! Makléř vás bude brzy kontaktovat."
+  },
+  "inspection": {
+    "hero": {
+      "title": "Certifikované inspekce vybavení",
+      "subtitle": "Nestranné, podrobné a rychlé inspekční zprávy. Zjistěte přesně, co kupujete nebo prodáváte, díky našim standardizovaným hodnotícím protokolům.",
+      "ctaText": "Naplánovat inspekci"
+    },
+    "whyMatter": {
+      "title": "Proč na inspekcích záleží",
+      "description": "Zmírněte riziko a zajistěte spravedlivou hodnotu s naším komplexním reportingem.",
+      "heading": "Hloubková sonda do zdraví stroje",
+      "content": "Naši inspektoři nedělají jen povrchní kontrolu. Provádíme přísné provozní testy, analýzu kapalin a měření podvozku. Typická zpráva obsahuje více než 100 datových bodů a 50+ fotografií ve vysokém rozlišení.",
+      "features": [
+        {
+          "title": "Standardizované kontrolní seznamy",
+          "description": "Konzistentní hodnotící kritéria napříč všemi kategoriemi vybavení."
+        },
+        {
+          "title": "Vizuální důkazy",
+          "description": "Detailní foto a video dokumentace opotřebení."
+        },
+        {
+          "title": "Digitální zprávy",
+          "description": "Okamžitý přístup ke zprávám prostřednictvím našeho zabezpečeného cloudového portálu."
+        }
+      ]
+    },
+    "qualityProcess": {
+      "title": "Proces zajištění kvality",
+      "steps": [
+        {
+          "title": "Rezervace a vyslání",
+          "desc": "Inspektor přidělen na základě typu vybavení a odbornosti pro danou lokalitu.",
+          "side": "left"
+        },
+        {
+          "title": "Hodnocení na místě",
+          "desc": "Provedena vizuální kontrola, provozní testy a odběr vzorků kapalin.",
+          "side": "right"
+        },
+        {
+          "title": "Kontrola dat",
+          "desc": "Hlavní technici kontrolují surová data a hledají anomálie.",
+          "side": "left"
+        },
+        {
+          "title": "Publikace zprávy",
+          "desc": "Vygenerována závěrečná zpráva s odhady ocenění (volitelné).",
+          "side": "right"
+        }
+      ]
+    },
+    "evaluators": {
+      "title": "Naši hodnotitelé",
+      "inspectors": [
+        {
+          "name": "Mike T.",
+          "role": "Senior specialista na těžkou techniku",
+          "quote": "\"Zkontroloval jsem více než 2 000 rypadel. Vím přesně, kde se skrývají únavové trhliny.\""
+        },
+        {
+          "name": "Sarah L.",
+          "role": "Jeřáby a zvedací zařízení",
+          "quote": "\"Bezpečnost je prioritou. Mé zprávy zajišťují soulad s normami OSHA a ISO.\""
+        },
+        {
+          "name": "David R.",
+          "role": "Nákladní vozy a flotily",
+          "quote": "\"Diagnostika motoru řekne skutečný příběh. Nehádáme, měříme.\""
+        }
+      ]
+    },
+    "cta": {
+      "title": "Neriskujte špatný obchod.",
+      "subtitle": "Získejte fakta, než podepíšete šek.",
+      "button": "Požádat o vzorovou zprávu"
+    },
+    "modal": {
+      "title": "Požádat o inspekci",
+      "form": {
+        "firstName": "Jméno",
+        "lastName": "Příjmení",
+        "email": "E-mailová adresa",
+        "equipment": "Podrobnosti o vybavení",
+        "location": "Umístění aktiva",
+        "phone": "Telefon",
+        "submit": "Odeslat žádost",
+        "responseTime": "Standardní doba odezvy je méně než 4 hodiny v pracovní dny."
+      },
+      "placeholders": {
+        "firstName": "Jan",
+        "lastName": "Novák",
+        "email": "jan@spolecnost.cz",
+        "equipment": "Rok, Značka, Model, Sériové č. (pokud je k dispozici)",
+        "location": "Město, Kraj",
+        "phone": "+420 000 000 000"
+      }
+    },
+    "successMessage": "Žádost o inspekci přijata! Budeme vás kontaktovat pro naplánování."
+  },
+  "disposition": {
+    "hero": {
+      "title": "Strategická dispozice s aktivy",
+      "subtitle": "Maximalizujte návratnost hodnoty z nadbytečných aktiv. Nabízíme ekologicky šetrná a zisková řešení pro vybavení na konci životnosti nebo přebytečné zásoby.",
+      "ctaText": "Zahájit obnovu"
+    },
+    "recoveryProcess": {
+      "title": "Proces obnovy aktiv",
+      "description": "Proměňte nečinné stroje v pracovní kapitál bezpečně a efektivně.",
+      "steps": [
+        {
+          "title": "Posouzení",
+          "description": "Katalogizujeme vaše přebytečné zásoby a určíme nejlepší kanál pro dispozici: další prodej, repase nebo recyklace."
+        },
+        {
+          "title": "Soulad s předpisy",
+          "description": "Odstranění nebezpečných kapalin, skartace dat a likvidace elektroodpadu jsou řešeny v souladu s ekologickými předpisy."
+        },
+        {
+          "title": "Likvidace",
+          "description": "Aktiva jsou prodávána prostřednictvím přímého prodeje, aukce nebo trhů se šrotem pro maximalizaci návratnosti investic."
+        }
+      ],
+      "caseStudy": {
+        "title": "Případová studie: Likvidace stavební flotily",
+        "content": "Velká infrastrukturní firma potřebovala odprodat 50+ kusů stárnoucí zemní techniky. Náš tým řídil logistiku, repasi a aukční proces.",
+        "metrics": [
+          {
+            "value": "120 %",
+            "label": "Návratnost vs Účetní hodnota"
+          },
+          {
+            "value": "30 Dní",
+            "label": "Časový harmonogram projektu"
+          }
+        ]
+      }
+    },
+    "workflow": {
+      "title": "Pracovní postup prodeje a recyklace",
+      "features": [
+        {
+          "title": "Logistika a odstranění",
+          "description": "Zajišťujeme přepravu těžkých nákladů a vyklizení místa."
+        },
+        {
+          "title": "Převod vlastnictví",
+          "description": "Vyřízení všech zástavních práv a vlastnické dokumentace."
+        },
+        {
+          "title": "Vícekanálový prodej",
+          "description": "Nabízení na globálních tržištích a v exkluzivních sítích."
+        },
+        {
+          "title": "Ekologická likvidace",
+          "description": "Certifikovaná recyklace pro nezachranitelné komponenty."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Proměňte závazky v likviditu",
+      "button": "Získat ocenění zdarma"
+    },
+    "modal": {
+      "title": "Poptávka na dispozici s aktivy",
+      "form": {
+        "firstName": "Jméno",
+        "lastName": "Příjmení",
+        "email": "E-mailová adresa",
+        "assets": "Seznam aktiv / Inventář",
+        "location": "Umístění aktiv",
+        "company": "Společnost",
+        "submit": "Odeslat k ocenění",
+        "responseTime": "Náš tým obvykle poskytuje předběžná ocenění do 2 pracovních dnů."
+      },
+      "placeholders": {
+        "firstName": "Jan",
+        "lastName": "Novák",
+        "email": "jan@spolecnost.cz",
+        "assets": "Prosím uveďte hlavní položky nebo poskytněte souhrn šarže...",
+        "location": "Město, Kraj",
+        "company": "Název společnosti"
+      }
+    },
+    "successMessage": "Žádost o dispozici odeslána. Specialista na obnovu prověří vaše aktiva."
+  },
+  "consignment": {
+    "hero": {
+      "title": "Služby komisního prodeje vybavení",
+      "subtitle": "Bezpečné skladování a profesionální řízení prodeje pro vaši těžkou techniku. Vy si ponecháváte vlastnictví, zatímco my se staráme o prodej.",
+      "ctaText": "Dát vybavení do komise"
+    },
+    "hassleFree": {
+      "title": "Prodej bez starostí",
+      "description": "Skladujeme, udržujeme a prodáváme vaše aktiva z našich zabezpečených dvorů.",
+      "revenueModel": {
+        "title": "Model sdílení výnosů",
+        "content": "Na rozdíl od aukcí, kde ztrácíte kontrolu nad cenou, náš model komisního prodeje vás staví do čela. Dohodneme se na čisté ceně nebo procentuální provizi.",
+        "features": [
+          {
+            "label": "Marketing a nabídka",
+            "value": "Zahrnuto"
+          },
+          {
+            "label": "Skladování (90 dní)",
+            "value": "Zdarma"
+          },
+          {
+            "label": "Údržbové mytí",
+            "value": "Zahrnuto"
+          },
+          {
+            "label": "Provize",
+            "value": "8–12 %"
+          }
+        ]
+      },
+      "benefits": [
+        {
+          "title": "Prvotřídní lokality",
+          "description": "Naše komisní dvory se nacházejí v blízkosti hlavních přístavů a dálnic pro snadný přístup kupujících a logistiku."
+        },
+        {
+          "title": "Maximální viditelnost",
+          "description": "Osobní návštěvy v kombinaci s prémiovým digitálním umístěním zajišťují, že vaše aktivum uvidí vážní zájemci."
+        },
+        {
+          "title": "Zabezpečená zařízení",
+          "description": "Nepřetržité monitorování bezpečnosti, oplocené dvory a pravidelné kontroly údržby baterií/kapalin během skladování."
+        }
+      ]
+    },
+    "tracking": {
+      "title": "Sledování a transparentnost",
+      "features": [
+        {
+          "title": "Inventář v reálném čase",
+          "description": "Zobrazte svá aktiva v komisi na našem portálu. Zkontrolujte stav, sledujte návštěvnost nabídky a spravujte nabídky."
+        },
+        {
+          "title": "Dynamické ceny",
+          "description": "Poskytujeme úpravy cen na základě dat podle zájmu trhu, abychom zajistili včasný prodej."
+        },
+        {
+          "title": "Zprávy o výkonu",
+          "description": "Týdenní aktualizace o zájemcích, dotazech a fyzických prohlídkách provedených na vašem vybavení."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Místo na našich hlavních dvorech je omezené.",
+      "subtitle": "Rezervujte si své místo ještě dnes a dostaňte své vybavení před ověřené kupce.",
+      "button": "Rezervovat místo"
+    },
+    "modal": {
+      "title": "Žádost o komisní prodej",
+      "form": {
+        "firstName": "Jméno",
+        "lastName": "Příjmení",
+        "email": "E-mailová adresa",
+        "equipment": "Popis vybavení",
+        "location": "Aktuální poloha",
+        "phone": "Telefon",
+        "submit": "Odeslat žádost",
+        "agreement": "Odesláním souhlasíte s našimi podmínkami komisního prodeje a zásadami ochrany osobních údajů."
+      },
+      "placeholders": {
+        "firstName": "Jan",
+        "lastName": "Novák",
+        "email": "jan@spolecnost.cz",
+        "equipment": "Např. 2018 CAT 320 Rypadlo...",
+        "location": "Město, Kraj",
+        "phone": "+420 000 000 000"
+      }
+    },
+    "successMessage": "Místo pro komisní prodej rezervováno! Budeme vás kontaktovat pro dokončení podrobností."
+  },
+  "logistics": {
+    "hero": {
+      "title": "Logistika těžké techniky",
+      "subtitle": "Řešení dopravy ode dveří ke dveřím pro nadrozměrný náklad. Zajišťujeme demontáž, balení, spedici a celní odbavení.",
+      "ctaText": "Získat cenovou nabídku přepravy"
+    },
+    "forwarding": {
+      "title": "Globální spediční síť",
+      "description": "Plynulý přesun těžkých strojů přes hranice a oceány.",
+      "globe": {
+        "title": "Spojení s 150+ přístavy po celém světě",
+        "subtitle": "Živé sledování dostupné pro veškerou námořní a leteckou nákladní dopravu."
+      },
+      "services": [
+        {
+          "title": "Vnitrozemská těžká přeprava",
+          "description": "Specializované podvalníky a návěsy RGN pro nadrozměrné náklady. Vyřizujeme všechna povolení a požadavky na doprovodná vozidla."
+        },
+        {
+          "title": "RoRo a Kontejnery",
+          "description": "Flexibilní možnosti námořní přepravy. Roll-on/Roll-off pro pojízdné jednotky nebo kontejnerizace pro demontované díly."
+        },
+        {
+          "title": "Demontáž a balení",
+          "description": "Profesionální demontážní služby pro umístění velkých strojů do standardních kontejnerů, což výrazně snižuje náklady na dopravu."
+        }
+      ]
+    },
+    "workflow": {
+      "title": "Pracovní postup přepravy",
+      "steps": [
+        {
+          "title": "Nabídka a plánování",
+          "text": "Analýza trasy a odhad nákladů na základě rozměrů a hmotnosti."
+        },
+        {
+          "title": "Příprava a vyzvednutí",
+          "text": "Mytí (pro karanténní shodu) a nakládka na dopravní prostředek."
+        },
+        {
+          "title": "Exportní clení",
+          "text": "Podání dokumentace (AES, obchodní faktura, balicí list)."
+        },
+        {
+          "title": "Námořní přeprava",
+          "text": "Odjezd plavidla a monitorování tranzitu."
+        },
+        {
+          "title": "Import a doručení",
+          "text": "Celní odbavení v cíli a doručení na poslední míli."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Potřebujete přesunout velké stroje?",
+      "subtitle": "Naši logističtí experti jsou připraveni naplánovat vaši trasu.",
+      "buttons": {
+        "quote": "Požádat o nabídku",
+        "track": "Sledovat zásilku"
+      }
+    },
+    "modal": {
+      "title": "Požádat o cenovou nabídku přepravy",
+      "form": {
+        "firstName": "Jméno",
+        "lastName": "Příjmení",
+        "email": "E-mailová adresa",
+        "equipment": "Podrobnosti o vybavení",
+        "origin": "Město původu",
+        "destination": "Cílové město",
+        "submit": "Odeslat žádost",
+        "agreement": "Odesláním souhlasíte s našimi zásadami ochrany osobních údajů. Odhady jsou platné 7 dní."
+      },
+      "placeholders": {
+        "firstName": "Jan",
+        "lastName": "Novák",
+        "email": "jan@spolecnost.cz",
+        "equipment": "Např. 2018 CAT 320 Rypadlo, cca 20 tun",
+        "origin": "Město, Země",
+        "destination": "Město, Země"
+      }
+    },
+    "successMessage": "Žádost o cenovou nabídku úspěšně odeslána! Koordinátor logistiky vás bude brzy kontaktovat."
+  },
+  "brandStory": {
+    "sectionTitle": "Sekce 01 — Příběh značky",
+    "heading": "Náš příběh",
+    "title": "Vision Semiconductor Solutions LLC byla založena s jasným cílem pohánět budoucnost technologií.",
+    "content": [
+      "Vision Semiconductor Solutions (VSS) podporuje globální průmysl výroby polovodičů s přesností, inovací a transparentností. To, co začalo jako zdroj pro nadbytečné a náhradní vybavení, se vyvinulo v platformu pro znalosti, inženýrskou excelenci a globální spolupráci.",
+      "VSS, zakořeněná v technické odbornosti, si klade za cíl stát se důvěryhodným centrem pro řešení, vzdělávání a vliv v průmyslu v rámci polovodičového ekosystému."
+    ],
+    "founder": {
+      "name": "Vision Semiconductor Solutions",
+      "role": "Globální vedoucí tým",
+      "quote": "\"Cítíme odpovědnost nejprve sami k sobě, pak k našemu týmu, našim zákazníkům a naší komunitě.\""
+    }
+  },
+  "missionVision": {
+    "intro": "Posouváme průmysl vpřed",
+    "mission": {
+      "section": "Sekce 02",
+      "title": "Mise",
+      "heading": "Posilování budoucnosti polovodičových řešení",
+      "content": "Naší misí je dodávat spolehlivé polovodičové vybavení a znalosti inženýrům, výrobcům a inovátorům po celém světě. Děláme vysoce výkonná řešení dostupná, efektivní a škálovatelná – posilujeme tak novou generaci technologií a výrobní excelence."
+    },
+    "vision": {
+      "section": "Sekce 03",
+      "title": "Vize",
+      "heading": "Utváření zítřka, dnes",
+      "content": "Představujeme si, že se staneme globálním centrem pro polovodičová řešení, vzdělávání a průmyslové vedení. Prostřednictvím jasnosti, inovací a dlouhodobého závazku usilujeme o ovlivnění budoucnosti polovodičového ekosystému a pozvednutí technologického pokroku po celém světě."
+    }
+  },
+  "team": {
+    "title": "Náš tým má dohromady více než 100 let zkušeností!",
+    "subtitle": "Náš tým přináší do polovodičového průmyslu zkušenosti, inovace a kreativitu, aby zajistil, že vaše plány budou v dobrých rukou.",
+    "members": [
+      {
+        "name": "Mike Simorangkir",
+        "role": "Zakladatel a CEO",
+        "bio": "Mike, MBA, má 15+ let zkušeností v obchodních strategiích polovodičů a vývoji vybavení pro smíšené použití."
+      },
+      {
+        "name": "Stanley George",
+        "role": "Bývalý EVP a CCO",
+        "bio": "Stanley byl partnerem v Heenan Blaikie LLP do září 2005, specializoval se na globální technologický compliance."
+      },
+      {
+        "name": "Eliza Baker",
+        "role": "VP, Provoz",
+        "bio": "Eliza, MBA, má 12+ let zkušeností v komerční logistice a řízení dodavatelského řetězce polovodičů."
+      },
+      {
+        "name": "Sally Cruz",
+        "role": "Ředitelka marketingu (CMO)",
+        "bio": "Sally má 10+ let zkušeností na technologických trzích v Kanadě i v Asii a Tichomoří."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Staňte se partnerem Vision Semiconductor Solutions",
+    "subtitle": "Objevte, jak naše přesnost a inovace mohou pohánět váš další technologický průlom.",
+    "button": "Kontaktujte nás ještě dnes"
+  },
+  "accessCTA": {
+    "hero": {
+      "badge": "Exkluzivní přístup",
+      "title": "Odemkněte ultimátní <1>Znalostní bázi</1>",
+      "subtitle": "Plný přístup k polovodičovým zprávám, odborným studiím, deep-tech poznatkům a zdrojům vybraným odborníky.",
+      "buttons": {
+        "trial": "Spustit bezplatnou zkušební verzi",
+        "explore": "Prozkoumat knihovnu"
+      }
+    },
+    "valueProposition": {
+      "title": "Proč si nás profesionálové vybírají",
+      "subtitle": "Důvěryhodné zpravodajství z oblasti polovodičů vytvořené pro inženýry, analytiky a osoby s rozhodovací pravomocí.",
+      "cards": [
+        {
+          "title": "Poznatky v reálném čase",
+          "description": "Buďte napřed s neustále aktualizovanými informacemi o trhu s polovodiči a technologiích."
+        },
+        {
+          "title": "Ověřené zdroje",
+          "description": "Každý zdroj je ověřen odborníky z oboru pro technickou přesnost a relevanci."
+        },
+        {
+          "title": "Globální komunita",
+          "description": "Připojte se k síti inženýrů, výzkumníků a lídrů, kteří utvářejí budoucnost technologií."
+        }
+      ]
+    }
+  },
+  "podcasts": {
+    "hero": {
+      "title": "Inženýrství rychlejší a chytřejší <1>budoucnosti</1> podcastů.",
+      "subtitle": "Zažijte přístup založený na číslech, postavený na odbornosti, partnerství a dlouhodobé srozumitelnosti – přinášející více než jen zvuk.",
+      "buttons": {
+        "explore": "Prozkoumat epizody",
+        "schedule": "Naplánovat hovor"
+      }
+    },
+    "featured": {
+      "title": "Nejnovější epizody",
+      "featuredBadge": "DOPORUČENO",
+      "featuredEpisode": {
+        "title": "Ep 100: Století křemíku",
+        "description": "Ohlížíme se za historií polovodičů a vyhlížíme kvantový skok, který nás čeká v příštím desetiletí.",
+        "button": "Poslechnout nyní"
+      }
+    },
+    "episodes": {
+      "categories": [
+        "Technologie",
+        "Byznys",
+        "Zdraví",
+        "Design",
+        "Marketing",
+        "Věda"
+      ],
+      "episode": {
+        "showNotes": "Poznámky k pořadu",
+        "duration": "{{duration}}"
+      }
+    },
+    "sidebar": {
+      "newsletter": {
+        "title": "Buďte v obraze",
+        "subtitle": "Připojte se k 10 000+ inženýrům, kteří dostávají naše týdenní rozbory odvětví.",
+        "placeholder": "Zadejte svůj e-mail",
+        "button": "Odebírat zdarma"
+      },
+      "about": {
+        "title": "O Vision",
+        "content": "Vision Semiconductor Solutions LLC poskytuje špičkové poznatky o hardwaru, který pohání náš svět. Od křemíku po systémy.",
+        "link": "Zjistit více →"
+      }
+    }
+  },
+  "whitePapers": {
+    "hero": {
+      "title": "Výzkum a odborné studie",
+      "subtitle": "Poznatky o trhu s polovodiči, trendy ve výrobě a přehledy pokročilých technologií."
+    },
+    "featured": {
+      "editorsPick": "Tip redaktora",
+      "title": "Stav globálních inovací v čipech 2024",
+      "description": "Analýza expanzí továren, odolnosti dodavatelského řetězce, průlomů v litografii a konkurenční dynamiky utvářející polovodičové ekosystémy nové generace.",
+      "buttons": {
+        "download": "Stáhnout PDF",
+        "summary": "Přečíst shrnutí"
+      }
+    },
+    "recent": {
+      "title": "Nedávné publikace",
+      "papers": [
+        {
+          "title": "Strategické poznatky Sv. 1",
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+        },
+        {
+          "title": "Strategické poznatky Sv. 2",
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+        },
+        {
+          "title": "Strategické poznatky Sv. 3",
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+        }
+      ],
+      "button": "Zobrazit"
+    }
+  },
+  "blog": {
+    "latestNews": {
+      "title": "Nejnovější zprávy",
+      "featured": {
+        "category": "POLOVODIČOVÉ POZNATKY",
+        "title": "Globální továrny bojují s rozšířením pokročilého zapouzdření, jak poptávka po AI čipech zrychluje",
+        "summary": "Výrobci čipů po celém světě závodí v rozšiřování kapacity pokročilého zapouzdření, ale omezení dodávek litografických nástrojů a materiálů brzdí škálování výroby."
+      },
+      "smallArticles": [
+        {
+          "category": "TECHNOLOGIE VÝROBY",
+          "title": "Nové průlomy v EUV litografii slibují vyšší výtěžnost na 2nm uzlech..."
+        },
+        {
+          "category": "DODAVATELSKÝ ŘETĚZEC",
+          "title": "Globální nedostatek křemíkových waferů se očekává až do roku 2026..."
+        },
+        {
+          "category": "INOVACE VYBAVENÍ",
+          "title": "Dodavatelé leptacích zařízení prosazují nové plazmové technologie pro geometrie pod 3nm..."
+        }
+      ]
+    },
+    "gridSection": {
+      "title": "Provozní, rezervní a<br/>trezorové účty",
+      "articles": [
+        {
+          "category": "VÝROBA",
+          "title": "Výrobci čipů investují miliardy do rozšíření globální výrobní kapacity",
+          "summary": "Přední polovodičové společnosti urychlují expanzi továren, aby uspokojily poptávku po AI, elektromobilech a spotřební elektronice nové generace."
+        },
+        {
+          "category": "VYBAVENÍ",
+          "title": "Nové systémy metrologie waferů zvyšují přesnost v atomárních měřítkách",
+          "summary": "Pokročilé inspekční nástroje se nadále vyvíjejí, jak se prvky polovodičů zmenšují do éry angstromů."
+        },
+        {
+          "category": "R&D INOVACE",
+          "title": "Výzkumníci zkoumají 3D stohování křemíku pro zvýšení výpočetní hustoty",
+          "summary": "Inovace v odvodu tepla a propojovacích technologiích jsou klíčové pro škálování 3D stohovaných polovodičových architektur."
+        }
+      ],
+      "button": "Zobrazit všechny články"
+    },
+    "common": {
+      "author": "Dr. Ethan Park",
+      "date": "25. ledna 2025"
+    }
+  },
+  "ebooks": {
+    "hero": {
+      "title": "Knihovna znalostí",
+      "subtitle": "Technické e-knihy, polovodičové poznatky a prémiové inženýrské příručky — zdarma pro všechny profesionály."
+    },
+    "books": [
+      {
+        "title": "Zvládnutí digitální transformace",
+        "author": "Dr. Sarah Connor",
+        "description": "Kurátorský průvodce nabízející technické poznatky, osvědčené postupy a znalosti připravené pro průmysl."
+      },
+      {
+        "title": "Průvodce agilním vedením",
+        "author": "James Cameron",
+        "description": "Kurátorský průvodce nabízející technické poznatky, osvědčené postupy a znalosti připravené pro průmysl."
+      },
+      {
+        "title": "Datová věda pro vedoucí pracovníky",
+        "author": "Ellen Ripley",
+        "description": "Kurátorský průvodce nabízející technické poznatky, osvědčené postupy a znalosti připravené pro průmysl."
+      },
+      {
+        "title": "Základy kybernetické bezpečnosti",
+        "author": "Neo Anderson",
+        "description": "Kurátorský průvodce nabízející technické poznatky, osvědčené postupy a znalosti připravené pro průmysl."
+      }
+    ],
+    "buttons": {
+      "readOnline": "Číst online",
+      "download": "Stáhnout"
+    },
+    "common": {
+      "by": "od",
+      "pages": "{{count}} stran"
+    }
+  },
+  "industryNews": {
+    "pageTitle": "Novinky z polovodičového průmyslu",
+    "featured": {
+      "badge": "Mimořádná zpráva",
+      "title": "Dnes oznámen velký průlom v efektivitě kvantových čipů"
+    },
+    "categories": [
+      "Vše",
+      "Výroba čipů",
+      "Regulace",
+      "Startupy",
+      "Korporátní",
+      "R&D"
+    ],
+    "newsItems": [
+      {
+        "title": "Globální trhy s čipy ožívají, poptávka po AI dosahuje rekordních výšin",
+        "excerpt": "Špičkové továrny, nové průlomy v litografii a geopolitické regulace nadále formují polovodičový ekosystém.",
+        "category": "Výroba čipů"
+      },
+      {
+        "title": "Nová exportní pravidla pro polovodiče vytvářejí nejistotu v průmyslu",
+        "excerpt": "Špičkové továrny, nové průlomy v litografii a geopolitické regulace nadále formují polovodičový ekosystém.",
+        "category": "Regulace"
+      }
+    ],
+    "sidebar": {
+      "trending": {
+        "title": "Populární témata",
+        "tags": [
+          "#EUVLitografie",
+          "#VýrobaČipů",
+          "#AIČipy",
+          "#3DNAND",
+          "#KvantovéPočítání"
+        ]
+      },
+      "subscribe": {
+        "title": "Denní souhrn polovodičů",
+        "description": "Dostávejte každé ráno hlavní titulky z čipového průmyslu.",
+        "placeholder": "E-mailová adresa",
+        "button": "Přihlásit se"
+      }
+    },
+    "common": {
+      "readFullStory": "Přečíst celý příběh",
+      "author": "Dr. Jane Doe",
+      "featuredAuthor": "Dr. John Smith",
+      "date": "{{day}}. ledna 2025"
+    }
+  },
+  "products": {
+    "tabsData": [
+      {
+        "id": "Modular architecture",
+        "label": "Modulární architektura",
+        "number": "01",
+        "title": "Modulární architektura",
+        "description": "Prozkoumejte vybavení od předních OEM výrobců včetně ASML, Applied Materials, Lam Research, TEL a KLA.",
+        "cta": "Zjistit více"
+      },
+      {
+        "id": "Opportunities",
+        "label": "Příležitosti",
+        "number": "02",
+        "title": "Doporučené příležitosti",
+        "description": "Získejte přístup k exkluzivním nabídkám s vysokou hodnotou, vzácným systémům a žádaným polovodičovým nástrojům za konkurenceschopné ceny.",
+        "cta": "Zjistit více"
+      },
+      {
+        "id": "New Inventory",
+        "label": "Nový inventář",
+        "number": "03",
+        "title": "Nové přírůstky",
+        "description": "Objevte nejnovější přírůstky, od špičkových nástrojů pro wafery po repasované systémy připravené k výrobě.",
+        "cta": "Zjistit více"
+      },
+      {
+        "id": "Portal",
+        "label": "Portál",
+        "number": "04",
+        "title": "Zákaznický portál",
+        "description": "Žádejte o cenové nabídky, spravujte objednávky (PO) a zefektivněte nákup pomocí sjednoceného zákaznického prostoru.",
+        "cta": "Zjistit více"
+      }
+    ]
+  }
+}

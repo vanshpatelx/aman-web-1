@@ -1,0 +1,967 @@
+{
+  "heading": "Kiến tạo tương lai bán dẫn nhanh hơn, thông minh hơn.",
+  "subheading": "Trải nghiệm phương pháp cho vay dựa trên số liệu, được xây dựng trên chuyên môn, quan hệ đối tác và sự minh bạch tài chính lâu dài — mang lại nhiều điều hơn là chỉ mức lãi suất cạnh tranh.",
+  "cta1": "Khám phá giải pháp",
+  "cta2": "Đặt lịch gọi",
+  "nav": {
+    "home": "Trang chủ",
+    "about": "Về chúng tôi",
+    "content": "Nội dung",
+    "solutions": "Giải pháp",
+    "shop": "Mua ngay"
+  },
+  "about": {
+    "sectionTitle": "Về Vision Semiconductor",
+    "headline": "Thúc đẩy tương lai công nghệ thông qua sự đổi mới vô song và tầm nhìn toàn cầu về sự tiến bộ của ngành bán dẫn.",
+    "features": {
+      "innovation": "Đổi mới",
+      "expertise": "Chuyên môn",
+      "vision": "Tầm nhìn"
+    },
+    "cta": "Tìm hiểu thêm"
+  },
+  "section2": {
+    "title": "Giống như trao cho mỗi thiết bị trong nhà máy của bạn một cuộc đời thứ hai",
+    "description": "Phương pháp tiếp cận theo sứ mệnh của chúng tôi giúp giảm chi phí sở hữu, cải thiện độ tin cậy và giữ cho thiết bị cũ hoạt động hiệu quả trong nhiều năm.",
+    "cta": "Bắt đầu",
+    "stats": [
+      {
+        "label": "Năm kinh nghiệm",
+        "value": "20+",
+        "description": "Hàng thập kỷ kinh nghiệm trong kỹ thuật bán dẫn."
+      },
+      {
+        "label": "Khách hàng toàn cầu",
+        "value": "150+",
+        "description": "Được tin cậy bởi các công ty trên khắp các ngành công nghiệp và châu lục."
+      },
+      {
+        "label": "Chi phí tiết kiệm",
+        "value": "$50M+",
+        "description": "Giúp đối tác giảm chi phí vận hành và nâng cấp."
+      },
+      {
+        "label": "Dự án đã giao",
+        "value": "500+",
+        "description": "Các dự án thành công được thúc đẩy bởi sự chính xác và đổi mới."
+      }
+    ]
+  },
+  "services": {
+    "accessCta": "Truy cập Trung tâm Kiến thức",
+    "services": [
+      {
+        "title": "Các tập Podcast",
+        "description": "Thảo luận của chuyên gia về xu hướng và đổi mới trong sản xuất bán dẫn",
+        "pattern": "/patterns/Burst.svg",
+        "link": "/PodcastsPage"
+      },
+      {
+        "title": "Sách trắng thịnh hành",
+        "description": "Phân tích kỹ thuật chuyên sâu và nghiên cứu từ các nhà lãnh đạo ngành",
+        "pattern": "/patterns/Looper-3.svg",
+        "link": "/WhitePapersPage"
+      },
+      {
+        "title": "Phân tích thị trường",
+        "description": "Thông tin chi tiết theo thời gian thực về xu hướng thị trường và định giá thiết bị",
+        "pattern": "/patterns/LooperGroup.svg",
+        "link": "/BlogPage"
+      },
+      {
+        "title": "Tài liệu giáo dục",
+        "description": "Hướng dẫn toàn diện và hướng dẫn cho các quy trình bán dẫn",
+        "pattern": "/patterns/Topology-1.svg",
+        "link": "/EbooksPage"
+      },
+      {
+        "title": "Tin tức ngành",
+        "description": "Những phát triển mới nhất và công nghệ mới nổi trong sản xuất bán dẫn",
+        "pattern": "/patterns/Topology-2.svg",
+        "link": "/IndustryNewsPage"
+      }
+    ]
+  },
+  "equipment": {
+    "heading": "Kiến tạo con đường dẫn đến sự bền vững công nghiệp",
+    "subheading": "Từ sản xuất năng lượng đến hiệu quả hệ thống dài hạn, chúng tôi cung cấp các giải pháp giúp cắt giảm chi phí, giảm khí thải và đảm bảo hoạt động bền bỉ.",
+    "requestAudit": "Yêu cầu kiểm toán",
+    "learnMore": "Tìm hiểu thêm",
+    "services": [
+      {
+        "id": "Brokering",
+        "title": "Môi giới thiết bị",
+        "description": "Quản lý chuyên nghiệp việc bán tài sản, kết nối bạn với những người mua đủ điều kiện để đạt lợi nhuận tối đa",
+        "link": "/Brokering"
+      },
+      {
+        "id": "Inspection",
+        "title": "Kiểm định",
+        "description": "Đánh giá chi tiết thiết bị giúp xác minh tình trạng, giảm rủi ro và hỗ trợ các quyết định tự tin.",
+        "link": "/Inspection"
+      },
+      {
+        "id": "Disposition",
+        "title": "Thanh lý",
+        "description": "Loại bỏ chiến lược các tài sản dư thừa, tối ưu hóa việc thu hồi giá trị trong khi giảm thiểu gánh nặng vận hành.",
+        "link": "/Disposition"
+      },
+      {
+        "id": "Consignment",
+        "title": "Ký gửi",
+        "description": "Hỗ trợ bán hàng trực tiếp giúp tiếp thị thiết bị của bạn hiệu quả trong khi bạn vẫn giữ toàn quyền sở hữu.",
+        "link": "/Consignment"
+      },
+      {
+        "id": "Logistics-Forwarding",
+        "title": "Logistics & Giao nhận",
+        "description": "Điều phối vận chuyển đầu cuối đảm bảo giao hàng an toàn, hiệu quả qua bất kỳ khoảng cách hoặc biên giới nào",
+        "link": "/Logistics"
+      }
+    ]
+  },
+  "footer": {
+    "description": "Lorem Ipsum chỉ là văn bản giả của ngành in ấn và sắp chữ. Lorem Ipsum.",
+    "company": "Công ty",
+    "products": "Sản phẩm",
+    "contact": "Liên hệ",
+    "companyLinks": {
+      "about": "Về chúng tôi",
+      "careers": "Tuyển dụng",
+      "privacy": "Chính sách bảo mật",
+      "terms": "Điều khoản & Điều kiện"
+    },
+    "productLinks": {
+      "event": "Sự kiện",
+      "projects": "Dự án",
+      "services": "Dịch vụ",
+      "team": "Đội ngũ"
+    },
+    "contactInfo": {
+      "email": "Support@vision.com",
+      "phone": "+1 234 567 8900",
+      "address": "345 Tech Park Avenue, 9th Floor Silicon Valley, CA 98765 USA"
+    },
+    "copyright": "Bản quyền 2024 Vision Semiconductor Solutions LLC. Đã đăng ký bản quyền."
+  },
+  "tabs": {
+    "learnMore": "Tìm hiểu thêm",
+    "tabsData": [
+      {
+        "id": "mission",
+        "label": "Sứ mệnh của chúng tôi",
+        "number": "01",
+        "title": "Thúc đẩy đổi mới bán dẫn tiến lên",
+        "description": "Chúng tôi cam kết thúc đẩy công nghệ bán dẫn thông qua nghiên cứu tiên tiến, quan hệ đối tác chiến lược và các giải pháp kỹ thuật bền vững giúp cung cấp năng lượng cho tương lai của công nghệ toàn cầu.",
+        "imageUrl": "/images/mission.jpg"
+      },
+      {
+        "id": "vision",
+        "label": "Tầm nhìn của chúng tôi",
+        "number": "02",
+        "title": "Định hình tương lai công nghệ",
+        "description": "Trở thành nhà lãnh đạo toàn cầu về các giải pháp bán dẫn, tạo ra một thế giới thông minh hơn, kết nối hơn thông qua công nghệ đổi mới giúp chuyển đổi các ngành công nghiệp và nâng cao trải nghiệm con người.",
+        "imageUrl": "/images/vision.jpg"
+      },
+      {
+        "id": "values",
+        "label": "Giá trị của chúng tôi",
+        "number": "03",
+        "title": "Xuất sắc thông qua sự liêm chính",
+        "description": "Chúng tôi hoạt động với sự liêm chính không lay chuyển, thúc đẩy đổi mới hợp tác và duy trì các tiêu chuẩn chất lượng cao nhất trong mọi khía cạnh của các giải pháp và dịch vụ bán dẫn của mình.",
+        "imageUrl": "/images/values.jpg"
+      }
+    ]
+  },
+  "brokering": {
+    "hero": {
+      "title": "Môi giới thiết bị toàn cầu",
+      "subtitle": "Kết nối với mạng lưới người mua và người bán trên toàn thế giới. Chúng tôi đơn giản hóa sự phức tạp của giao dịch thiết bị công nghiệp với danh sách đã xác minh và giao dịch an toàn.",
+      "ctaText": "Yêu cầu quyền truy cập"
+    },
+    "marketplace": {
+      "title": "Tổng quan thị trường",
+      "description": "Truy cập hàng ngàn tài sản công nghiệp đã xác minh trong các lĩnh vực xây dựng, khai thác mỏ và sản xuất.",
+      "content": "Nền tảng môi giới của chúng tôi thu hẹp khoảng cách giữa chủ sở hữu thiết bị dư thừa và các doanh nghiệp cần máy móc đáng tin cậy. Chúng tôi xử lý các công việc nặng nhọc như đàm phán, xác minh và giấy tờ.",
+      "stats": [
+        "30,000+ Người mua đang hoạt động trong cơ sở dữ liệu của chúng tôi.",
+        "$500M+ Trong các giao dịch thiết bị đã hoàn tất.",
+        "Cấu trúc phí minh bạch không có chi phí ẩn."
+      ]
+    },
+    "workflow": {
+      "title": "Quy trình tìm nguồn cung ứng",
+      "description": "Cách chúng tôi kết nối bạn với máy móc phù hợp.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Yêu cầu",
+          "desc": "Gửi yêu cầu thiết bị của bạn hoặc liệt kê tài sản của bạn để bán."
+        },
+        {
+          "step": "02",
+          "title": "Khớp nối",
+          "desc": "Công cụ điều khiển bằng AI của chúng tôi khớp tài sản với người mua đủ điều kiện ngay lập tức."
+        },
+        {
+          "step": "03",
+          "title": "Xác minh",
+          "desc": "Các thanh tra viên xác minh tình trạng và giấy tờ trước khi tiến hành."
+        },
+        {
+          "step": "04",
+          "title": "Chốt",
+          "desc": "Xử lý thanh toán an toàn và điều phối logistics để hoàn tất thỏa thuận."
+        }
+      ]
+    },
+    "features": {
+      "title": "Tại sao chọn dịch vụ môi giới của chúng tôi",
+      "items": [
+        {
+          "title": "Phạm vi toàn cầu",
+          "description": "Tiếp cận thị trường tại hơn 50 quốc gia. Chúng tôi xử lý các phức tạp của thương mại xuyên biên giới, bao gồm hải quan và tuân thủ."
+        },
+        {
+          "title": "Bảo vệ chống gian lận",
+          "description": "Mọi giao dịch đều được bảo đảm thông qua dịch vụ ký quỹ (escrow). Chúng tôi xác minh mọi người mua và người bán để ngăn chặn gian lận."
+        },
+        {
+          "title": "Thông tin thị trường",
+          "description": "Tận dụng dữ liệu độc quyền của chúng tôi để định giá thiết bị của bạn một cách cạnh tranh hoặc đảm bảo bạn không phải trả quá nhiều."
+        }
+      ]
+    },
+    "trusted": {
+      "title": "Được tin cậy bởi các nhà lãnh đạo ngành"
+    },
+    "cta": {
+      "title": "Sẵn sàng mua hoặc bán?",
+      "subtitle": "Tham gia cùng hàng ngàn doanh nghiệp tối ưu hóa quản lý tài sản của họ ngay hôm nay.",
+      "buttons": {
+        "browse": "Duyệt kho hàng",
+        "contact": "Liên hệ nhà môi giới"
+      }
+    },
+    "modal": {
+      "title": "Yêu cầu môi giới",
+      "form": {
+        "firstName": "Tên",
+        "lastName": "Họ",
+        "email": "Địa chỉ Email",
+        "inquiryType": "Loại yêu cầu",
+        "company": "Công ty",
+        "phone": "Điện thoại",
+        "equipment": "Thiết bị / Yêu cầu",
+        "submit": "Gửi yêu cầu",
+        "agreement": "Bằng cách gửi, bạn đồng ý chia sẻ chi tiết liên hệ của mình với đội ngũ môi giới của chúng tôi."
+      },
+      "options": {
+        "buy": "Tôi muốn mua thiết bị",
+        "sell": "Tôi muốn bán thiết bị",
+        "general": "Yêu cầu chung"
+      }
+    },
+    "successMessage": "Yêu cầu đã được gửi thành công! Một nhà môi giới sẽ liên hệ với bạn trong thời gian sớm nhất."
+  },
+  "inspection": {
+    "hero": {
+      "title": "Kiểm định thiết bị được chứng nhận",
+      "subtitle": "Báo cáo kiểm định không thiên vị, chi tiết và nhanh chóng. Biết chính xác những gì bạn đang mua hoặc bán với các giao thức đánh giá tiêu chuẩn hóa của chúng tôi.",
+      "ctaText": "Đặt lịch kiểm định"
+    },
+    "whyMatter": {
+      "title": "Tại sao kiểm định lại quan trọng",
+      "description": "Giảm thiểu rủi ro và đảm bảo giá trị hợp lý với báo cáo toàn diện của chúng tôi.",
+      "heading": "Cái nhìn sâu sắc về sức khỏe máy móc",
+      "content": "Các thanh tra viên của chúng tôi không chỉ kiểm tra sơ qua. Chúng tôi thực hiện các bài kiểm tra vận hành nghiêm ngặt, phân tích chất lỏng và đo đạc gầm xe. Một báo cáo điển hình bao gồm hơn 100 điểm dữ liệu và hơn 50 ảnh độ phân giải cao.",
+      "features": [
+        {
+          "title": "Danh sách kiểm tra tiêu chuẩn hóa",
+          "description": "Tiêu chí đánh giá nhất quán trên tất cả các danh mục thiết bị."
+        },
+        {
+          "title": "Bằng chứng trực quan",
+          "description": "Tài liệu hình ảnh và video chi tiết về sự hao mòn."
+        },
+        {
+          "title": "Báo cáo kỹ thuật số",
+          "description": "Truy cập báo cáo ngay lập tức thông qua cổng thông tin đám mây an toàn của chúng tôi."
+        }
+      ]
+    },
+    "qualityProcess": {
+      "title": "Quy trình đảm bảo chất lượng",
+      "steps": [
+        {
+          "title": "Đặt lịch & Điều phối",
+          "desc": "Thanh tra viên được chỉ định dựa trên loại thiết bị và chuyên môn địa điểm.",
+          "side": "left"
+        },
+        {
+          "title": "Đánh giá tại chỗ",
+          "desc": "Kiểm tra trực quan, thử nghiệm vận hành và lấy mẫu chất lỏng được thực hiện.",
+          "side": "right"
+        },
+        {
+          "title": "Xem xét dữ liệu",
+          "desc": "Các trưởng nhóm kỹ thuật cao cấp xem xét dữ liệu thô để tìm sự bất thường.",
+          "side": "left"
+        },
+        {
+          "title": "Xuất bản báo cáo",
+          "desc": "Báo cáo cuối cùng được tạo với các ước tính định giá (tùy chọn).",
+          "side": "right"
+        }
+      ]
+    },
+    "evaluators": {
+      "title": "Tiêu điểm người đánh giá",
+      "inspectors": [
+        {
+          "name": "Mike T.",
+          "role": "Chuyên gia máy móc hạng nặng cao cấp",
+          "quote": "\"Tôi đã kiểm tra hơn 2.000 máy xúc. Tôi biết chính xác các vết nứt ứng suất ẩn ở đâu.\""
+        },
+        {
+          "name": "Sarah L.",
+          "role": "Cần cẩu & Thiết bị nâng hạ",
+          "quote": "\"An toàn là ưu tiên hàng đầu. Báo cáo của tôi đảm bảo tuân thủ các tiêu chuẩn OSHA và ISO.\""
+        },
+        {
+          "name": "David R.",
+          "role": "Xe tải & Đội xe",
+          "quote": "\"Chẩn đoán động cơ kể câu chuyện thực sự. Chúng tôi không đoán, chúng tôi đo lường.\""
+        }
+      ]
+    },
+    "cta": {
+      "title": "Đừng mạo hiểm với một thỏa thuận tồi.",
+      "subtitle": "Nhận sự thật trước khi bạn ký séc.",
+      "button": "Yêu cầu báo cáo mẫu"
+    },
+    "modal": {
+      "title": "Yêu cầu kiểm định",
+      "form": {
+        "firstName": "Tên",
+        "lastName": "Họ",
+        "email": "Địa chỉ Email",
+        "equipment": "Chi tiết thiết bị",
+        "location": "Vị trí tài sản",
+        "phone": "Điện thoại",
+        "submit": "Gửi yêu cầu",
+        "responseTime": "Thời gian phản hồi tiêu chuẩn là dưới 4 giờ trong ngày làm việc."
+      },
+      "placeholders": {
+        "firstName": "Hùng",
+        "lastName": "Nguyễn",
+        "email": "hung@congty.com",
+        "equipment": "Năm, Hãng, Model, Số sê-ri (nếu có)",
+        "location": "Thành phố, Tỉnh",
+        "phone": "+84 90 000 0000"
+      }
+    },
+    "successMessage": "Đã nhận được yêu cầu kiểm định! Chúng tôi sẽ liên hệ với bạn để sắp xếp lịch."
+  },
+  "disposition": {
+    "hero": {
+      "title": "Thanh lý tài sản chiến lược",
+      "subtitle": "Tối đa hóa giá trị thu hồi từ tài sản dư thừa. Chúng tôi cung cấp các giải pháp tuân thủ môi trường, có lợi nhuận cho thiết bị hết hạn sử dụng hoặc dư thừa.",
+      "ctaText": "Bắt đầu thu hồi"
+    },
+    "recoveryProcess": {
+      "title": "Quy trình thu hồi tài sản",
+      "description": "Biến máy móc nhàn rỗi thành vốn lưu động một cách an toàn và hiệu quả.",
+      "steps": [
+        {
+          "title": "Đánh giá",
+          "description": "Chúng tôi lập danh mục hàng tồn kho dư thừa của bạn và xác định kênh thanh lý tốt nhất: bán lại, tân trang hoặc tái chế."
+        },
+        {
+          "title": "Tuân thủ",
+          "description": "Loại bỏ chất lỏng nguy hại, hủy dữ liệu và tuân thủ rác thải điện tử được xử lý theo quy định môi trường."
+        },
+        {
+          "title": "Thanh lý",
+          "description": "Tài sản được bán thông qua thỏa thuận tư nhân, đấu giá hoặc thị trường phế liệu để tối đa hóa lợi tức đầu tư."
+        }
+      ],
+      "caseStudy": {
+        "title": "Nghiên cứu điển hình: Thanh lý đội xe xây dựng",
+        "content": "Một công ty cơ sở hạ tầng lớn cần giảm tải hơn 50 đơn vị thiết bị đào đất cũ. Đội ngũ của chúng tôi đã quản lý quy trình logistics, tân trang và đấu giá.",
+        "metrics": [
+          {
+            "value": "120%",
+            "label": "Thu hồi so với Giá trị sổ sách"
+          },
+          {
+            "value": "30 Ngày",
+            "label": "Tiến độ dự án"
+          }
+        ]
+      }
+    },
+    "workflow": {
+      "title": "Quy trình bán lại & Tái chế",
+      "features": [
+        {
+          "title": "Logistics & Di dời",
+          "description": "Chúng tôi sắp xếp vận chuyển hạng nặng và dọn dẹp mặt bằng."
+        },
+        {
+          "title": "Chuyển nhượng quyền sở hữu",
+          "description": "Xử lý tất cả các giải chấp và giấy tờ sở hữu."
+        },
+        {
+          "title": "Bán hàng đa kênh",
+          "description": "Niêm yết trên các thị trường toàn cầu và mạng lưới độc quyền."
+        },
+        {
+          "title": "Xử lý xanh",
+          "description": "Tái chế được chứng nhận cho các thành phần không thể cứu vãn."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Biến nợ thành thanh khoản",
+      "button": "Nhận định giá miễn phí"
+    },
+    "modal": {
+      "title": "Yêu cầu thanh lý tài sản",
+      "form": {
+        "firstName": "Tên",
+        "lastName": "Họ",
+        "email": "Địa chỉ Email",
+        "assets": "Danh sách tài sản / Kho hàng",
+        "location": "Vị trí tài sản",
+        "company": "Công ty",
+        "submit": "Gửi để định giá",
+        "responseTime": "Đội ngũ của chúng tôi thường cung cấp định giá sơ bộ trong vòng 2 ngày làm việc."
+      },
+      "placeholders": {
+        "firstName": "Hùng",
+        "lastName": "Nguyễn",
+        "email": "hung@congty.com",
+        "assets": "Vui lòng liệt kê các mục chính hoặc cung cấp tóm tắt lô hàng...",
+        "location": "Thành phố, Tỉnh",
+        "company": "Tên công ty"
+      }
+    },
+    "successMessage": "Yêu cầu thanh lý đã được gửi. Chuyên gia thu hồi sẽ xem xét tài sản của bạn."
+  },
+  "consignment": {
+    "hero": {
+      "title": "Dịch vụ ký gửi thiết bị",
+      "subtitle": "Lưu kho an toàn và quản lý bán hàng chuyên nghiệp cho thiết bị hạng nặng của bạn. Bạn giữ quyền sở hữu trong khi chúng tôi xử lý việc bán hàng.",
+      "ctaText": "Ký gửi thiết bị của bạn"
+    },
+    "hassleFree": {
+      "title": "Bán hàng không rắc rối",
+      "description": "Chúng tôi lưu trữ, bảo trì và bán tài sản của bạn từ các bãi an toàn của chúng tôi.",
+      "revenueModel": {
+        "title": "Mô hình chia sẻ doanh thu",
+        "content": "Không giống như đấu giá nơi bạn mất quyền kiểm soát giá cả, mô hình ký gửi của chúng tôi đặt bạn vào vị trí người lái. Chúng tôi đồng ý về giá ròng hoặc tỷ lệ phần trăm hoa hồng.",
+        "features": [
+          {
+            "label": "Tiếp thị & Niêm yết",
+            "value": "Đã bao gồm"
+          },
+          {
+            "label": "Lưu kho (90 ngày)",
+            "value": "Miễn phí"
+          },
+          {
+            "label": "Rửa bảo dưỡng",
+            "value": "Đã bao gồm"
+          },
+          {
+            "label": "Hoa hồng",
+            "value": "8-12%"
+          }
+        ]
+      },
+      "benefits": [
+        {
+          "title": "Vị trí đắc địa",
+          "description": "Các bãi ký gửi của chúng tôi nằm gần các cảng và đường cao tốc chính để người mua dễ dàng tiếp cận và thuận tiện cho logistics."
+        },
+        {
+          "title": "Tối đa hóa khả năng hiển thị",
+          "description": "Lượng khách vãng lai kết hợp với vị trí kỹ thuật số cao cấp đảm bảo tài sản của bạn được nhìn thấy bởi những người mua nghiêm túc."
+        },
+        {
+          "title": "Cơ sở an toàn",
+          "description": "Giám sát an ninh 24/7, bãi có hàng rào và kiểm tra bảo trì pin/chất lỏng thường xuyên trong khi lưu kho."
+        }
+      ]
+    },
+    "tracking": {
+      "title": "Theo dõi & Minh bạch",
+      "features": [
+        {
+          "title": "Hàng tồn kho thời gian thực",
+          "description": "Xem tài sản ký gửi của bạn trong cổng thông tin của chúng tôi. Kiểm tra trạng thái, xem lượt truy cập danh sách và quản lý ưu đãi."
+        },
+        {
+          "title": "Định giá động",
+          "description": "Chúng tôi cung cấp điều chỉnh giá dựa trên dữ liệu theo sự quan tâm của thị trường để đảm bảo bán kịp thời."
+        },
+        {
+          "title": "Báo cáo hiệu suất",
+          "description": "Cập nhật hàng tuần về khách hàng tiềm năng, yêu cầu và kiểm tra thực tế được thực hiện trên thiết bị của bạn."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Không gian có hạn tại các bãi chính của chúng tôi.",
+      "subtitle": "Đặt chỗ ngay hôm nay và đưa thiết bị của bạn đến trước những người mua đã được xác minh.",
+      "button": "Đặt chỗ"
+    },
+    "modal": {
+      "title": "Yêu cầu ký gửi",
+      "form": {
+        "firstName": "Tên",
+        "lastName": "Họ",
+        "email": "Địa chỉ Email",
+        "equipment": "Mô tả thiết bị",
+        "location": "Vị trí hiện tại",
+        "phone": "Điện thoại",
+        "submit": "Gửi yêu cầu",
+        "agreement": "Bằng cách gửi, bạn đồng ý với các điều khoản ký gửi và chính sách bảo mật của chúng tôi."
+      },
+      "placeholders": {
+        "firstName": "Hùng",
+        "lastName": "Nguyễn",
+        "email": "hung@congty.com",
+        "equipment": "Vd: Máy xúc CAT 320 đời 2018...",
+        "location": "Thành phố, Tỉnh",
+        "phone": "+84 90 000 0000"
+      }
+    },
+    "successMessage": "Đã đặt chỗ ký gửi! Chúng tôi sẽ liên hệ với bạn để hoàn tất chi tiết."
+  },
+  "logistics": {
+    "hero": {
+      "title": "Logistics thiết bị hạng nặng",
+      "subtitle": "Giải pháp vận chuyển tận nơi cho hàng hóa quá khổ. Chúng tôi xử lý tháo dỡ, đóng gói, giao nhận vận tải và thông quan.",
+      "ctaText": "Nhận báo giá vận chuyển"
+    },
+    "forwarding": {
+      "title": "Mạng lưới giao nhận toàn cầu",
+      "description": "Di chuyển máy móc hạng nặng qua biên giới và đại dương một cách liền mạch.",
+      "globe": {
+        "title": "Kết nối hơn 150 cảng trên toàn thế giới",
+        "subtitle": "Theo dõi trực tiếp có sẵn cho tất cả vận tải biển và hàng không."
+      },
+      "services": [
+        {
+          "title": "Vận tải nặng nội địa",
+          "description": "Rơ-moóc sàn thấp và RGN chuyên dụng cho tải trọng quá khổ. Chúng tôi xử lý tất cả các yêu cầu về giấy phép và xe hộ tống."
+        },
+        {
+          "title": "RoRo & Container",
+          "description": "Các tùy chọn vận tải biển linh hoạt. Roll-on/Roll-off cho các đơn vị có thể lái được hoặc đóng container cho các bộ phận tháo dỡ."
+        },
+        {
+          "title": "Tháo dỡ & Đóng gói",
+          "description": "Dịch vụ tháo dỡ chuyên nghiệp để đưa máy móc lớn vào container tiêu chuẩn, giảm đáng kể chi phí vận chuyển."
+        }
+      ]
+    },
+    "workflow": {
+      "title": "Quy trình vận chuyển",
+      "steps": [
+        {
+          "title": "Báo giá & Lên kế hoạch",
+          "text": "Phân tích lộ trình và ước tính chi phí dựa trên kích thước và trọng lượng."
+        },
+        {
+          "title": "Chuẩn bị & Nhận hàng",
+          "text": "Rửa (để tuân thủ kiểm dịch) và tải lên phương tiện vận chuyển."
+        },
+        {
+          "title": "Hải quan xuất khẩu",
+          "text": "Nộp tài liệu (AES, Hóa đơn thương mại, Danh sách đóng gói)."
+        },
+        {
+          "title": "Vận tải biển",
+          "text": "Tàu khởi hành và giám sát quá cảnh."
+        },
+        {
+          "title": "Nhập khẩu & Giao hàng",
+          "text": "Thông quan tại điểm đến và giao hàng chặng cuối."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Cần di chuyển máy móc lớn?",
+      "subtitle": "Các chuyên gia logistics của chúng tôi sẵn sàng lên kế hoạch cho lộ trình của bạn.",
+      "buttons": {
+        "quote": "Yêu cầu báo giá",
+        "track": "Theo dõi lô hàng"
+      }
+    },
+    "modal": {
+      "title": "Yêu cầu báo giá vận chuyển",
+      "form": {
+        "firstName": "Tên",
+        "lastName": "Họ",
+        "email": "Địa chỉ Email",
+        "equipment": "Chi tiết thiết bị",
+        "origin": "Thành phố đi",
+        "destination": "Thành phố đến",
+        "submit": "Gửi yêu cầu",
+        "agreement": "Bằng cách gửi, bạn đồng ý với chính sách bảo mật của chúng tôi. Ước tính có giá trị trong 7 ngày."
+      },
+      "placeholders": {
+        "firstName": "Hùng",
+        "lastName": "Nguyễn",
+        "email": "hung@congty.com",
+        "equipment": "Vd: Máy xúc CAT 320 đời 2018, khoảng 20 tấn",
+        "origin": "Thành phố, Quốc gia",
+        "destination": "Thành phố, Quốc gia"
+      }
+    },
+    "successMessage": "Yêu cầu báo giá đã được gửi thành công! Một điều phối viên logistics sẽ liên hệ với bạn trong thời gian sớm nhất."
+  },
+  "brandStory": {
+    "sectionTitle": "Phần 01 — Câu chuyện thương hiệu",
+    "heading": "Câu chuyện của chúng tôi",
+    "title": "Vision Semiconductor Solutions LLC được thành lập với mục đích rõ ràng là cung cấp năng lượng cho tương lai của công nghệ.",
+    "content": [
+      "Vision Semiconductor Solutions (VSS) hỗ trợ ngành sản xuất bán dẫn toàn cầu với sự chính xác, đổi mới và minh bạch. Những gì bắt đầu như một nguồn cung cấp thiết bị dư thừa và phụ tùng thay thế đã phát triển thành một nền tảng cho kiến thức, sự xuất sắc về kỹ thuật và hợp tác toàn cầu.",
+      "Bắt nguồn từ chuyên môn kỹ thuật, VSS đặt mục tiêu trở thành một trung tâm đáng tin cậy cho các giải pháp, giáo dục và ảnh hưởng trong ngành trong hệ sinh thái bán dẫn."
+    ],
+    "founder": {
+      "name": "Vision Semiconductor Solutions",
+      "role": "Đội ngũ lãnh đạo toàn cầu",
+      "quote": "\"Chúng tôi chịu trách nhiệm trước tiên với bản thân mình, sau đó là đội ngũ, khách hàng và cộng đồng của chúng tôi.\""
+    }
+  },
+  "missionVision": {
+    "intro": "Thúc đẩy ngành tiến lên",
+    "mission": {
+      "section": "Phần 02",
+      "title": "Sứ mệnh",
+      "heading": "Trao quyền cho tương lai của các giải pháp bán dẫn",
+      "content": "Sứ mệnh của chúng tôi là cung cấp thiết bị bán dẫn đáng tin cậy và kiến thức cho các kỹ sư, nhà sản xuất và nhà đổi mới trên toàn thế giới. Chúng tôi làm cho các giải pháp hiệu suất cao trở nên dễ tiếp cận, hiệu quả và có thể mở rộng — trao quyền cho thế hệ công nghệ và sản xuất xuất sắc tiếp theo."
+    },
+    "vision": {
+      "section": "Phần 03",
+      "title": "Tầm nhìn",
+      "heading": "Định hình ngày mai, ngay hôm nay",
+      "content": "Chúng tôi hình dung mình trở thành một trung tâm toàn cầu về các giải pháp bán dẫn, giáo dục và lãnh đạo ngành. Thông qua sự rõ ràng, đổi mới và cam kết lâu dài, chúng tôi hướng tới việc ảnh hưởng đến tương lai của hệ sinh thái bán dẫn và nâng cao tiến bộ công nghệ trên toàn thế giới."
+    }
+  },
+  "team": {
+    "title": "Đội ngũ của chúng tôi có hơn 100 năm kinh nghiệm tổng hợp!",
+    "subtitle": "Đội ngũ của chúng tôi mang lại kinh nghiệm, sự đổi mới và sự sáng tạo cho ngành công nghiệp bán dẫn để đảm bảo kế hoạch của bạn nằm trong tay tốt.",
+    "members": [
+      {
+        "name": "Mike Simorangkir",
+        "role": "Nhà sáng lập & CEO",
+        "bio": "Mike, MBA, có hơn 15 năm kinh nghiệm trong các chiến lược thương mại bán dẫn và phát triển thiết bị sử dụng hỗn hợp."
+      },
+      {
+        "name": "Stanley George",
+        "role": "Phó chủ tịch điều hành & CCO đã nghỉ hưu",
+        "bio": "Stanley là đối tác tại Heenan Blaikie LLP cho đến tháng 9 năm 2005, chuyên về tuân thủ công nghệ toàn cầu."
+      },
+      {
+        "name": "Eliza Baker",
+        "role": "Phó chủ tịch, Vận hành",
+        "bio": "Eliza, MBA, có hơn 12 năm kinh nghiệm trong logistics thương mại và quản lý chuỗi cung ứng bán dẫn."
+      },
+      {
+        "name": "Sally Cruz",
+        "role": "Giám đốc tiếp thị (CMO)",
+        "bio": "Sally có hơn 10 năm kinh nghiệm tại cả thị trường công nghệ Canada và Châu Á Thái Bình Dương."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Hợp tác với Vision Semiconductor Solutions",
+    "subtitle": "Khám phá cách sự chính xác và đổi mới của chúng tôi có thể thúc đẩy bước đột phá công nghệ tiếp theo của bạn.",
+    "button": "Liên hệ với chúng tôi ngay hôm nay"
+  },
+  "accessCTA": {
+    "hero": {
+      "badge": "Quyền truy cập độc quyền",
+      "title": "Mở khóa <1>Cơ sở kiến thức</1> tối thượng",
+      "subtitle": "Truy cập đầy đủ vào các báo cáo bán dẫn, sách trắng, thông tin chi tiết về công nghệ sâu và tài nguyên do chuyên gia tuyển chọn.",
+      "buttons": {
+        "trial": "Bắt đầu dùng thử miễn phí",
+        "explore": "Khám phá thư viện"
+      }
+    },
+    "valueProposition": {
+      "title": "Tại sao các chuyên gia chọn chúng tôi",
+      "subtitle": "Thông tin tình báo bán dẫn đáng tin cậy được xây dựng cho các kỹ sư, nhà phân tích và người ra quyết định.",
+      "cards": [
+        {
+          "title": "Thông tin chi tiết theo thời gian thực",
+          "description": "Luôn đi trước với thông tin thị trường và công nghệ bán dẫn được cập nhật liên tục."
+        },
+        {
+          "title": "Nguồn đã xác minh",
+          "description": "Mọi tài nguyên đều được các chuyên gia trong ngành xác thực về độ chính xác kỹ thuật và mức độ liên quan."
+        },
+        {
+          "title": "Cộng đồng toàn cầu",
+          "description": "Tham gia mạng lưới các kỹ sư, nhà nghiên cứu và nhà lãnh đạo định hình tương lai công nghệ."
+        }
+      ]
+    }
+  },
+  "podcasts": {
+    "hero": {
+      "title": "Kiến tạo <1>tương lai</1> podcast nhanh hơn, thông minh hơn.",
+      "subtitle": "Trải nghiệm phương pháp tiếp cận dựa trên số liệu được xây dựng trên chuyên môn, quan hệ đối tác và sự rõ ràng lâu dài — mang lại nhiều điều hơn là chỉ âm thanh.",
+      "buttons": {
+        "explore": "Khám phá các tập",
+        "schedule": "Đặt lịch gọi"
+      }
+    },
+    "featured": {
+      "title": "Các tập mới nhất",
+      "featuredBadge": "NỔI BẬT",
+      "featuredEpisode": {
+        "title": "Tập 100: Một thế kỷ Silicon",
+        "description": "Chúng ta nhìn lại lịch sử của chất bán dẫn và hướng tới bước nhảy vọt lượng tử đang chờ đợi chúng ta trong thập kỷ tới.",
+        "button": "Nghe ngay"
+      }
+    },
+    "episodes": {
+      "categories": [
+        "Công nghệ",
+        "Kinh doanh",
+        "Sức khỏe",
+        "Thiết kế",
+        "Tiếp thị",
+        "Khoa học"
+      ],
+      "episode": {
+        "showNotes": "Ghi chú chương trình",
+        "duration": "{{duration}}"
+      }
+    },
+    "sidebar": {
+      "newsletter": {
+        "title": "Luôn cập nhật",
+        "subtitle": "Tham gia cùng hơn 10.000 kỹ sư nhận bản tin phân tích ngành hàng tuần của chúng tôi.",
+        "placeholder": "Nhập email của bạn",
+        "button": "Đăng ký miễn phí"
+      },
+      "about": {
+        "title": "Về Vision",
+        "content": "Vision Semiconductor Solutions LLC cung cấp thông tin chi tiết tiên tiến về phần cứng cung cấp năng lượng cho thế giới của chúng ta. Từ silicon đến hệ thống.",
+        "link": "Tìm hiểu thêm →"
+      }
+    }
+  },
+  "whitePapers": {
+    "hero": {
+      "title": "Nghiên cứu & Sách trắng",
+      "subtitle": "Thông tin chi tiết về thị trường bán dẫn, xu hướng chế tạo và tóm tắt công nghệ tiên tiến."
+    },
+    "featured": {
+      "editorsPick": "Lựa chọn của biên tập viên",
+      "title": "Thực trạng Đổi mới Chip Toàn cầu 2024",
+      "description": "Phân tích về việc mở rộng nhà máy (fab), khả năng phục hồi chuỗi cung ứng, đột phá in thạch bản và động lực cạnh tranh định hình các hệ sinh thái bán dẫn thế hệ tiếp theo.",
+      "buttons": {
+        "download": "Tải xuống PDF",
+        "summary": "Đọc tóm tắt"
+      }
+    },
+    "recent": {
+      "title": "Các ấn phẩm gần đây",
+      "papers": [
+        {
+          "title": "Thông tin chiến lược Tập 1",
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+        },
+        {
+          "title": "Thông tin chiến lược Tập 2",
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+        },
+        {
+          "title": "Thông tin chiến lược Tập 3",
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+        }
+      ],
+      "button": "Xem"
+    }
+  },
+  "blog": {
+    "latestNews": {
+      "title": "Tin tức mới nhất",
+      "featured": {
+        "category": "THÔNG TIN BÁN DẪN",
+        "title": "Các nhà máy toàn cầu chật vật mở rộng quy mô đóng gói tiên tiến khi nhu cầu chip AI tăng tốc",
+        "summary": "Các nhà sản xuất chip trên toàn thế giới đang chạy đua để mở rộng công suất đóng gói tiên tiến, nhưng những hạn chế về nguồn cung trong các công cụ in thạch bản và vật liệu cản trở quy mô sản xuất."
+      },
+      "smallArticles": [
+        {
+          "category": "CÔNG NGHỆ NHÀ MÁY (FAB)",
+          "title": "Đột phá mới trong in thạch bản EUV hứa hẹn năng suất cao hơn ở các nút 2nm..."
+        },
+        {
+          "category": "CHUỖI CUNG ỨNG",
+          "title": "Tình trạng thiếu hụt tấm silicon toàn cầu dự kiến sẽ tiếp tục đến năm 2026..."
+        },
+        {
+          "category": "ĐỔI MỚI THIẾT BỊ",
+          "title": "Các nhà cung cấp thiết bị ăn mòn thúc đẩy các công nghệ plasma mới cho hình học dưới 3nm..."
+        }
+      ]
+    },
+    "gridSection": {
+      "title": "Tài khoản Vận hành, Dự trữ và<br/>Kho lưu trữ",
+      "articles": [
+        {
+          "category": "SẢN XUẤT",
+          "title": "Các nhà sản xuất chip đầu tư hàng tỷ USD để mở rộng năng lực chế tạo toàn cầu",
+          "summary": "Các công ty bán dẫn hàng đầu đang đẩy nhanh việc mở rộng nhà máy để đáp ứng nhu cầu về AI, xe điện (EV) và thiết bị điện tử tiêu dùng thế hệ tiếp theo."
+        },
+        {
+          "category": "THIẾT BỊ",
+          "title": "Hệ thống đo lường wafer mới nâng cao độ chính xác ở quy mô nguyên tử",
+          "summary": "Các công cụ kiểm tra tiên tiến tiếp tục phát triển khi các tính năng bán dẫn thu nhỏ lại kỷ nguyên angstrom."
+        },
+        {
+          "category": "ĐỔI MỚI R&D",
+          "title": "Các nhà nghiên cứu khám phá xếp chồng silicon 3D để tăng mật độ tính toán",
+          "summary": "Đổi mới trong tản nhiệt và công nghệ kết nối là chìa khóa để mở rộng kiến trúc bán dẫn xếp chồng 3D."
+        }
+      ],
+      "button": "Xem tất cả bài viết"
+    },
+    "common": {
+      "author": "Dr. Ethan Park",
+      "date": "25 Th1 2025"
+    }
+  },
+  "ebooks": {
+    "hero": {
+      "title": "Thư viện kiến thức",
+      "subtitle": "Sách điện tử kỹ thuật, thông tin bán dẫn và hướng dẫn kỹ thuật cao cấp — miễn phí cho tất cả các chuyên gia."
+    },
+    "books": [
+      {
+        "title": "Làm chủ Chuyển đổi số",
+        "author": "Dr. Sarah Connor",
+        "description": "Một hướng dẫn tuyển chọn cung cấp thông tin kỹ thuật, thực tiễn tốt nhất và kiến thức sẵn sàng cho ngành."
+      },
+      {
+        "title": "Hướng dẫn Lãnh đạo Agile",
+        "author": "James Cameron",
+        "description": "Một hướng dẫn tuyển chọn cung cấp thông tin kỹ thuật, thực tiễn tốt nhất và kiến thức sẵn sàng cho ngành."
+      },
+      {
+        "title": "Khoa học dữ liệu cho Giám đốc điều hành",
+        "author": "Ellen Ripley",
+        "description": "Một hướng dẫn tuyển chọn cung cấp thông tin kỹ thuật, thực tiễn tốt nhất và kiến thức sẵn sàng cho ngành."
+      },
+      {
+        "title": "Nguyên tắc cơ bản về An ninh mạng",
+        "author": "Neo Anderson",
+        "description": "Một hướng dẫn tuyển chọn cung cấp thông tin kỹ thuật, thực tiễn tốt nhất và kiến thức sẵn sàng cho ngành."
+      }
+    ],
+    "buttons": {
+      "readOnline": "Đọc trực tuyến",
+      "download": "Tải xuống"
+    },
+    "common": {
+      "by": "bởi",
+      "pages": "{{count}} trang"
+    }
+  },
+  "industryNews": {
+    "pageTitle": "Tin tức ngành công nghiệp bán dẫn",
+    "featured": {
+      "badge": "Tin nóng",
+      "title": "Đột phá lớn về hiệu suất chip lượng tử được công bố hôm nay"
+    },
+    "categories": [
+      "Tất cả",
+      "Sản xuất Chip",
+      "Quy định",
+      "Khởi nghiệp",
+      "Doanh nghiệp",
+      "R&D"
+    ],
+    "newsItems": [
+      {
+        "title": "Thị trường chip toàn cầu phục hồi khi nhu cầu AI đạt mức cao kỷ lục",
+        "excerpt": "Các nhà máy tiên tiến, đột phá mới về in thạch bản và các quy định địa chính trị tiếp tục định hình hệ sinh thái bán dẫn.",
+        "category": "Sản xuất Chip"
+      },
+      {
+        "title": "Các quy tắc xuất khẩu bán dẫn mới tạo ra sự không chắc chắn trong ngành",
+        "excerpt": "Các nhà máy tiên tiến, đột phá mới về in thạch bản và các quy định địa chính trị tiếp tục định hình hệ sinh thái bán dẫn.",
+        "category": "Quy định"
+      }
+    ],
+    "sidebar": {
+      "trending": {
+        "title": "Chủ đề thịnh hành",
+        "tags": [
+          "#InThachBanEUV",
+          "#CheTaoChip",
+          "#ChipAI",
+          "#3DNAND",
+          "#MayTinhLuongTu"
+        ]
+      },
+      "subscribe": {
+        "title": "Bản tin Bán dẫn Hàng ngày",
+        "description": "Nhận các tiêu đề hàng đầu về ngành công nghiệp chip mỗi sáng.",
+        "placeholder": "Địa chỉ Email",
+        "button": "Đăng ký"
+      }
+    },
+    "common": {
+      "readFullStory": "Đọc toàn bộ câu chuyện",
+      "author": "Dr. Jane Doe",
+      "featuredAuthor": "Dr. John Smith",
+      "date": "Th1 {{day}}, 2025"
+    }
+  },
+  "products": {
+    "tabsData": [
+      {
+        "id": "Modular architecture",
+        "label": "Kiến trúc mô-đun",
+        "number": "01",
+        "title": "Kiến trúc mô-đun",
+        "description": "Khám phá thiết bị từ các OEM hàng đầu bao gồm ASML, Applied Materials, Lam Research, TEL và KLA.",
+        "cta": "Tìm hiểu thêm"
+      },
+      {
+        "id": "Opportunities",
+        "label": "Cơ hội",
+        "number": "02",
+        "title": "Cơ hội nổi bật",
+        "description": "Truy cập danh sách giá trị cao độc quyền, hệ thống hiếm và các công cụ bán dẫn có nhu cầu cao với giá cả cạnh tranh.",
+        "cta": "Tìm hiểu thêm"
+      },
+      {
+        "id": "New Inventory",
+        "label": "Hàng tồn kho mới",
+        "number": "03",
+        "title": "Hàng mới về",
+        "description": "Khám phá những bổ sung mới nhất, từ các công cụ wafer tiên tiến đến các hệ thống tân trang sẵn sàng sản xuất.",
+        "cta": "Tìm hiểu thêm"
+      },
+      {
+        "id": "Portal",
+        "label": "Cổng thông tin",
+        "number": "04",
+        "title": "Cổng thông tin khách hàng",
+        "description": "Yêu cầu báo giá, quản lý đơn đặt hàng (PO) và hợp lý hóa việc mua sắm với không gian làm việc khách hàng thống nhất.",
+        "cta": "Tìm hiểu thêm"
+      }
+    ]
+  }
+}

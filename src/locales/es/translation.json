@@ -1,0 +1,967 @@
+{
+  "heading": "Ingeniando un futuro de semiconductores más rápido e inteligente.",
+  "subheading": "Experimente un enfoque de préstamos basado en cifras, construido sobre la experiencia, la colaboración y la claridad financiera a largo plazo, entregando más que solo tasas competitivas.",
+  "cta1": "Explorar soluciones",
+  "cta2": "Programar una llamada",
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre nosotros",
+    "content": "Contenido",
+    "solutions": "Soluciones",
+    "shop": "Comprar ahora"
+  },
+  "about": {
+    "sectionTitle": "Sobre Vision Semiconductor",
+    "headline": "Impulsando el futuro de la tecnología a través de una innovación inigualable y una visión global para el progreso de los semiconductores.",
+    "features": {
+      "innovation": "Innovación",
+      "expertise": "Experiencia",
+      "vision": "Visión"
+    },
+    "cta": "Saber más"
+  },
+  "section2": {
+    "title": "Es como dar una segunda vida a cada herramienta de su fábrica",
+    "description": "Nuestro enfoque impulsado por la misión reduce el costo de propiedad, mejora la confiabilidad y mantiene productivos los equipos heredados durante años.",
+    "cta": "Empezar",
+    "stats": [
+      {
+        "label": "Años de experiencia",
+        "value": "20+",
+        "description": "Décadas de experiencia en ingeniería de semiconductores."
+      },
+      {
+        "label": "Clientes globales",
+        "value": "150+",
+        "description": "Empresas de confianza en todas las industrias y continentes."
+      },
+      {
+        "label": "Costos ahorrados",
+        "value": "$50M+",
+        "description": "Ayudando a los socios a reducir costos operativos y de actualización."
+      },
+      {
+        "label": "Proyectos entregados",
+        "value": "500+",
+        "description": "Proyectos exitosos impulsados por la precisión y la innovación."
+      }
+    ]
+  },
+  "services": {
+    "accessCta": "Acceder al Centro de Conocimiento",
+    "services": [
+      {
+        "title": "Episodios de podcast",
+        "description": "Discusiones de expertos sobre tendencias e innovaciones en la fabricación de semiconductores",
+        "pattern": "/patterns/Burst.svg",
+        "link": "/PodcastsPage"
+      },
+      {
+        "title": "Libros blancos en tendencia",
+        "description": "Análisis técnicos profundos e investigaciones de líderes de la industria",
+        "pattern": "/patterns/Looper-3.svg",
+        "link": "/WhitePapersPage"
+      },
+      {
+        "title": "Análisis de mercado",
+        "description": "Información en tiempo real sobre tendencias del mercado y valoraciones de equipos",
+        "pattern": "/patterns/LooperGroup.svg",
+        "link": "/BlogPage"
+      },
+      {
+        "title": "Recursos educativos",
+        "description": "Guías completas y tutoriales para procesos de semiconductores",
+        "pattern": "/patterns/Topology-1.svg",
+        "link": "/EbooksPage"
+      },
+      {
+        "title": "Noticias de la industria",
+        "description": "Últimos desarrollos y tecnologías emergentes en la fabricación de semiconductores",
+        "pattern": "/patterns/Topology-2.svg",
+        "link": "/IndustryNewsPage"
+      }
+    ]
+  },
+  "equipment": {
+    "heading": "Diseñando caminos hacia la sostenibilidad industrial",
+    "subheading": "Desde la generación de energía hasta la eficiencia del sistema a largo plazo, ofrecemos soluciones que reducen costos, disminuyen emisiones y garantizan operaciones resilientes.",
+    "requestAudit": "Solicitar auditoría",
+    "learnMore": "Saber más",
+    "services": [
+      {
+        "id": "Brokering",
+        "title": "Corretaje de equipos",
+        "description": "Gestión experta de ventas de activos, conectándolo con compradores calificados para obtener el máximo retorno",
+        "link": "/Brokering"
+      },
+      {
+        "id": "Inspection",
+        "title": "Inspección",
+        "description": "Evaluaciones detalladas de equipos que verifican la condición, reducen el riesgo y respaldan decisiones confiables.",
+        "link": "/Inspection"
+      },
+      {
+        "id": "Disposition",
+        "title": "Disposición",
+        "description": "Eliminación estratégica de activos excedentes, optimizando la recuperación de valor mientras se minimiza la carga operativa.",
+        "link": "/Disposition"
+      },
+      {
+        "id": "Consignment",
+        "title": "Consignación",
+        "description": "Apoyo práctico en ventas que comercializa su equipo de manera efectiva mientras usted conserva la propiedad total.",
+        "link": "/Consignment"
+      },
+      {
+        "id": "Logistics-Forwarding",
+        "title": "Logística y expedición",
+        "description": "Coordinación de transporte de extremo a extremo asegurando una entrega segura y eficiente a través de cualquier distancia o frontera",
+        "link": "/Logistics"
+      }
+    ]
+  },
+  "footer": {
+    "description": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum.",
+    "company": "Empresa",
+    "products": "Productos",
+    "contact": "Contacto",
+    "companyLinks": {
+      "about": "Sobre nosotros",
+      "careers": "Carreras",
+      "privacy": "Política de privacidad",
+      "terms": "Términos y condiciones"
+    },
+    "productLinks": {
+      "event": "Eventos",
+      "projects": "Proyectos",
+      "services": "Servicios",
+      "team": "Equipo"
+    },
+    "contactInfo": {
+      "email": "Support@vision.com",
+      "phone": "+1 234 567 8900",
+      "address": "345 Tech Park Avenue, Piso 9 Silicon Valley, CA 98765 EE. UU."
+    },
+    "copyright": "Copyright 2024 Vision Semiconductor Solutions LLC. Todos los derechos reservados."
+  },
+  "tabs": {
+    "learnMore": "Saber más",
+    "tabsData": [
+      {
+        "id": "mission",
+        "label": "Nuestra misión",
+        "number": "01",
+        "title": "Impulsando la innovación de semiconductores",
+        "description": "Estamos comprometidos con el avance de la tecnología de semiconductores a través de investigación de vanguardia, asociaciones estratégicas y soluciones de ingeniería sostenible que impulsan el futuro de la tecnología global.",
+        "imageUrl": "/images/mission.jpg"
+      },
+      {
+        "id": "vision",
+        "label": "Nuestra visión",
+        "number": "02",
+        "title": "Dando forma al futuro de la tecnología",
+        "description": "Ser el líder mundial en soluciones de semiconductores, creando un mundo más inteligente y conectado a través de tecnología innovadora que transforma industrias y mejora las experiencias humanas.",
+        "imageUrl": "/images/vision.jpg"
+      },
+      {
+        "id": "values",
+        "label": "Nuestros valores",
+        "number": "03",
+        "title": "Excelencia a través de la integridad",
+        "description": "Operamos con una integridad inquebrantable, fomentamos la innovación colaborativa y mantenemos los más altos estándares de calidad en cada aspecto de nuestras soluciones y servicios de semiconductores.",
+        "imageUrl": "/images/values.jpg"
+      }
+    ]
+  },
+  "brokering": {
+    "hero": {
+      "title": "Corretaje global de equipos",
+      "subtitle": "Conéctese con una red mundial de compradores y vendedores. Simplificamos las complejidades del comercio de equipos industriales con listados verificados y transacciones seguras.",
+      "ctaText": "Solicitar acceso"
+    },
+    "marketplace": {
+      "title": "Descripción general del mercado",
+      "description": "Acceda a miles de activos industriales verificados en los sectores de construcción, minería y manufactura.",
+      "content": "Nuestra plataforma de corretaje cierra la brecha entre los propietarios de equipos excedentes y las empresas que necesitan maquinaria confiable. Nos encargamos del trabajo pesado de negociaciones, verificación y documentación.",
+      "stats": [
+        "30,000+ Compradores activos en nuestra base de datos.",
+        "$500M+ En transacciones de equipos completadas.",
+        "Estructuras de tarifas transparentes sin costos ocultos."
+      ]
+    },
+    "workflow": {
+      "title": "Flujo de trabajo de abastecimiento",
+      "description": "Cómo lo conectamos con la maquinaria adecuada.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Solicitar",
+          "desc": "Envíe sus requisitos de equipo o liste su activo para la venta."
+        },
+        {
+          "step": "02",
+          "title": "Emparejar",
+          "desc": "Nuestro motor impulsado por IA empareja activos con compradores calificados al instante."
+        },
+        {
+          "step": "03",
+          "title": "Verificar",
+          "desc": "Los inspectores verifican la condición y la documentación antes de proceder."
+        },
+        {
+          "step": "04",
+          "title": "Cerrar",
+          "desc": "El procesamiento seguro de pagos y la coordinación logística finalizan el trato."
+        }
+      ]
+    },
+    "features": {
+      "title": "Por qué elegir nuestro corretaje",
+      "items": [
+        {
+          "title": "Alcance global",
+          "description": "Acceda a mercados en más de 50 países. Manejamos las complejidades del comercio transfronterizo, incluyendo aduanas y cumplimiento."
+        },
+        {
+          "title": "Protección contra fraudes",
+          "description": "Cada transacción está asegurada mediante servicios de depósito en garantía (escrow). Verificamos a cada comprador y vendedor para prevenir fraudes."
+        },
+        {
+          "title": "Inteligencia de mercado",
+          "description": "Aproveche nuestros datos exclusivos para fijar precios competitivos a su equipo o asegurarse de no pagar de más."
+        }
+      ]
+    },
+    "trusted": {
+      "title": "Con la confianza de los líderes de la industria"
+    },
+    "cta": {
+      "title": "¿Listo para comprar o vender?",
+      "subtitle": "Únase hoy a miles de empresas que optimizan su gestión de activos.",
+      "buttons": {
+        "browse": "Explorar inventario",
+        "contact": "Contactar a un corredor"
+      }
+    },
+    "modal": {
+      "title": "Consulta de corretaje",
+      "form": {
+        "firstName": "Nombre",
+        "lastName": "Apellido",
+        "email": "Correo electrónico",
+        "inquiryType": "Tipo de consulta",
+        "company": "Empresa",
+        "phone": "Teléfono",
+        "equipment": "Equipo / Requisitos",
+        "submit": "Enviar consulta",
+        "agreement": "Al enviar, acepta compartir sus datos de contacto con nuestro equipo de corretaje."
+      },
+      "options": {
+        "buy": "Quiero comprar equipo",
+        "sell": "Quiero vender equipo",
+        "general": "Consulta general"
+      }
+    },
+    "successMessage": "¡Consulta enviada con éxito! Un corredor se pondrá en contacto con usted en breve."
+  },
+  "inspection": {
+    "hero": {
+      "title": "Inspecciones de equipos certificadas",
+      "subtitle": "Informes de inspección imparciales, detallados y rápidos. Sepa exactamente lo que está comprando o vendiendo con nuestros protocolos de evaluación estandarizados.",
+      "ctaText": "Programar inspección"
+    },
+    "whyMatter": {
+      "title": "Por qué importan las inspecciones",
+      "description": "Mitigue el riesgo y asegure un valor justo con nuestros informes completos.",
+      "heading": "Una inmersión profunda en la salud de la máquina",
+      "content": "Nuestros inspectores no solo hacen una revisión superficial. Realizamos pruebas operativas rigurosas, análisis de fluidos y mediciones del tren de rodaje. Un informe típico incluye más de 100 puntos de datos y más de 50 fotos de alta resolución.",
+      "features": [
+        {
+          "title": "Listas de verificación estandarizadas",
+          "description": "Criterios de evaluación consistentes en todas las categorías de equipos."
+        },
+        {
+          "title": "Evidencia visual",
+          "description": "Documentación detallada con fotos y video del desgaste y deterioro."
+        },
+        {
+          "title": "Informes digitales",
+          "description": "Acceso instantáneo a los informes a través de nuestro portal seguro en la nube."
+        }
+      ]
+    },
+    "qualityProcess": {
+      "title": "Proceso de garantía de calidad",
+      "steps": [
+        {
+          "title": "Reserva y despacho",
+          "desc": "Inspector asignado según el tipo de equipo y experiencia en la ubicación.",
+          "side": "left"
+        },
+        {
+          "title": "Evaluación in situ",
+          "desc": "Se realiza verificación visual, pruebas operativas y muestreo de fluidos.",
+          "side": "right"
+        },
+        {
+          "title": "Revisión de datos",
+          "desc": "Los líderes técnicos senior revisan los datos brutos en busca de anomalías.",
+          "side": "left"
+        },
+        {
+          "title": "Publicación del informe",
+          "desc": "Informe final generado con estimaciones de valoración (opcional).",
+          "side": "right"
+        }
+      ]
+    },
+    "evaluators": {
+      "title": "Destacados de evaluadores",
+      "inspectors": [
+        {
+          "name": "Mike T.",
+          "role": "Especialista senior en maquinaria pesada",
+          "quote": "\"He inspeccionado más de 2,000 excavadoras. Sé exactamente dónde se esconden las fracturas por estrés.\""
+        },
+        {
+          "name": "Sarah L.",
+          "role": "Grúas y equipos de elevación",
+          "quote": "\"La seguridad es la prioridad. Mis informes aseguran el cumplimiento con las normas OSHA e ISO.\""
+        },
+        {
+          "name": "David R.",
+          "role": "Camiones y flotas",
+          "quote": "\"Los diagnósticos del motor cuentan la verdadera historia. No adivinamos, medimos.\""
+        }
+      ]
+    },
+    "cta": {
+      "title": "No arriesgue un mal trato.",
+      "subtitle": "Obtenga los hechos antes de firmar el cheque.",
+      "button": "Solicitar un informe de muestra"
+    },
+    "modal": {
+      "title": "Solicitar inspección",
+      "form": {
+        "firstName": "Nombre",
+        "lastName": "Apellido",
+        "email": "Correo electrónico",
+        "equipment": "Detalles del equipo",
+        "location": "Ubicación del activo",
+        "phone": "Teléfono",
+        "submit": "Enviar solicitud",
+        "responseTime": "El tiempo de respuesta estándar es de menos de 4 horas en días hábiles."
+      },
+      "placeholders": {
+        "firstName": "Juan",
+        "lastName": "Pérez",
+        "email": "juan@empresa.com",
+        "equipment": "Año, Marca, Modelo, N.º de serie (si está disponible)",
+        "location": "Ciudad, Estado",
+        "phone": "+1 (555) 000-0000"
+      }
+    },
+    "successMessage": "¡Solicitud de inspección recibida! Nos pondremos en contacto para programar."
+  },
+  "disposition": {
+    "hero": {
+      "title": "Disposición estratégica de activos",
+      "subtitle": "Maximice el valor de recuperación de los activos excedentes. Ofrecemos soluciones rentables y ambientalmente compatibles para equipos excedentes o al final de su vida útil.",
+      "ctaText": "Iniciar recuperación"
+    },
+    "recoveryProcess": {
+      "title": "El proceso de recuperación de activos",
+      "description": "Convierta la maquinaria inactiva en capital de trabajo de manera segura y eficiente.",
+      "steps": [
+        {
+          "title": "Evaluación",
+          "description": "Catalogamos su inventario excedente y determinamos el mejor canal de disposición: reventa, reacondicionamiento o reciclaje."
+        },
+        {
+          "title": "Cumplimiento",
+          "description": "La eliminación de fluidos peligrosos, la destrucción de datos y el cumplimiento de residuos electrónicos se manejan de acuerdo con las regulaciones de la EPA."
+        },
+        {
+          "title": "Liquidación",
+          "description": "Los activos se venden mediante tratado privado, subasta o mercados de chatarra para maximizar el retorno de la inversión."
+        }
+      ],
+      "caseStudy": {
+        "title": "Estudio de caso: Liquidación de flota de construcción",
+        "content": "Una importante empresa de infraestructura necesitaba deshacerse de más de 50 unidades de equipos de movimiento de tierra envejecidos. Nuestro equipo gestionó el proceso de logística, reacondicionamiento y subasta.",
+        "metrics": [
+          {
+            "value": "120%",
+            "label": "Recuperación vs Valor en libros"
+          },
+          {
+            "value": "30 Días",
+            "label": "Cronograma del proyecto"
+          }
+        ]
+      }
+    },
+    "workflow": {
+      "title": "Flujo de trabajo de reventa y reciclaje",
+      "features": [
+        {
+          "title": "Logística y remoción",
+          "description": "Organizamos el transporte de carga pesada y la limpieza del sitio."
+        },
+        {
+          "title": "Transferencia de título",
+          "description": "Manejo de todas las liberaciones de gravámenes y documentación de propiedad."
+        },
+        {
+          "title": "Ventas multicanal",
+          "description": "Listado en mercados globales y redes exclusivas."
+        },
+        {
+          "title": "Disposición ecológica",
+          "description": "Reciclaje certificado para componentes no recuperables."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Convierta el pasivo en liquidez",
+      "button": "Obtener una valoración gratuita"
+    },
+    "modal": {
+      "title": "Consulta de disposición de activos",
+      "form": {
+        "firstName": "Nombre",
+        "lastName": "Apellido",
+        "email": "Correo electrónico",
+        "assets": "Lista de activos / Inventario",
+        "location": "Ubicación de los activos",
+        "company": "Empresa",
+        "submit": "Enviar para valoración",
+        "responseTime": "Nuestro equipo generalmente proporciona valoraciones preliminares dentro de 2 días hábiles."
+      },
+      "placeholders": {
+        "firstName": "Juan",
+        "lastName": "Pérez",
+        "email": "juan@empresa.com",
+        "assets": "Por favor, enumere los artículos principales o proporcione un resumen del lote...",
+        "location": "Ciudad, Estado",
+        "company": "Nombre de la empresa"
+      }
+    },
+    "successMessage": "Solicitud de disposición enviada. Un especialista en recuperación revisará sus activos."
+  },
+  "consignment": {
+    "hero": {
+      "title": "Servicios de consignación de equipos",
+      "subtitle": "Almacenamiento seguro y gestión profesional de ventas para su equipo pesado. Usted mantiene la propiedad mientras nosotros manejamos la venta.",
+      "ctaText": "Consignar su equipo"
+    },
+    "hassleFree": {
+      "title": "Venta sin complicaciones",
+      "description": "Almacenamos, mantenemos y vendemos sus activos desde nuestros patios seguros.",
+      "revenueModel": {
+        "title": "Modelo de ingresos compartidos",
+        "content": "A diferencia de las subastas donde pierde el control del precio, nuestro modelo de consignación lo pone a usted al mando. Acordamos un precio neto o un porcentaje de comisión.",
+        "features": [
+          {
+            "label": "Marketing y listado",
+            "value": "Incluido"
+          },
+          {
+            "label": "Almacenamiento (90 días)",
+            "value": "Gratis"
+          },
+          {
+            "label": "Lavado de mantenimiento",
+            "value": "Incluido"
+          },
+          {
+            "label": "Comisión",
+            "value": "8-12%"
+          }
+        ]
+      },
+      "benefits": [
+        {
+          "title": "Ubicaciones privilegiadas",
+          "description": "Nuestros patios de consignación están ubicados cerca de los principales puertos y autopistas para facilitar el acceso de los compradores y la logística."
+        },
+        {
+          "title": "Visibilidad máxima",
+          "description": "El tráfico peatonal combinado con una ubicación digital premium asegura que su activo sea visto por compradores serios."
+        },
+        {
+          "title": "Instalaciones seguras",
+          "description": "Monitoreo de seguridad 24/7, patios cercados y revisiones regulares de mantenimiento de baterías/fluidos mientras están en almacenamiento."
+        }
+      ]
+    },
+    "tracking": {
+      "title": "Seguimiento y transparencia",
+      "features": [
+        {
+          "title": "Inventario en tiempo real",
+          "description": "Vea sus activos consignados en nuestro portal. Verifique el estado, vea las visitas al listado y gestione ofertas."
+        },
+        {
+          "title": "Precios dinámicos",
+          "description": "Proporcionamos ajustes de precios basados en datos según el interés del mercado para garantizar una venta oportuna."
+        },
+        {
+          "title": "Informes de rendimiento",
+          "description": "Actualizaciones semanales sobre clientes potenciales, consultas e inspecciones físicas realizadas en su equipo."
+        }
+      ]
+    },
+    "cta": {
+      "title": "El espacio es limitado en nuestros patios principales.",
+      "subtitle": "Reserve su lugar hoy y ponga su equipo frente a compradores verificados.",
+      "button": "Reservar espacio"
+    },
+    "modal": {
+      "title": "Solicitud de consignación",
+      "form": {
+        "firstName": "Nombre",
+        "lastName": "Apellido",
+        "email": "Correo electrónico",
+        "equipment": "Descripción del equipo",
+        "location": "Ubicación actual",
+        "phone": "Teléfono",
+        "submit": "Enviar solicitud",
+        "agreement": "Al enviar, acepta nuestros términos de consignación y política de privacidad."
+      },
+      "placeholders": {
+        "firstName": "Juan",
+        "lastName": "Pérez",
+        "email": "juan@empresa.com",
+        "equipment": "Ej., Excavadora CAT 320 2018...",
+        "location": "Ciudad, Estado",
+        "phone": "+1 (555) 000-0000"
+      }
+    },
+    "successMessage": "¡Espacio de consignación reservado! Nos pondremos en contacto para finalizar los detalles."
+  },
+  "logistics": {
+    "hero": {
+      "title": "Logística de equipos pesados",
+      "subtitle": "Soluciones de transporte puerta a puerta para carga sobredimensionada. Manejamos el desmontaje, embalaje, expedición de carga y despacho de aduanas.",
+      "ctaText": "Obtener cotización de envío"
+    },
+    "forwarding": {
+      "title": "Red global de expedición",
+      "description": "Moviendo maquinaria pesada a través de fronteras y océanos sin problemas.",
+      "globe": {
+        "title": "Conectando 150+ puertos en todo el mundo",
+        "subtitle": "Seguimiento en vivo disponible para toda la carga marítima y aérea."
+      },
+      "services": [
+        {
+          "title": "Transporte pesado terrestre",
+          "description": "Remolques especializados de plataforma baja y RGN para cargas sobredimensionadas. Manejamos todos los permisos y requisitos de vehículos escolta."
+        },
+        {
+          "title": "RoRo y contenedores",
+          "description": "Opciones flexibles de carga marítima. Roll-on/Roll-off para unidades conducibles o contenedorización para piezas desmontadas."
+        },
+        {
+          "title": "Desmontaje y embalaje",
+          "description": "Servicios de desmontaje profesional para ajustar maquinaria grande en contenedores estándar, reduciendo significativamente los costos de envío."
+        }
+      ]
+    },
+    "workflow": {
+      "title": "Flujo de trabajo de envío",
+      "steps": [
+        {
+          "title": "Cotización y planificación",
+          "text": "Análisis de ruta y estimación de costos basados en dimensiones y peso."
+        },
+        {
+          "title": "Preparación y recolección",
+          "text": "Lavado (para cumplimiento de cuarentena) y carga en el transporte."
+        },
+        {
+          "title": "Aduanas de exportación",
+          "text": "Presentación de documentación (AES, Factura comercial, Lista de empaque)."
+        },
+        {
+          "title": "Flete marítimo",
+          "text": "Salida del buque y monitoreo del tránsito."
+        },
+        {
+          "title": "Importación y entrega",
+          "text": "Despacho de aduanas en destino y entrega de última milla."
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Necesita mover maquinaria pesada?",
+      "subtitle": "Nuestros expertos en logística están listos para planificar su ruta.",
+      "buttons": {
+        "quote": "Solicitar cotización",
+        "track": "Rastrear envío"
+      }
+    },
+    "modal": {
+      "title": "Solicitar cotización de envío",
+      "form": {
+        "firstName": "Nombre",
+        "lastName": "Apellido",
+        "email": "Correo electrónico",
+        "equipment": "Detalles del equipo",
+        "origin": "Ciudad de origen",
+        "destination": "Ciudad de destino",
+        "submit": "Enviar solicitud",
+        "agreement": "Al enviar, acepta nuestra política de privacidad. Las estimaciones son válidas por 7 días."
+      },
+      "placeholders": {
+        "firstName": "Juan",
+        "lastName": "Pérez",
+        "email": "juan@empresa.com",
+        "equipment": "Ej., Excavadora CAT 320 2018, aprox. 45,000 lbs",
+        "origin": "Ciudad, País",
+        "destination": "Ciudad, País"
+      }
+    },
+    "successMessage": "¡Solicitud de cotización enviada con éxito! Un coordinador de logística se pondrá en contacto con usted en breve."
+  },
+  "brandStory": {
+    "sectionTitle": "Sección 01 — Historia de la marca",
+    "heading": "Nuestra historia",
+    "title": "Vision Semiconductor Solutions LLC fue fundada con un propósito claro de impulsar el futuro de la tecnología.",
+    "content": [
+      "Vision Semiconductor Solutions (VSS) apoya a la industria global de fabricación de semiconductores con precisión, innovación y transparencia. Lo que comenzó como una fuente de equipos excedentes y repuestos ha evolucionado hasta convertirse en una plataforma de conocimiento, excelencia en ingeniería y colaboración global.",
+      "Arraigada en la experiencia técnica, VSS tiene como objetivo convertirse en un centro confiable de soluciones, educación e influencia industrial dentro del ecosistema de semiconductores."
+    ],
+    "founder": {
+      "name": "Vision Semiconductor Solutions",
+      "role": "Equipo de Liderazgo Global",
+      "quote": "\"Nos hacemos responsables primero a nosotros mismos, luego a nuestro equipo, a nuestros clientes y a nuestra comunidad.\""
+    }
+  },
+  "missionVision": {
+    "intro": "Impulsando la industria hacia adelante",
+    "mission": {
+      "section": "Sección 02",
+      "title": "Misión",
+      "heading": "Empoderando el futuro de las soluciones de semiconductores",
+      "content": "Nuestra misión es entregar equipos de semiconductores confiables y conocimiento a ingenieros, fabricantes e innovadores en todo el mundo. Hacemos que las soluciones de alto rendimiento sean accesibles, eficientes y escalables, empoderando a la próxima generación de tecnología y excelencia en fabricación."
+    },
+    "vision": {
+      "section": "Sección 03",
+      "title": "Visión",
+      "heading": "Dando forma al mañana, hoy",
+      "content": "Visualizamos convertirnos en un centro global para soluciones de semiconductores, educación y liderazgo industrial. A través de la claridad, la innovación y el compromiso a largo plazo, aspiramos a influir en el futuro del ecosistema de semiconductores y elevar el progreso tecnológico en todo el mundo."
+    }
+  },
+  "team": {
+    "title": "¡Nuestro equipo tiene más de 100 años de experiencia combinada!",
+    "subtitle": "Nuestro equipo aporta experiencia, innovación y creatividad a la industria de semiconductores para garantizar que sus planes estén en buenas manos.",
+    "members": [
+      {
+        "name": "Mike Simorangkir",
+        "role": "Fundador y CEO",
+        "bio": "Mike, MBA, tiene más de 15 años de experiencia en estrategias comerciales de semiconductores y desarrollo de equipos de uso mixto."
+      },
+      {
+        "name": "Stanley George",
+        "role": "EVP y CCO retirado",
+        "bio": "Stanley fue socio en Heenan Blaikie LLP hasta septiembre de 2005, especializándose en cumplimiento tecnológico global."
+      },
+      {
+        "name": "Eliza Baker",
+        "role": "VP, Operaciones",
+        "bio": "Eliza, MBA, tiene más de 12 años de experiencia en logística comercial y gestión de la cadena de suministro de semiconductores."
+      },
+      {
+        "name": "Sally Cruz",
+        "role": "Directora de Marketing (CMO)",
+        "bio": "Sally tiene más de 10 años de experiencia tanto en los mercados tecnológicos de Canadá como de Asia Pacífico."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Asóciese con Vision Semiconductor Solutions",
+    "subtitle": "Descubra cómo nuestra precisión e innovación pueden impulsar su próximo avance tecnológico.",
+    "button": "Contáctenos hoy"
+  },
+  "accessCTA": {
+    "hero": {
+      "badge": "Acceso exclusivo",
+      "title": "Desbloquee la base de <1>Conocimientos definitiva</1>",
+      "subtitle": "Acceso completo a informes de semiconductores, libros blancos, conocimientos de tecnología profunda y recursos seleccionados por expertos.",
+      "buttons": {
+        "trial": "Iniciar prueba gratuita",
+        "explore": "Explorar biblioteca"
+      }
+    },
+    "valueProposition": {
+      "title": "Por qué los profesionales nos eligen",
+      "subtitle": "Inteligencia de semiconductores confiable construida para ingenieros, analistas y tomadores de decisiones.",
+      "cards": [
+        {
+          "title": "Información en tiempo real",
+          "description": "Manténgase a la vanguardia con inteligencia de mercado y tecnología de semiconductores actualizada continuamente."
+        },
+        {
+          "title": "Fuentes verificadas",
+          "description": "Cada recurso es validado por expertos de la industria para garantizar precisión técnica y relevancia."
+        },
+        {
+          "title": "Comunidad global",
+          "description": "Únase a una red de ingenieros, investigadores y líderes que dan forma al futuro de la tecnología."
+        }
+      ]
+    }
+  },
+  "podcasts": {
+    "hero": {
+      "title": "Ingeniando un <1>futuro</1> de podcasts más rápido e inteligente.",
+      "subtitle": "Experimente un enfoque basado en cifras construido sobre la experiencia, la colaboración y la claridad a largo plazo, entregando más que solo audio.",
+      "buttons": {
+        "explore": "Explorar episodios",
+        "schedule": "Programar una llamada"
+      }
+    },
+    "featured": {
+      "title": "Últimos episodios",
+      "featuredBadge": "DESTACADO",
+      "featuredEpisode": {
+        "title": "Ep 100: Un siglo de silicio",
+        "description": "Miramos hacia atrás en la historia de los semiconductores y miramos hacia adelante al salto cuántico que nos espera en la próxima década.",
+        "button": "Escuchar ahora"
+      }
+    },
+    "episodes": {
+      "categories": [
+        "Tecnología",
+        "Negocios",
+        "Salud",
+        "Diseño",
+        "Marketing",
+        "Ciencia"
+      ],
+      "episode": {
+        "showNotes": "Notas del programa",
+        "duration": "{{duration}}"
+      }
+    },
+    "sidebar": {
+      "newsletter": {
+        "title": "Manténgase informado",
+        "subtitle": "Únase a más de 10,000 ingenieros que reciben nuestros desgloses semanales de la industria.",
+        "placeholder": "Ingrese su correo electrónico",
+        "button": "Suscribirse gratis"
+      },
+      "about": {
+        "title": "Sobre Vision",
+        "content": "Vision Semiconductor Solutions LLC proporciona conocimientos de vanguardia sobre el hardware que impulsa nuestro mundo. Desde el silicio hasta los sistemas.",
+        "link": "Saber más →"
+      }
+    }
+  },
+  "whitePapers": {
+    "hero": {
+      "title": "Investigación y libros blancos",
+      "subtitle": "Perspectivas del mercado de semiconductores, tendencias de fabricación y resúmenes de tecnología avanzada."
+    },
+    "featured": {
+      "editorsPick": "Selección del editor",
+      "title": "El estado de la innovación global de chips 2024",
+      "description": "Análisis de expansiones de fábricas, resiliencia de la cadena de suministro, avances en litografía y dinámicas competitivas que dan forma a los ecosistemas de semiconductores de próxima generación.",
+      "buttons": {
+        "download": "Descargar PDF",
+        "summary": "Leer resumen"
+      }
+    },
+    "recent": {
+      "title": "Publicaciones recientes",
+      "papers": [
+        {
+          "title": "Perspectivas estratégicas Vol. 1",
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+        },
+        {
+          "title": "Perspectivas estratégicas Vol. 2",
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+        },
+        {
+          "title": "Perspectivas estratégicas Vol. 3",
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+        }
+      ],
+      "button": "Ver"
+    }
+  },
+  "blog": {
+    "latestNews": {
+      "title": "Últimas noticias",
+      "featured": {
+        "category": "PERSPECTIVAS DE SEMICONDUCTORES",
+        "title": "Las fábricas globales luchan por escalar el empaquetado avanzado mientras se acelera la demanda de chips de IA",
+        "summary": "Los fabricantes de chips de todo el mundo compiten por ampliar la capacidad de empaquetado avanzado, pero las limitaciones de suministro en herramientas de litografía y materiales obstaculizan la escala de producción."
+      },
+      "smallArticles": [
+        {
+          "category": "TECNOLOGÍA DE FÁBRICA",
+          "title": "Nuevos avances en litografía EUV prometen mayor rendimiento en nodos de 2nm..."
+        },
+        {
+          "category": "CADENA DE SUMINISTRO",
+          "title": "Se espera que la escasez global de obleas de silicio continúe hasta 2026..."
+        },
+        {
+          "category": "INNOVACIÓN EN EQUIPOS",
+          "title": "Los proveedores de equipos de grabado impulsan nuevas tecnologías de plasma para geometrías sub-3nm..."
+        }
+      ]
+    },
+    "gridSection": {
+      "title": "Cuentas operativas, de reserva y<br/>bóveda",
+      "articles": [
+        {
+          "category": "FABRICACIÓN",
+          "title": "Los fabricantes de chips invierten miles de millones para expandir la capacidad de fabricación global",
+          "summary": "Las principales empresas de semiconductores están acelerando la expansión de fábricas para satisfacer la demanda de IA, vehículos eléctricos y electrónica de consumo de próxima generación."
+        },
+        {
+          "category": "EQUIPO",
+          "title": "Nuevos sistemas de metrología de obleas mejoran la precisión a escalas atómicas",
+          "summary": "Las herramientas de inspección avanzada continúan evolucionando a medida que las características de los semiconductores se reducen a la era de los angstroms."
+        },
+        {
+          "category": "INNOVACIÓN EN I+D",
+          "title": "Los investigadores exploran el apilamiento de silicio 3D para aumentar la densidad computacional",
+          "summary": "Las innovaciones en disipación térmica y tecnologías de interconexión son clave para escalar las arquitecturas de semiconductores apilados en 3D."
+        }
+      ],
+      "button": "Ver todos los artículos"
+    },
+    "common": {
+      "author": "Dr. Ethan Park",
+      "date": "25 Ene 2025"
+    }
+  },
+  "ebooks": {
+    "hero": {
+      "title": "Biblioteca de conocimientos",
+      "subtitle": "Libros electrónicos técnicos, perspectivas de semiconductores y guías de ingeniería premium — gratis para todos los profesionales."
+    },
+    "books": [
+      {
+        "title": "Dominando la transformación digital",
+        "author": "Dra. Sarah Connor",
+        "description": "Una guía seleccionada que ofrece conocimientos técnicos, mejores prácticas y conocimientos listos para la industria."
+      },
+      {
+        "title": "La guía de liderazgo ágil",
+        "author": "James Cameron",
+        "description": "Una guía seleccionada que ofrece conocimientos técnicos, mejores prácticas y conocimientos listos para la industria."
+      },
+      {
+        "title": "Ciencia de datos para ejecutivos",
+        "author": "Ellen Ripley",
+        "description": "Una guía seleccionada que ofrece conocimientos técnicos, mejores prácticas y conocimientos listos para la industria."
+      },
+      {
+        "title": "Conceptos esenciales de ciberseguridad",
+        "author": "Neo Anderson",
+        "description": "Una guía seleccionada que ofrece conocimientos técnicos, mejores prácticas y conocimientos listos para la industria."
+      }
+    ],
+    "buttons": {
+      "readOnline": "Leer en línea",
+      "download": "Descargar"
+    },
+    "common": {
+      "by": "por",
+      "pages": "{{count}} páginas"
+    }
+  },
+  "industryNews": {
+    "pageTitle": "Noticias de la industria de semiconductores",
+    "featured": {
+      "badge": "Última hora",
+      "title": "Importante avance en la eficiencia de chips cuánticos anunciado hoy"
+    },
+    "categories": [
+      "Todo",
+      "Fabricación de chips",
+      "Regulaciones",
+      "Startups",
+      "Corporativo",
+      "I+D"
+    ],
+    "newsItems": [
+      {
+        "title": "Los mercados globales de chips repuntan mientras la demanda de IA alcanza un máximo histórico",
+        "excerpt": "Fábricas de vanguardia, nuevos avances en litografía y regulaciones geopolíticas continúan dando forma al ecosistema de semiconductores.",
+        "category": "Fabricación de chips"
+      },
+      {
+        "title": "Nuevas reglas de exportación de semiconductores crean incertidumbre en la industria",
+        "excerpt": "Fábricas de vanguardia, nuevos avances en litografía y regulaciones geopolíticas continúan dando forma al ecosistema de semiconductores.",
+        "category": "Regulaciones"
+      }
+    ],
+    "sidebar": {
+      "trending": {
+        "title": "Temas en tendencia",
+        "tags": [
+          "#LitografíaEUV",
+          "#FabricaciónDeChips",
+          "#ChipsIA",
+          "#3DNAND",
+          "#ComputaciónCuántica"
+        ]
+      },
+      "subscribe": {
+        "title": "Resumen diario de semiconductores",
+        "description": "Reciba los titulares más importantes de la industria de chips cada mañana.",
+        "placeholder": "Dirección de correo electrónico",
+        "button": "Registrarse"
+      }
+    },
+    "common": {
+      "readFullStory": "Leer historia completa",
+      "author": "Dra. Jane Doe",
+      "featuredAuthor": "Dr. John Smith",
+      "date": "Ene {{day}}, 2025"
+    }
+  },
+  "products": {
+    "tabsData": [
+      {
+        "id": "Modular architecture",
+        "label": "Arquitectura modular",
+        "number": "01",
+        "title": "Arquitectura modular",
+        "description": "Explore equipos de los principales fabricantes de equipos originales (OEM), incluidos ASML, Applied Materials, Lam Research, TEL y KLA.",
+        "cta": "Saber más"
+      },
+      {
+        "id": "Opportunities",
+        "label": "Oportunidades",
+        "number": "02",
+        "title": "Oportunidades destacadas",
+        "description": "Acceda a listados exclusivos de alto valor, sistemas raros y herramientas de semiconductores de alta demanda a precios competitivos.",
+        "cta": "Saber más"
+      },
+      {
+        "id": "New Inventory",
+        "label": "Nuevo inventario",
+        "number": "03",
+        "title": "Nuevas llegadas",
+        "description": "Descubra las últimas incorporaciones, desde herramientas de obleas de vanguardia hasta sistemas reacondicionados listos para producción.",
+        "cta": "Saber más"
+      },
+      {
+        "id": "Portal",
+        "label": "Portal",
+        "number": "04",
+        "title": "Portal del cliente",
+        "description": "Solicite cotizaciones, gestione órdenes de compra y agilice las adquisiciones con un espacio de trabajo unificado para clientes.",
+        "cta": "Saber más"
+      }
+    ]
+  }
+}

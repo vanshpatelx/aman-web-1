@@ -1,0 +1,967 @@
+{
+  "heading": "Inżynieria szybszej, mądrzejszej przyszłości półprzewodników.",
+  "subheading": "Poznaj podejście do finansowania oparte na liczbach, zbudowane na ekspertyzie, partnerstwie i długoterminowej przejrzystości finansowej – oferujące więcej niż tylko konkurencyjne stawki.",
+  "cta1": "Poznaj rozwiązania",
+  "cta2": "Umów rozmowę",
+  "nav": {
+    "home": "Strona główna",
+    "about": "O nas",
+    "content": "Treści",
+    "solutions": "Rozwiązania",
+    "shop": "Sklep"
+  },
+  "about": {
+    "sectionTitle": "O Vision Semiconductor",
+    "headline": "Napędzanie przyszłości technologii dzięki niezrównanej innowacyjności i globalnej wizji postępu w dziedzinie półprzewodników.",
+    "features": {
+      "innovation": "Innowacja",
+      "expertise": "Ekspertyza",
+      "vision": "Wizja"
+    },
+    "cta": "Dowiedz się więcej"
+  },
+  "section2": {
+    "title": "To jak danie każdemu urządzeniu w twoim zakładzie drugiego życia",
+    "description": "Nasze podejście oparte na misji obniża całkowity koszt posiadania, poprawia niezawodność i utrzymuje wydajność starszego sprzętu przez kolejne lata.",
+    "cta": "Rozpocznij",
+    "stats": [
+      {
+        "label": "Lata doświadczenia",
+        "value": "20+",
+        "description": "Dekady doświadczenia w inżynierii półprzewodników."
+      },
+      {
+        "label": "Klienci globalni",
+        "value": "150+",
+        "description": "Zaufanie firm z różnych branż i kontynentów."
+      },
+      {
+        "label": "Zaoszczędzone środki",
+        "value": "$50M+",
+        "description": "Pomagamy partnerom redukować koszty operacyjne i modernizacyjne."
+      },
+      {
+        "label": "Zrealizowane projekty",
+        "value": "500+",
+        "description": "Udane projekty napędzane precyzją i innowacją."
+      }
+    ]
+  },
+  "services": {
+    "accessCta": "Dostęp do Centrum Wiedzy",
+    "services": [
+      {
+        "title": "Odcinki podcastu",
+        "description": "Eksperckie dyskusje na temat trendów i innowacji w produkcji półprzewodników",
+        "pattern": "/patterns/Burst.svg",
+        "link": "/PodcastsPage"
+      },
+      {
+        "title": "Popularne białe księgi",
+        "description": "Dogłębne analizy techniczne i badania liderów branży",
+        "pattern": "/patterns/Looper-3.svg",
+        "link": "/WhitePapersPage"
+      },
+      {
+        "title": "Analiza rynku",
+        "description": "Wgląd w czasie rzeczywistym w trendy rynkowe i wyceny sprzętu",
+        "pattern": "/patterns/LooperGroup.svg",
+        "link": "/BlogPage"
+      },
+      {
+        "title": "Zasoby edukacyjne",
+        "description": "Kompleksowe przewodniki i samouczki dotyczące procesów półprzewodnikowych",
+        "pattern": "/patterns/Topology-1.svg",
+        "link": "/EbooksPage"
+      },
+      {
+        "title": "Wiadomości branżowe",
+        "description": "Najnowsze wydarzenia i nowe technologie w produkcji półprzewodników",
+        "pattern": "/patterns/Topology-2.svg",
+        "link": "/IndustryNewsPage"
+      }
+    ]
+  },
+  "equipment": {
+    "heading": "Inżynieria ścieżek do zrównoważonego rozwoju przemysłu",
+    "subheading": "Od wytwarzania energii po długoterminową wydajność systemów – dostarczamy rozwiązania, które tną koszty, redukują emisje i zapewniają odporność operacyjną.",
+    "requestAudit": "Zamów audyt",
+    "learnMore": "Dowiedz się więcej",
+    "services": [
+      {
+        "id": "Brokering",
+        "title": "Pośrednictwo sprzętowe",
+        "description": "Eksperckie zarządzanie sprzedażą aktywów, łączące Cię z wykwalifikowanymi kupcami dla maksymalnego zwrotu",
+        "link": "/Brokering"
+      },
+      {
+        "id": "Inspection",
+        "title": "Inspekcja",
+        "description": "Szczegółowe oceny sprzętu weryfikujące stan, redukujące ryzyko i wspierające pewne decyzje.",
+        "link": "/Inspection"
+      },
+      {
+        "id": "Disposition",
+        "title": "Zbycie (Dyspozycja)",
+        "description": "Strategiczne usuwanie nadwyżek aktywów, optymalizujące odzyskiwanie wartości przy minimalizacji obciążeń operacyjnych.",
+        "link": "/Disposition"
+      },
+      {
+        "id": "Consignment",
+        "title": "Komis",
+        "description": "Praktyczne wsparcie sprzedaży, które skutecznie promuje Twój sprzęt, podczas gdy Ty zachowujesz pełną własność.",
+        "link": "/Consignment"
+      },
+      {
+        "id": "Logistics-Forwarding",
+        "title": "Logistyka i Spedycja",
+        "description": "Kompleksowa koordynacja transportu zapewniająca bezpieczną, wydajną dostawę na każdą odległość i przez każdą granicę",
+        "link": "/Logistics"
+      }
+    ]
+  },
+  "footer": {
+    "description": "Lorem Ipsum to po prostu fikcyjny tekst branży drukarskiej i składu. Lorem Ipsum.",
+    "company": "Firma",
+    "products": "Produkty",
+    "contact": "Kontakt",
+    "companyLinks": {
+      "about": "O nas",
+      "careers": "Kariera",
+      "privacy": "Polityka prywatności",
+      "terms": "Regulamin"
+    },
+    "productLinks": {
+      "event": "Wydarzenia",
+      "projects": "Projekty",
+      "services": "Usługi",
+      "team": "Zespół"
+    },
+    "contactInfo": {
+      "email": "Support@vision.com",
+      "phone": "+1 234 567 8900",
+      "address": "345 Tech Park Avenue, 9th Floor Silicon Valley, CA 98765 USA"
+    },
+    "copyright": "Copyright 2024 Vision Semiconductor Solutions LLC. Wszelkie prawa zastrzeżone."
+  },
+  "tabs": {
+    "learnMore": "Dowiedz się więcej",
+    "tabsData": [
+      {
+        "id": "mission",
+        "label": "Nasza misja",
+        "number": "01",
+        "title": "Napędzanie innowacji półprzewodnikowych",
+        "description": "Jesteśmy zaangażowani w rozwój technologii półprzewodnikowej poprzez nowatorskie badania, strategiczne partnerstwa i zrównoważone rozwiązania inżynieryjne, które zasilają przyszłość globalnej technologii.",
+        "imageUrl": "/images/mission.jpg"
+      },
+      {
+        "id": "vision",
+        "label": "Nasza wizja",
+        "number": "02",
+        "title": "Kształtowanie przyszłości technologii",
+        "description": "Być globalnym liderem w rozwiązaniach półprzewodnikowych, tworząc mądrzejszy, bardziej połączony świat dzięki innowacyjnej technologii, która przekształca branże i ulepsza ludzkie doświadczenia.",
+        "imageUrl": "/images/vision.jpg"
+      },
+      {
+        "id": "values",
+        "label": "Nasze wartości",
+        "number": "03",
+        "title": "Doskonałość poprzez uczciwość",
+        "description": "Działamy z niezachwianą uczciwością, wspieramy wspólną innowacyjność i utrzymujemy najwyższe standardy jakości w każdym aspekcie naszych rozwiązań i usług półprzewodnikowych.",
+        "imageUrl": "/images/values.jpg"
+      }
+    ]
+  },
+  "brokering": {
+    "hero": {
+      "title": "Globalne pośrednictwo sprzętowe",
+      "subtitle": "Połącz się ze światową siecią kupujących i sprzedających. Upraszczamy zawiłości handlu sprzętem przemysłowym dzięki zweryfikowanym ofertom i bezpiecznym transakcjom.",
+      "ctaText": "Poproś o dostęp"
+    },
+    "marketplace": {
+      "title": "Przegląd rynku",
+      "description": "Uzyskaj dostęp do tysięcy zweryfikowanych aktywów przemysłowych w sektorach budownictwa, górnictwa i produkcji.",
+      "content": "Nasza platforma pośrednictwa wypełnia lukę między właścicielami nadwyżek sprzętu a firmami potrzebującymi niezawodnych maszyn. Zajmujemy się ciężką pracą negocjacyjną, weryfikacją i dokumentacją.",
+      "stats": [
+        "30,000+ Aktywnych kupujących w naszej bazie danych.",
+        "$500M+ W zakończonych transakcjach sprzętowych.",
+        "Przejrzyste struktury opłat bez ukrytych kosztów."
+      ]
+    },
+    "workflow": {
+      "title": "Proces pozyskiwania",
+      "description": "Jak łączymy Cię z odpowiednimi maszynami.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Zgłoszenie",
+          "desc": "Prześlij swoje wymagania sprzętowe lub wystaw swoje aktywa na sprzedaż."
+        },
+        {
+          "step": "02",
+          "title": "Dopasowanie",
+          "desc": "Nasz silnik oparty na AI natychmiast dopasowuje aktywa do wykwalifikowanych kupców."
+        },
+        {
+          "step": "03",
+          "title": "Weryfikacja",
+          "desc": "Inspektorzy weryfikują stan i dokumentację przed kontynuacją."
+        },
+        {
+          "step": "04",
+          "title": "Finalizacja",
+          "desc": "Bezpieczne przetwarzanie płatności i koordynacja logistyczna finalizują transakcję."
+        }
+      ]
+    },
+    "features": {
+      "title": "Dlaczego warto wybrać nasze pośrednictwo",
+      "items": [
+        {
+          "title": "Zasięg globalny",
+          "description": "Dostęp do rynków w ponad 50 krajach. Obsługujemy zawiłości handlu transgranicznego, w tym cła i zgodność z przepisami."
+        },
+        {
+          "title": "Ochrona przed oszustwami",
+          "description": "Każda transakcja jest zabezpieczona usługami escrow. Weryfikujemy każdego kupującego i sprzedającego, aby zapobiec oszustwom."
+        },
+        {
+          "title": "Wywiad rynkowy",
+          "description": "Wykorzystaj nasze własne dane, aby konkurencyjnie wycenić swój sprzęt lub upewnić się, że nie przepłacasz."
+        }
+      ]
+    },
+    "trusted": {
+      "title": "Zaufali nam liderzy branży"
+    },
+    "cta": {
+      "title": "Gotowy do kupna lub sprzedaży?",
+      "subtitle": "Dołącz do tysięcy firm optymalizujących zarządzanie aktywami już dziś.",
+      "buttons": {
+        "browse": "Przeglądaj inwentarz",
+        "contact": "Skontaktuj się z brokerem"
+      }
+    },
+    "modal": {
+      "title": "Zapytanie brokerskie",
+      "form": {
+        "firstName": "Imię",
+        "lastName": "Nazwisko",
+        "email": "Adres e-mail",
+        "inquiryType": "Typ zapytania",
+        "company": "Firma",
+        "phone": "Telefon",
+        "equipment": "Sprzęt / Wymagania",
+        "submit": "Wyślij zapytanie",
+        "agreement": "Wysyłając, zgadzasz się udostępnić swoje dane kontaktowe naszemu zespołowi brokerskiemu."
+      },
+      "options": {
+        "buy": "Chcę kupić sprzęt",
+        "sell": "Chcę sprzedać sprzęt",
+        "general": "Zapytanie ogólne"
+      }
+    },
+    "successMessage": "Zapytanie wysłane pomyślnie! Broker skontaktuje się z Tobą wkrótce."
+  },
+  "inspection": {
+    "hero": {
+      "title": "Certyfikowane inspekcje sprzętu",
+      "subtitle": "Bezstronne, szczegółowe i szybkie raporty z inspekcji. Wiedz dokładnie, co kupujesz lub sprzedajesz dzięki naszym ustandaryzowanym protokołom oceny.",
+      "ctaText": "Umów inspekcję"
+    },
+    "whyMatter": {
+      "title": "Dlaczego inspekcje są ważne",
+      "description": "Zminimalizuj ryzyko i zapewnij uczciwą wartość dzięki naszym kompleksowym raportom.",
+      "heading": "Dogłębna analiza stanu maszyny",
+      "content": "Nasi inspektorzy nie dokonują tylko powierzchownych oględzin. Przeprowadzamy rygorystyczne testy operacyjne, analizę płynów i pomiary podwozia. Typowy raport zawiera ponad 100 punktów danych i ponad 50 zdjęć w wysokiej rozdzielczości.",
+      "features": [
+        {
+          "title": "Ustandaryzowane listy kontrolne",
+          "description": "Spójne kryteria oceny we wszystkich kategoriach sprzętu."
+        },
+        {
+          "title": "Dowody wizualne",
+          "description": "Szczegółowa dokumentacja zdjęciowa i wideo zużycia."
+        },
+        {
+          "title": "Raporty cyfrowe",
+          "description": "Natychmiastowy dostęp do raportów przez nasz bezpieczny portal w chmurze."
+        }
+      ]
+    },
+    "qualityProcess": {
+      "title": "Proces zapewnienia jakości",
+      "steps": [
+        {
+          "title": "Rezerwacja i wysłanie",
+          "desc": "Inspektor przypisany na podstawie typu sprzętu i ekspertyzy lokalizacyjnej.",
+          "side": "left"
+        },
+        {
+          "title": "Ocena na miejscu",
+          "desc": "Przeprowadzenie kontroli wizualnej, testów operacyjnych i pobrania próbek płynów.",
+          "side": "right"
+        },
+        {
+          "title": "Przegląd danych",
+          "desc": "Starsi liderzy techniczni przeglądają surowe dane w poszukiwaniu anomalii.",
+          "side": "left"
+        },
+        {
+          "title": "Publikacja raportu",
+          "desc": "Wygenerowanie raportu końcowego z szacunkami wyceny (opcjonalnie).",
+          "side": "right"
+        }
+      ]
+    },
+    "evaluators": {
+      "title": "Nasi ewaluatorzy",
+      "inspectors": [
+        {
+          "name": "Mike T.",
+          "role": "Starszy specjalista ds. maszyn ciężkich",
+          "quote": "\"Skontrolowałem ponad 2000 koparek. Wiem dokładnie, gdzie ukrywają się pęknięcia zmęczeniowe.\""
+        },
+        {
+          "name": "Sarah L.",
+          "role": "Dźwigi i sprzęt podnoszący",
+          "quote": "\"Bezpieczeństwo to priorytet. Moje raporty zapewniają zgodność z normami OSHA i ISO.\""
+        },
+        {
+          "name": "David R.",
+          "role": "Ciężarówki i flota",
+          "quote": "\"Diagnostyka silnika mówi prawdę. Nie zgadujemy, my mierzymy.\""
+        }
+      ]
+    },
+    "cta": {
+      "title": "Nie ryzykuj złej transakcji.",
+      "subtitle": "Poznaj fakty, zanim podpiszesz czek.",
+      "button": "Poproś o przykładowy raport"
+    },
+    "modal": {
+      "title": "Zamów inspekcję",
+      "form": {
+        "firstName": "Imię",
+        "lastName": "Nazwisko",
+        "email": "Adres e-mail",
+        "equipment": "Szczegóły sprzętu",
+        "location": "Lokalizacja aktywów",
+        "phone": "Telefon",
+        "submit": "Wyślij prośbę",
+        "responseTime": "Standardowy czas odpowiedzi wynosi poniżej 4 godzin w dni robocze."
+      },
+      "placeholders": {
+        "firstName": "Jan",
+        "lastName": "Kowalski",
+        "email": "jan@firma.pl",
+        "equipment": "Rok, Marka, Model, Nr seryjny (jeśli dostępny)",
+        "location": "Miasto, Województwo",
+        "phone": "+48 000 000 000"
+      }
+    },
+    "successMessage": "Otrzymano prośbę o inspekcję! Skontaktujemy się z Tobą w celu ustalenia terminu."
+  },
+  "disposition": {
+    "hero": {
+      "title": "Strategiczne zbycie aktywów",
+      "subtitle": "Zmaksymalizuj wartość odzysku z nadwyżek aktywów. Oferujemy przyjazne dla środowiska, dochodowe rozwiązania dla sprzętu wycofanego z eksploatacji lub nadwyżkowego.",
+      "ctaText": "Rozpocznij odzysk"
+    },
+    "recoveryProcess": {
+      "title": "Proces odzyskiwania aktywów",
+      "description": "Zmień bezczynne maszyny w kapitał obrotowy bezpiecznie i wydajnie.",
+      "steps": [
+        {
+          "title": "Ocena",
+          "description": "Katalogujemy Twoje nadwyżki inwentarza i ustalamy najlepszy kanał zbycia: odsprzedaż, renowacja lub recykling."
+        },
+        {
+          "title": "Zgodność",
+          "description": "Usuwanie niebezpiecznych płynów, niszczenie danych i zgodność z przepisami dotyczącymi e-odpadów są obsługiwane zgodnie z regulacjami ochrony środowiska."
+        },
+        {
+          "title": "Likwidacja",
+          "description": "Aktywa są sprzedawane w drodze umowy prywatnej, aukcji lub na rynkach złomu, aby zmaksymalizować zwrot z inwestycji."
+        }
+      ],
+      "caseStudy": {
+        "title": "Studium przypadku: Likwidacja floty budowlanej",
+        "content": "Duża firma infrastrukturalna musiała pozbyć się ponad 50 jednostek starzejącego się sprzętu do robót ziemnych. Nasz zespół zarządzał logistyką, renowacją i procesem aukcyjnym.",
+        "metrics": [
+          {
+            "value": "120%",
+            "label": "Odzysk vs Wartość księgowa"
+          },
+          {
+            "value": "30 Dni",
+            "label": "Harmonogram projektu"
+          }
+        ]
+      }
+    },
+    "workflow": {
+      "title": "Proces odsprzedaży i recyklingu",
+      "features": [
+        {
+          "title": "Logistyka i usuwanie",
+          "description": "Organizujemy transport ponadgabarytowy i oczyszczanie terenu."
+        },
+        {
+          "title": "Przeniesienie tytułu własności",
+          "description": "Obsługa wszystkich zwolnień z zastawów i dokumentacji własnościowej."
+        },
+        {
+          "title": "Sprzedaż wielokanałowa",
+          "description": "Wystawianie na globalnych platformach i w ekskluzywnych sieciach."
+        },
+        {
+          "title": "Zielona utylizacja",
+          "description": "Certyfikowany recykling dla komponentów nienadających się do odzysku."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Zamień pasywa na płynność",
+      "button": "Uzyskaj darmową wycenę"
+    },
+    "modal": {
+      "title": "Zapytanie o zbycie aktywów",
+      "form": {
+        "firstName": "Imię",
+        "lastName": "Nazwisko",
+        "email": "Adres e-mail",
+        "assets": "Lista aktywów / Inwentarz",
+        "location": "Lokalizacja aktywów",
+        "company": "Firma",
+        "submit": "Prześlij do wyceny",
+        "responseTime": "Nasz zespół zazwyczaj dostarcza wstępne wyceny w ciągu 2 dni roboczych."
+      },
+      "placeholders": {
+        "firstName": "Jan",
+        "lastName": "Kowalski",
+        "email": "jan@firma.pl",
+        "assets": "Proszę wymienić główne pozycje lub podać podsumowanie partii...",
+        "location": "Miasto, Województwo",
+        "company": "Nazwa firmy"
+      }
+    },
+    "successMessage": "Prośba o zbycie wysłana. Specjalista ds. odzysku przeanalizuje Twoje aktywa."
+  },
+  "consignment": {
+    "hero": {
+      "title": "Usługi komisu sprzętowego",
+      "subtitle": "Bezpieczne przechowywanie i profesjonalne zarządzanie sprzedażą Twojego ciężkiego sprzętu. Zachowujesz własność, podczas gdy my zajmujemy się sprzedażą.",
+      "ctaText": "Oddaj sprzęt w komis"
+    },
+    "hassleFree": {
+      "title": "Sprzedaż bez kłopotów",
+      "description": "Przechowujemy, konserwujemy i sprzedajemy Twoje aktywa z naszych bezpiecznych placów.",
+      "revenueModel": {
+        "title": "Model podziału przychodów",
+        "content": "W przeciwieństwie do aukcji, gdzie tracisz kontrolę nad ceną, nasz model komisowy stawia Cię w roli decydenta. Uzgadniamy cenę netto lub procent prowizji.",
+        "features": [
+          {
+            "label": "Marketing i wystawienie",
+            "value": "W cenie"
+          },
+          {
+            "label": "Przechowywanie (90 dni)",
+            "value": "Darmowe"
+          },
+          {
+            "label": "Mycie konserwacyjne",
+            "value": "W cenie"
+          },
+          {
+            "label": "Prowizja",
+            "value": "8-12%"
+          }
+        ]
+      },
+      "benefits": [
+        {
+          "title": "Doskonałe lokalizacje",
+          "description": "Nasze place komisowe znajdują się w pobliżu głównych portów i autostrad, zapewniając łatwy dostęp dla kupujących i logistyki."
+        },
+        {
+          "title": "Maksymalna widoczność",
+          "description": "Ruch pieszy w połączeniu z pozycjonowaniem premium w Internecie zapewnia, że Twój sprzęt zostanie zauważony przez poważnych kupców."
+        },
+        {
+          "title": "Bezpieczne obiekty",
+          "description": "Monitorowanie 24/7, ogrodzone place i regularne kontrole konserwacyjne akumulatorów/płynów podczas przechowywania."
+        }
+      ]
+    },
+    "tracking": {
+      "title": "Śledzenie i przejrzystość",
+      "features": [
+        {
+          "title": "Inwentarz w czasie rzeczywistym",
+          "description": "Zobacz swoje aktywa w komisie w naszym portalu. Sprawdź status, zobacz liczbę wyświetleń oferty i zarządzaj ofertami."
+        },
+        {
+          "title": "Dynamiczne ceny",
+          "description": "Zapewniamy korekty cen oparte na danych w zależności od zainteresowania rynku, aby zapewnić szybką sprzedaż."
+        },
+        {
+          "title": "Raporty wydajności",
+          "description": "Cotygodniowe aktualizacje dotyczące leadów, zapytań i inspekcji fizycznych przeprowadzonych na Twoim sprzęcie."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Miejsce na naszych głównych placach jest ograniczone.",
+      "subtitle": "Zarezerwuj miejsce już dziś i pokaż swój sprzęt zweryfikowanym kupcom.",
+      "button": "Zarezerwuj miejsce"
+    },
+    "modal": {
+      "title": "Zgłoszenie do komisu",
+      "form": {
+        "firstName": "Imię",
+        "lastName": "Nazwisko",
+        "email": "Adres e-mail",
+        "equipment": "Opis sprzętu",
+        "location": "Obecna lokalizacja",
+        "phone": "Telefon",
+        "submit": "Wyślij zgłoszenie",
+        "agreement": "Wysyłając, zgadzasz się na nasze warunki komisu i politykę prywatności."
+      },
+      "placeholders": {
+        "firstName": "Jan",
+        "lastName": "Kowalski",
+        "email": "jan@firma.pl",
+        "equipment": "Np. 2018 CAT 320 Koparka...",
+        "location": "Miasto, Województwo",
+        "phone": "+48 000 000 000"
+      }
+    },
+    "successMessage": "Miejsce w komisie zarezerwowane! Skontaktujemy się z Tobą, aby sfinalizować szczegóły."
+  },
+  "logistics": {
+    "hero": {
+      "title": "Logistyka ciężkiego sprzętu",
+      "subtitle": "Rozwiązania transportowe 'od drzwi do drzwi' dla ładunków ponadgabarytowych. Zajmujemy się demontażem, pakowaniem, spedycją i odprawą celną.",
+      "ctaText": "Uzyskaj wycenę transportu"
+    },
+    "forwarding": {
+      "title": "Globalna sieć spedycyjna",
+      "description": "Bezproblemowe przemieszczanie ciężkich maszyn przez granice i oceany.",
+      "globe": {
+        "title": "Łączymy ponad 150 portów na całym świecie",
+        "subtitle": "Śledzenie na żywo dostępne dla wszystkich frachtów morskich i lotniczych."
+      },
+      "services": [
+        {
+          "title": "Transport lądowy ciężki",
+          "description": "Specjalistyczne naczepy niskopodwoziowe i RGN dla ładunków ponadgabarytowych. Obsługujemy wszystkie pozwolenia i wymagania dotyczące pilotażu."
+        },
+        {
+          "title": "RoRo i Kontenery",
+          "description": "Elastyczne opcje frachtu morskiego. Roll-on/Roll-off dla jednostek jezdnych lub konteneryzacja dla zdemontowanych części."
+        },
+        {
+          "title": "Demontaż i pakowanie",
+          "description": "Profesjonalne usługi demontażu w celu dopasowania dużych maszyn do standardowych kontenerów, co znacznie obniża koszty wysyłki."
+        }
+      ]
+    },
+    "workflow": {
+      "title": "Proces wysyłki",
+      "steps": [
+        {
+          "title": "Wycena i planowanie",
+          "text": "Analiza trasy i szacowanie kosztów na podstawie wymiarów i wagi."
+        },
+        {
+          "title": "Przygotowanie i odbiór",
+          "text": "Mycie (dla zgodności z kwarantanną) i załadunek na transport."
+        },
+        {
+          "title": "Odprawa eksportowa",
+          "text": "Składanie dokumentacji (AES, Faktura handlowa, Lista pakowa)."
+        },
+        {
+          "title": "Fracht morski",
+          "text": "Wypłynięcie statku i monitorowanie tranzytu."
+        },
+        {
+          "title": "Import i dostawa",
+          "text": "Odprawa celna w miejscu przeznaczenia i dostawa ostatniej mili."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Musisz przewieźć duży sprzęt?",
+      "subtitle": "Nasi eksperci logistyczni są gotowi zaplanować Twoją trasę.",
+      "buttons": {
+        "quote": "Poproś o wycenę",
+        "track": "Śledź przesyłkę"
+      }
+    },
+    "modal": {
+      "title": "Poproś o wycenę transportu",
+      "form": {
+        "firstName": "Imię",
+        "lastName": "Nazwisko",
+        "email": "Adres e-mail",
+        "equipment": "Szczegóły sprzętu",
+        "origin": "Miasto pochodzenia",
+        "destination": "Miasto docelowe",
+        "submit": "Wyślij prośbę",
+        "agreement": "Wysyłając, zgadzasz się na naszą politykę prywatności. Szacunki są ważne przez 7 dni."
+      },
+      "placeholders": {
+        "firstName": "Jan",
+        "lastName": "Kowalski",
+        "email": "jan@firma.pl",
+        "equipment": "Np. 2018 CAT 320 Koparka, ok. 20 ton",
+        "origin": "Miasto, Kraj",
+        "destination": "Miasto, Kraj"
+      }
+    },
+    "successMessage": "Prośba o wycenę wysłana pomyślnie! Koordynator logistyczny skontaktuje się z Tobą wkrótce."
+  },
+  "brandStory": {
+    "sectionTitle": "Sekcja 01 — Historia Marki",
+    "heading": "Nasza historia",
+    "title": "Vision Semiconductor Solutions LLC została założona z jasnym celem napędzania przyszłości technologii.",
+    "content": [
+      "Vision Semiconductor Solutions (VSS) wspiera globalny przemysł produkcji półprzewodników precyzją, innowacyjnością i przejrzystością. To, co zaczęło się jako źródło nadwyżek i części zamiennych, ewoluowało w platformę wiedzy, doskonałości inżynieryjnej i globalnej współpracy.",
+      "Zakorzeniona w ekspertyzie technicznej, VSS dąży do stania się zaufanym centrum rozwiązań, edukacji i wpływu na branżę w ekosystemie półprzewodników."
+    ],
+    "founder": {
+      "name": "Vision Semiconductor Solutions",
+      "role": "Globalny Zespół Zarządzający",
+      "quote": "\"Jesteśmy odpowiedzialni przede wszystkim przed sobą, następnie przed naszym zespołem, naszymi klientami i naszą społecznością.\""
+    }
+  },
+  "missionVision": {
+    "intro": "Pchanie branży naprzód",
+    "mission": {
+      "section": "Sekcja 02",
+      "title": "Misja",
+      "heading": "Wspieranie przyszłości rozwiązań półprzewodnikowych",
+      "content": "Naszą misją jest dostarczanie niezawodnego sprzętu półprzewodnikowego i wiedzy inżynierom, producentom i innowatorom na całym świecie. Sprawiamy, że wysokowydajne rozwiązania są dostępne, wydajne i skalowalne – wzmacniając następną generację technologii i doskonałości produkcyjnej."
+    },
+    "vision": {
+      "section": "Sekcja 03",
+      "title": "Wizja",
+      "heading": "Kształtowanie jutra, dziś",
+      "content": "Wizualizujemy stanie się globalnym centrum rozwiązań półprzewodnikowych, edukacji i przywództwa w branży. Poprzez jasność, innowacyjność i długoterminowe zaangażowanie dążymy do wpływania na przyszłość ekosystemu półprzewodników i podnoszenia postępu technologicznego na całym świecie."
+    }
+  },
+  "team": {
+    "title": "Nasz zespół ma łącznie ponad 100 lat doświadczenia!",
+    "subtitle": "Nasz zespół wnosi doświadczenie, innowacyjność i kreatywność do branży półprzewodników, aby zapewnić, że Twoje plany są w dobrych rękach.",
+    "members": [
+      {
+        "name": "Mike Simorangkir",
+        "role": "Założyciel i CEO",
+        "bio": "Mike, MBA, ma ponad 15 lat doświadczenia w strategiach handlowych półprzewodników i rozwoju sprzętu mieszanego."
+      },
+      {
+        "name": "Stanley George",
+        "role": "Emerytowany EVP i CCO",
+        "bio": "Stanley był partnerem w Heenan Blaikie LLP do września 2005 roku, specjalizując się w globalnej zgodności technologicznej."
+      },
+      {
+        "name": "Eliza Baker",
+        "role": "VP, Operacje",
+        "bio": "Eliza, MBA, ma ponad 12 lat doświadczenia w logistyce handlowej i zarządzaniu łańcuchem dostaw półprzewodników."
+      },
+      {
+        "name": "Sally Cruz",
+        "role": "Dyrektor Marketingu (CMO)",
+        "bio": "Sally ma ponad 10 lat doświadczenia na rynkach technicznych Kanady i Azji i Pacyfiku."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Współpracuj z Vision Semiconductor Solutions",
+    "subtitle": "Odkryj, jak nasza precyzja i innowacyjność mogą napędzić Twój kolejny przełom technologiczny.",
+    "button": "Skontaktuj się z nami dzisiaj"
+  },
+  "accessCTA": {
+    "hero": {
+      "badge": "Dostęp wyłączny",
+      "title": "Odblokuj ostateczną <1>Bazę Wiedzy</1>",
+      "subtitle": "Pełny dostęp do raportów półprzewodnikowych, białych ksiąg, wglądów w deep-tech i zasobów kuratorowanych przez ekspertów.",
+      "buttons": {
+        "trial": "Rozpocznij darmowy okres próbny",
+        "explore": "Przeglądaj bibliotekę"
+      }
+    },
+    "valueProposition": {
+      "title": "Dlaczego profesjonaliści wybierają nas",
+      "subtitle": "Zaufana inteligencja półprzewodnikowa zbudowana dla inżynierów, analityków i decydentów.",
+      "cards": [
+        {
+          "title": "Wgląd w czasie rzeczywistym",
+          "description": "Bądź na bieżąco dzięki stale aktualizowanym informacjom rynkowym i technologicznym dotyczącym półprzewodników."
+        },
+        {
+          "title": "Zweryfikowane źródła",
+          "description": "Każdy zasób jest walidowany przez ekspertów branżowych pod kątem dokładności technicznej i istotności."
+        },
+        {
+          "title": "Globalna społeczność",
+          "description": "Dołącz do sieci inżynierów, badaczy i liderów kształtujących przyszłość technologii."
+        }
+      ]
+    }
+  },
+  "podcasts": {
+    "hero": {
+      "title": "Inżynieria szybszej, mądrzejszej <1>przyszłości</1> podcastów.",
+      "subtitle": "Poznaj podejście oparte na liczbach, zbudowane na ekspertyzie, partnerstwie i długoterminowej przejrzystości – dostarczające więcej niż tylko dźwięk.",
+      "buttons": {
+        "explore": "Przeglądaj odcinki",
+        "schedule": "Umów rozmowę"
+      }
+    },
+    "featured": {
+      "title": "Najnowsze odcinki",
+      "featuredBadge": "POLECANE",
+      "featuredEpisode": {
+        "title": "Odc. 100: Stulecie Krzemu",
+        "description": "Spoglądamy wstecz na historię półprzewodników i patrzymy w przyszłość na skok kwantowy czekający nas w następnej dekadzie.",
+        "button": "Słuchaj teraz"
+      }
+    },
+    "episodes": {
+      "categories": [
+        "Technologia",
+        "Biznes",
+        "Zdrowie",
+        "Design",
+        "Marketing",
+        "Nauka"
+      ],
+      "episode": {
+        "showNotes": "Notatki do odcinka",
+        "duration": "{{duration}}"
+      }
+    },
+    "sidebar": {
+      "newsletter": {
+        "title": "Bądź na bieżąco",
+        "subtitle": "Dołącz do ponad 10 000 inżynierów otrzymujących nasze cotygodniowe podsumowania branżowe.",
+        "placeholder": "Wpisz swój e-mail",
+        "button": "Subskrybuj za darmo"
+      },
+      "about": {
+        "title": "O Vision",
+        "content": "Vision Semiconductor Solutions LLC dostarcza najnowocześniejszych informacji o sprzęcie, który napędza nasz świat. Od krzemu po systemy.",
+        "link": "Dowiedz się więcej →"
+      }
+    }
+  },
+  "whitePapers": {
+    "hero": {
+      "title": "Badania i Białe Księgi",
+      "subtitle": "Spostrzeżenia dotyczące rynku półprzewodników, trendy produkcyjne i briefy o zaawansowanych technologiach."
+    },
+    "featured": {
+      "editorsPick": "Wybór redaktora",
+      "title": "Stan globalnej innowacji w dziedzinie układów scalonych 2024",
+      "description": "Analiza ekspansji fabryk, odporności łańcucha dostaw, przełomów w litografii i dynamiki konkurencyjnej kształtującej ekosystemy półprzewodnikowe nowej generacji.",
+      "buttons": {
+        "download": "Pobierz PDF",
+        "summary": "Przeczytaj podsumowanie"
+      }
+    },
+    "recent": {
+      "title": "Ostatnie publikacje",
+      "papers": [
+        {
+          "title": "Spostrzeżenia Strategiczne Tom 1",
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+        },
+        {
+          "title": "Spostrzeżenia Strategiczne Tom 2",
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+        },
+        {
+          "title": "Spostrzeżenia Strategiczne Tom 3",
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+        }
+      ],
+      "button": "Zobacz"
+    }
+  },
+  "blog": {
+    "latestNews": {
+      "title": "Najnowsze wiadomości",
+      "featured": {
+        "category": "SPOSTRZEŻENIA PÓŁPRZEWODNIKOWE",
+        "title": "Globalne fabryki walczą o skalowanie zaawansowanych opakowań w miarę przyspieszania popytu na chipy AI",
+        "summary": "Producenci chipów na całym świecie ścigają się, aby zwiększyć wydajność zaawansowanego pakowania, ale ograniczenia dostaw narzędzi litograficznych i materiałów utrudniają skalowanie produkcji."
+      },
+      "smallArticles": [
+        {
+          "category": "TECHNOLOGIA FABRYCZNA",
+          "title": "Nowe przełomy w litografii EUV obiecują wyższą wydajność w węzłach 2nm..."
+        },
+        {
+          "category": "ŁAŃCUCH DOSTAW",
+          "title": "Oczekuje się, że globalny niedobór wafli krzemowych potrwa do 2026 roku..."
+        },
+        {
+          "category": "INNOWACJE SPRZĘTOWE",
+          "title": "Dostawcy sprzętu do trawienia promują nowe technologie plazmowe dla geometrii poniżej 3nm..."
+        }
+      ]
+    },
+    "gridSection": {
+      "title": "Rachunki operacyjne, rezerwowe i<br/>sejfowe",
+      "articles": [
+        {
+          "category": "PRODUKCJA",
+          "title": "Producenci chipów inwestują miliardy w ekspansję globalnej zdolności produkcyjnej",
+          "summary": "Wiodące firmy półprzewodnikowe przyspieszają ekspansję fabryk, aby sprostać popytowi na AI, pojazdy elektryczne i elektronikę użytkową nowej generacji."
+        },
+        {
+          "category": "SPRZĘT",
+          "title": "Nowe systemy metrologii wafli zwiększają precyzję w skali atomowej",
+          "summary": "Zaawansowane narzędzia inspekcyjne ewoluują w miarę kurczenia się cech półprzewodników do ery angstremów."
+        },
+        {
+          "category": "INNOWACJE B&R",
+          "title": "Naukowcy badają układanie krzemu 3D w celu zwiększenia gęstości obliczeniowej",
+          "summary": "Innowacje w rozpraszaniu ciepła i technologiach połączeń są kluczowe dla skalowania architektur półprzewodnikowych ułożonych w stosy 3D."
+        }
+      ],
+      "button": "Zobacz wszystkie artykuły"
+    },
+    "common": {
+      "author": "Dr Ethan Park",
+      "date": "25 Sty 2025"
+    }
+  },
+  "ebooks": {
+    "hero": {
+      "title": "Biblioteka Wiedzy",
+      "subtitle": "Techniczne e-booki, spostrzeżenia półprzewodnikowe i przewodniki inżynieryjne premium — za darmo dla wszystkich profesjonalistów."
+    },
+    "books": [
+      {
+        "title": "Opanowanie transformacji cyfrowej",
+        "author": "Dr Sarah Connor",
+        "description": "Wyselekcjonowany przewodnik oferujący spostrzeżenia techniczne, najlepsze praktyki i wiedzę gotową do wdrożenia w branży."
+      },
+      {
+        "title": "Przewodnik po zwinnym przywództwie",
+        "author": "James Cameron",
+        "description": "Wyselekcjonowany przewodnik oferujący spostrzeżenia techniczne, najlepsze praktyki i wiedzę gotową do wdrożenia w branży."
+      },
+      {
+        "title": "Data Science dla kadry zarządzającej",
+        "author": "Ellen Ripley",
+        "description": "Wyselekcjonowany przewodnik oferujący spostrzeżenia techniczne, najlepsze praktyki i wiedzę gotową do wdrożenia w branży."
+      },
+      {
+        "title": "Podstawy cyberbezpieczeństwa",
+        "author": "Neo Anderson",
+        "description": "Wyselekcjonowany przewodnik oferujący spostrzeżenia techniczne, najlepsze praktyki i wiedzę gotową do wdrożenia w branży."
+      }
+    ],
+    "buttons": {
+      "readOnline": "Czytaj online",
+      "download": "Pobierz"
+    },
+    "common": {
+      "by": "autorstwa",
+      "pages": "{{count}} stron"
+    }
+  },
+  "industryNews": {
+    "pageTitle": "Wiadomości z branży półprzewodników",
+    "featured": {
+      "badge": "Z ostatniej chwili",
+      "title": "Ogłoszono dziś duży przełom w wydajności chipów kwantowych"
+    },
+    "categories": [
+      "Wszystkie",
+      "Produkcja chipów",
+      "Regulacje",
+      "Startupy",
+      "Korporacyjne",
+      "B&R"
+    ],
+    "newsItems": [
+      {
+        "title": "Globalne rynki chipów odbijają się, gdy popyt na AI osiąga rekordowy poziom",
+        "excerpt": "Najnowocześniejsze fabryki, nowe przełomy w litografii i regulacje geopolityczne nadal kształtują ekosystem półprzewodników.",
+        "category": "Produkcja chipów"
+      },
+      {
+        "title": "Nowe przepisy eksportowe dotyczące półprzewodników tworzą niepewność w branży",
+        "excerpt": "Najnowocześniejsze fabryki, nowe przełomy w litografii i regulacje geopolityczne nadal kształtują ekosystem półprzewodników.",
+        "category": "Regulacje"
+      }
+    ],
+    "sidebar": {
+      "trending": {
+        "title": "Popularne tematy",
+        "tags": [
+          "#LitografiaEUV",
+          "#FabrykacjaChipów",
+          "#ChipyAI",
+          "#3DNAND",
+          "#KomputeryKwantowe"
+        ]
+      },
+      "subscribe": {
+        "title": "Codzienny skrót półprzewodnikowy",
+        "description": "Otrzymuj najważniejsze nagłówki z branży chipów każdego ranka.",
+        "placeholder": "Adres e-mail",
+        "button": "Zapisz się"
+      }
+    },
+    "common": {
+      "readFullStory": "Przeczytaj całą historię",
+      "author": "Dr Jane Doe",
+      "featuredAuthor": "Dr John Smith",
+      "date": "Sty {{day}}, 2025"
+    }
+  },
+  "products": {
+    "tabsData": [
+      {
+        "id": "Modular architecture",
+        "label": "Architektura modułowa",
+        "number": "01",
+        "title": "Architektura modułowa",
+        "description": "Przeglądaj sprzęt od wiodących producentów OEM, w tym ASML, Applied Materials, Lam Research, TEL i KLA.",
+        "cta": "Dowiedz się więcej"
+      },
+      {
+        "id": "Opportunities",
+        "label": "Okazje",
+        "number": "02",
+        "title": "Wyróżnione okazje",
+        "description": "Uzyskaj dostęp do ekskluzywnych ofert o wysokiej wartości, rzadkich systemów i poszukiwanych narzędzi półprzewodnikowych w konkurencyjnych cenach.",
+        "cta": "Dowiedz się więcej"
+      },
+      {
+        "id": "New Inventory",
+        "label": "Nowy inwentarz",
+        "number": "03",
+        "title": "Nowości",
+        "description": "Odkryj najnowsze dodatki, od najnowocześniejszych narzędzi do wafli po odnowione systemy gotowe do produkcji.",
+        "cta": "Dowiedz się więcej"
+      },
+      {
+        "id": "Portal",
+        "label": "Portal",
+        "number": "04",
+        "title": "Portal klienta",
+        "description": "Żądaj wycen, zarządzaj zamówieniami zakupu (PO) i usprawnij zaopatrzenie dzięki ujednoliconemu obszarowi roboczemu klienta.",
+        "cta": "Dowiedz się więcej"
+      }
+    ]
+  }
+}

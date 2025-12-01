@@ -1,0 +1,967 @@
+{
+  "heading": "Wir gestalten eine schnellere, intelligentere Zukunft für Halbleiter.",
+  "subheading": "Erleben Sie einen datengestützten Kreditansatz, der auf Expertise, Partnerschaft und langfristiger finanzieller Klarheit basiert – und mehr bietet als nur wettbewerbsfähige Konditionen.",
+  "cta1": "Lösungen erkunden",
+  "cta2": "Gespräch vereinbaren",
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "content": "Inhalte",
+    "solutions": "Lösungen",
+    "shop": "Jetzt einkaufen"
+  },
+  "about": {
+    "sectionTitle": "Über Vision Semiconductor",
+    "headline": "Wir treiben die Zukunft der Technologie durch unübertroffene Innovation und eine globale Vision für den Fortschritt in der Halbleiterbranche an.",
+    "features": {
+      "innovation": "Innovation",
+      "expertise": "Expertise",
+      "vision": "Vision"
+    },
+    "cta": "Mehr erfahren"
+  },
+  "section2": {
+    "title": "Es ist, als ob jedes Werkzeug in Ihrer Fab ein zweites Leben erhält",
+    "description": "Unser missionsgetriebener Ansatz reduziert die Gesamtbetriebskosten, verbessert die Zuverlässigkeit und hält etablierte Anlagen noch viele Jahre länger produktiv.",
+    "cta": "Jetzt starten",
+    "stats": [
+      {
+        "label": "Jahre Expertise",
+        "value": "20+",
+        "description": "Jahrzehnte an Erfahrung in der Halbleitertechnik."
+      },
+      {
+        "label": "Globale Kunden",
+        "value": "150+",
+        "description": "Vertrauenswürdig für Unternehmen aller Branchen und Kontinente."
+      },
+      {
+        "label": "Eingesparte Kosten",
+        "value": "50 Mio. $+",
+        "description": "Wir helfen Partnern, Betriebs- und Upgrade-Kosten zu senken."
+      },
+      {
+        "label": "Umsetzte Projekte",
+        "value": "500+",
+        "description": "Erfolgreiche Projekte durch Präzision und Innovation."
+      }
+    ]
+  },
+  "services": {
+    "accessCta": "Zum Wissenszentrum",
+    "services": [
+      {
+        "title": "Podcast-Episoden",
+        "description": "Experten-Diskussionen zu Trends und Innovationen in der Halbleiterfertigung",
+        "pattern": "/patterns/Burst.svg",
+        "link": "/PodcastsPage"
+      },
+      {
+        "title": "Aktuelle Whitepapers",
+        "description": "Tiefgehende technische Analysen und Forschung von Branchenführern",
+        "pattern": "/patterns/Looper-3.svg",
+        "link": "/WhitePapersPage"
+      },
+      {
+        "title": "Marktanalysen",
+        "description": "Echtzeit-Einblicke in Markttrends und Anlagenbewertungen",
+        "pattern": "/patterns/LooperGroup.svg",
+        "link": "/BlogPage"
+      },
+      {
+        "title": "Bildungsressourcen",
+        "description": "Umfassende Leitfäden und Tutorials für Halbleiterprozesse",
+        "pattern": "/patterns/Topology-1.svg",
+        "link": "/EbooksPage"
+      },
+      {
+        "title": "Branchennachrichten",
+        "description": "Die neuesten Entwicklungen und aufkommende Technologien in der Halbleiterfertigung",
+        "pattern": "/patterns/Topology-2.svg",
+        "link": "/IndustryNewsPage"
+      }
+    ]
+  },
+  "equipment": {
+    "heading": "Technische Wege zur industriellen Nachhaltigkeit",
+    "subheading": "Von der Energieerzeugung bis zur langfristigen Systemeffizienz liefern wir Lösungen, die Kosten senken, Emissionen reduzieren und widerstandsfähige Betriebsabläufe sicherstellen.",
+    "requestAudit": "Audit anfordern",
+    "learnMore": "Mehr erfahren",
+    "services": [
+      {
+        "id": "Brokering",
+        "title": "Anlagen-Brokering",
+        "description": "Professionelles Management von Verkäufen, das Sie mit qualifizierten Käufern für maximale Rendite verbindet.",
+        "link": "/Brokering"
+      },
+      {
+        "id": "Inspection",
+        "title": "Inspektion",
+        "description": "Detaillierte Anlagenbewertungen, die den Zustand verifizieren, Risiken reduzieren und fundierte Entscheidungen ermöglichen.",
+        "link": "/Inspection"
+      },
+      {
+        "id": "Disposition",
+        "title": "Verwertung",
+        "description": "Strategische Entsorgung überschüssiger Assets, die die Wertrückgewinnung optimiert und den operativen Aufwand minimiert.",
+        "link": "/Disposition"
+      },
+      {
+        "id": "Consignment",
+        "title": "Konsignationslager",
+        "description": "Aktive Verkaufsunterstützung, die Ihre Anlagen effektiv vermarktet, während Sie im vollständigen Eigentum bleiben.",
+        "link": "/Consignment"
+      },
+      {
+        "id": "Logistics-Forwarding",
+        "title": "Logistik & Spedition",
+        "description": "End-to-End Transportkoordination für sichere, effiziente Lieferung über jede Distanz und Grenze hinweg.",
+        "link": "/Logistics"
+      }
+    ]
+  },
+  "footer": {
+    "description": "Lorem Ipsum ist ein einfacher Demo-Text der Druck- und Satzbranche. Lorem Ipsum.",
+    "company": "Unternehmen",
+    "products": "Produkte",
+    "contact": "Kontakt",
+    "companyLinks": {
+      "about": "Über uns",
+      "careers": "Karriere",
+      "privacy": "Datenschutzrichtlinie",
+      "terms": "AGB"
+    },
+    "productLinks": {
+      "event": "Veranstaltungen",
+      "projects": "Projekte",
+      "services": "Dienstleistungen",
+      "team": "Team"
+    },
+    "contactInfo": {
+      "email": "Support@vision.com",
+      "phone": "+1 234 567 8900",
+      "address": "345 Tech Park Avenue, 9. Stock, Silicon Valley, CA 98765 USA"
+    },
+    "copyright": "Copyright 2024 Vision Semiconductor Solutions LLC. Alle Rechte vorbehalten."
+  },
+  "tabs": {
+    "learnMore": "Mehr erfahren",
+    "tabsData": [
+      {
+        "id": "mission",
+        "label": "Unsere Mission",
+        "number": "01",
+        "title": "Halbleiter-Innovation vorantreiben",
+        "description": "Wir setzen uns dafür ein, die Halbleitertechnologie durch wegweisende Forschung, strategische Partnerschaften und nachhaltige Ingenieurslösungen voranzubringen, die die Zukunft der globalen Technologie antreiben.",
+        "imageUrl": "/images/mission.jpg"
+      },
+      {
+        "id": "vision",
+        "label": "Unsere Vision",
+        "number": "02",
+        "title": "Die Zukunft der Technologie gestalten",
+        "description": "Der globale Marktführer für Halbleiterlösungen zu sein und eine intelligentere, vernetztere Welt durch innovative Technologien zu schaffen, die Industrien transformieren und menschliche Erfahrungen bereichern.",
+        "imageUrl": "/images/vision.jpg"
+      },
+      {
+        "id": "values",
+        "label": "Unsere Werte",
+        "number": "03",
+        "title": "Exzellenz durch Integrität",
+        "description": "Wir handeln mit unerschütterlicher Integrität, fördern kooperative Innovation und halten höchste Qualitätsstandards in jedem Aspekt unserer Halbleiterlösungen und Dienstleistungen ein.",
+        "imageUrl": "/images/values.jpg"
+      }
+    ]
+  },
+  "brokering": {
+    "hero": {
+      "title": "Globales Anlagen-Brokering",
+      "subtitle": "Verbinden Sie sich mit einem weltweiten Netzwerk aus Käufern und Verkäufern. Wir vereinfachen die Komplexität des Handels mit Industrieanlagen durch verifizierte Listings und sichere Transaktionen.",
+      "ctaText": "Zugang anfordern"
+    },
+    "marketplace": {
+      "title": "Marktplatz-Übersicht",
+      "description": "Zugriff auf Tausende verifizierter Industrie-Assets aus den Bereichen Bauwesen, Bergbau und Fertigung.",
+      "content": "Unsere Brokerage-Plattform überbrückt die Lücke zwischen Eigentümern überschüssiger Anlagen und Unternehmen, die zuverlässige Maschinen benötigen. Wir übernehmen die schwierigen Verhandlungen, Verifizierungen und Dokumentationen.",
+      "stats": [
+        "30.000+ Aktive Käufer in unserer Datenbank.",
+        "500 Mio. $+ in abgeschlossenen Anlagentransaktionen.",
+        "Transparente Gebührenstruktur ohne versteckte Kosten."
+      ]
+    },
+    "workflow": {
+      "title": "Beschaffungs-Workflow",
+      "description": "Wie wir Sie mit den richtigen Maschinen verbinden.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Anfrage",
+          "desc": "Stellen Sie Ihre Anlagenanforderungen oder listen Sie Ihre Assets zum Verkauf."
+        },
+        {
+          "step": "02",
+          "title": "Matching",
+          "desc": "Unsere KI-gestützte Engine bringt Assets sofort mit qualifizierten Käufern zusammen."
+        },
+        {
+          "step": "03",
+          "title": "Verifizierung",
+          "desc": "Inspektoren verifizieren Zustand und Dokumentation vor dem weiteren Vorgehen."
+        },
+        {
+          "step": "04",
+          "title": "Abschluss",
+          "desc": "Sichere Zahlungsabwicklung und Logistikkoordination finalisieren den Deal."
+        }
+      ]
+    },
+    "features": {
+      "title": "Warum unsere Brokerage wählen?",
+      "items": [
+        {
+          "title": "Globale Reichweite",
+          "description": "Zugang zu Märkten in über 50 Ländern. Wir übernehmen die Komplexität des grenzüberschreitenden Handels inklusive Zoll und Compliance."
+        },
+        {
+          "title": "Betrugsschutz",
+          "description": "Jede Transaktion ist durch Escrow-Dienste gesichert. Wir verifizieren jeden Käufer und Verkäufer, um Betrug zu verhindern."
+        },
+        {
+          "title": "Marktintelligenz",
+          "description": "Nutzen Sie unsere proprietären Daten, um Ihre Anlage wettbewerbsfähig zu bepreisen oder sicherzustellen, dass Sie nicht zu viel bezahlen."
+        }
+      ]
+    },
+    "trusted": {
+      "title": "Vertraut von Branchenführern"
+    },
+    "cta": {
+      "title": "Bereit zum Kaufen oder Verkaufen?",
+      "subtitle": "Schließen Sie sich Tausenden Unternehmen an, die ihr Anlagenmanagement heute optimieren.",
+      "buttons": {
+        "browse": "Inventar durchsuchen",
+        "contact": "Broker kontaktieren"
+      }
+    },
+    "modal": {
+      "title": "Brokerage-Anfrage",
+      "form": {
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "email": "E-Mail-Adresse",
+        "inquiryType": "Anfragetyp",
+        "company": "Unternehmen",
+        "phone": "Telefon",
+        "equipment": "Anlage / Anforderungen",
+        "submit": "Anfrage senden",
+        "agreement": "Mit dem Absenden stimmen Sie zu, dass Ihre Kontaktdaten unserem Brokerage-Team mitgeteilt werden."
+      },
+      "options": {
+        "buy": "Ich möchte Anlagen kaufen",
+        "sell": "Ich möchte Anlagen verkaufen",
+        "general": "Allgemeine Anfrage"
+      }
+    },
+    "successMessage": "Anfrage erfolgreich gesendet! Ein Broker wird Sie in Kürze kontaktieren."
+  },
+  "inspection": {
+    "hero": {
+      "title": "Zertifizierte Anlageninspektionen",
+      "subtitle": "Unvoreingenommene, detaillierte und schnelle Inspektionsberichte. Wissen Sie genau, was Sie kaufen oder verkaufen, mit unseren standardisierten Bewertungsprotokollen.",
+      "ctaText": "Inspektion planen"
+    },
+    "whyMatter": {
+      "title": "Warum Inspektionen wichtig sind",
+      "description": "Minimieren Sie Risiken und sichern Sie faire Werte mit unseren umfassenden Berichten.",
+      "heading": "Ein tiefer Einblick in die Maschinengesundheit",
+      "content": "Unsere Inspektoren treten nicht nur gegen die Reifen. Wir führen strenge Betriebstests, Fluidanalysen und Unterwagenmessungen durch. Ein typischer Bericht umfasst über 100 Datenpunkte und 50+ hochauflösende Fotos.",
+      "features": [
+        {
+          "title": "Standardisierte Checklisten",
+          "description": "Einheitliche Bewertungskriterien für alle Anlagenkategorien."
+        },
+        {
+          "title": "Visuelle Beweise",
+          "description": "Detaillierte Foto- und Videodokumentation von Verschleiß und Beschädigungen."
+        },
+        {
+          "title": "Digitale Berichte",
+          "description": "Sofortiger Zugriff auf Berichte über unser sicheres Cloud-Portal."
+        }
+      ]
+    },
+    "qualityProcess": {
+      "title": "Qualitätssicherungsprozess",
+      "steps": [
+        {
+          "title": "Buchung & Einsatz",
+          "desc": "Der Inspektor wird basierend auf Anlagentyp und Standort-Expertise zugewiesen.",
+          "side": "left"
+        },
+        {
+          "title": "Vor-Ort-Bewertung",
+          "desc": "Visuelle Prüfung, Betriebstests und Fluidprobenahme werden durchgeführt.",
+          "side": "right"
+        },
+        {
+          "title": "Datenüberprüfung",
+          "desc": "Senior-Techniker überprüfen Rohdaten auf Anomalien.",
+          "side": "left"
+        },
+        {
+          "title": "Berichtsveröffentlichung",
+          "desc": "Endgültiger Bericht wird erstellt, optional mit Wertschätzungen.",
+          "side": "right"
+        }
+      ]
+    },
+    "evaluators": {
+      "title": "Einschätzer-Highlights",
+      "inspectors": [
+        {
+          "name": "Mike T.",
+          "role": "Senior-Spezialist für Schwermaschinen",
+          "quote": "\"Ich habe über 2.000 Bagger inspiziert. Ich weiß genau, wo sich Spannungsrisse verstecken.\""
+        },
+        {
+          "name": "Sarah L.",
+          "role": "Kräne & Hebezeuge",
+          "quote": "\"Sicherheit hat Priorität. Meine Berichte gewährleisten die Einhaltung von OSHA- und ISO-Normen.\""
+        },
+        {
+          "name": "David R.",
+          "role": "LKWs & Fuhrpark",
+          "quote": "\"Die Motordiagnose erzählt die wahre Geschichte. Wir raten nicht, wir messen.\""
+        }
+      ]
+    },
+    "cta": {
+      "title": "Riskieren Sie keinen schlechten Deal.",
+      "subtitle": "Verschaffen Sie sich Fakten, bevor Sie den Scheck ausstellen.",
+      "button": "Musterbericht anfordern"
+    },
+    "modal": {
+      "title": "Inspektion anfordern",
+      "form": {
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "email": "E-Mail-Adresse",
+        "equipment": "Anlagendetails",
+        "location": "Standort der Anlage",
+        "phone": "Telefon",
+        "submit": "Anfrage senden",
+        "responseTime": "Standard-Antwortzeit liegt an Geschäftstagen unter 4 Stunden."
+      },
+      "placeholders": {
+        "firstName": "Max",
+        "lastName": "Mustermann",
+        "email": "max@firma.de",
+        "equipment": "Baujahr, Hersteller, Modell, Seriennummer (falls verfügbar)",
+        "location": "Stadt, Bundesland",
+        "phone": "+49 (0) 151 12345678"
+      }
+    },
+    "successMessage": "Inspektionsanfrage erhalten! Wir werden Sie zur Terminvereinbarung kontaktieren."
+  },
+  "disposition": {
+    "hero": {
+      "title": "Strategische Anlagenverwertung",
+      "subtitle": "Maximieren Sie den Rückgewinnungswert überschüssiger Assets. Wir bieten umweltkonforme, profitable Lösungen für Anlagen am Ende ihrer Lebensdauer oder Überschussanlagen.",
+      "ctaText": "Verwertung starten"
+    },
+    "recoveryProcess": {
+      "title": "Der Asset-Rückgewinnungsprozess",
+      "description": "Machen Sie stillstehende Maschinen zu liquiden Mitteln – sicher und effizient.",
+      "steps": [
+        {
+          "title": "Bewertung",
+          "description": "Wir katalogisieren Ihr Überschussinventar und ermitteln den besten Verwertungskanal: Wiederverkauf, Aufarbeitung oder Recycling."
+        },
+        {
+          "title": "Compliance",
+          "description": "Entfernung gefährlicher Flüssigkeiten, Datenvernichtung und E-Waste-Compliance gemäß EPA-Vorschriften."
+        },
+        {
+          "title": "Verwertung",
+          "description": "Assets werden durch Privatverkauf, Auktion oder Schrottmärkte veräußert, um die Kapitalrendite zu maximieren."
+        }
+      ],
+      "caseStudy": {
+        "title": "Fallstudie: Baumaschinenflotten-Verwertung",
+        "content": "Ein großes Infrastrukturunternehmen musste über 50 Einheiten alter Erdbaumaschinen veräußern. Unser Team übernahm Logistik, Aufarbeitung und Auktionsprozess.",
+        "metrics": [
+          {
+            "value": "120%",
+            "label": "Rückgewinnung vs. Buchwert"
+          },
+          {
+            "value": "30 Tage",
+            "label": "Projektdauer"
+          }
+        ]
+      }
+    },
+    "workflow": {
+      "title": "Wiederverkaufs- & Recycling-Workflow",
+      "features": [
+        {
+          "title": "Logistik & Abtransport",
+          "description": "Wir organisieren den Schwertransport und die Standorträumung."
+        },
+        {
+          "title": "Eigentumsübertragung",
+          "description": "Bearbeitung aller Pfandfreigaben und Eigentumsdokumente."
+        },
+        {
+          "title": "Multi-Channel-Verkauf",
+          "description": "Listung auf globalen Marktplätzen und exklusiven Netzwerken."
+        },
+        {
+          "title": "Grüne Entsorgung",
+          "description": "Zertifiziertes Recycling für nicht verwertbare Komponenten."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Machen Sie aus einer Belastung Liquidität",
+      "button": "Kostenlose Bewertung erhalten"
+    },
+    "modal": {
+      "title": "Anfrage zur Anlagenverwertung",
+      "form": {
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "email": "E-Mail-Adresse",
+        "assets": "Liste der Assets / Inventar",
+        "location": "Standort der Assets",
+        "company": "Unternehmen",
+        "submit": "Zur Bewertung einreichen",
+        "responseTime": "Unser Team liefert in der Regel vorläufige Bewertungen innerhalb von 2 Werktagen."
+      },
+      "placeholders": {
+        "firstName": "Max",
+        "lastName": "Mustermann",
+        "email": "max@firma.de",
+        "assets": "Bitte listen Sie Hauptgegenstände auf oder geben Sie eine Zusammenfassung des Loses an...",
+        "location": "Stadt, Bundesland",
+        "company": "Firmenname"
+      }
+    },
+    "successMessage": "Verwertungsanfrage eingereicht. Ein Verwertungsspezialist wird Ihre Assets prüfen."
+  },
+  "consignment": {
+    "hero": {
+      "title": "Konsignationslager-Dienstleistungen",
+      "subtitle": "Sichere Lagerung und professionelles Verkaufsmanagement für Ihre Schwermaschinen. Sie behalten das Eigentum, wir übernehmen den Verkauf.",
+      "ctaText": "Anlage in Konsignation geben"
+    },
+    "hassleFree": {
+      "title": "Verkauf ohne Aufwand",
+      "description": "Wir lagern, warten und verkaufen Ihre Assets von unseren gesicherten Depots aus.",
+      "revenueModel": {
+        "title": "Umsatzbeteiligungsmodell",
+        "content": "Im Gegensatz zu Auktionen, bei denen Sie die Preiskontrolle verlieren, setzt unser Konsignationsmodell Sie in die Fahrerposition. Wir vereinbaren einen Nettopreis oder einen prozentualen Provisionssatz.",
+        "features": [
+          {
+            "label": "Marketing & Listung",
+            "value": "Inklusive"
+          },
+          {
+            "label": "Lagerung (90 Tage)",
+            "value": "Kostenlos"
+          },
+          {
+            "label": "Wartung/Reinigung",
+            "value": "Inklusive"
+          },
+          {
+            "label": "Provision",
+            "value": "8–12%"
+          }
+        ]
+      },
+      "benefits": [
+        {
+          "title": "Top-Lagen",
+          "description": "Unsere Konsignationslager liegen in der Nähe von großen Häfen und Autobahnen für einfachen Käuferzugang und Logistik."
+        },
+        {
+          "title": "Maximale Sichtbarkeit",
+          "description": "Laufkundschaft kombiniert mit Premium-Digitalplatzierungen stellt sicher, dass Ihre Anlage von ernsthaften Käufern gesehen wird."
+        },
+        {
+          "title": "Sichere Einrichtungen",
+          "description": "24/7-Sicherheitsüberwachung, umzäunte Depots und regelmäßige Batterie-/Fluidwartung während der Lagerung."
+        }
+      ]
+    },
+    "tracking": {
+      "title": "Tracking & Transparenz",
+      "features": [
+        {
+          "title": "Echtzeit-Inventar",
+          "description": "Sehen Sie Ihre konsignierten Assets in unserem Portal. Prüfen Sie den Status, sehen Sie Aufrufzahlen und verwalten Sie Angebote."
+        },
+        {
+          "title": "Dynamische Preisgestaltung",
+          "description": "Wir geben datengestützte Preisempfehlungen basierend auf dem Marktinteresse, um einen zeitnahen Verkauf zu gewährleisten."
+        },
+        {
+          "title": "Performance-Berichte",
+          "description": "Wöchentliche Updates zu Leads, Anfragen und durchgeführten Vor-Ort-Inspektionen Ihrer Anlage."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Platz in unseren Top-Depots ist begrenzt.",
+      "subtitle": "Reservieren Sie noch heute und bringen Sie Ihre Anlage vor qualifizierte Käufer.",
+      "button": "Platz reservieren"
+    },
+    "modal": {
+      "title": "Konsignationsanfrage",
+      "form": {
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "email": "E-Mail-Adresse",
+        "equipment": "Anlagenbeschreibung",
+        "location": "Aktueller Standort",
+        "phone": "Telefon",
+        "submit": "Anfrage senden",
+        "agreement": "Mit dem Absenden stimmen Sie unseren Konsignationsbedingungen und der Datenschutzrichtlinie zu."
+      },
+      "placeholders": {
+        "firstName": "Max",
+        "lastName": "Mustermann",
+        "email": "max@firma.de",
+        "equipment": "Z.B., CAT 320 Bagger, Baujahr 2018...",
+        "location": "Stadt, Bundesland",
+        "phone": "+49 (0) 151 12345678"
+      }
+    },
+    "successMessage": "Konsignationsplatz reserviert! Wir werden Sie zur Finalisierung der Details kontaktieren."
+  },
+  "logistics": {
+    "hero": {
+      "title": "Logistik für Schwermaschinen",
+      "subtitle": "Door-to-Door Transportlösungen für übergroße Fracht. Wir übernehmen Demontage, Verpackung, Spedition und Zollabwicklung.",
+      "ctaText": "Versandangebot einholen"
+    },
+    "forwarding": {
+      "title": "Globales Speditionsnetzwerk",
+      "description": "Nahtloser Transport von Schwermaschinen über Grenzen und Ozeane hinweg.",
+      "globe": {
+        "title": "Vernetzung von 150+ Häfen weltweit",
+        "subtitle": "Live-Tracking für alle See- und Luftfracht verfügbar."
+      },
+      "services": [
+        {
+          "title": "Nationaler Schwertransport",
+          "description": "Spezial-Lowboys und RGN-Tieflader für übergroße Ladungen. Wir übernehmen alle Genehmigungen und Begleitfahrzeug-Anforderungen."
+        },
+        {
+          "title": "RoRo & Container",
+          "description": "Flexible Seefracht-Optionen. Roll-on/Roll-off für fahrbare Einheiten oder Containerisierung für demontierte Teile."
+        },
+        {
+          "title": "Demontage & Verpackung",
+          "description": "Professionelle Demontage, um große Maschinen in Standardcontainer zu verpacken, was die Versandkosten erheblich senkt."
+        }
+      ]
+    },
+    "workflow": {
+      "title": "Versand-Workflow",
+      "steps": [
+        {
+          "title": "Angebot & Planung",
+          "text": "Routenanalyse und Kostenschätzung basierend auf Abmessungen und Gewicht."
+        },
+        {
+          "title": "Vorbereitung & Abholung",
+          "text": "Reinigung (für Quarantänebestimmungen) und Verladung auf das Transportmittel."
+        },
+        {
+          "title": "Exportzoll",
+          "text": "Einreichung der Dokumente (AES, Handelsrechnung, Packliste)."
+        },
+        {
+          "title": "Seefracht",
+          "text": "Abfahrt des Schiffs und Überwachung der Transitphase."
+        },
+        {
+          "title": "Import & Auslieferung",
+          "text": "Zollabfertigung am Zielort und letzte Meile der Lieferung."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Müssen Sie schwere Maschinen transportieren?",
+      "subtitle": "Unsere Logistik-Experten sind bereit, Ihre Route zu planen.",
+      "buttons": {
+        "quote": "Angebot anfordern",
+        "track": "Sendung verfolgen"
+      }
+    },
+    "modal": {
+      "title": "Versandangebot anfordern",
+      "form": {
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "email": "E-Mail-Adresse",
+        "equipment": "Anlagendetails",
+        "origin": "Startort",
+        "destination": "Zielort",
+        "submit": "Anfrage senden",
+        "agreement": "Mit dem Absenden stimmen Sie unserer Datenschutzrichtlinie zu. Angebote sind 7 Tage gültig."
+      },
+      "placeholders": {
+        "firstName": "Max",
+        "lastName": "Mustermann",
+        "email": "max@firma.de",
+        "equipment": "Z.B., CAT 320 Bagger, Baujahr 2018, ca. 20.400 kg",
+        "origin": "Stadt, Land",
+        "destination": "Stadt, Land"
+      }
+    },
+    "successMessage": "Angebotsanfrage erfolgreich gesendet! Ein Logistik-Koordinator wird Sie in Kürze kontaktieren."
+  },
+  "brandStory": {
+    "sectionTitle": "Abschnitt 01 — Markengeschichte",
+    "heading": "Unsere Geschichte",
+    "title": "Vision Semiconductor Solutions LLC wurde mit dem klaren Ziel gegründet, die Zukunft der Technologie anzutreiben.",
+    "content": [
+      "Vision Semiconductor Solutions (VSS) unterstützt die globale Halbleiterfertigungsindustrie mit Präzision, Innovation und Transparenz. Was als Quelle für Überschuss- und Ersatzteile begann, hat sich zu einer Plattform für Wissen, technische Exzellenz und globale Zusammenarbeit entwickelt.",
+      "Verwurzelt in technischer Expertise strebt VSS danach, ein vertrauenswürdiger Knotenpunkt für Lösungen, Bildung und Brancheneinfluss innerhalb des Halbleiter-Ökosystems zu werden."
+    ],
+    "founder": {
+      "name": "Vision Semiconductor Solutions",
+      "role": "Globales Führungsteam",
+      "quote": "\"Wir sind zuerst uns selbst verantwortlich, dann unserem Team, unseren Kunden und unserer Gemeinschaft.\""
+    }
+  },
+  "missionVision": {
+    "intro": "Die Branche vorantreiben",
+    "mission": {
+      "section": "Abschnitt 02",
+      "title": "Mission",
+      "heading": "Die Zukunft der Halbleiterlösungen ermöglichen",
+      "content": "Unsere Mission ist es, zuverlässige Halbleiteranlagen und Wissen für Ingenieure, Hersteller und Innovatoren weltweit bereitzustellen. Wir machen Hochleistungslösungen zugänglich, effizient und skalierbar – und befähigen so die nächste Generation von Technologie und Fertigungsexzellenz."
+    },
+    "vision": {
+      "section": "Abschnitt 03",
+      "title": "Vision",
+      "heading": "Das Morgen heute gestalten",
+      "content": "Wir sehen uns als globales Zentrum für Halbleiterlösungen, Bildung und Branchenführung. Durch Klarheit, Innovation und langfristiges Engagement wollen wir die Zukunft des Halbleiter-Ökosystems beeinflussen und den technologischen Fortschritt weltweit voranbringen."
+    }
+  },
+  "team": {
+    "title": "Unser Team verfügt über mehr als 100 Jahre kombinierte Erfahrung!",
+    "subtitle": "Unser Team bringt Erfahrung, Innovation und Kreativität in die Halbleiterbranche ein, um sicherzustellen, dass Ihre Pläne in guten Händen sind.",
+    "members": [
+      {
+        "name": "Mike Simorangkir",
+        "role": "Gründer & CEO",
+        "bio": "Mike, MBA, verfügt über 15+ Jahre Erfahrung in Halbleiter-Geschäftsstrategien und der Entwicklung von Mehrzweckanlagen."
+      },
+      {
+        "name": "Stanley George",
+        "role": "Ehem. EVP & CCO",
+        "bio": "Stanley war bis September 2005 Partner bei Heenan Blaikie LLP und spezialisierte sich auf globale Tech-Compliance."
+      },
+      {
+        "name": "Eliza Baker",
+        "role": "VP, Betrieb",
+        "bio": "Eliza, MBA, verfügt über 12+ Jahre Erfahrung in kommerzieller Logistik und Halbleiter-Lieferkettenmanagement."
+      },
+      {
+        "name": "Sally Cruz",
+        "role": "Chief Marketing Officer",
+        "bio": "Sally verfügt über 10+ Jahre Erfahrung in den kanadischen und asiatisch-pazifischen Tech-Märkten."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Partner von Vision Semiconductor Solutions werden",
+    "subtitle": "Entdecken Sie, wie unsere Präzision und Innovation Ihren nächsten Technologiesprung antreiben kann.",
+    "button": "Kontaktieren Sie uns"
+  },
+  "accessCTA": {
+    "hero": {
+      "badge": "Exklusiver Zugang",
+      "title": "Schalten Sie die ultimative <1>Wissensdatenbank</1> frei",
+      "subtitle": "Voller Zugriff auf Halbleiterberichte, Whitepapers, Deep-Tech-Insights und von Experten kuratierte Ressourcen.",
+      "buttons": {
+        "trial": "Kostenlose Testphase starten",
+        "explore": "Bibliothek erkunden"
+      }
+    },
+    "valueProposition": {
+      "title": "Warum Profis uns wählen",
+      "subtitle": "Vertrauenswürdige Halbleiter-Intelligenz für Ingenieure, Analysten und Entscheidungsträger.",
+      "cards": [
+        {
+          "title": "Echtzeit-Einblicke",
+          "description": "Bleiben Sie mit kontinuierlich aktualisierten Markt- und Technologieinformationen zur Halbleiterbranche einen Schritt voraus."
+        },
+        {
+          "title": "Verifizierte Quellen",
+          "description": "Jede Ressource wird von Branchenexperten auf technische Genauigkeit und Relevanz geprüft."
+        },
+        {
+          "title": "Globale Community",
+          "description": "Werden Sie Teil eines Netzwerks von Ingenieuren, Forschern und Führungskräften, die die Zukunft der Technologie gestalten."
+        }
+      ]
+    }
+  },
+  "podcasts": {
+    "hero": {
+      "title": "Wir gestalten eine schnellere, intelligentere Podcast-<1>Zukunft.</1>",
+      "subtitle": "Erleben Sie einen datengestützten Ansatz, der auf Expertise, Partnerschaft und langfristiger Klarheit basiert – und mehr bietet als nur Audio.",
+      "buttons": {
+        "explore": "Episoden erkunden",
+        "schedule": "Gespräch vereinbaren"
+      }
+    },
+    "featured": {
+      "title": "Neueste Episoden",
+      "featuredBadge": "EMPFOHLEN",
+      "featuredEpisode": {
+        "title": "Folge 100: Ein Jahrhundert Silizium",
+        "description": "Wir blicken auf die Geschichte der Halbleiter zurück und schauen auf den Quantensprung, der uns im nächsten Jahrzehnt erwartet.",
+        "button": "Jetzt anhören"
+      }
+    },
+    "episodes": {
+      "categories": [
+        "Technologie",
+        "Business",
+        "Gesundheit",
+        "Design",
+        "Marketing",
+        "Wissenschaft"
+      ],
+      "episode": {
+        "showNotes": "Shownotes",
+        "duration": "{{duration}}"
+      }
+    },
+    "sidebar": {
+      "newsletter": {
+        "title": "Bleiben Sie auf dem Laufenden",
+        "subtitle": "Schließen Sie sich 10.000+ Ingenieuren an, die unseren wöchentlichen Branchenüberblick erhalten.",
+        "placeholder": "Ihre E-Mail-Adresse",
+        "button": "Kostenlos anmelden"
+      },
+      "about": {
+        "title": "Über Vision",
+        "content": "Vision Semiconductor Solutions LLC bietet wegweisende Einblicke in die Hardware, die unsere Welt antreibt. Vom Silizium bis zu den Systemen.",
+        "link": "Mehr erfahren →"
+      }
+    }
+  },
+  "whitePapers": {
+    "hero": {
+      "title": "Forschung & Whitepapers",
+      "subtitle": "Halbleiter-Markeinblicke, Fertigungstrends und Technologie-Briefings."
+    },
+    "featured": {
+      "editorsPick": "Auswahl der Redaktion",
+      "title": "Der Stand globaler Chip-Innovation 2024",
+      "description": "Analyse von Fab-Expansionen, Lieferkettenresilienz, Durchbrüchen in der Lithografie und Wettbewerbsdynamiken, die die Halbleiter-Ökosysteme der nächsten Generation prägen.",
+      "buttons": {
+        "download": "PDF herunterladen",
+        "summary": "Zusammenfassung lesen"
+      }
+    },
+    "recent": {
+      "title": "Aktuelle Veröffentlichungen",
+      "papers": [
+        {
+          "title": "Strategische Insights Vol. 1",
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+        },
+        {
+          "title": "Strategische Insights Vol. 2",
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+        },
+        {
+          "title": "Strategische Insights Vol. 3",
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+        }
+      ],
+      "button": "Ansehen"
+    }
+  },
+  "blog": {
+    "latestNews": {
+      "title": "Neueste Nachrichten",
+      "featured": {
+        "category": "HALBLEITER-INSIGHTS",
+        "title": "Globale Fabs kämpfen mit der Skalierung fortschrittlicher Verpackungstechnologien bei steigender KI-Chip-Nachfrage",
+        "summary": "Chiphersteller weltweit eilen, um Kapazitäten für fortgeschrittene Verpackungen auszubauen, aber Engpässe bei Lithografie-Tools und Materialien behindern die Produktionssteigerung."
+      },
+      "smallArticles": [
+        {
+          "category": "FABTECHNOLOGIE",
+          "title": "Neue Durchbrüche in der EUV-Lithografie versprechen höhere Ausbeute bei 2nm-Knoten..."
+        },
+        {
+          "category": "LIEFERKETTE",
+          "title": "Der globale Silizium-Wafer-Engpass wird sich bis 2026 fortsetzen..."
+        },
+        {
+          "category": "ANLAGENINNOVATION",
+          "title": "Etching-Anlagenhersteller drängen neue Plasma-Technologien für Strukturen unter 3nm..."
+        }
+      ]
+    },
+    "gridSection": {
+      "title": "Geschäfts-, Reserve- und<br/>Tresorkonten",
+      "articles": [
+        {
+          "category": "FERTIGUNG",
+          "title": "Chiphersteller investieren Milliarden, um globale Fertigungskapazitäten auszubauen",
+          "summary": "Führende Halbleiterunternehmen beschleunigen den Fabausbau, um die Nachfrage nach KI, E-Autos und Elektronik der nächsten Generation zu decken."
+        },
+        {
+          "category": "ANLAGEN",
+          "title": "Neue Wafer-Metrologiesysteme verbessern Präzision auf atomarer Ebene",
+          "summary": "Fortschrittliche Inspektionstools entwickeln sich weiter, während sich Halbleiterstrukturen auf Ängstrom-Größen verkleinern."
+        },
+        {
+          "category": "F&E-INNOVATION",
+          "title": "Forscher untersuchen 3D-Silizium-Stapelung zur Steigerung der Rechendichte",
+          "summary": "Innovationen in der Wärmeableitung und Verbindungstechnologie sind der Schlüssel zur Skalierung gestapelter Halbleiterarchitekturen."
+        }
+      ],
+      "button": "Alle Artikel ansehen"
+    },
+    "common": {
+      "author": "Dr. Ethan Park",
+      "date": "25. Jan. 2025"
+    }
+  },
+  "ebooks": {
+    "hero": {
+      "title": "Wissensbibliothek",
+      "subtitle": "Technische eBooks, Halbleiter-Insights und Premium-Ingenieursleitfäden – kostenlos für alle Fachleute."
+    },
+    "books": [
+      {
+        "title": "Mastering Digital Transformation",
+        "author": "Dr. Sarah Connor",
+        "description": "Ein kuratierter Leitfaden mit technischen Einblicken, Best Practices und branchenrelevantem Wissen."
+      },
+      {
+        "title": "The Agile Leadership Guide",
+        "author": "James Cameron",
+        "description": "Ein kuratierter Leitfaden mit technischen Einblicken, Best Practices und branchenrelevantem Wissen."
+      },
+      {
+        "title": "Data Science for Executives",
+        "author": "Ellen Ripley",
+        "description": "Ein kuratierter Leitfaden mit technischen Einblicken, Best Practices und branchenrelevantem Wissen."
+      },
+      {
+        "title": "Cybersecurity Essentials",
+        "author": "Neo Anderson",
+        "description": "Ein kuratierter Leitfaden mit technischen Einblicken, Best Practices und branchenrelevantem Wissen."
+      }
+    ],
+    "buttons": {
+      "readOnline": "Online lesen",
+      "download": "Herunterladen"
+    },
+    "common": {
+      "by": "von",
+      "pages": "{{count}} Seiten"
+    }
+  },
+  "industryNews": {
+    "pageTitle": "Nachrichten der Halbleiterindustrie",
+    "featured": {
+      "badge": "Eilmeldung",
+      "title": "Großer Durchbruch in der Quantenchip-Effizienz heute bekannt gegeben"
+    },
+    "categories": [
+      "Alle",
+      "Chipfertigung",
+      "Regulierung",
+      "Startups",
+      "Unternehmen",
+      "F&E"
+    ],
+    "newsItems": [
+      {
+        "title": "Globale Chipmärkte erholen sich, da KI-Nachfrage Rekordhöhen erreicht",
+        "excerpt": "Moderne Fabs, neue Lithografie-Durchbrüche und geopolitische Regulierung prägen weiterhin das Halbleiter-Ökosystem.",
+        "category": "Chipfertigung"
+      },
+      {
+        "title": "Neue Halbleiter-Exportregeln schaffen Unsicherheit in der Branche",
+        "excerpt": "Moderne Fabs, neue Lithografie-Durchbrüche und geopolitische Regulierung prägen weiterhin das Halbleiter-Ökosystem.",
+        "category": "Regulierung"
+      }
+    ],
+    "sidebar": {
+      "trending": {
+        "title": "Trendthemen",
+        "tags": [
+          "#EUVLithographie",
+          "#ChipFertigung",
+          "#KIChips",
+          "#3DNAND",
+          "#Quantencomputing"
+        ]
+      },
+      "subscribe": {
+        "title": "Täglicher Halbleiter-Newsletter",
+        "description": "Erhalten Sie jeden Morgen die wichtigsten Schlagzeilen der Chipindustrie.",
+        "placeholder": "E-Mail-Adresse",
+        "button": "Anmelden"
+      }
+    },
+    "common": {
+      "readFullStory": "Ganzen Artikel lesen",
+      "author": "Dr. Jane Doe",
+      "featuredAuthor": "Dr. John Smith",
+      "date": "{{day}}. Jan. 2025"
+    }
+  },
+  "products": {
+    "tabsData": [
+      {
+        "id": "Modular architecture",
+        "label": "Modulare Architektur",
+        "number": "01",
+        "title": "Modulare Architektur",
+        "description": "Entdecken Sie Anlagen führender OEMs einschließlich ASML, Applied Materials, Lam Research, TEL und KLA.",
+        "cta": "Mehr erfahren"
+      },
+      {
+        "id": "Opportunities",
+        "label": "Angebote",
+        "number": "02",
+        "title": "Ausgewählte Angebote",
+        "description": "Zugriff auf exklusive High-Value-Listings, seltene Systeme und wettbewerbsfähig preisgünstige, gefragte Halbleiter-Tools.",
+        "cta": "Mehr erfahren"
+      },
+      {
+        "id": "New Inventory",
+        "label": "Neues Inventar",
+        "number": "03",
+        "title": "Neu eingetroffen",
+        "description": "Entdecken Sie die neuesten Zugänge, von modernsten Wafer-Tools bis hin zu aufgearbeiteten, produktionsbereiten Systemen.",
+        "cta": "Mehr erfahren"
+      },
+      {
+        "id": "Portal",
+        "label": "Portal",
+        "number": "04",
+        "title": "Kundenportal",
+        "description": "Angebote anfordern, Bestellungen verwalten und Beschaffung mit einem vereinheitlichten Kunden-Arbeitsbereich optimieren.",
+        "cta": "Mehr erfahren"
+      }
+    ]
+  }
+}
