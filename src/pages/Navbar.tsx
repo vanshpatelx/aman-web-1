@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import { gsap } from "gsap";
+import gsap from "gsap";
 import { useTranslation } from "react-i18next";
 import { Globe, Menu, X } from "lucide-react";
 
@@ -209,7 +209,7 @@ const Navbar: React.FC = () => {
                   ].map((lang) => (
                     <button
                       type="button"
-                       title={languageLabels[lang]}
+                      title={languageLabels[lang]}
                       key={lang}
                       onClick={() => changeLang(lang)}
                       className="px-3 py-1 border border-white/20 rounded text-white hover:bg-white/10"

@@ -1,6 +1,7 @@
 import ReactDOMServer from 'react-dom/server';
 import { StaticRouter } from 'react-router-dom/server';
 import App from './App';
+import './i18n';
 
 export function render(url: string) {
   const html = ReactDOMServer.renderToString(
@@ -8,7 +9,7 @@ export function render(url: string) {
       <App />
     </StaticRouter>
   );
-  
+
   return html;
 }
 
