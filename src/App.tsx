@@ -1,4 +1,5 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
+import { useRef } from "react";
 
 import './App.css'
 import Hero from './pages/Hero.tsx'
@@ -10,7 +11,6 @@ import { Equipment } from "./pages/Equipment.tsx";
 import { MarqueeSection } from "./pages/MarqueeSection.tsx";
 import Products from "./pages/Products.tsx";
 import Numbers from "./pages/Numbers.tsx";
-import { AuroraBackgroundProps } from "./components/AuroraBackground.tsx";
 import AccessCTAPage from "./pages/ContentSections/AccessCTAPage.tsx";
 import BlogPage from "./pages/ContentSections/BlogPage.tsx";
 import EbooksPage from "./pages/ContentSections/EbooksPage.tsx";
@@ -22,27 +22,37 @@ import Consignment from "./pages/SolutionScetions/Consignment.tsx";
 import Disposition from "./pages/SolutionScetions/Disposition.tsx";
 import Inspection from "./pages/SolutionScetions/Inspection.tsx";
 import Logistics from "./pages/SolutionScetions/Logistics.tsx";
+import { PersistentMorphScene } from "./components/PersistentMorphScene.tsx";
+
+function HomePage() {
+  const heroRef = useRef<HTMLElement>(null);
+  const aboutRef = useRef<HTMLElement>(null);
+
+  return (
+    <>
+      {/* Persistent 3D scene that morphs from globe to wafer */}
+      <PersistentMorphScene heroRef={heroRef} aboutRef={aboutRef} />
+      
+      <Hero ref={heroRef} />
+      <About ref={aboutRef} />
+      <Numbers />
+      <Services />
+      <Equipment />
+      <MarqueeSection />
+      <Products />
+      <Footer />
+    </>
+  );
+}
 
 function App() {
+  const location = useLocation();
+  const isHomePage = location.pathname === '/';
+
   return (
     <Routes>
-
       {/* Home Route — includes everything */}
-      <Route
-        path="/"
-        element={
-          <>
-            <Hero />
-            <About />
-            <Numbers/>
-            <Services />
-            <Equipment/>
-            <MarqueeSection/>
-            <Products/>
-            <Footer />
-          </>
-        }
-      />
+      <Route path="/" element={<HomePage />} />
 
       {/* Other Routes — empty for now */}
       <Route path="/about" element={<AboutPage/>} />

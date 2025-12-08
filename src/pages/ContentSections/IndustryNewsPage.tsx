@@ -9,9 +9,9 @@ const IndustryNewsPage: React.FC = () => {
    const { t } = useTranslation();
 
   // Get translated data
-  const categories = t('industryNews.categories', { returnObjects: true });
-  const newsItemsData = t('industryNews.newsItems', { returnObjects: true });
-  const trendingTags = t('industryNews.sidebar.trending.tags', { returnObjects: true });
+  const categories = t('industryNews.categories', { returnObjects: true }) as string[];
+  const newsItemsData = t('industryNews.newsItems', { returnObjects: true }) as { title: string; excerpt: string; category: string }[];
+  const trendingTags = t('industryNews.sidebar.trending.tags', { returnObjects: true }) as string[];
 
   // Map news items with translated data
   const newsItems = newsItemsData.map((item, i) => ({

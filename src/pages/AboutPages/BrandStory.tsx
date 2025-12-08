@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 
 const BrandStory: React.FC = () => {
   const { t } = useTranslation();
-  const content = t('brandStory.content', { returnObjects: true });
+  const content = t('brandStory.content', { returnObjects: true }) as string[];
   return (
     <section className="relative py-20 sm:py-28 lg:py-32 bg-[#00020F]">
       <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-6 xl:px-0">

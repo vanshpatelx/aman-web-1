@@ -10,9 +10,9 @@ import { Trans, useTranslation } from 'react-i18next';
 const BlogPage: React.FC = () => {
   const { t } = useTranslation();
 
-   const featuredArticle = t('blog.latestNews.featured', { returnObjects: true });
-  const smallArticles = t('blog.latestNews.smallArticles', { returnObjects: true });
-  const gridArticles = t('blog.gridSection.articles', { returnObjects: true });
+   const featuredArticle = t('blog.latestNews.featured', { returnObjects: true }) as { category: string; title: string; summary: string };
+  const smallArticles = t('blog.latestNews.smallArticles', { returnObjects: true }) as { category: string; title: string }[];
+  const gridArticles = t('blog.gridSection.articles', { returnObjects: true }) as { category: string; title: string; summary: string }[];
 
     // Map data to include IDs and image URLs
   const FEATURED_ARTICLE = {

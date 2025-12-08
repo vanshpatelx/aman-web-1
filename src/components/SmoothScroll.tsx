@@ -21,7 +21,6 @@ export function SmoothScroll({ children }: SmoothScrollProps) {
         gestureOrientation: 'vertical',
         smoothWheel: true,
         wheelMultiplier: 1,
-        smoothTouch: false,
         touchMultiplier: 2,
         infinite: false,
       });
@@ -51,7 +50,7 @@ export function SmoothScroll({ children }: SmoothScrollProps) {
       // Handle hash links
       const hash = location.hash;
       if (hash) {
-        const element = document.querySelector(hash);
+        const element = document.querySelector(hash) as HTMLElement | null;
         if (element) {
           setTimeout(() => {
             lenisRef.current?.scrollTo(element, { offset: 0, duration: 1.5 });
@@ -66,4 +65,3 @@ export function SmoothScroll({ children }: SmoothScrollProps) {
 
   return <>{children}</>;
 }
-

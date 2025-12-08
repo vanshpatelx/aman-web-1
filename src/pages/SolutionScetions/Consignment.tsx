@@ -18,9 +18,9 @@ const Consignment: React.FC = () => {
     }, 500);
   };
 
-  const revenueFeatures = t('consignment.hassleFree.revenueModel.features', { returnObjects: true });
-  const benefits = t('consignment.hassleFree.benefits', { returnObjects: true });
-  const trackingFeatures = t('consignment.tracking.features', { returnObjects: true });
+  const revenueFeatures = t('consignment.hassleFree.revenueModel.features', { returnObjects: true }) as { label: string; value: string }[];
+  const benefits = t('consignment.hassleFree.benefits', { returnObjects: true }) as { title: string; description: string }[];
+  const trackingFeatures = t('consignment.tracking.features', { returnObjects: true }) as { title: string; description: string }[];
 
   return (
     <div className="animate-fade-in">

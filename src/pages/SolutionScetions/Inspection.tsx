@@ -18,9 +18,9 @@ const Inspection: React.FC = () => {
     }, 500);
   };
 
-  const features = t('inspection.whyMatter.features', { returnObjects: true });
-  const qualitySteps = t('inspection.qualityProcess.steps', { returnObjects: true });
-  const inspectors = t('inspection.evaluators.inspectors', { returnObjects: true });
+  const features = t('inspection.whyMatter.features', { returnObjects: true }) as { title: string; description: string }[];
+  const qualitySteps = t('inspection.qualityProcess.steps', { returnObjects: true }) as { title: string; desc: string; side: string }[];
+  const inspectors = t('inspection.evaluators.inspectors', { returnObjects: true }) as { name: string; role: string; quote: string }[];
 
   return (
     <div className="animate-fade-in">

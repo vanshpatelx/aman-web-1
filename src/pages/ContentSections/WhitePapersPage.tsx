@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 const WhitePapersPage: React.FC = () => {
 
     const { t } = useTranslation();
-     const whitePapersData = t('whitePapers.recent.papers', { returnObjects: true });
+     const whitePapersData = t('whitePapers.recent.papers', { returnObjects: true }) as { title: string; summary: string }[];
   
   const whitePapers = whitePapersData.map((paper, i) => ({
     id: i,

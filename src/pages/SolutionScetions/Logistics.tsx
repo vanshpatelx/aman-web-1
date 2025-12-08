@@ -19,8 +19,8 @@ const Logistics: React.FC = () => {
     }, 500);
   };
 
-  const services = t('logistics.forwarding.services', { returnObjects: true });
-  const workflowSteps = t('logistics.workflow.steps', { returnObjects: true });
+  const services = t('logistics.forwarding.services', { returnObjects: true }) as { title: string; description: string }[];
+  const workflowSteps = t('logistics.workflow.steps', { returnObjects: true }) as { title: string; text: string }[];
 
   return (
     <div className="animate-fade-in">

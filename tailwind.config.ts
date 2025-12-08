@@ -17,6 +17,7 @@ export default {
         'namian': ['Namian', 'serif'],
         'poppins': ['Poppins', 'sans-serif'],
         'forum': ['Forum', 'serif'],
+        'bricolage': ['Bricolage Grotesque', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",

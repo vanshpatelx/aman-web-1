@@ -139,9 +139,25 @@ const Navbar: React.FC = () => {
         <div className="flex md:hidden items-center gap-4">
 
           {/* Language Icon */}
-          <button title="globe" onClick={() => setOpenLang(!openLang)} className="text-blue-700 hidden md:block">
-            <Globe size={20} />
-          </button>
+          <div className="relative">
+            <button title="globe" onClick={() => setOpenLang(!openLang)} className="text-blue-700">
+              <Globe size={20} />
+            </button>
+            {openLang && (
+              <div className="absolute right-0 mt-2 bg-[#00020F] border border-white/20 rounded-md py-2 w-40 z-[100] max-h-60 overflow-y-auto">
+                {Object.keys(languageLabels).map((lang) => (
+                  <button
+                    type="button"
+                    key={lang}
+                    onClick={() => changeLang(lang)}
+                    className="block w-full px-4 py-2 text-left hover:bg-white/10 text-white text-sm"
+                  >
+                    {languageLabels[lang as keyof typeof languageLabels]}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
 
           {/* Hamburger Menu */}
           <button onClick={() => setMobileMenu(!mobileMenu)} className="text-white">

@@ -8,7 +8,7 @@ const EbooksPage: React.FC = () => {
   const { t } = useTranslation();
 
 
-  const ebooksData = t('ebooks.books', { returnObjects: true });
+  const ebooksData = t('ebooks.books', { returnObjects: true }) as { title: string; author: string; description: string }[];
 
   const ebooks = ebooksData.map((book, index) => ({
     id: index + 1,

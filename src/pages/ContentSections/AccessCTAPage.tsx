@@ -9,7 +9,7 @@ const AccessCTAPage: React.FC = () => {
   const navigate = useNavigate();
    const { t } = useTranslation();
 
-  const valueCards = t('accessCTA.valueProposition.cards', { returnObjects: true });
+  const valueCards = t('accessCTA.valueProposition.cards', { returnObjects: true }) as { title: string; description: string }[];
 
   return (
     <div className="flex flex-col min-h-screen bg-[#00020F] text-[#b2b8ca]">

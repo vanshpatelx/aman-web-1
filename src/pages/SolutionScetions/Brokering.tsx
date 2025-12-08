@@ -21,10 +21,10 @@ const Brokering: React.FC = () => {
   };
 
     // Get translated data
-  const workflowSteps = t('brokering.workflow.steps', { returnObjects: true });
-  const featureItems = t('brokering.features.items', { returnObjects: true });
-  const marketplaceStats = t('brokering.marketplace.stats', { returnObjects: true });
-  const modalOptions = t('brokering.modal.options', { returnObjects: true });
+  const workflowSteps = t('brokering.workflow.steps', { returnObjects: true }) as { step: string; title: string; desc: string }[];
+  const featureItems = t('brokering.features.items', { returnObjects: true }) as { title: string; description: string }[];
+  const marketplaceStats = t('brokering.marketplace.stats', { returnObjects: true }) as string[];
+  const modalOptions = t('brokering.modal.options', { returnObjects: true }) as string[];
 
   return (
     <div className="animate-fade-in">

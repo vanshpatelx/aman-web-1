@@ -1,54 +1,14 @@
 'use client'
 
-import { useRef, useEffect } from "react";
+import { forwardRef } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { Variants } from "framer-motion";
 import Navbar from "./Navbar";
 import { useTranslation } from "react-i18next";
-import GlobeBackground from "@/components/GlobeBackground";
 
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-gsap.registerPlugin(ScrollTrigger);
-
-export default function Hero() {
+const Hero = forwardRef<HTMLElement>((_, ref) => {
   const { t } = useTranslation();
-
-  // Refs
-  const globeRef = useRef(null);
-  const heroRef = useRef(null);
-
-  // GSAP ScrollTrigger
- useEffect(() => {
-  if (!globeRef.current || !heroRef.current) return;
-
-  // Run GSAP only on medium (>=768px) and above
-  if (window.innerWidth < 768) return;
-
-  const ctx = gsap.context(() => {
-    gsap.fromTo(
-      globeRef.current,
-      { y: 0, x: 0 },
-      {
-        x: 300,
-        scale: 0.3,
-        y: 700,
-        ease: "none",
-        scrollTrigger: {
-          trigger: heroRef.current,
-          start: "top top",
-          end: "bottom top",
-          scrub: true,
-        },
-      }
-    );
-  });
-
-  return () => ctx.revert();
-}, []);
-
 
   // Framer Variants
   const containerVariants: Variants = {
@@ -69,20 +29,11 @@ export default function Hero() {
   };
 
   return (
-    <section>
+    <section ref={ref}>
       <div
         id="home"
-        ref={heroRef}
         className="relative h-full min-h-screen text-[#F7F7F7] overflow-hidden z-10"
       >
-        {/* Globe wrapper for GSAP */}
-        <div
-          ref={globeRef}
-          className="absolute inset-0 z-20 flex justify-center items-end pointer-events-none"
-        >
-          <GlobeBackground />
-        </div>
-
         <Navbar />
 
         {/* Hero Content */}
@@ -127,4 +78,8 @@ export default function Hero() {
       </div>
     </section>
   );
-}
+});
+
+Hero.displayName = 'Hero';
+
+export default Hero;

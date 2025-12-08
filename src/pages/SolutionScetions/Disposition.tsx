@@ -19,9 +19,9 @@ const Disposition: React.FC = () => {
     }, 500);
   };
 
-  const recoverySteps = t('disposition.recoveryProcess.steps', { returnObjects: true });
-  const caseStudyMetrics = t('disposition.recoveryProcess.caseStudy.metrics', { returnObjects: true });
-  const workflowFeatures = t('disposition.workflow.features', { returnObjects: true });
+  const recoverySteps = t('disposition.recoveryProcess.steps', { returnObjects: true }) as { title: string; description: string }[];
+  const caseStudyMetrics = t('disposition.recoveryProcess.caseStudy.metrics', { returnObjects: true }) as { value: string; label: string }[];
+  const workflowFeatures = t('disposition.workflow.features', { returnObjects: true }) as { title: string; description: string }[];
 
 
   return (

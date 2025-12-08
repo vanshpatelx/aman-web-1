@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 const TeamSection: React.FC = () => {
   const { t } = useTranslation();
 
-  const teamMembers = t('team.members', { returnObjects: true });
+  const teamMembers = t('team.members', { returnObjects: true }) as { name: string; role: string; bio: string }[];
   const teamImages = [
     "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
     "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
