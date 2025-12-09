@@ -92,31 +92,37 @@
         "id": "Brokering",
         "title": "وساطة المعدات",
         "description": "إدارة احترافية لمبيعات الأصول، تربطك بالمشترين المؤهلين لأقصى عائد",
-        "link": "/Brokering"
+        "link": "/Brokering",
+         "image":"https://images.unsplash.com/photo-1742416180133-cd9ab0816259?q=80&w=1158&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
       },
       {
         "id": "Inspection",
         "title": "التفتيش",
         "description": "تقييمات مفصلة للمعدات تؤكد الحالة، وتقلل المخاطر، وتدعم القرارات الواثقة.",
-        "link": "/Inspection"
+        "link": "/Inspection",
+        "image":"https://images.unsplash.com/photo-1599709702874-a8ac2e25c538?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
         "id": "Disposition",
         "title": "التصرف",
         "description": "إزالة استراتيجية للأصول الفائضة، تحسين استرداد القيمة مع تقليل العبء التشغيلي.",
-        "link": "/Disposition"
+        "link": "/Disposition",
+        "image":"https://images.pexels.com/photos/2628105/pexels-photo-2628105.jpeg?_gl=1*yh9iwg*_ga*MjEzOTM3Nzc1Ni4xNzYzNzE3NDE0*_ga_8JE65Q40S6*czE3NjUyMTc5NzkkbzUkZzEkdDE3NjUyMTgwNDMkajU5JGwwJGgw"
       },
       {
         "id": "Consignment",
         "title": "البيع بالعمولة",
         "description": "دعم مبيعات عملي يسوق معداتك بفعالية بينما تحتفظ بملكيتها الكاملة.",
-        "link": "/Consignment"
+        "link": "/Consignment",
+        "image":"https://images.unsplash.com/photo-1662819202000-d3d2ac9e5895?q=80&w=1334&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
         "id": "Logistics-Forwarding",
         "title": "اللوجستيات والشحن",
         "description": "تنسيق النقل من البداية للنهاية يضمن التسليم الآمن والفعال عبر أي مسافة أو حدود",
-        "link": "/Logistics"
+        "link": "/Logistics",
+        "image":"https://images.unsplash.com/photo-1759272840712-c7e5ea852367?q=80&w=1038&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       }
     ]
   },

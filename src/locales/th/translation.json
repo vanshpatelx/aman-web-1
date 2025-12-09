@@ -92,31 +92,36 @@
         "id": "Brokering",
         "title": "โบรกเกอร์อุปกรณ์",
         "description": "การจัดการผู้เชี่ยวชาญด้านการขายทรัพย์สิน เชื่อมต่อคุณกับผู้ซื้อที่ผ่านการรับรองเพื่อผลตอบแทนสูงสุด",
-        "link": "/Brokering"
+        "link": "/Brokering",
+         "image":"https://images.unsplash.com/photo-1742416180133-cd9ab0816259?q=80&w=1158&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
         "id": "Inspection",
         "title": "การตรวจสอบ",
         "description": "การประเมินอุปกรณ์อย่างละเอียดที่ยืนยันสภาพ ลดความเสี่ยง และสนับสนุนการตัดสินใจอย่างมั่นใจ",
-        "link": "/Inspection"
+        "link": "/Inspection",
+        "image":"https://images.unsplash.com/photo-1599709702874-a8ac2e25c538?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
         "id": "Disposition",
         "title": "การกำจัด",
         "description": "การกำจัดทรัพย์สินส่วนเกินเชิงกลยุทธ์ เพิ่มประสิทธิภาพการกู้คืนมูลค่าในขณะที่ลดภาระการดำเนินงานให้น้อยที่สุด",
-        "link": "/Disposition"
+        "link": "/Disposition",
+        "image":"https://images.pexels.com/photos/2628105/pexels-photo-2628105.jpeg?_gl=1*yh9iwg*_ga*MjEzOTM3Nzc1Ni4xNzYzNzE3NDE0*_ga_8JE65Q40S6*czE3NjUyMTc5NzkkbzUkZzEkdDE3NjUyMTgwNDMkajU5JGwwJGgw"
       },
       {
         "id": "Consignment",
         "title": "การฝากขาย",
         "description": "การสนับสนุนการขายเชิงปฏิบัติที่ทำการตลาดอุปกรณ์ของคุณอย่างมีประสิทธิภาพในขณะที่คุณยังคงความเป็นเจ้าของเต็มรูปแบบ",
-        "link": "/Consignment"
+        "link": "/Consignment",
+         "image":"https://images.unsplash.com/photo-1662819202000-d3d2ac9e5895?q=80&w=1334&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
         "id": "Logistics-Forwarding",
         "title": "โลจิสติกส์และการขนส่ง",
         "description": "การประสานงานการขนส่งแบบครบวงจรเพื่อการจัดส่งที่ปลอดภัยและมีประสิทธิภาพทั่วทุกระยะทางหรือพรมแดน",
-        "link": "/Logistics"
+        "link": "/Logistics",
+         "image":"https://images.unsplash.com/photo-1759272840712-c7e5ea852367?q=80&w=1038&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       }
     ]
   },

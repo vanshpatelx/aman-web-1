@@ -29,11 +29,11 @@ i18n
     resources: {
       en: { translation: en },
 
-      hi: { translation: hi },
+      in: { translation: hi },
 
       fr: { translation: fr },
 
-      ko: { translation: ko },
+      kr: { translation: ko },
 
       de: { translation: de },
 
@@ -57,7 +57,7 @@ i18n
 
       ar: { translation: ar },
 
-      cs: { translation: cs },
+      cz: { translation: cs },
 
 
     }

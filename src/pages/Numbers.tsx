@@ -30,30 +30,40 @@ const Numbers: React.FC = () => {
 const stats = t("section2.stats", { returnObjects: true }) as StatItem[];
 
   return (
-    <div className="min-h-[70vh] scroll-container2 relative flex items-center justify-center p-4 bg-[#00020F]">
-      <div className="w-full max-w-7xl mx-auto py-12 ">
-        {/* Header Section */}
-        <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end mb-16 gap-8">
-          <div className="max-w-3xl">
-            <h2
-              ref={ref}
-              className="text-4xl sm:text-5xl max-w-2xl text-gray-400 tracking-tight leading-[1.1]"
-            >
-              {words.map((word, i) => (
-                <motion.span
-                  key={i}
-                  style={{ color }}
-                  className="inline-block mr-2"
-                >
-                  {word}
-                </motion.span>
-              ))}
-            </h2>
+<div className="min-h-[70vh] scroll-container2 relative flex items-center justify-center p-4 bg-[#00020F] border-y border-gray-900 py-8">
+  <div className="w-full max-w-7xl mx-auto py-12">
+    {/* Spherical gradient background */}
+    <div className="absolute inset-0 overflow-hidden pointer-events-none">
+      <div className="absolute top-1/2 left-[30%] -translate-x-1/2 -translate-y-1/2 w-full max-w-4xl h-[500px] opacity-20">
+        <div className="absolute inset-0 bg-gradient-to-b from-blue-500/30 to-transparent rounded-full blur-3xl" />
+        <div className="absolute inset-0 bg-gradient-to-r from-purple-500/20 to-transparent rounded-full blur-3xl" />
+      </div>
+    </div>
 
-            <p className="mt-6 text-lg text-[#A7ADBE] max-w-2xl leading-relaxed">
-              {t("section2.description")}
-            </p>
-          </div>
+    {/* Header Section */}
+    <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end mb-16 gap-8 relative z-10">
+      <div className="max-w-3xl relative">
+        <div className="absolute -top-20 -left-20 w-[400px] h-[400px] bg-gradient-to-br from-blue-500/10 via-transparent to-purple-500/10 rounded-full blur-3xl pointer-events-none -z-10" />
+        
+        <h2
+          ref={ref}
+          className="text-4xl sm:text-5xl max-w-2xl text-gray-400 tracking-tight leading-[1.1] relative z-10"
+        >
+          {words.map((word, i) => (
+            <motion.span
+              key={i}
+              style={{ color }}
+              className="inline-block mr-2"
+            >
+              {word}
+            </motion.span>
+          ))}
+        </h2>
+
+        <p className="mt-6 text-lg text-[#A7ADBE] max-w-2xl leading-relaxed relative z-10">
+          {t("section2.description")}
+        </p>
+      </div>
 
           <div className="flex-shrink-0">
             <button

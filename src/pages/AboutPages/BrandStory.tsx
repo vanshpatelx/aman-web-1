@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowDownRight, ArrowUpRight } from 'lucide-react';
-import { useTranslation } from 'react-i18next';
+import { Trans, useTranslation } from 'react-i18next';
 
 const BrandStory: React.FC = () => {
   const { t } = useTranslation();
@@ -18,7 +18,11 @@ const BrandStory: React.FC = () => {
           {/* Left Column: Heading */}
           <div className="lg:w-1/3 flex flex-col items-start">
             <h1 className="text-5xl lg:text-6xl justify-center font-medium text-white tracking-tight flex items-center gap-5">
-              {t('brandStory.heading')}
+              <Trans
+                          i18nKey="brandStory.heading"
+                          components={{
+                            1: <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-200" />
+                          }} />
               <ArrowUpRight className="w-12 h-12 lg:w-12 lg:h-12  text-white mt-2" strokeWidth={1.5} />
             </h1>
           </div>

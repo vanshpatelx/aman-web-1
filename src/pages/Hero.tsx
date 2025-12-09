@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { Variants } from "framer-motion";
 import Navbar from "./Navbar";
-import { useTranslation } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
 
 const Hero = forwardRef<HTMLElement>((_, ref) => {
   const { t } = useTranslation();
@@ -38,7 +38,7 @@ const Hero = forwardRef<HTMLElement>((_, ref) => {
 
         {/* Hero Content */}
         <div className="relative min-h-[115vh] w-screen z-30 overflow-hidden">
-          <div className="max-w-7xl mx-auto px-4 md:px-6 xl:px-0 pt-56 pb-28 2xl:pt-64 2xl:pb-36">
+          <div className="max-w-7xl px-4 md:px-6 lg:px-6 xl:px-0 mx-auto pt-56 pb-28 2xl:pt-64 2xl:pb-36">
             <motion.div
               variants={containerVariants}
               initial="hidden"
@@ -49,7 +49,14 @@ const Hero = forwardRef<HTMLElement>((_, ref) => {
                 variants={itemVariants}
                 className="text-4xl md:text-6xl font-normal leading-normal text-white"
               >
-                {t("heading")}
+                <Trans
+                  i18nKey="heading"
+                  components={{
+                    1: (
+                      <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-200"></span>
+                    )
+                  }}
+                />
               </motion.h1>
 
               <motion.p
@@ -61,14 +68,14 @@ const Hero = forwardRef<HTMLElement>((_, ref) => {
 
               <motion.div
                 variants={itemVariants}
-                className="flex flex-col sm:flex-row gap-6 pt-4 px-4 sm:px-0"
+                className="flex flex-col sm:flex-row gap-6 pt-4"
               >
-                <button className="bg-blue-700 rounded text-white hover:bg-blue-800 px-6 py-3 flex items-center gap-2 transition">
+                <button className="bg-blue-700 rounded text-white hover:bg-blue-800 px-6 py-3 flex items-center gap-2 transition justify-center">
                   {t("cta1")}
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition" />
                 </button>
 
-                <button className="border rounded border-white/30 text-white hover:bg-white hover:text-black px-6 py-3 transition backdrop-blur-sm">
+                <button className="border rounded border-white/30 text-white hover:bg-white hover:text-black px-6 py-3 transition backdrop-blur-sm flex justify-center">
                   {t("cta2")}
                 </button>
               </motion.div>

@@ -1,5 +1,5 @@
 {
-  "heading": "Engineering a faster, smarter semiconductor future.",
+  "heading": "Engineering a faster, smarter <1> semiconductor future.</1>",
   "subheading": "Experience a numbers-driven lending approach built on expertise, partnership, and long-term financial clarity—delivering more than just competitive rates.",
   "cta1": "Explore solutions",
   "cta2": "Schedule a call",
@@ -83,7 +83,7 @@
     ]
   },
   "equipment": {
-    "heading": "Engineering pathways to industrial sustainability",
+    "heading": "Engineering pathways to <1>industrial sustainability</1>",
     "subheading": "From energy generation to long-term system efficiency, we deliver solutions that cut costs, reduce emissions, and ensure resilient operations.",
     "requestAudit": "Request audit",
     "learnMore": "Learn more",
@@ -92,31 +92,36 @@
         "id": "Brokering",
         "title": "Equipment Brokering",
         "description": "Expert management of asset sales, connecting you with qualified buyers for maximum return",
-        "link": "/Brokering"
+        "link": "/Brokering",
+        "image":"https://images.unsplash.com/photo-1742416180133-cd9ab0816259?q=80&w=1158&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
         "id": "Inspection",
         "title": "Inspection",
         "description": "Detailed equipment evaluations that verify condition, reduce risk, and support confident decisions.",
-        "link": "/Inspection"
+        "link": "/Inspection",
+        "image":"https://images.unsplash.com/photo-1599709702874-a8ac2e25c538?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
         "id": "Disposition",
         "title": "Disposition",
         "description": "Strategic removal of surplus assets, optimizing value recovery while minimizing operational burden.",
-        "link": "/Disposition"
+        "link": "/Disposition",
+        "image":"https://images.pexels.com/photos/2628105/pexels-photo-2628105.jpeg?_gl=1*yh9iwg*_ga*MjEzOTM3Nzc1Ni4xNzYzNzE3NDE0*_ga_8JE65Q40S6*czE3NjUyMTc5NzkkbzUkZzEkdDE3NjUyMTgwNDMkajU5JGwwJGgw"
       },
       {
         "id": "Consignment",
         "title": "Consignment",
         "description": "Hands-on sales support that markets your equipment effectively while you retain full ownership.",
-        "link": "/Consignment"
+        "link": "/Consignment",
+        "image":"https://images.unsplash.com/photo-1662819202000-d3d2ac9e5895?q=80&w=1334&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
         "id": "Logistics-Forwarding",
         "title": "Logistics & Forwarding",
         "description": "End-to-end transport coordination ensuring safe, efficient delivery across any distance or border",
-        "link": "/Logistics"
+        "link": "/Logistics",
+        "image":"https://images.unsplash.com/photo-1759272840712-c7e5ea852367?q=80&w=1038&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       }
     ]
   },
@@ -142,7 +147,7 @@
       "phone": "+1 234 567 8900",
       "address": "345 Tech Park Avenue, 9th Floor Silicon Valley, CA 98765 USA"
     },
-    "copyright": "Copyright 2024 Vision Semiconductor Solutions LLC. All Rights Reserved."
+    "copyright": "Copyright 2026 Vision Semiconductor Solutions LLC. All Rights Reserved."
   },
   "tabs": {
     "learnMore": "Learn More",
@@ -626,7 +631,7 @@
   },
   "brandStory": {
     "sectionTitle": "Section 01 — Brand Story",
-    "heading": "Our Story",
+    "heading": "<1>Our Story </1>",
     "title": "Vision Semiconductor Solutions LLC was founded with a clear purpose to power the future of technology.",
     "content": [
       "Vision Semiconductor Solutions (VSS) supports the global semiconductor manufacturing industry with precision, innovation, and transparency. What began as a source for surplus and spare equipment has evolved into a platform for knowledge, engineering excellence, and global collaboration.",
@@ -642,19 +647,19 @@
     "intro": "Driving the Industry Forward",
     "mission": {
       "section": "Section 02",
-      "title": "Mission",
+      "title": "<1>Mission </1>",
       "heading": "Empowering the Future of Semiconductor Solutions",
       "content": "Our mission is to deliver reliable semiconductor equipment and knowledge to engineers, manufacturers, and innovators worldwide. We make high-performance solutions accessible, efficient, and scalable—empowering the next generation of technology and manufacturing excellence."
     },
     "vision": {
       "section": "Section 03",
-      "title": "Vision",
+      "title": "<1>Vision</1>",
       "heading": "Shaping Tomorrow, Today",
       "content": "We envision becoming a global center for semiconductor solutions, education, and industry leadership. Through clarity, innovation, and long-term commitment, we aim to influence the future of the semiconductor ecosystem and elevate technological progress around the world."
     }
   },
   "team": {
-    "title": "Our team has over 100 years of combined experience!",
+    "title": "Our team has over <1>100 years</1> of combined experience!",
     "subtitle": "Our team brings experience, innovation, and creativity to the semiconductor industry to ensure your plans are in good hands.",
     "members": [
       {

@@ -187,7 +187,7 @@ export function PersistentMorphScene({ heroRef, aboutRef }: PersistentMorphScene
   return (
     <div
       ref={containerRef}
-      className="fixed top-0 right-0 w-[80vw] md:w-[60vw] h-screen z-20 transition-opacity duration-300"
+      className="fixed top-10 right-0 w-[80vw] md:w-[60vw] h-[95vh] z-10 transition-opacity duration-300"
       style={{ 
         willChange: 'transform, opacity',
         opacity: 1 - fadeOut,

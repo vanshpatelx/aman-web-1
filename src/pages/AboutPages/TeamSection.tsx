@@ -1,5 +1,5 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
+import { Trans, useTranslation } from 'react-i18next';
 
 const TeamSection: React.FC = () => {
   const { t } = useTranslation();
@@ -19,7 +19,11 @@ const TeamSection: React.FC = () => {
         {/* Header Centered */}
         <div className="text-center max-w-4xl mx-auto mb-16 lg:mb-20">
           <h2 className="text-4xl lg:text-5xl font-medium text-white mb-6 leading-relaxed tracking-normal">
-            {t('team.title')}
+            <Trans
+                            i18nKey="team.title"
+                            components={{
+                              1: <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-200" />
+                            }} />
 
           </h2>
           <p className="text-lg text-gray-500 max-w-2xl mx-auto leading-relaxed">

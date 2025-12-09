@@ -23,6 +23,7 @@ import Disposition from "./pages/SolutionScetions/Disposition.tsx";
 import Inspection from "./pages/SolutionScetions/Inspection.tsx";
 import Logistics from "./pages/SolutionScetions/Logistics.tsx";
 import { PersistentMorphScene } from "./components/PersistentMorphScene.tsx";
+import QuickBuy from "./components/QuickBuy.tsx";
 
 function HomePage() {
   const heroRef = useRef<HTMLElement>(null);
@@ -30,16 +31,16 @@ function HomePage() {
 
   return (
     <>
-      {/* Persistent 3D scene that morphs from globe to wafer */}
       <PersistentMorphScene heroRef={heroRef} aboutRef={aboutRef} />
-      
+
       <Hero ref={heroRef} />
       <About ref={aboutRef} />
+      <MarqueeSection />
       <Numbers />
+      <QuickBuy/>
       <Services />
       <Equipment />
-      <MarqueeSection />
-      <Products />
+      {/* <Products /> */}
       <Footer />
     </>
   );
@@ -55,22 +56,22 @@ function App() {
       <Route path="/" element={<HomePage />} />
 
       {/* Other Routes — empty for now */}
-      <Route path="/about" element={<AboutPage/>} />
+      <Route path="/about" element={<AboutPage />} />
 
-       {/* Content Section Route */}
-      <Route path="/Accessctapage" element={<AccessCTAPage/>} />
-      <Route path="/BlogPage" element={<BlogPage/>} />
-      <Route path="/EbooksPage" element={<EbooksPage/>} />
-      <Route path="/IndustryNewsPage" element={<IndustryNewsPage/>} />
-      <Route path="/PodcastsPage" element={<PodcastsPage/>} />
-      <Route path="/WhitePapersPage" element={<WhitePapersPage/>} />
+      {/* Content Section Route */}
+      <Route path="/Accessctapage" element={<AccessCTAPage />} />
+      <Route path="/BlogPage" element={<BlogPage />} />
+      <Route path="/EbooksPage" element={<EbooksPage />} />
+      <Route path="/IndustryNewsPage" element={<IndustryNewsPage />} />
+      <Route path="/PodcastsPage" element={<PodcastsPage />} />
+      <Route path="/WhitePapersPage" element={<WhitePapersPage />} />
 
-       {/* Solutions Sceiton Route */}
-       <Route path="/Brokering" element={<Brokering/>} />
-      <Route path="/Consignment" element={<Consignment/>} />
-      <Route path="/Disposition" element={<Disposition/>} />
-      <Route path="/Inspection" element={<Inspection/>} />
-      <Route path="/Logistics" element={<Logistics/>} />
+      {/* Solutions Sceiton Route */}
+      <Route path="/Brokering" element={<Brokering />} />
+      <Route path="/Consignment" element={<Consignment />} />
+      <Route path="/Disposition" element={<Disposition />} />
+      <Route path="/Inspection" element={<Inspection />} />
+      <Route path="/Logistics" element={<Logistics />} />
 
     </Routes>
   );

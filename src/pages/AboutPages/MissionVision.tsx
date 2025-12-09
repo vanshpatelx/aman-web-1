@@ -1,5 +1,5 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
+import { Trans, useTranslation } from 'react-i18next';
 
 const MissionVision: React.FC = () => {
   const { t } = useTranslation();
@@ -9,7 +9,8 @@ const MissionVision: React.FC = () => {
 
         {/* Section Intro */}
         <div className="mb-12">
-          <h3 className="text-brand-orange text-white font-normal text-lg tracking-wide uppercase">{t('missionVision.intro')}
+          <h3 className="text-brand-orange text-white font-normal text-lg tracking-wide uppercase">
+            {t('missionVision.intro')}
           </h3>
         </div>
 
@@ -20,12 +21,19 @@ const MissionVision: React.FC = () => {
         <div className="flex flex-col lg:flex-row items-start lg:items-center gap-8 lg:gap-24 mb-12">
           <div className="lg:w-1/3">
             <span className="text-gray-400 font-medium tracking-widest text-xs uppercase mb-2 block">{t('missionVision.mission.section')}</span>
-            <h2 className="text-5xl lg:text-6xl font-medium text-white"> {t('missionVision.mission.title')}</h2>
+            <h2 className="text-5xl lg:text-6xl font-medium text-white">
+
+              <Trans
+                i18nKey="missionVision.mission.title"
+                components={{
+                  1: <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-200" />
+                }} />
+            </h2>
           </div>
           <div className="lg:w-2/3">
             <h3 className="text-3xl font-normal text-white mb-2">{t('missionVision.mission.heading')}</h3>
             <p className="text-[#A7ADBE] leading-relaxed">
-                {t('missionVision.mission.content')}
+              {t('missionVision.mission.content')}
             </p>
           </div>
         </div>
@@ -37,12 +45,21 @@ const MissionVision: React.FC = () => {
         <div className="flex flex-col lg:flex-row items-start lg:items-center gap-8 lg:gap-24 mb-12">
           <div className="lg:w-1/3">
             <span className="text-gray-400 font-medium tracking-widest text-xs uppercase mb-2 block"> {t('missionVision.vision.section')}</span>
-            <h2 className="text-5xl lg:text-6xl font-medium text-white"> {t('missionVision.vision.title')}</h2>
+            <h2 className="text-5xl lg:text-6xl font-medium text-white">
+              <Trans
+                i18nKey="missionVision.vision.title"
+                components={{
+                  1: <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-200" />
+                }} />
+            </h2>
           </div>
           <div className="lg:w-2/3">
-            <h3 className="text-3xl font-normal text-white mb-2">{t('missionVision.vision.heading')}</h3>
+            <h3 className="text-3xl font-normal text-white mb-2">
+              {t('missionVision.vision.heading')}
+              </h3>
             <p className="text-[#A7ADBE] leading-relaxed">
-                {t('missionVision.vision.content')}
+              {t('missionVision.vision.content')}
+              
             </p>
           </div>
         </div>

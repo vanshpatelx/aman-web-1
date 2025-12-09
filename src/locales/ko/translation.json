@@ -92,31 +92,36 @@
         "id": "Brokering",
         "title": "장비 중개",
         "description": "자산 판매의 전문적인 관리로 최대 수익을 위한 적격 구매자와의 연결을 제공합니다",
-        "link": "/Brokering"
+        "link": "/Brokering",
+        "image":"https://images.unsplash.com/photo-1742416180133-cd9ab0816259?q=80&w=1158&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
         "id": "Inspection",
         "title": "검수",
         "description": "상태를 확인하고 위험을 줄이며 확신에 찬 결정을 지원하는 상세한 장비 평가.",
-        "link": "/Inspection"
+        "link": "/Inspection",
+        "image":"https://images.unsplash.com/photo-1599709702874-a8ac2e25c538?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
         "id": "Disposition",
         "title": "처분",
         "description": "운영 부담을 최소화하면서 가치 회복을 극대화하는 잉여 자산의 전략적 제거.",
-        "link": "/Disposition"
+        "link": "/Disposition",
+        "image":"https://images.pexels.com/photos/2628105/pexels-photo-2628105.jpeg?_gl=1*yh9iwg*_ga*MjEzOTM3Nzc1Ni4xNzYzNzE3NDE0*_ga_8JE65Q40S6*czE3NjUyMTc5NzkkbzUkZzEkdDE3NjUyMTgwNDMkajU5JGwwJGgw"
       },
       {
         "id": "Consignment",
         "title": "위탁 판매",
         "description": "귀하가 완전한 소유권을 유지하는 동안 귀하의 장비를 효과적으로 마케팅하는 실질적인 판매 지원.",
-        "link": "/Consignment"
+        "link": "/Consignment",
+        "image":"https://images.unsplash.com/photo-1662819202000-d3d2ac9e5895?q=80&w=1334&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
         "id": "Logistics-Forwarding",
         "title": "물류 및 운송",
         "description": "어떤 거리나 국경을 넘어서도 안전하고 효율적인 배송을 보장하는 종단 간 운송 조정",
-        "link": "/Logistics"
+        "link": "/Logistics",
+        "image":"https://images.unsplash.com/photo-1759272840712-c7e5ea852367?q=80&w=1038&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       }
     ]
   },
