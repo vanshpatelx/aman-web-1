@@ -19,7 +19,7 @@ const About = forwardRef<HTMLElement>((_, ref) => {
   const color = useTransform(scrollYProgress, [0, 1], ["#A7ADBE", "#ffffff"]);
 
   return (
-    <section ref={ref} className="w-full relative bg-[#00020F] min-h-[80vh]">
+    <section ref={ref} className="w-full relative bg-[#00020F] min-h-[80vh] z-50 md:z-0">
       <div className="w-full relative max-w-7xl mx-auto px-6 py-24 lg:py-32">
         <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
           

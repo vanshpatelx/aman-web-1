@@ -32,7 +32,7 @@ const Hero = forwardRef<HTMLElement>((_, ref) => {
     <section ref={ref}>
       <div
         id="home"
-        className="relative h-full min-h-screen text-[#F7F7F7] overflow-hidden z-10"
+        className="relative h-full min-h-screen text-[#F7F7F7] overflow-hidden z-2"
       >
         <Navbar />
 
